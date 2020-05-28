@@ -23,6 +23,7 @@
                                 {% if post.soundcloud_emb %}
                                     {{ post.soundcloud_emb }}
                                 {% endif %}
+
                                 {% if post.spotify_emb %}
                                     {{ post.spotify_emb }}
                                 {% endif %}
@@ -31,14 +32,16 @@
                                     {{ post.anchorfm_emb }}
                                 {% endif %}
 
-
                                 {% if post.apple_podcast %}
-                                <!-- TODO: FIX THIS -->
-                                    <a href= "{{ post.apple_podcast }}" >  
-                                        <div style="border-radius: 100%;">
-                                            <img src="/img/platforms/apple_podcasts.png"  alt="Apple Podcasts"> </img> </a>
-                                        </div> 
-                                {% endif %}                               
+                                    <a href= "{{ post.apple_podcast }}" ><img src="/img/platforms/apple_podcasts.png"  alt="Apple Podcasts"> </img> 
+                                    </a>
+                                {% endif %}       
+                                
+                                {% if post.google_podcast %}
+                                <a href= "{{ post.google_podcast }}" ><img src="/img/platforms/google_podcasts.png"  alt="Google Podcasts"> </img> 
+                                </a>
+                                {% endif %} 
+
                                 <!-- {% if post.soundcloud %}
                                         <strong><a href="{{ post.soundcloud}}"> <li><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
                                         </strong>

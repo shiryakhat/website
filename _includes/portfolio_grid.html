@@ -10,14 +10,17 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
+                    <div class="col-sm-3 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     {{ post.title }} 
                                 </div>
                             </div>
+                            <figure>
                             <img src="{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <figcaption>{{ post.title }} </figcaption>
+                            </figure>
                         </a>
                     </div>
                 {% endfor %}
