@@ -1,10 +1,12 @@
 # Site settings
 title: Shir Ya Khat
+title_fa: "شیر یا خط"
 email: info@shiryakhat.net
 url: https://shiryakhat.net
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "(Non-profit) Persian Blockchain Education Podcast"
+skill_fa: "پادکست آموزشی بلاکجین"
 meta_author: Eskandari Shayan
 
 # Google webmaster tools
@@ -25,14 +27,14 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 050b3e #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: efae22 #FD6E8A
+  secondary-dark: ff941f #A2122F
 
 # Footer settings
 footer:
-  copyright: Shir Ya Khat
+  copyright: Shir Ya Khat <br> شیر یا خط
   location: Location
   social: Around the Web
   credits: Credits
