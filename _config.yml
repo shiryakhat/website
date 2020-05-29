@@ -2,7 +2,8 @@
 title: Shir Ya Khat
 title_fa: "شیر یا خط"
 email: info@shiryakhat.net
-url: https://shiryakhat.net
+# url: https://shiryakhat.net
+url: 127.0.0.1
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Persian Blockchain Podcast"
@@ -70,3 +71,9 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+defaults:
+  - scope:
+      path: "img"
+    values:
+      image: true

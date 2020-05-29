@@ -223,7 +223,7 @@ section.success {
     border-radius: 9%;
 }
 
-figcaption {
+#portfolio .portfolio-item .portfolio-link .figcaption {
     display: block;
     text-align: center;
     height: 90%;
@@ -231,12 +231,12 @@ figcaption {
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
-    border-radius: 9%;
+    /* border-radius: 9%; */
 
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    position: relative;
+    position: absolute;
     top: 50%;
     width: 100%;
     height: 20px;
@@ -272,6 +272,24 @@ figcaption {
     color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
+}
+
+.btn-more {
+    margin-top: 15px;
+    border: solid 2px rgb(233, 7, 37);
+    font-size: 20px;
+    color: rgb(201, 146, 7);
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active,
+.btn-more.active {
+    border: solid 2px rgb(233, 7, 37);
+    color: #{{ site.color.primary }};
+    background: rgb(233, 7, 37);
 }
 
 .btn-outline:hover,
