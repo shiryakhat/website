@@ -10,6 +10,9 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
+                  {% if forloop.index == 9 %}
+                        {% break %}
+                  {% endif %}
                     <div class="col-sm-3 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -26,7 +29,7 @@
                 {% endfor %}
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="/archive#portfolio" class="btn btn-lg btn-more">
-                        <i class="fa fa-podcast" aria-hidden="true"></i> More Episodes
+                        <i class="fa fa-podcast" aria-hidden="true"></i> All Episodes | همه قسمت ها
                     </a>
                 </div>
             </div>

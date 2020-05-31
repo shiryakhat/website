@@ -47,7 +47,7 @@ social:
   # - title: facebook
   #   url:
   - title: telegram
-    url: https://anchor.fm/shiryakhat
+    url: https://t.me/shiryakhatpod
   - title: soundcloud
     url: https://soundcloud.com/shiryakhat
   - title: apple
@@ -66,8 +66,8 @@ social:
 #   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
+credits: 'Shir Ya Khat Podcast has been made possible by volunteer work of a decentral team from United States, Canada, Germany, Netherland, South Korea, Iran, Armenia, and many more. Thank You for all your support
+'
 # Build settings
 markdown: kramdown
 permalink: pretty

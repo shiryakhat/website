@@ -25,6 +25,15 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+.ab a {
+    outline: 0;
+    color: #{{ site.color.secondary }};
+}
+
+.farsi p {
+    direction:rtl;
+}
+
 h1,
 h2,
 h3,
@@ -228,6 +237,12 @@ section.success {
     text-align: center;
     height: 90%;
   }
+
+#archive .portfolio-item .portfolio-link .figcaption {
+display: block;
+text-align: center;
+height: 90%;
+}
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
