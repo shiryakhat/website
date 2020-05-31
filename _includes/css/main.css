@@ -238,7 +238,7 @@ section.success {
     height: 90%;
   }
 
-#archive .portfolio-item .portfolio-link .figcaption {
+figcaption {
 display: block;
 text-align: center;
 height: 90%;

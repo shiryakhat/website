@@ -4,15 +4,15 @@ title_fa: "شیر یا خط"
 email: info@shiryakhat.net
 # url: https://shiryakhat.net
 url: 127.0.0.1
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: "The main goal is to remove the language barrier in order to allow the knowledge on blockchain and decentralization to be accessible to Farsi speakers, and offer a global open platform for people to discuss related subjects. "
+keywords: "Bitcoin, podcast, blockchain, decentralization, farsi, iran, persian, فارسی, بیتکوین, بلاکچین, غیرمتمرکز, چیست, اتریم, رمزارز"
 skills: "Persian Blockchain Podcast"
 skill_fa: "پادکست آموزشی بلاکچین"
 meta_author: Eskandari Shayan
 
 # Google webmaster tools
 google_verify:
-
+google_analytics: UA-96473903-1
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
@@ -66,8 +66,7 @@ social:
 #   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Shir Ya Khat Podcast has been made possible by volunteer work of a decentral team from United States, Canada, Germany, Netherland, South Korea, Iran, Armenia, and many more. Thank You for all your support
-'
+credits: 'Shir Ya Khat Podcast has been made possible by volunteer work of a decentral team from United States, Canada, Germany, Netherland, South Korea, Iran, Armenia, and many more. Thank You for all your support'
 # Build settings
 markdown: kramdown
 permalink: pretty

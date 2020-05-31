@@ -20,6 +20,12 @@
 
                             {% endif %}
                             <ul class="list-inline item-details">
+
+
+                                {% if post.youtube_emb %}
+                                    {{ post.youtube_emb }}
+                                {% endif %}
+
                                 {% if post.soundcloud_emb %}
                                     {{ post.soundcloud_emb }}
                                 {% endif %}
