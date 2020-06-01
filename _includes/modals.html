@@ -26,17 +26,28 @@
                                     {{ post.youtube_emb }}
                                 {% endif %}
 
-                                {% if post.soundcloud_emb %}
-                                    {{ post.soundcloud_emb }}
-                                {% endif %}
-
-                                {% if post.spotify_emb %}
-                                    {{ post.spotify_emb }}
-                                {% endif %}
 
                                 {% if post.anchorfm_emb %}
                                     {{ post.anchorfm_emb }}
                                 {% endif %}
+                                
+                                <!-- {% if post.soundcloud_emb %}
+                                    {{ post.soundcloud_emb }}
+                                {% endif %} -->
+
+                                {% if post.soundcloud %}
+                                <a href= "{{ post.soundcloud }}" ><img src="/img/platforms/soundcloud.png"  alt="Listen on SoundCloud"> </img> 
+                                </a>
+                                {% endif %}  
+
+                                <!-- {% if post.spotify_emb %}
+                                    {{ post.spotify_emb }}
+                                {% endif %} -->
+
+                                {% if post.spotify %}
+                                <a href= "{{ post.spotify }}" ><img src="/img/platforms/spotify.png"  alt="Listen on Spotify"> </img> 
+                                </a>
+                                {% endif %}  
 
                                 {% if post.apple_podcast %}
                                     <a href= "{{ post.apple_podcast }}" ><img src="/img/platforms/apple_podcasts.png"  alt="Apple Podcasts"> </img> 
