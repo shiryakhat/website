@@ -1,7 +1,7 @@
 # Shir Ya Khat
 This is the repository for Shir Ya Khat website.
 
-[Shir Ya Khat](http://shiryakhat.net) podcast, which translates to Head or Tails, started its non-profit mission in early 2017.
+[Shir Ya Khat](http://shiryakhat.net) podcast, which translates to "Head or Tails" in Farsi, started its non-profit mission in early 2017.
 
 The Vision of Shir Ya Khat is open and free information for all, similar to [Coiniran](https://coiniran.com)
 
