@@ -60,7 +60,8 @@ social:
     url: https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N?si=Y8r2AC0EStGLEDK7-RjQ7A
   - title: github
     url: http://github.com/shiryakhat
-
+  - title: rss
+    url: https://www.shiryakhat.net/feed.xml
 
     # Postal address (add as many lines as necessary)
 # address:
