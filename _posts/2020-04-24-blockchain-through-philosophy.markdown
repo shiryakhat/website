@@ -18,9 +18,9 @@ youtube_emb: '<iframe width="560" height="315" src="https://www.youtube.com/embe
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/Blockchain-Through-Philosophy---Interview-with-Creston-Davis-English-S03E07-eeqvg2" width="100%" frameborder="0" scrolling="no"></iframe>'
 
-apple_podcast: https://podcasts.apple.com/us/podcast/coronatimes-spring-is-inside-our-homes-s03e06/id1221206951?i=1000468937751
+apple_podcast: https://podcasts.apple.com/us/podcast/blockchain-through-philosophy-interview-creston-davis/id1221206951?i=1000476408699
 
-google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/YzE5ZjI0ZDgtYmM2OS00ZmFmLWE0ZDQtZDNkYzY1OTlhZDI0?ved=0CAcQ38oDahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/Yjk0YjU1YTQtYTllNS00ZTNhLWFmOWItNWFlMmFlYjMwMjc1?ved=0CAcQ38oDahcKEwjgkrqe9ODpAhUAAAAAHQAAAAAQAQ
 
 ---
 
