@@ -27,6 +27,7 @@ bing_verify: BDBCE3E4C666A307FF88C82A322D6D1D
 # https://help.disqus.com/customer/portal/articles/466208
 # disqus_shortname: myshortname
 
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 050b3e #80B3FF
