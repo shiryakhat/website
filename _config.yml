@@ -16,7 +16,6 @@ google_analytics: UA-96473903-1
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify: BDBCE3E4C666A307FF88C82A322D6D1D
 
-
 # Contact form:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
