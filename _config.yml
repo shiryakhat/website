@@ -78,6 +78,5 @@ defaults:
     values:
       image: true
 
-
 plugins:
   - jekyll-sitemap
