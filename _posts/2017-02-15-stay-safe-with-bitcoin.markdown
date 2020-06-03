@@ -7,6 +7,8 @@ date: 2017-02-15
 img: img/episodes/S01E01.jpeg
 alt: Stay Safe with Bitcoin (S01E01)
 project-date: February 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 
@@ -17,6 +19,7 @@ soundcloud: https://soundcloud.com/shiryakhat/stay-safe-episode-0001
 soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307903024&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shiryakhat" title="Shir | Khat" target="_blank" style="color: #cccccc; text-decoration: none;">Shir | Khat</a> · <a href="https://soundcloud.com/shiryakhat/stay-safe-episode-0001" title="Stay Safe with Bitcoin (S01E01)" target="_blank" style="color: #cccccc; text-decoration: none;">Stay Safe with Bitcoin (S01E01)</a></div>'
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/Stay-Safe-with-Bitcoin-S01E01-e9idgr" width="100%" frameborder="0" scrolling="no"></iframe>'
+anchor: https://anchor.fm/shiryakhat/episodes/Stay-Safe-with-Bitcoin-S01E01-e9idgr
 
 apple_podcast: https://podcasts.apple.com/us/podcast/stay-safe-with-bitcoin-s01e01/id1221206951?i=1000383310269
 

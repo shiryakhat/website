@@ -17,6 +17,7 @@ soundcloud: https://soundcloud.com/shiryakhat/o-bitcoin-where-art-thou-key-manag
 soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322047601&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shiryakhat" title="Shir | Khat" target="_blank" style="color: #cccccc; text-decoration: none;">Shir | Khat</a> · <a href="https://soundcloud.com/shiryakhat/o-bitcoin-where-art-thou-key-managementepisode-0007" title="O Bitcoin, Where art thou - Key management(S01E07)" target="_blank" style="color: #cccccc; text-decoration: none;">O Bitcoin, Where art thou - Key management(S01E07)</a></div>'
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/O-Bitcoin--Where-art-thou---Key-managementS01E07-e9idg5" width="100%" frameborder="0" scrolling="no"></iframe>'
+anchor: https://anchor.fm/shiryakhat/episodes/O-Bitcoin--Where-art-thou---Key-managementS01E07-e9idg5
 
 apple_podcast: https://podcasts.apple.com/us/podcast/o-bitcoin-where-art-thou-key-management-s01e07/id1221206951?i=1000385457215
 

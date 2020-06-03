@@ -17,6 +17,7 @@ soundcloud: https://soundcloud.com/shiryakhat/is-it-a-blockchain-altcoins-tokens
 soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/326062294&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shiryakhat" title="Shir | Khat" target="_blank" style="color: #cccccc; text-decoration: none;">Shir | Khat</a> · <a href="https://soundcloud.com/shiryakhat/is-it-a-blockchain-altcoins-tokens-and-icoepisode-0008" title="Is it a Blockchain? Altcoins, Tokens and ICO(S01E08)" target="_blank" style="color: #cccccc; text-decoration: none;">Is it a Blockchain? Altcoins, Tokens and ICO(S01E08)</a></div>'
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/Is-it-a-Blockchain--Altcoins--Tokens-and-ICOS01E08-e9idg7" width="100%" frameborder="0" scrolling="no"></iframe>'
+anchor: https://anchor.fm/shiryakhat/episodes/Is-it-a-Blockchain--Altcoins--Tokens-and-ICOS01E08-e9idg7
 
 apple_podcast: https://podcasts.apple.com/us/podcast/is-it-a-blockchain-altcoins-tokens-and-ico-s01e08/id1221206951?i=1000386157174
 

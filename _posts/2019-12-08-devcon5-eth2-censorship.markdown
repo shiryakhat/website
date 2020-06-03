@@ -17,6 +17,7 @@ soundcloud: https://soundcloud.com/shiryakhat/devcon-v-eth-20-bitcoin-censorship
 soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/727152415&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shiryakhat" title="Shir | Khat" target="_blank" style="color: #cccccc; text-decoration: none;">Shir | Khat</a> · <a href="https://soundcloud.com/shiryakhat/devcon-v-eth-20-bitcoin-censorship-and-open-mic-s03e03" title="DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic (S03E03)" target="_blank" style="color: #cccccc; text-decoration: none;">DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic (S03E03)</a></div>'
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/DevCon-V--Eth-2-0--Bitcoin-Censorship--and-Open-mic-S03E03-e9idg6" width="100%" frameborder="0" scrolling="no"></iframe>'
+anchor: https://anchor.fm/shiryakhat/episodes/DevCon-V--Eth-2-0--Bitcoin-Censorship--and-Open-mic-S03E03-e9idg6
 
 apple_podcast: https://podcasts.apple.com/us/podcast/devcon-v-eth-2-0-bitcoin-censorship-and-open-mic-s03e03/id1221206951?i=1000459478505
 

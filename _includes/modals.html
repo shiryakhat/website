@@ -22,17 +22,14 @@
                             <ul class="list-inline item-details">
 
 
-                                {% if post.youtube_emb %}
-                                    {{ post.youtube_emb }}
-                                {% endif %}
+                                {% if post.youtube %}
+                                <a href= "{{ post.youtube }}" target = "_blank" ><img src="{{site.url}}/{{ post.youtube_thumb }}" style="width:374px !important;height:210px !important;" alt="Watch on Youtube"> </img> 
+                                </a><br>
+                                {% endif %}  
 
-
-                                {% if post.anchorfm_emb %}
-                                    {{ post.anchorfm_emb }}
-                                {% endif %}
 
                                 {% if post.soundcloud %}
-                                <a href= "{{ post.soundcloud }}" ><img src="/img/platforms/soundcloud.png"  alt="Listen on SoundCloud"> </img> 
+                                <a href= "{{ post.soundcloud }}" target = "_blank" ><img src="/img/platforms/soundcloud.png"  alt="Listen on SoundCloud"> </img> 
                                 </a>
                                 {% endif %}  
                                 
@@ -48,17 +45,22 @@
                                 {% endcomment %}
 
                                 {% if post.spotify %}
-                                <a href= "{{ post.spotify }}" ><img src="/img/platforms/spotify.png"  alt="Listen on Spotify"> </img> 
+                                <a href= "{{ post.spotify }}" target = "_blank" ><img src="/img/platforms/spotify.png"  alt="Listen on Spotify"> </img> 
                                 </a>
                                 {% endif %}  
 
                                 {% if post.apple_podcast %}
-                                    <a href= "{{ post.apple_podcast }}" ><img src="/img/platforms/apple_podcasts.png"  alt="Apple Podcasts"> </img> 
+                                    <a href= "{{ post.apple_podcast }}" target = "_blank" ><img src="/img/platforms/apple_podcasts.png"  alt="Apple Podcasts"> </img> 
                                     </a>
                                 {% endif %}       
                                 
                                 {% if post.google_podcast %}
-                                <a href= "{{ post.google_podcast }}" ><img src="/img/platforms/google_podcasts.png"  alt="Google Podcasts"> </img> 
+                                <a href= "{{ post.google_podcast }}" target = "_blank" ><img src="/img/platforms/google_podcasts.png"  alt="Google Podcasts"> </img> 
+                                </a>
+                                {% endif %} 
+
+                                {% if post.anchor %}
+                                <a href= "{{ post.anchor }}" target = "_blank" ><img src="/img/platforms/anchor.png"  alt="Anchor.fm"> </img> 
                                 </a>
                                 {% endif %} 
 

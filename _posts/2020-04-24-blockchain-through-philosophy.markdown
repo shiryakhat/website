@@ -14,9 +14,12 @@ spotify: https://open.spotify.com/episode/4NxZNKKwcxGYNnbsCWE0eh?si=5cFpykQ6QrCe
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/4NxZNKKwcxGYNnbsCWE0eh" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
 
 youtube_emb: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OThCgcFshKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-
+youtube: https://www.youtube.com/watch?v=OThCgcFshKw
+youtube_thumb: img/episodes/S03E07_youtube.png
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/Blockchain-Through-Philosophy---Interview-with-Creston-Davis-English-S03E07-eeqvg2" width="100%" frameborder="0" scrolling="no"></iframe>'
+anchor: https://anchor.fm/shiryakhat/episodes/Blockchain-Through-Philosophy---Interview-with-Creston-Davis-English-S03E07-eeqvg2
+
 
 apple_podcast: https://podcasts.apple.com/us/podcast/blockchain-through-philosophy-interview-creston-davis/id1221206951?i=1000476408699
 
@@ -47,11 +50,11 @@ Stay with us and enjoy the podcast.
 
 ------------
 
-Creston Davis: https://twitter.com/daviscreston 
-Salman Sadeghi: https://twitter.com/salman_sadeghi 
-Shayan Eskandari: https://twitter.com/sbetamc 
+- [Creston Davis](https://twitter.com/daviscreston) - [GCAS College Dublin](https://gcas.ie/)
+- [Salman Sadeghi](https://twitter.com/salman_sadeghi)
+- [Shayan Eskandari](https://twitter.com/sbetamc) 
 
-GCAS College Dublin: https://gcas.ie/
+
 
 
 -----------------------------------------------------------------------

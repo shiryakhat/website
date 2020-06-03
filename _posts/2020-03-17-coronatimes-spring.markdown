@@ -17,6 +17,7 @@ soundcloud: https://soundcloud.com/shiryakhat/coronatimes-spring-is-inside-our-h
 soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/779302462&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shiryakhat" title="Shir | Khat" target="_blank" style="color: #cccccc; text-decoration: none;">Shir | Khat</a> · <a href="https://soundcloud.com/shiryakhat/coronatimes-spring-is-inside-our-homes-s03e06" title="Coronatimes - Spring is inside our homes (S03E06)" target="_blank" style="color: #cccccc; text-decoration: none;">Coronatimes - Spring is inside our homes (S03E06)</a></div>'
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/Coronatimes---Spring-is-inside-our-homes-S03E06-ebmlp9" width="100%" frameborder="0" scrolling="no"></iframe>'
+anchor: https://anchor.fm/shiryakhat/episodes/Coronatimes---Spring-is-inside-our-homes-S03E06-ebmlp9
 
 apple_podcast: https://podcasts.apple.com/us/podcast/coronatimes-spring-is-inside-our-homes-s03e06/id1221206951?i=1000468937751
 

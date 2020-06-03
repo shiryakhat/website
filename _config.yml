@@ -67,7 +67,7 @@ social:
 #   - line: 1 Genesis Block
 
 # Credits content
-credits: 'Shir Ya Khat Podcast has been made possible by volunteer work of a decentral team from United States, Canada, Germany, Netherland, South Korea, Iran, Armenia, and many more. Thank You for all your support'
+credits: 'Shir Ya Khat Podcast has been made possible by volunteers work of a decentral team from United States, Canada, Germany, Netherland, South Korea, Iran, Armenia, and many more. Thank You for all your support'
 # Build settings
 markdown: kramdown
 permalink: pretty
