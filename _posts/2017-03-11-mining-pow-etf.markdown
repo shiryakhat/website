@@ -1,27 +1,30 @@
 ---
-layout: default
+layout: post
 modal-id: 4
-title: Mining, Proof of Work and ETF post mortem (S01E04)
+title: "Mining, Proof of Work and ETF post mortem (S01E04)"
 episode: S01E04
 date: 2017-03-11
-img: img/episodes/S01E04.jpeg
-alt: Mining, Proof of Work and ETF post mortem (S01E04)
+img: "img/episodes/S01E04.jpeg"
+alt: "Mining, Proof of Work and ETF post mortem (S01E04)"
 project-date: March 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 
-spotify: https://open.spotify.com/episode/2GDhkYjUAmurlt0hgyvYCb?si=YOWQaw3HTpCQoMYlpx9Mvw
+spotify: "https://open.spotify.com/episode/2GDhkYjUAmurlt0hgyvYCb?si=YOWQaw3HTpCQoMYlpx9Mvw"
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/2GDhkYjUAmurlt0hgyvYCb" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
 
-soundcloud: https://soundcloud.com/shiryakhat/mining-proof-of-work-and-etf-post-mortem-episode-0004
+soundcloud: "https://soundcloud.com/shiryakhat/mining-proof-of-work-and-etf-post-mortem-episode-0004"
 soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/315119789&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shiryakhat" title="Shir | Khat" target="_blank" style="color: #cccccc; text-decoration: none;">Shir | Khat</a> · <a href="https://soundcloud.com/shiryakhat/mining-proof-of-work-and-etf-post-mortem-episode-0004" title="Mining, Proof of Work and ETF post mortem (S01E04)" target="_blank" style="color: #cccccc; text-decoration: none;">Mining, Proof of Work and ETF post mortem (S01E04)</a></div>'
 
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/Mining--Proof-of-Work-and-ETF-post-mortem-S01E04-e9idge" width="100%" frameborder="0" scrolling="no"></iframe>'
-anchor: https://anchor.fm/shiryakhat/episodes/Mining--Proof-of-Work-and-ETF-post-mortem-S01E04-e9idge
+anchor: "https://anchor.fm/shiryakhat/episodes/Mining--Proof-of-Work-and-ETF-post-mortem-S01E04-e9idge"
 
-apple_podcast: https://podcasts.apple.com/us/podcast/mining-proof-of-work-and-etf-post-mortem-s01e04/id1221206951?i=1000383310267
+apple_podcast: "https://podcasts.apple.com/us/podcast/mining-proof-of-work-and-etf-post-mortem-s01e04/id1221206951?i=1000383310267"
 
-google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzE1MTE5Nzg5?ved=0CCUQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+google_podcast: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzE1MTE5Nzg5?ved=0CCUQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ"
+
 ---
 
 **شیر یا خط - قسمت چهارم**

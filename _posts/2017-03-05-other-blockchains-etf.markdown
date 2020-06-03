@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 3
 title: Other Blockchains + ETF (S01E03)
 episode: S01E03
@@ -7,6 +7,8 @@ date: 2017-03-05
 img: img/episodes/S01E03.jpeg
 alt: Other Blockchains + ETF (S01E03)
 project-date: March 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

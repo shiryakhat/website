@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 11
 title: Blockchain Use cases and Social Pathology in Developing Countries (S02E01)
 episode: S02E01
@@ -7,6 +7,8 @@ date: 2017-10-11
 img: img/episodes/S02E01.jpeg
 alt: Blockchain Use cases and Social Pathology in Developing Countries (S02E01)
 project-date: October 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

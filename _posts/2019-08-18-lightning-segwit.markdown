@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 15
 title: Segwit and lightning, very very... exciting! (S03E02)
 episode: S03E02
@@ -7,6 +7,8 @@ date: 2019-08-18
 img: img/episodes/S03E02.jpeg
 alt: Segwit and lightning, very very... exciting! (S03E02)
 project-date: August 2019
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

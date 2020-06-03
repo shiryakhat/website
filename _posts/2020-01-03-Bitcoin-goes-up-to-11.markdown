@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 17
 title: Genesisary - Bitcoin goes up to eleven (S03E04)
 episode: S03E04
@@ -7,6 +7,8 @@ date: 2020-01-03
 img: img/episodes/S03E04.jpeg
 alt: Genesisary - Bitcoin goes up to eleven (S03E04)
 project-date: January 2020
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

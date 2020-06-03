@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 12
 title: What The Fork, Bitcoin Forks - Part 1/2 (S02E02)
 episode: S02E02
@@ -7,6 +7,8 @@ date: 2017-11-26
 img: img/episodes/S02E02.jpeg
 alt: What The Fork, Bitcoin Forks - Part 1/2 (S02E02)
 project-date: November 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

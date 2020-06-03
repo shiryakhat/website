@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 14
 title: Confirm me if you can - 0-conf (S03E01)
 episode: S03E01
@@ -7,6 +7,8 @@ date: 2019-06-28
 img: img/episodes/S03E01.jpeg
 alt: Confirm me if you can - 0-conf (S03E01)
 project-date: July 2019
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

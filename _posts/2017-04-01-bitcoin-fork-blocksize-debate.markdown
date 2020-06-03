@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 5
 title: Bitcoin Fork, Bitcoin Unlimited and Blocksize debate (S01E05)
 episode: S01E05
@@ -7,6 +7,8 @@ date: 2017-04-01
 img: img/episodes/S01E05.jpeg
 alt: Bitcoin Fork, Bitcoin Unlimited and Blocksize debate (S01E05)
 project-date: April 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

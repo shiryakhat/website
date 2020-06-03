@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 16
 title: DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic (S03E03)
 episode: S03E03
@@ -7,6 +7,8 @@ date: 2019-12-08
 img: img/episodes/S03E03.jpeg
 alt: DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic (S03E03)
 project-date: December 2019
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

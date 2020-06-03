@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 18
 title: Coronalysis - Capitalism is Critically Sick (S03E05)
 episode: S03E05
@@ -7,6 +7,8 @@ date: 2020-03-16
 img: img/episodes/S03E05.jpeg
 alt: Coronalysis - Capitalism is Critically Sick (S03E05)
 project-date: March 2020
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

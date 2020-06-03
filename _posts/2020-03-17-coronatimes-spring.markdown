@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 19
 title: Coronatimes - Spring is inside our homes (S03E06)
 episode: S03E06
@@ -7,6 +7,8 @@ date: 2020-03-17
 img: img/episodes/S03E06.jpeg
 alt: Coronatimes - Spring is inside our homes (S03E06)
 project-date: March 2020
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

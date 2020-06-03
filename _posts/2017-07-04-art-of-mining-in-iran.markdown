@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 9
 title: Art of Mining - Advanced Mining in Iran (S01E09)
 episode: S01E09
@@ -7,6 +7,8 @@ date: 2017-07-04
 img: img/episodes/S01E09.jpeg
 alt: Art of Mining - Advanced Mining in Iran (S01E09)
 project-date: July 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 6
 title: Open Mic (Q&A)- Essence of Bitcoin & Blockchain (S01E06)
 episode: S01E06
@@ -7,6 +7,8 @@ date: 2017-04-17
 img: img/episodes/S01E06.jpeg
 alt: Open Mic (Q&A)- Essence of Bitcoin & Blockchain (S01E06)
 project-date: April 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

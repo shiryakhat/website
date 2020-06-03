@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="post-content">
+                <h2>{{ page.title }}</h2>
+                <hr class="star-primary">
+                <img src="{{site.url}}/img/episodes/{{ page.episode }}.jpeg" class="img-responsive img-centered" alt="{{ page.alt }}">
+                
+                <!-- {% if page.content %} -->
+                    <p>{{ page.content }}</p>
+                <!-- {% endif %} -->
+                <ul class="list-inline item-details">
+
+
+                    {% if page.youtube %}
+                    <a href= "{{ page.youtube }}" target = "_blank" ><img src="{{site.url}}/{{ page.youtube_thumb }}" style="width:374px !important;height:210px !important;" alt="Watch on Youtube"> </img> 
+                    </a><br>
+                    {% endif %}  
+
+
+                    {% if page.soundcloud %}
+                    <a href= "{{ page.soundcloud }}" target = "_blank" ><img src="/img/platforms/soundcloud.png"  alt="Listen on SoundCloud"> </img> 
+                    </a>
+                    {% endif %}  
+                    
+                    {% comment %}
+
+                    <!-- {% if page.soundcloud_emb %}
+                        {{ page.soundcloud_emb }}
+                    {% endif %} -->
+
+                    <!-- {% if page.spotify_emb %}
+                        {{ page.spotify_emb }}
+                    {% endif %} -->
+                    {% endcomment %}
+
+                    {% if page.spotify %}
+                    <a href= "{{ page.spotify }}" target = "_blank" ><img src="/img/platforms/spotify.png"  alt="Listen on Spotify"> </img> 
+                    </a>
+                    {% endif %}  
+
+                    {% if page.apple_podcast %}
+                        <a href= "{{ page.apple_podcast }}" target = "_blank" ><img src="/img/platforms/apple_podcasts.png"  alt="Apple Podcasts"> </img> 
+                        </a>
+                    {% endif %}       
+                    
+                    {% if page.google_podcast %}
+                    <a href= "{{ page.google_podcast }}" target = "_blank" ><img src="/img/platforms/google_podcasts.png"  alt="Google Podcasts"> </img> 
+                    </a>
+                    {% endif %} 
+
+                    {% if page.anchor %}
+                    <a href= "{{ page.anchor }}" target = "_blank" ><img src="/img/platforms/anchor.png"  alt="Anchor.fm"> </img> 
+                    </a>
+                    {% endif %} 
+
+                    {% comment %}
+
+                    <!-- {% if page.soundcloud %}
+                            <strong><a href="{{ page.soundcloud}}"> <li><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+                            </strong>
+                        </li>
+                    {% endif %}
+                    {% if page.project-date %}
+                    
+                        <li>Date:
+                            <strong><a href="http://startbootstrap.com">{{ page.project-date }}</a>
+                            </strong>
+                        </li>
+                    {% endif %}
+                    {% if page.category %}
+                        <li>Service:
+                            <strong><a href="http://startbootstrap.com">{{ page.category }}</a>
+                            </strong>
+                        </li>
+                    {% endif %} -->
+                    {% endcomment %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

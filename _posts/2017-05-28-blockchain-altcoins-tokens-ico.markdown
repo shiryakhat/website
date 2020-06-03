@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 8
 title: Is it a Blockchain? Altcoins, Tokens and ICO (S01E08)
 episode: S01E08
@@ -7,6 +7,8 @@ date: 2017-05-28
 img: img/episodes/S01E08.jpeg
 alt: Is it a Blockchain? Altcoins, Tokens and ICO (S01E08)
 project-date: May 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

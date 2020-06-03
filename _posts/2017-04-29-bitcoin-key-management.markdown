@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 7
 title: O Bitcoin, Where art thou - Key management (S01E07)
 episode: S01E07
@@ -7,6 +7,8 @@ date: 2017-04-29
 img: img/episodes/S01E07.jpeg
 alt: O Bitcoin, Where art thou - Key management (S01E07)
 project-date: April 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

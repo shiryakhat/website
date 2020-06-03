@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 20
 title: Blockchain Through Philosophy - Interview with Creston Davis [English] (S03E07)
 episode: S03E07
@@ -7,6 +7,8 @@ date: 2020-04-24
 img: img/episodes/S03E07.jpeg
 alt: Blockchain Through Philosophy - Interview with Creston Davis [English] (S03E07)
 project-date: April 2020
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

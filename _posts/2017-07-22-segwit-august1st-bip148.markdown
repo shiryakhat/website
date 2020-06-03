@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 10
 title: Witnessing August 1st - Segwit, BIP148 and beyond (S01E10)
 episode: S01E10
@@ -7,6 +7,8 @@ date: 2017-07-22
 img: img/episodes/S01E10.jpeg
 alt: Witnessing August 1st - Segwit, BIP148 and beyond (S01E10)
 project-date: July 2017
+permalink: /:year/:month/:title:output_ext
+
 # client: Start Bootstrap
 # category: Web Development
 

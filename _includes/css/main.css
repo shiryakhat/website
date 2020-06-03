@@ -470,11 +470,46 @@ sponsors .footer-below {
     box-shadow: none;
 }
 
+.post-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: right;
+    direction: rtl;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
     text-align: center;
 
+}
+
+.post-content h2 {
+    margin: 0;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.post-content img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.post-content .item-details img {
+    border-radius: 0 !important;
+    margin-bottom: 0px !important;
+    height: 40px !important;
+}
+
+.post-content .item-details {
+    margin: 30px 0;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content img {
