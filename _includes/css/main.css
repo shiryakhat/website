@@ -6,6 +6,8 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Vazir', sans-serif;
+
 }
 
 p {
@@ -41,7 +43,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Vazir', sans-serif;
     font-weight: 700;
 }
 
@@ -108,7 +110,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Vazir', sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -159,7 +161,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Vazir', sans-serif;
     font-weight: 700;
 }
 
@@ -192,7 +194,7 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Vazir', sans-serif;
 }
 
 @media(max-width:767px) {
@@ -467,6 +469,7 @@ sponsors .footer-below {
     direction: rtl;
     background-clip: border-box;
     -webkit-box-shadow: none;
+    font-family: 'Vazir', sans-serif;
     box-shadow: none;
 }
 
@@ -486,6 +489,8 @@ sponsors .footer-below {
     margin: 0;
     font-size: 3em;
     text-align: center;
+    font-family: 'Vazir', sans-serif;
+
 
 }
 
@@ -573,3 +578,5 @@ sponsors .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+

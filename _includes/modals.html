@@ -1,4 +1,5 @@
- <!-- Portfolio Modals -->
+<!-- Portfolio Modals -->
+
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -12,7 +13,8 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2><a href="{{site.url}}{{post.url}}" target="_blank"> {{ post.title }} </a> </h2>
+                            
                             <hr class="star-primary">
                             <img src="{{site.url}}/img/episodes/{{ post.episode }}.jpeg" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.content %}
