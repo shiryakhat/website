@@ -25,9 +25,9 @@ soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="n
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/DeFi---Decentralized-Finance-is-Here-to-Stay-S04E01-egudbv" width="100%" frameborder="0" scrolling="no"></iframe>'
 anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Decentralized-Finance-is-Here-to-Stay-S04E01-egudbv
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/blockchain-through-philosophy-interview-creston-davis/id1221206951?i=1000476408699
+apple_podcast: https://podcasts.apple.com/us/podcast/defi-decentralized-finance-is-here-to-stay-s04e01/id1221206951?i=1000485433487
 
-# google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/Yjk0YjU1YTQtYTllNS00ZTNhLWFmOWItNWFlMmFlYjMwMjc1?ved=0CAcQ38oDahcKEwjgkrqe9ODpAhUAAAAAHQAAAAAQAQ
+google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/NmI5ZjA4NjMtOGZlNC00ZjQ4LTgyOWUtMjY3YjQzNWM2MWM0?ved=2ahUKEwiL6_27otrqAhUAn3IEHbekDqcQkfYCegQIARAF
 
 ---
 
