@@ -10,8 +10,7 @@ project-date: July 2020
 permalink: /:year/:month/:title:output_ext
 
 
-# spotify: https://open.spotify.com/episode/7BO31SBPYK1sKbDwzWgjbm?si=hCwiD69oQNSAUBClXxsrmw
-# spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/7BO31SBPYK1sKbDwzWgjbm" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
+spotify: https://open.spotify.com/episode/6EZHRhKPMlK7PKP9AYaqff?si=V0o97wAWST-m3F70jEmcTA
 
 youtube_emb: '<iframe width="560" height="315" src="https://www.youtube.com/embed/vanzyI3rbF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 youtube: https://www.youtube.com/watch?v=vanzyI3rbF8&feature=youtu.be
@@ -25,9 +24,9 @@ soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="n
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/DeFi---Part-2---The-Finance-in-StableCoins-S04E02-ehfibm" width="100%" frameborder="0" scrolling="no"></iframe>'
 anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Part-2---The-Finance-in-StableCoins-S04E02-ehfibm
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/defi-decentralized-finance-is-here-to-stay-s04e01/id1221206951?i=1000485433487
+apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-2-the-finance-in-stablecoins-s04e02/id1221206951?i=1000486673224
 
-# google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/NmI5ZjA4NjMtOGZlNC00ZjQ4LTgyOWUtMjY3YjQzNWM2MWM0?ved=2ahUKEwiL6_27otrqAhUAn3IEHbekDqcQkfYCegQIARAF
+google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/ZGYxOTFkYmMtNzY4ZS00N2NlLWE3YmItN2EwMDhjYjhjNmM3?sa=X&ved=2ahUKEwjNo8C83vbqAhW5g3IEHT0rC8EQkfYCegQIARAF
 
 ---
 
