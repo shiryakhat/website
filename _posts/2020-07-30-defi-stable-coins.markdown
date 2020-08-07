@@ -28,6 +28,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-2-the-finance-in-
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/ZGYxOTFkYmMtNzY4ZS00N2NlLWE3YmItN2EwMDhjYjhjNmM3?sa=X&ved=2ahUKEwjNo8C83vbqAhW5g3IEHT0rC8EQkfYCegQIARAF
 
+aparat: 'https://www.aparat.com/v/UJX2K?playlist=490634'
+
 ---
 
 **شیر یا خط -  فصل چهار - قسمت دوم**

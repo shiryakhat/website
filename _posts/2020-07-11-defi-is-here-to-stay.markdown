@@ -29,6 +29,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/defi-decentralized-finance-
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/NmI5ZjA4NjMtOGZlNC00ZjQ4LTgyOWUtMjY3YjQzNWM2MWM0?ved=2ahUKEwiL6_27otrqAhUAn3IEHbekDqcQkfYCegQIARAF
 
+aparat: 'https://www.aparat.com/v/L4iZr?playlist=490634'
+
 ---
 
 **شیر یا خط -  فصل چهار - قسمت اول**
