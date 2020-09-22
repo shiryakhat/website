@@ -8,7 +8,7 @@ img: img/episodes/S04E03.jpeg
 alt: DeFi - Evolution of Decentralized exchanges (S04E03)
 project-date: September 2020
 permalink: /:year/:month/:title:output_ext
-
+description: "در این قسمت به توضیح صرافی های غیر متمرکز٫ از روزهای اول تا به امروز می پردازیم."
 
 youtube_emb: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Hgjv_CjvTtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 youtube: https://www.youtube.com/watch?v=Hgjv_CjvTtw&list=PLDwI1rIhknpMyRF3WvTvWORH8k4hNw0W0&index=4
