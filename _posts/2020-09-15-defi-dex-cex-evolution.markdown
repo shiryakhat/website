@@ -24,9 +24,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Part-3---Evolution-of-Decen
 
 # apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-2-the-finance-in-stablecoins-s04e02/id1221206951?i=1000486673224
 
-# google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/ZGYxOTFkYmMtNzY4ZS00N2NlLWE3YmItN2EwMDhjYjhjNmM3?sa=X&ved=2ahUKEwjNo8C83vbqAhW5g3IEHT0rC8EQkfYCegQIARAF
+google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/OWU5OGVjNGItNmVmYi00MmFhLWJjMTUtZjRjMGY0Zjg0MWY1?sa=X&ved=2ahUKEwiMisrYnv3rAhVNn3IEHTpaDqUQkfYCegQIARAF
 
-# spotify: https://open.spotify.com/episode/6EZHRhKPMlK7PKP9AYaqff?si=V0o97wAWST-m3F70jEmcTA
+spotify: https://open.spotify.com/episode/37FSPjVExJROls175LH6dM
 
 ---
 
