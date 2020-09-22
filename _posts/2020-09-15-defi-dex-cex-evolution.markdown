@@ -22,7 +22,7 @@ soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="n
 anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/DeFi---Part-3---Evolution-of-Decentralized-Exchanges-S04E03-ek0tv3" width="100%" frameborder="0" scrolling="no"></iframe>'
 anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Part-3---Evolution-of-Decentralized-Exchanges-S04E03-ek0tv3
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-2-the-finance-in-stablecoins-s04e02/id1221206951?i=1000486673224
+apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-3-evolution-of-decentralized-exchanges-s04e03/id1221206951?i=1000492170283
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/OWU5OGVjNGItNmVmYi00MmFhLWJjMTUtZjRjMGY0Zjg0MWY1?sa=X&ved=2ahUKEwiMisrYnv3rAhVNn3IEHTpaDqUQkfYCegQIARAF
 
