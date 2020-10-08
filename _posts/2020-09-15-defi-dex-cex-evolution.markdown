@@ -39,7 +39,7 @@ spotify: https://open.spotify.com/episode/37FSPjVExJROls175LH6dM
 -------------------------------------------------------
 صرافی های غیر متمرکز٫ DeFi قسمت سوم - پادکست شیریاخط 
 
-در این [قسمت](http://localhost:4000/2020/09/defi-dex-cex-evolution.html) به توضیح صرافی های غیر متمرکز٫ از روزهای اول تا به امروز می پردازیم.
+در این [قسمت](https://shiryakhat.net/2020/09/defi-dex-cex-evolution.html) به توضیح صرافی های غیر متمرکز٫ از روزهای اول تا به امروز می پردازیم.
 
 
 - تاريخچه ي تكامل صرافي هاي غير متمركز (Decentral Exchanges, DEX)
