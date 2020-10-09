@@ -17,9 +17,9 @@ soundcloud: https://soundcloud.com/shiryakhat/defi-part-4-automated-market-maker
 
 anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Part-4---Automated-Market-Makers-S04E04-ekpu61
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-3-evolution-of-decentralized-exchanges-s04e03/id1221206951?i=1000492170283
+apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-4-automated-market-makers-s04e04/id1221206951
 
-# google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/OWU5OGVjNGItNmVmYi00MmFhLWJjMTUtZjRjMGY0Zjg0MWY1?sa=X&ved=2ahUKEwiMisrYnv3rAhVNn3IEHTpaDqUQkfYCegQIARAF
+google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/YzNjZGMyNDEtZDBmYS00N2U2LWE3YzctNGY5ZTI5ZjEwOGQz?sa=X&ved=2ahUKEwiX2oCR2qbsAhV_gXIEHQQPC6EQkfYCegQIARAF
 
 spotify: https://open.spotify.com/episode/3WGK4VNAOvVHzpcHToMnWz?si=fEM5ogS5Q0atJdzxxzYnQg
 
