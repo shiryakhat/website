@@ -17,7 +17,7 @@ soundcloud: https://soundcloud.com/shiryakhat/defi_lending_protocols_s04e05
 
 anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Part-5---Lending-Protocols--Compound--and-Wrapped-Tokens-S04E05-enp56g
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-4-automated-market-makers-s04e04/id1221206951
+apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-5-lending-protocols-compound-wrapped-tokens/id1221206951?i=1000502364508
 
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MzA3ZGZjYzAtNjBkOS00MGJjLTkzMDYtOWQzNGQ2ZWI0MzBm?sa=X&ved=0CA0QkfYCahcKEwigjo-32MztAhUAAAAAHQAAAAAQAQ
 
