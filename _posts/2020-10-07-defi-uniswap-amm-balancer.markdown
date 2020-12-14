@@ -4,11 +4,12 @@ modal-id: 24
 title: DeFi - Automated Market Makers (S04E04)
 episode: S04E04
 date: 2020-10-07
-img: img/episodes/S04E03.jpeg
+img: img/episodes/S04E04.jpeg
 alt: DeFi - Automated Market Makers (S04E04)
 project-date: October 2020
 permalink: /:year/:month/:title:output_ext
 description: "در این قسمت به ادامه موضوع صرافی های غیر متمرکز و بازارسازهای خودکار(AMM) ٫ مثل Uniswap و Balancer ٫Curve میپردازیم."
+
 
 
 youtube: https://www.youtube.com/watch?v=sApDqbBQVvY
