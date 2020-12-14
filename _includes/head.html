@@ -19,12 +19,12 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
     <meta property="og:image" content="{% if page.img %}{{site.url}}/{{ page.img }}{% else %}{{site.url}}/{{ site.img }} {% endif %}">
     <meta property="og:url" content="{% if {{ page.img }} %}{{ {{ site.url }}/{{ page.img }} }}{% else %}{{ {{site.url}}/{{ site.img }} }} {% endif %}">
-    <meta name="twitter:card" content="summary_large_image">
 
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
     <meta name="twitter:image" content="{% if {{ page.img }} %}{{ {{ site.url }}/{{ page.img }} }}{% else %}{{ {{site.url}}/{{ site.img }} }} {% endif %}">
     <meta name="twitter:card" content="summary_large_image">
+    
     <!-- Google verification -->
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
