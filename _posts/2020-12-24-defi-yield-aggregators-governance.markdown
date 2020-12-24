@@ -21,7 +21,7 @@ anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Part-6---Liquidation--Yield
 
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/NGI1ZDU0NzUtZjlkMi00ZmU2LWI5OWMtMjNiZDBmZmFjMDI2?sa=X&ved=0CA0QkfYCahcKEwiYsfu38uXtAhUAAAAAHQAAAAAQAQ
 
-# spotify: https://open.spotify.com/episode/3zChJhsTcrllDjS18Eke1I?si=fjZ5ujC3Swek3PBORD91_g
+spotify: https://open.spotify.com/episode/3aSG7BB7HFyzb0jyeQamSf?si=_Ky--prWR5KHdJhJG2j2cA
 
 ---
 
@@ -41,7 +41,7 @@ google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQ
 
 *4:20* نقد شدن يا liquidation چيست و چرا به آن نياز داريم؟
 
-*11:30* كنترل دارايی وثيقه گذاری شده در پلتفرم های وام دهی دست چه كسی است؟
+*11:30* كنترل دارايی وثيقه‌گذاری شده در پلتفرم‌های وام دهی دست چه كسی است؟
   - تفاوت پلتفرم های حضانتی (custodial) با غيرحضانتی (non-custodial) چيست؟
   - آيا پروژه های ديفای واقعا non-custodial هستند؟
 
@@ -70,9 +70,9 @@ google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQ
   - كاركرد توكن COMP و نحوه ی توزيع اين توكن
   - كشاورزی بهره يا Yield Farmig
   - ارزش گذاری توكن های حكمرانی يا governance token ها
-  - حمله های Vampire attack يا حمله ی خون آشامي
+  - حمله های Vampire attack يا حمله ی خون آشامی
 
-*01:02:25* جمع بندی و خلاصه ای از قسمت های مختلف ديفاي
+*01:02:25* جمع بندی و خلاصه ای از قسمت های مختلف ديفای
 
 ------------
   حاضرین این جلسه:
