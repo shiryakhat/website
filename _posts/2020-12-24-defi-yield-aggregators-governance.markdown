@@ -17,7 +17,7 @@ soundcloud: https://soundcloud.com/shiryakhat/defi-liquidation-yield-farming-and
 
 anchor: https://anchor.fm/shiryakhat/episodes/DeFi---Part-6---Liquidation--Yield-Farming--and-Governance-S04E06-eo693m
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-5-lending-protocols-compound-wrapped-tokens/id1221206951?i=1000502364508
+apple_podcast: https://podcasts.apple.com/us/podcast/defi-part-6-liquidation-yield-farming-governance-s04e06/id1221206951
 
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/NGI1ZDU0NzUtZjlkMi00ZmU2LWI5OWMtMjNiZDBmZmFjMDI2?sa=X&ved=0CA0QkfYCahcKEwiYsfu38uXtAhUAAAAAHQAAAAAQAQ
 
