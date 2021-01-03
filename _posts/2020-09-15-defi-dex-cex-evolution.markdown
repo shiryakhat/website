@@ -54,7 +54,6 @@ spotify: https://open.spotify.com/episode/37FSPjVExJROls175LH6dM
 - تابعي كه Uniswap از طريق آن ميزان نرخ تبادل را حساب مي كند چيست؟ (Constant function market making)
 
 
-
 ------------
   حاضرین این جلسه:
   

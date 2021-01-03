@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <div class="post-content">
-                <h2>{{ page.title }}</h2>
+            <div id="pagetitle" class="post-content">
+                <h2 >{{ page.title }}</h2>
                 <hr class="star-primary">
                 <img src="{{site.url}}/img/episodes/{{ page.episode }}.jpeg" class="img-responsive img-centered" alt="{{ page.alt }}">
                 
@@ -58,7 +58,7 @@
                     <a href= "{{ page.aparat }}" target = "_blank" ><img src="/img/platforms/aparat.png"  alt="Aparat.com"> </img> 
                     </a>
                     {% endif %} 
-                    
+
                     {% comment %}
 
                     <!-- {% if page.soundcloud %}
@@ -79,13 +79,16 @@
                             </strong>
                         </li>
                     {% endif %} -->
+                                    <!-- {% include  share.html %} -->
+
                     {% endcomment %}
 
                 </ul>
+
             </div>
         </div>
     </div>
-    
+
 </div>
 
 {% include about.html %}

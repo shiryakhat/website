@@ -474,6 +474,7 @@ sponsors .footer-below {
 }
 
 .post-content {
+    margin-top: 10px;
     padding: 100px 0;
     min-height: 100%;
     border: 0;
