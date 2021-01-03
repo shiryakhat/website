@@ -8,9 +8,8 @@ img: img/episodes/S02E01.jpeg
 alt: Blockchain Use cases and Social Pathology in Developing Countries (S02E01)
 project-date: October 2017
 permalink: /:year/:month/:title:output_ext
+description: "در این اپیزود به موضوع کاربردهای بلاکچین و آسیب شناسی این کاربردها در جامعه و به خصوص کشور های در حال توسعه می پردازیم."
 
-# client: Start Bootstrap
-# category: Web Development
 
 spotify: https://open.spotify.com/episode/7qVcNl8Mz980bLzPr1Mo4k?si=XMDFOs2qTrW9oDGdRb6NIQ
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/7qVcNl8Mz980bLzPr1Mo4k" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

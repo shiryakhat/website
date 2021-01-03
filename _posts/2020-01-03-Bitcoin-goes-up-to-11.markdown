@@ -8,6 +8,7 @@ img: img/episodes/S03E04.jpeg
 alt: Genesisary - Bitcoin goes up to eleven (S03E04)
 project-date: January 2020
 permalink: /:year/:month/:title:output_ext
+description: "بیتکوین تلفیقی از تکنولوژی هایی است که از ۱۹۷۰ تاکنون منتشر شده٫ در این قسمت به این دوره می پردازیم و در ادامه در مورد تاریخچه بیتکوین از روز آغاز تا امروز گفتگو می کنیم."
 
 # client: Start Bootstrap
 # category: Web Development
@@ -56,12 +57,12 @@ January 3 2020
 
 * [تایم لاین بیت کوین](http://coiniran.com/timeline)
 * [از اولین مقالات عمومی در مورد بیت کوین](http://www.newyorker.com/magazine/2011/10…-crypto-currency)
-* پادکست شیر یا خط - بحث های بلاک سایز و فورک های بیت کوین: Shiryakhat – Bitcoin-fork-bitcoin-unlimited-and-blocksize-debate-episode-0005
-* پادکست شیر یا خط - اول آگوست٫ سگویت و بلاک سایز: Shiryakhat – Witnessing-august-1st-segwit-bip148-and-beyond-episode-0010
+* [پادکست شیر یا خط - بحث های بلاک سایز و فورک های بیت کوین](https://shiryakhat.net/2017/04/bitcoin-fork-blocksize-debate.html)
+* [پادکست شیر یا خط - اول آگوست٫ سگویت و بلاک سایز](https://shiryakhat.net/2017/07/segwit-august1st-bip148.html)
 * [پادکست چنل بی - سری سیلک رود](http://channelbpodcast.com/archives/3209)
-* پادکست شیر یا خط - فورک های بیت کوین - قسمت اول:‌ Shiryakhat – What-the-fork-bitcoin-forks-part-1-episode-1012
-* پادکست شیر یا خط - فورک های بیت کوین - قسمت دوم: Shiryakhat – What-the-fork-bitcoin-forks-part-22-episode-1012b
-* پادکست شیر یا خط - سگویت و لایتنینگ Shiryakhat – Segwit-and-lightning-very-very-exciting-s03e02
+* [پادکست شیر یا خط - فورک های بیت کوین - قسمت اول](https://shiryakhat.net/2017/11/what-the-fork-part-1.html)
+* [پادکست شیر یا خط - فورک های بیت کوین - قسمت دوم](https://shiryakhat.net/2017/11/what-the-fork-part-2.html)
+* [پادکست شیر یا خط - سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html)
 * [پادکست چنل بی - سری مسترمایند](http://channelbpodcast.com/archives/1189)
 
 

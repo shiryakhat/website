@@ -8,6 +8,7 @@ img: "img/episodes/S01E01.jpeg"
 alt: "Stay Safe with Bitcoin (S01E01)"
 project-date: February 2017
 permalink: /:year/:month/:title:output_ext
+description: "موضوع بحث این هفته در رابطه با شناخت اسکم های بیتکوین در ایران و همچنین طریقه شناخت شرکت ها و پلتفرم های سالم یا ناسالم است."
 
 # client: Start Bootstrap
 # category: Web Development

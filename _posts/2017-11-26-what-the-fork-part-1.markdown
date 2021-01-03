@@ -8,9 +8,8 @@ img: img/episodes/S02E02.jpeg
 alt: What The Fork, Bitcoin Forks - Part 1/2 (S02E02)
 project-date: November 2017
 permalink: /:year/:month/:title:output_ext
+description: "در این اپیزود به ادامه بحث در مورد شاخه (فورک) های بیتکوین٫ تاریخچه فورک ها٫ تحلیل پیدایش و تاثیر ایجاد یک کوین(رمزارز٫ دیجی ارز) جدید از این شاخه های نرم افزاری می پردازیم."
 
-# client: Start Bootstrap
-# category: Web Development
 
 spotify: https://open.spotify.com/episode/1Qy2wWG1fYlhTWHIIBNJgA?si=jSx7DELNToy6w45j5EwX3A
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/1Qy2wWG1fYlhTWHIIBNJgA" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

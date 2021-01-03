@@ -8,9 +8,8 @@ img: img/episodes/S03E05.jpeg
 alt: Coronalysis - Capitalism is Critically Sick (S03E05)
 project-date: March 2020
 permalink: /:year/:month/:title:output_ext
+description: "این برنامه به اثرات ویروس کرونا (کوید-19) و دلایل سقوط بازارهای رمزارز و بازارهای اقتصادی جهانی، آینده این بازارها، فرصت های ایجاد شده برای کارهای راه دور و درآمدزایی و موضوعات دیگر به بحث و تبادل نظر می پردازد." 
 
-# client: Start Bootstrap
-# category: Web Development
 
 spotify: https://open.spotify.com/episode/4LpNyWRu7kHTSN5WfKs3yN?si=JT0plvVmQ7KNzPWTAq-a-Q
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/4LpNyWRu7kHTSN5WfKs3yN" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

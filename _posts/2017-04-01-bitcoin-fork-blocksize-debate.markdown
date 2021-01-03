@@ -8,6 +8,7 @@ img: img/episodes/S01E05.jpeg
 alt: Bitcoin Fork, Bitcoin Unlimited and Blocksize debate (S01E05)
 project-date: April 2017
 permalink: /:year/:month/:title:output_ext
+description: "در این قسمت می خواهیم به موضوعاتی مثل اندازه بلاک، فورک یا انشعاب، bitcoin unlimited و مطالبی در این حوزه بپردازیم."
 
 # client: Start Bootstrap
 # category: Web Development

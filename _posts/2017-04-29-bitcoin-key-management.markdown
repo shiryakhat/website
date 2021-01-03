@@ -8,6 +8,7 @@ img: img/episodes/S01E07.jpeg
 alt: O Bitcoin, Where art thou - Key management (S01E07)
 project-date: April 2017
 permalink: /:year/:month/:title:output_ext
+description: "در این قسمت می خواهیم درباره اینکه بیتکوین را چگونه نگهداری کنیم و نحوه عملکرد تراکنش های بیتکوین به چه صورت است صحبت کنیم."
 
 # client: Start Bootstrap
 # category: Web Development

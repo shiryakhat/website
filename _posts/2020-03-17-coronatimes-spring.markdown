@@ -8,9 +8,8 @@ img: img/episodes/S03E06.jpeg
 alt: Coronatimes - Spring is inside our homes (S03E06)
 project-date: March 2020
 permalink: /:year/:month/:title:output_ext
+description: "این برنامه به اثرات ویروس کرونا (کوید-19) و دلایل سقوط بازارهای رمزارز و بازارهای اقتصادی جهانی، آینده این بازارها، فرصت های ایجاد شده برای کارهای راه دور و درآمدزایی و موضوعات دیگر به بحث و تبادل نظر می پردازد." 
 
-# client: Start Bootstrap
-# category: Web Development
 
 spotify: https://open.spotify.com/episode/6CHFhSLnG3ieudFlmM2vl4?si=aH3Jz0IRRtKmNwSkUZHX9A
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/6CHFhSLnG3ieudFlmM2vl4" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

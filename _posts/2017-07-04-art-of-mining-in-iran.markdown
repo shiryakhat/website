@@ -8,9 +8,8 @@ img: img/episodes/S01E09.jpeg
 alt: Art of Mining - Advanced Mining in Iran (S01E09)
 project-date: July 2017
 permalink: /:year/:month/:title:output_ext
+description: "با یک سری از دوستان ماینر در ایران گفتگویی داشتیم و به موضوع بهینه سازی و بومی سازی صنعت استخراج دیجی ارز ها (کریپتوکارنسی) در ایران و چالشهایی که در این راه است پرداختیم."
 
-# client: Start Bootstrap
-# category: Web Development
 
 spotify: https://open.spotify.com/episode/2fF0TzI53cAYm1DkjEnuAP?si=6TdyrqnuR7ee-_eA5azVWQ
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/2fF0TzI53cAYm1DkjEnuAP" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

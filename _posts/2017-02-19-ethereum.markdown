@@ -8,6 +8,7 @@ img: img/episodes/S01E02.jpeg
 alt: Ethereum (S01E02)
 project-date: February 2017
 permalink: /:year/:month/:title:output_ext
+description: "موضوع صحبت این هفته در رابطه با اتریوم و ساختار فنی این تکنولوژی هست"
 
 # client: Start Bootstrap
 # category: Web Development

@@ -8,6 +8,7 @@ img: img/episodes/S01E03.jpeg
 alt: Other Blockchains + ETF (S01E03)
 project-date: March 2017
 permalink: /:year/:month/:title:output_ext
+description: "موضوع صحبت این هفته در رابطه با سایر فناوری های بلاکچینی و موارد استفاده از این فناوری، غیر از استفاده پولی مثل بیتکوین است."
 
 # client: Start Bootstrap
 # category: Web Development

@@ -8,6 +8,7 @@ img: img/episodes/S01E10.jpeg
 alt: Witnessing August 1st - Segwit, BIP148 and beyond (S01E10)
 project-date: July 2017
 permalink: /:year/:month/:title:output_ext
+description: "در این اپیزود به ادامه بحث در مورد فورک بیتکوین، سگویت و محدودیت حجم بلاک بیت کوین می‌نشینیم که قبلا در اپیزود ۵ به تفصیل به آن پرداخته شده و سپس مروری خواهیم داشت بر اتفاقاتی که این روز ها برای بیتکوین می افتد."
 
 # client: Start Bootstrap
 # category: Web Development

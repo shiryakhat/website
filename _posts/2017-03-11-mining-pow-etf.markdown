@@ -8,6 +8,7 @@ img: "img/episodes/S01E04.jpeg"
 alt: "Mining, Proof of Work and ETF post mortem (S01E04)"
 project-date: March 2017
 permalink: /:year/:month/:title:output_ext
+description: "در این قسمت می خواهیم درباره mining یا استخراج و همچنین Proof-of-work یا گواه اثبات کار صحبت کنیم."
 
 # client: Start Bootstrap
 # category: Web Development

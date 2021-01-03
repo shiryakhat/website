@@ -8,9 +8,8 @@ img: img/episodes/S03E07.jpeg
 alt: Blockchain Through Philosophy - Interview with Creston Davis [English] (S03E07)
 project-date: April 2020
 permalink: /:year/:month/:title:output_ext
+description: "در این قسمت از پادکست شیر یا خط سعی کردیم تا به فناوری بلاک‌چین به عنوان یک فناوری رادیکال که می‌تواند تغییرات گسترده ای در مناسبات زندگی آینده انسان ایجاد کند، نگاه کنیم."
 
-# client: Start Bootstrap
-# category: Web Development
 
 spotify: https://open.spotify.com/episode/4NxZNKKwcxGYNnbsCWE0eh?si=5cFpykQ6QrCe3wDyfTH-KA
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/4NxZNKKwcxGYNnbsCWE0eh" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

@@ -8,6 +8,7 @@ img: img/episodes/S01E06.jpeg
 alt: Open Mic (Q&A)- Essence of Bitcoin & Blockchain (S01E06)
 project-date: April 2017
 permalink: /:year/:month/:title:output_ext
+description: " این هفته جلسه ی آزادی خواهیم داشت و تنها می خواهیم به سوالات دوستان پاسخ بدهیم."
 
 # client: Start Bootstrap
 # category: Web Development
