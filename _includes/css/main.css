@@ -171,6 +171,8 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+    font-family: 'Vazir', sans-serif;
+    font-size: 1.3em;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -243,10 +245,12 @@ section.success {
   }
 
 figcaption {
-display: block;
-text-align: center;
-height: 90%;
-}
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    height: 90%;
+    }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
