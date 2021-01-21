@@ -8,8 +8,7 @@ img: img/episodes/S01E08.jpeg
 alt: Is it a Blockchain? Altcoins, Tokens and ICO (S01E08)
 project-date: May 2017
 permalink: /:year/:month/:title:output_ext
-description: 'مروری بر ماهیت و چیستی بلاکچین و بیتکوین داریم.
- چه چیزی باعث می شود تا به کوینی "غیرمتمرک" گفته شود و کوینی از زیر سایه بلاکچین خارج شده باشد و به آن "متمرکز" بگویند.'
+description: "مروری بر ماهیت و چیستی بلاکچین و بیتکوین داریم. چه چیزی باعث می شود تا به کوینی 'غیرمتمرک' گفته شود و کوینی از زیر سایه بلاکچین خارج شده باشد و به آن 'متمرکز' بگویند."
 
 # client: Start Bootstrap
 # category: Web Development
