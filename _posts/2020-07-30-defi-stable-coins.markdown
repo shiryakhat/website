@@ -8,6 +8,8 @@ img: img/episodes/S04E02.jpeg
 alt: DeFi - The Finance in StableCoins (S04E02)
 project-date: July 2020
 permalink: /:year/:month/:title:output_ext
+description: "مثال هايي از كاربرد هاي  فعلي DeFi - دسته بندي رمز ارزهاي پايدار( stable coin) - سير تكاملي استيبل كوين ها (Tether, USDt, USDC, Maker DAO, DAI, SAI, etc)
+"
 
 
 spotify: https://open.spotify.com/episode/6EZHRhKPMlK7PKP9AYaqff?si=V0o97wAWST-m3F70jEmcTA

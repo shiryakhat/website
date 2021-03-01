@@ -8,6 +8,7 @@ img: img/episodes/S04E01.jpeg
 alt: DeFi - Decentralized Finance is Here to Stay (S04E01)
 project-date: July 2020
 permalink: /:year/:month/:title:output_ext
+description: ". DeFi مقدمه‌ای درباره اقتصاد غیرمتمرکز یا همان دیفای - چرا اقتصاد غیرمتمرکز؟ - تفاوت DeFi با سیستم‌مالی حاکم بر اقتصاد امروز دنیا چیست؟ - مفهوم بازار آزاد چگونه در اقتصاد غیرمتمرکز تعریف میشود؟"
 
 
 spotify: https://open.spotify.com/episode/7BO31SBPYK1sKbDwzWgjbm?si=hCwiD69oQNSAUBClXxsrmw
