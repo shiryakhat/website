@@ -26,7 +26,9 @@
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
     <meta name="twitter:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/{{ site.img }} {% endif %}">
     <meta name="twitter:card" content="summary_large_image">
-    
+    <link rel="webmention" href="https://webmention.io/shayan.es/webmention" />
+    <link rel="pingback" href="https://webmention.io/shayan.es/xmlrpc" />
+
     <!-- Google verification -->
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
