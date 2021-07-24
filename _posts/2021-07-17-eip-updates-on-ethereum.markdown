@@ -4,23 +4,23 @@ modal-id: 27
 title: EIP (Ethereum Improvement Proposals) & Updating the Chain (S05E01)
 episode: S05E01
 date: 2021-07-17
-img: img/episodes/S04E06.jpeg #TODO
+img: img/episodes/S05E01.jpeg
 alt: EIP (Ethereum Improvement Proposals) & Updating the Chain (S05E01)
 permalink: /:year/:month/:title:output_ext
-description: " " #TODO
+description: "در این قسمت به چرایی نیاز به تغییر و بروزرسانی در محیط های مختلف نظیر نرم افزارهای سازمانی و نرم افزار های متن باز پرداختیم و روند بروزرسانی ها در اتریوم را از ایده تا اجرا بررسی کردیم." 
 
 
 youtube: https://youtu.be/FooJ87bP1y8
 
-soundcloud: #TODO
+soundcloud: https://soundcloud.com/shiryakhat/eip-ethereum-improvement-proposals-updating-the-chain-s05e01
 
-anchor: #TODO
+anchor: https://anchor.fm/shiryakhat/episodes/EIP-Ethereum-Improvement-Proposals--Updating-the-Chain-S05E01-e14u29q
 
-apple_podcast: #TODO
+apple_podcast: https://podcasts.apple.com/us/podcast/eip-ethereum-improvement-proposals-updating-chain-s05e01/id1221206951?i=1000529866565
 
-google_podcast: #TODO
+google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/NTgyMzYyY2QtNmFlZS00MThhLWE3ZjUtMjBiMTJjNjI2NGE1?sa=X&ved=0CAUQkfYCahcKEwiwl9O8yvrxAhUAAAAAHQAAAAAQAQ
 
-spotify: #TODO
+spotify: https://open.spotify.com/episode/0L94mTfsOjKlyHJvAl5Woe?si=VSt2xxZGTgeBXr2viDNsjQ&dl_branch=1
 
 ---
 
@@ -30,6 +30,8 @@ spotify: #TODO
 **فرایند بر روز رسانی پروتکل اتریوم**
 
 -------------------------------------------------------
+در این قسمت به چرایی نیاز به تغییر و بروزرسانی در محیط های مختلف نظیر نرم افزارهای سازمانی و نرم افزار های متن باز پرداختیم و روند بروزرسانی ها در اتریوم را از ایده تا اجرا بررسی کردیم.
+
 
 **توضیحات این اپیزود:**
 
@@ -81,18 +83,18 @@ spotify: #TODO
 
 **لینک های این اپیزود:**
 
-* EIP20: https://eips.ethereum.org/EIPS/eip-20
-* لیست همه‌ی EIP ها به همراه وضعیت فعلی آنها: https://eips.ethereum.org/all
-* فولدر EIP در گیت هاب اتریوم: https://github.com/ethereum/EIPs
-* اسلایدهای شایان اسکندری در IETF: https://datatracker.ietf.org/meeting/105/materials/slides-105-hotrfc-11-democratic-improvement-proposals-for-decentralization-projects-01
-* ارائه‌ی اسلاید ها در IETF: https://www.youtube.com/watch?v=4pcXftIM_KY&ab_channel=ConsenSysDiligence
+* EIP20: [https://eips.ethereum.org/EIPS/eip-20](https://eips.ethereum.org/EIPS/eip-20)
+* لیست همه‌ی EIP ها به همراه وضعیت فعلی آنها: [https://eips.ethereum.org/all](https://eips.ethereum.org/all)
+* فولدر EIP در گیت هاب اتریوم: [https://github.com/ethereum/EIPs](https://github.com/ethereum/EIPs)
+* اسلایدهای شایان اسکندری در IETF: [https://datatracker.ietf.org/meeting/105/materials/slides-105-hotrfc-11-democratic-improvement-proposals-for-decentralization-projects-01](https://datatracker.ietf.org/meeting/105/materials/slides-105-hotrfc-11-democratic-improvement-proposals-for-decentralization-projects-01)
+* ارائه‌ی اسلاید ها در IETF: [https://www.youtube.com/watch?v=4pcXftIM_KY&ab_channel=ConsenSysDiligence]( https://www.youtube.com/watch?v=4pcXftIM_KY&ab_channel=ConsenSysDiligence)
 * محل های بحث و گفتگوی اولیه در مورد ایده ها:
-    * https://ethresear.ch/
-    * https://ethereum-magicians.org/
-    * https://github.com/ethereum/EIPs/issues
-    * EIP1 : https://eips.ethereum.org/EIPS/eip-1
-    * وبسایت Cat Herders: https://ethereumcatherders.com/
-    * رپو مدیریتی برای برگزاری ACD call ها:https://github.com/ethereum/pm
-    * 
+    * [https://ethresear.ch/](https://ethresear.ch/)
+    * [https://ethereum-magicians.org/](https://ethereum-magicians.org/)
+    * [https://github.com/ethereum/EIPs/issues](https://github.com/ethereum/EIPs/issues)
+    * EIP1 : [https://eips.ethereum.org/EIPS/eip-1](https://eips.ethereum.org/EIPS/eip-1)
+    * وبسایت Cat Herders: [https://ethereumcatherders.com/](https://ethereumcatherders.com/)
+    * رپو مدیریتی برای برگزاری ACD call ها: [https://github.com/ethereum/pm](https://github.com/ethereum/pm)
+
 
 -----------------------------------------------------------------------
