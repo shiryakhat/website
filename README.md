@@ -24,5 +24,13 @@ bundle exec jekyll serve
 ```
 - Go to http://127.0.0.1:4000/
 
+
+## Add new episode
+- Create a new branch (e.g. `S0502`)
+- Duplicate one of the files in `_posts` and rename it to DATE-NAME.md
+- Add all the episode details to the file
+- Push to your repo and create a Pull Request on the main repo
+
+
 --------------------------
 Jekyll Theme: [Freelancer](https://github.com/jeromelachaud/freelancer-theme)

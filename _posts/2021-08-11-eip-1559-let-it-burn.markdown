@@ -1,0 +1,91 @@
+---
+layout: post
+modal-id: 28
+title: EIP-1559 Let it Burn (S05E02)
+episode: S05E02
+date: 2021-08-11
+img: img/episodes/S05E02.jpeg
+alt: EIP-1559 Let it Burn (S05E02)
+permalink: /:year/:month/:title:output_ext
+description: "در این قسمت ساختار فی در بلاکچین اتریوم را شرح دادیم. نحوه‌ی انتخاب تراکنش‌ها توسط ماینرها و حراج قیمت اولی را بررسی کردیم. از معایب و دلایل لزوم تغییر این مدل صحبت کردیم و در نهایت EIP-1559 را شرح دادیم و گفتیم چگونه ساختار پرداخت فی در شبکه‌ی اتریوم را دگرگون می‌کند." 
+
+
+youtube: https://youtu.be/OZa9avdUWHc
+
+soundcloud: https://soundcloud.com/shiryakhat/eip-ethereum-improvement-proposals-updating-the-chain-s05e01
+
+anchor: https://anchor.fm/shiryakhat/episodes/EIP-Ethereum-Improvement-Proposals--Updating-the-Chain-S05E01-e14u29q
+
+apple_podcast: https://podcasts.apple.com/us/podcast/eip-ethereum-improvement-proposals-updating-chain-s05e01/id1221206951?i=1000529866565
+
+google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/NTgyMzYyY2QtNmFlZS00MThhLWE3ZjUtMjBiMTJjNjI2NGE1?sa=X&ved=0CAUQkfYCahcKEwiwl9O8yvrxAhUAAAAAHQAAAAAQAQ
+
+spotify: https://open.spotify.com/episode/0L94mTfsOjKlyHJvAl5Woe?si=VSt2xxZGTgeBXr2viDNsjQ&dl_branch=1
+
+---
+
+**شیر یا خط**
+**فصل پنجم - قسمت دوم**
+
+**EIP1559 و ساختار فی در شبکه اتریوم**
+
+-------------------------------------------------------
+در این قسمت ساختار فی در بلاکچین اتریوم را شرح دادیم. نحوه‌ی انتخاب تراکنش‌ها توسط ماینرها و حراج قیمت اولی را بررسی کردیم. از معایب و دلایل لزوم تغییر این مدل صحبت کردیم و در نهایت EIP-1559 را شرح دادیم و گفتیم چگونه ساختار پرداخت فی در شبکه‌ی اتریوم را دگرگون می‌کند.
+
+
+**توضیحات این اپیزود:**
+
+* لزوم پرداخت فی در شبکه‌های غیرمتمرکز
+* دلیل محدود سازی حجم بلاک ها
+* فی در اتریوم به چه مواردی ارتباط دارد
+    * گس و قیمت گس
+    * محدودیت بلاک گس در نسخه‌ی فعلی اتریوم
+    * جدول گس مربوط به Opcode ها و تغییرات آن در طول زمان 
+    * مقایسه گس مصرفی مورد نیاز برای محاسبات و حافظه
+* مدل فعلی پرداخت فی در شبکه‌ی اتریوم (First Price Auction)
+* مدل‌های دیگر حراجی
+* مشکلات سیستم فعلی پرداخت فی در اتریوم
+    * کارا نبودن سیستم فعلی به لحاظ اقتصادی
+    * مشکلات رابط کاربری (برای کاربر و والت و اکسچنج)
+        * مدل پیش بینی متامسک برای قیمت گس  
+* لزوم تغییر در مدل فعلی و EIP 1559
+* شکسته شدن فی به Base Fee و Miner tip
+* base fee چیست؟
+    * در چه شرایطی تغییر می‌کند
+    * تابع تغییر بیس فی
+    * چرا بیس فی سوزانده میشود؟ آیا راهکار دیگری وجود دارد؟
+* نیاز به اضافه شدن مکانیزمی برای سنجش میزان شلوغی شبکه
+* سایز متغیر بلاک ها (تارگت بلاک لیمیت و ماکس بلاک لیمیت)
+* رابطه‌ی Max Fee با Base Fee چیست؟
+* Miner tip یا Priority fee چیست؟
+* پیامد های EIP 1559
+    * کم شدن درآمد ماینرها (جستجو برای پیدا کردن منابع درآمد دیگر)
+    * فشار deflationary بر اتر
+    * لزوم پرداخت اتر برای تراکنش ها
+    * آیا تغییری در MEV خواهیم داشت؟
+
+
+
+**لینک های این اپیزود:**
+
+* میزان گس مورد نیاز برای هر Opcode:
+    * [ https://github.com/ethereum/go-ethereum/blob/master/params/protocol_params.go](https://github.com/ethereum/go-ethereum/blob/master/params/protocol_params.go)
+    * [ https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0](https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0)
+* اولین بلاگ پست ویتالیک در مورد مدل‌های مختلف فی :[ https://ethresear.ch/t/first-and-second-price-auctions-and-improved-transaction-fee-markets/2410](https://ethresear.ch/t/first-and-second-price-auctions-and-improved-transaction-fee-markets/2410)
+* مقاله‌ی Tim Roughgarden در مورد EIP1559:[ https://timroughgarden.org/papers/eip1559.pdf](https://timroughgarden.org/papers/eip1559.pdf)
+* رشته تویت پارادایم حاوی لینک‌های بسیار مفید در رابطه با EIP-1559:[ https://twitter.com/paradigm/status/1423359009252265986?s=28](https://twitter.com/paradigm/status/1423359009252265986?s=28)
+* داشبورد های اتریوم با مدل EIP 1559:
+    * [ https://watchtheburn.com](https://watchtheburn.com)
+    * [ https://ultrasound.money](https://ultrasound.money)
+    * [ https://etherchain.org/burn](https://etherchain.org/burn)
+    * [ https://ethburned.info/](https://ethburned.info/)
+* فروم‌های مخالفت ماینرها با EIP-1559:
+    * [ https://supporteip1559.org](https://supporteip1559.org)
+    * [ https://stopeip1559.org](https://stopeip1559.org)
+* مقاله  loop  درباره سختی انتخاب فی مناسب در شبکه های بلاکچینی (بیت‌کوین):
+    * [ https://blog.bitgo.com/the-challenges-of-bitcoin-transaction-fee-estimation-e47a64a61c72](https://blog.bitgo.com/the-challenges-of-bitcoin-transaction-fee-estimation-e47a64a61c72)
+* EIP-1559 :[ https://eips.ethereum.org/EIPSip-1559/e](https://eips.ethereum.org/EIPSip-1559/e)
+* توضیحی درباره‌ی Ultrasound Money:[ https://twitter.com/drakefjustin/status/1377321252445167628?lang=en](https://twitter.com/drakefjustin/status/1377321252445167628?lang=en)
+
+
+-----------------------------------------------------------------------
