@@ -10,7 +10,7 @@ permalink: /:year/:month/:title:output_ext
 description: "در این قسمت ساختار فی در بلاکچین اتریوم را شرح دادیم. نحوه‌ی انتخاب تراکنش‌ها توسط ماینرها و حراج قیمت اولی را بررسی کردیم. از معایب و دلایل لزوم تغییر این مدل صحبت کردیم و در نهایت EIP-1559 را شرح دادیم و گفتیم چگونه ساختار پرداخت فی در شبکه‌ی اتریوم را دگرگون می‌کند." 
 
 
-youtube: https://youtu.be/OZa9avdUWHc
+youtube: https://youtu.be/J703IfDo-9Y
 
 soundcloud: https://soundcloud.com/shiryakhat/eip-1559-let-it-burn-s05e02
 
