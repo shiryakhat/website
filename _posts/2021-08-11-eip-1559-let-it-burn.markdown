@@ -12,15 +12,15 @@ description: "در این قسمت ساختار فی در بلاکچین اتر�
 
 youtube: https://youtu.be/OZa9avdUWHc
 
-soundcloud: https://soundcloud.com/shiryakhat/eip-ethereum-improvement-proposals-updating-the-chain-s05e01
+soundcloud: https://soundcloud.com/shiryakhat/eip-1559-let-it-burn-s05e02
 
-anchor: https://anchor.fm/shiryakhat/episodes/EIP-Ethereum-Improvement-Proposals--Updating-the-Chain-S05E01-e14u29q
+anchor: https://anchor.fm/shiryakhat/episodes/EIP-1559-Let-it-Burn-S05E02-e15u0gc
 
-apple_podcast: https://podcasts.apple.com/us/podcast/eip-ethereum-improvement-proposals-updating-chain-s05e01/id1221206951?i=1000529866565
+apple_podcast: https://podcasts.apple.com/us/podcast/eip-1559-let-it-burn-s05e02/id1221206951?i=1000532017516
 
-google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/NTgyMzYyY2QtNmFlZS00MThhLWE3ZjUtMjBiMTJjNjI2NGE1?sa=X&ved=0CAUQkfYCahcKEwiwl9O8yvrxAhUAAAAAHQAAAAAQAQ
+google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/NjQyNjM2NmQtMWNlNy00Mzk1LTlkYjUtZDE3NGM1MzM1YTJj?sa=X&ved=0CAUQkfYCahcKEwiglv-YnbHyAhUAAAAAHQAAAAAQAQ
 
-spotify: https://open.spotify.com/episode/0L94mTfsOjKlyHJvAl5Woe?si=VSt2xxZGTgeBXr2viDNsjQ&dl_branch=1
+spotify: https://open.spotify.com/episode/5n8P4KzlBTrwUMuVLfEkDc?si=K73sXgPHQ76Ra6a_iO-Ajw&dl_branch=1
 
 ---
 
