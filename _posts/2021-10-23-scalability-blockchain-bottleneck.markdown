@@ -22,12 +22,15 @@ apple_podcast: https://podcasts.apple.com/us/podcast/scalability-the-blockchains
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/YjIwZmU4NmQtZjgzMS00MDFlLWE1YWYtZWQ4ZGU4OWUwODBl?sa=X&ved=0CAUQkfYCahcKEwiQ5aORkeHzAhUAAAAAHQAAAAAQAQ
 
 spotify: https://open.spotify.com/episode/7B8nfhMvUXtdjuujHuyDMK?si=FALA_DBTQnO0gamLtgFNvA
+
+castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck-(S06E01)-id2539522-id435346186?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Scalability%2C%20The%20Blockchain's%20Bottleneck%20(S06E01)-CastBox_FM
+
 ---
 
 **شیر یا خط**
 **[فصل ششم - قسمت اول](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck.html)**
 
-**مقیاس‌پذیری گلوگاهی در بلاکچین‌ها**
+**مقیاس‌پذیری٫ گلوگاهی در بلاکچین‌ها**
 
 -------------------------------------------------------
 در این قسمت به مشکل مقیاس‌پذیری در بلاکچین‌ها پرداختیم. دلایل وجود این مشکل را بررسی کردیم و دسته‌ای از راه‌حل‌های مقیاس‌پذیری را مرور کردیم. در قسمت بعد این راه‌حل‌ها را تکمیل خواهیم کرد.
@@ -44,7 +47,7 @@ spotify: https://open.spotify.com/episode/7B8nfhMvUXtdjuujHuyDMK?si=FALA_DBTQnO0
     * محدودیت پهنای باند
 * چرا این محدودیت‌ها را نیاز داریم؟
 * مثلث سه گانه‌ای که در بلاکچین با آن سر و کار داریم. (Trilemma)
-* راه‌حل های گوناگون برای ساخت شبکه‌های بلاکچینی مختلف و انتخاب نقاط مختلف طیف در این Trilemm
+* راه‌حل های گوناگون برای ساخت شبکه‌های بلاکچینی مختلف و انتخاب نقاط مختلف طیف در این Trilemma
 * دسته بندی راه‌حل های مقیاس پذیری
     * راه‌حل‌های لایه اولی  در لایه بلاکچینی
     * افزایش سایز بلاک‌ها (کمتر کردن محدودیتها)

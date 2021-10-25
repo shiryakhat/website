@@ -24,6 +24,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/coronatimes-spring-is-insid
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/YzE5ZjI0ZDgtYmM2OS00ZmFmLWE0ZDQtZDNkYzY1OTlhZDI0?ved=0CAcQ38oDahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
 
+castbox: https://castbox.fm/episode/Coronatimes---Spring-is-inside-our-homes-(S03E06)-id2539522-id242060688?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Coronatimes%20-%20Spring%20is%20inside%20our%20homes%20(S03E06)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل سوم - قسمت ششم**

@@ -25,6 +25,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Witnessing-August-1st---Segwit--BI
 apple_podcast: https://podcasts.apple.com/us/podcast/witnessing-august-1st-segwit-bip148-and-beyond-s01e10/id1221206951?i=1000390328542
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzM0ODcyOTM3?ved=0CBkQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Witnessing-August-1st---Segwit%2C-BIP148-and-beyond-(S01E10)-id2539522-id216823184?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Witnessing%20August%201st%20-%20Segwit%2C%20BIP148%20and%20beyond%20(S01E10)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت دهم**

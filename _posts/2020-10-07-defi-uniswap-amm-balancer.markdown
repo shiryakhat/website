@@ -24,6 +24,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWF
 
 spotify: https://open.spotify.com/episode/3WGK4VNAOvVHzpcHToMnWz?si=fEM5ogS5Q0atJdzxxzYnQg
 
+castbox: https://castbox.fm/episode/DeFi---Part-4---Automated-Market-Makers-(S04E04)-id2539522-id314315957?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=DeFi%20-%20Part%204%20-%20Automated%20Market%20Makers%20(S04E04)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل چهار - قسمت چهارم**

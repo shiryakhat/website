@@ -32,6 +32,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWF
 
 aparat: 'https://www.aparat.com/v/L4iZr?playlist=490634'
 
+castbox: https://castbox.fm/episode/DeFi---Decentralized-Finance-is-Here-to-Stay-(S04E01)-id2539522-id289285817?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=DeFi%20-%20Decentralized%20Finance%20is%20Here%20to%20Stay%20(S04E01)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل چهار - قسمت اول**

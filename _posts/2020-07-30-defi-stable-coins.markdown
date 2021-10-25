@@ -32,6 +32,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWF
 
 aparat: 'https://www.aparat.com/v/UJX2K?playlist=490634'
 
+castbox: https://castbox.fm/episode/DeFi---Part-2---The-Finance-in-StableCoins-(S04E02)-id2539522-id293049701?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=DeFi%20-%20Part%202%20-%20The%20Finance%20in%20StableCoins%20(S04E02)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل چهار - قسمت دوم**

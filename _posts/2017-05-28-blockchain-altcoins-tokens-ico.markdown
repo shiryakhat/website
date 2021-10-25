@@ -25,6 +25,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Is-it-a-Blockchain--Altcoins--Toke
 apple_podcast: https://podcasts.apple.com/us/podcast/is-it-a-blockchain-altcoins-tokens-and-ico-s01e08/id1221206951?i=1000386157174
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzI2MDYyMjk0?ved=0CB0QzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Is-it-a-Blockchain--Altcoins%2C-Tokens-and-ICO(S01E08)-id2539522-id216823182?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Is%20it%20a%20Blockchain%3F%20Altcoins%2C%20Tokens%20and%20ICO(S01E08)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت هشتم**

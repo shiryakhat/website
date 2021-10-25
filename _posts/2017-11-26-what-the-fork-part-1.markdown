@@ -23,6 +23,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/What-The-Fork--Bitcoin-Forks---Par
 apple_podcast: https://podcasts.apple.com/us/podcast/what-the-fork-bitcoin-forks-part-1-2-s02e02/id1221206951?i=1000395444112
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzYyODEzNjUx?ved=0CBUQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/What-The-Fork%2C-Bitcoin-Forks---Part-12-(S02E02)-id2539522-id216823186?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=What%20The%20Fork%2C%20Bitcoin%20Forks%20-%20Part%201%2F2%20(S02E02)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل دوم - قسمت دوم (بخش اول)**

@@ -25,6 +25,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Open-Mic-QA--Essence-of-Bitcoin--B
 apple_podcast: https://podcasts.apple.com/us/podcast/open-mic-q-a-essence-of-bitcoin-blockchain-s01e06/id1221206951?i=1000384635278
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzE4NzU4OTA1?ved=0CCEQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Open-Mic-(Q%26A)--Essence-of-Bitcoin-%26-Blockchain(S01E06)-id2539522-id216823180?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Open%20Mic%20(Q%26A)-%20Essence%20of%20Bitcoin%20%26%20Blockchain(S01E06)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت ششم**

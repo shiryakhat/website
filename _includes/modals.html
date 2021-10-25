@@ -57,7 +57,7 @@
                                 {% endif %}       
                                 
                                 {% if post.google_podcast %}
-                                <a href= "{{ post.google_podcast }}" target = "_blank" ><img src="/img/platforms/google_podcasts.png"  alt="Google Podcasts"> </img> 
+                                <a href= "{{ post.google_podcast }}" target = "_blank" ><img src="/img/platforms/google_podcasts_dark.png"  alt="Google Podcasts"> </img> 
                                 </a>
                                 {% endif %} 
 
@@ -71,6 +71,11 @@
                                 </a>
                                 {% endif %} 
 
+                                {% if page.castbox %}
+                                <a href= "{{ page.castbox }}" target = "_blank" ><img src="/img/platforms/castbox.png"  alt="CastBox"> </img> 
+                                </a>
+                                {% endif %} 
+                                
                                 {% comment %}
 
                                 <!-- {% if post.soundcloud %}

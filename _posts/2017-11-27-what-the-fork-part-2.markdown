@@ -24,6 +24,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/what-the-fork-bitcoin-forks
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzY4NjcyOTQy?ved=0CBMQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
 
+castbox: https://castbox.fm/episode/What-The-Fork%2C-Bitcoin-Forks---Part-22-(S02E03)-id2539522-id216823187?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=What%20The%20Fork%2C%20Bitcoin%20Forks%20-%20Part%202%2F2%20(S02E03)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل دوم - قسمت دوم (بخش دوم)**

@@ -26,6 +26,8 @@ apple_podcast: "https://podcasts.apple.com/us/podcast/mining-proof-of-work-and-e
 
 google_podcast: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzE1MTE5Nzg5?ved=0CCUQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ"
 
+castbox: https://castbox.fm/episode/Mining%2C-Proof-of-Work-and-ETF-post-mortem-(S01E04)-id2539522-id216823178?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Mining%2C%20Proof%20of%20Work%20and%20ETF%20post%20mortem%20(S01E04)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت چهارم**

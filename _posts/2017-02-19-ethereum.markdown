@@ -25,6 +25,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Ethereum-S01E02-e9idgh
 apple_podcast: https://podcasts.apple.com/us/podcast/ethereum-s01e02/id1221206951?i=1000383310268
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzA4OTA5MTM3?ved=0CCkQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Ethereum-(S01E02)-id2539522-id216823176?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Ethereum%20(S01E02)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت دوم**

@@ -23,6 +23,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Blockchain-Use-cases-and-Social-Pa
 apple_podcast: https://podcasts.apple.com/us/podcast/blockchain-use-cases-social-pathology-in-developing/id1221206951?i=1000393848197
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzQ4MDc3Nzg5?ved=0CBcQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Blockchain-Use-cases-and-Social-Pathology-in-Developing-Countries-(S02E01)-id2539522-id216823185?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Blockchain%20Use%20cases%20and%20Social%20Pathology%20in%20Developing%20Countries%20(S02E01)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل دوم - قسمت اول**

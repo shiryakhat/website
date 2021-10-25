@@ -26,6 +26,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/genesisary-bitcoin-goes-up-
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/MGE0NTNmYWEtOTRjOS00NzJjLTg3ZWYtYzA2MjhhOTYwMTI1?ved=0CAsQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
 
+castbox: https://castbox.fm/episode/Genesisary---Bitcoin-goes-up-to-eleven-(S03E04)-id2539522-id216823191?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Genesisary%20-%20Bitcoin%20goes%20up%20to%20eleven%20(S03E04)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل سوم - قسمت چهارم**

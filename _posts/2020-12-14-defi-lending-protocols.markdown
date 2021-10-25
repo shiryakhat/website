@@ -23,6 +23,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQ
 
 spotify: https://open.spotify.com/episode/3zChJhsTcrllDjS18Eke1I?si=fjZ5ujC3Swek3PBORD91_g
 
+castbox: https://castbox.fm/episode/DeFi---Part-5---Lending-Protocols%2C-Compound%2C-and-Wrapped-Tokens-(S04E05)-id2539522-id335978763?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=DeFi%20-%20Part%205%20-%20Lending%20Protocols%2C%20Compound%2C%20and%20Wrapped%20Tokens%20(S04E05)-CastBox_FM
+
 ---
 
 **شیر یا خط**

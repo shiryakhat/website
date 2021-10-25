@@ -25,6 +25,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/devcon-v-eth-2-0-bitcoin-ce
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvNzI3MTUyNDE1?ved=0CA0QzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
 
+castbox: https://castbox.fm/episode/DevCon-V%2C-Eth-2.0%2C-Bitcoin-Censorship%2C-and-Open-mic-(S03E03)-id2539522-id216823190?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=DevCon%20V%2C%20Eth%202.0%2C%20Bitcoin%20Censorship%2C%20and%20Open%20mic%20(S03E03)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل سوم - قسمت سوم**

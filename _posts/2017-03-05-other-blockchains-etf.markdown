@@ -25,6 +25,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Other-Blockchains--ETF-S01E03-e9id
 apple_podcast: https://podcasts.apple.com/us/podcast/other-blockchains-etf-s01e03/id1221206951?i=1000383310266
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzExMjAzMDI4?ved=0CCcQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Other-Blockchains-%2B-ETF-(S01E03)-id2539522-id216823177?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Other%20Blockchains%20%2B%20ETF%20(S01E03)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت سوم**

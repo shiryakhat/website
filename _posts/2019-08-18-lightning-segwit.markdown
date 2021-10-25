@@ -25,6 +25,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/segwit-and-lightning-very-v
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvNjcyODg4MDE3?ved=0CA8QzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
 
+castbox: https://castbox.fm/episode/Segwit-and-lightning%2C-very-very...-exciting!-(S03E02)-id2539522-id216823189?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Segwit%20and%20lightning%2C%20very%20very...%20exciting!%20(S03E02)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل سوم - قسمت دوم**

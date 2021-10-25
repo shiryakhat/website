@@ -22,6 +22,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQ
 
 spotify: https://open.spotify.com/episode/0L94mTfsOjKlyHJvAl5Woe?si=VSt2xxZGTgeBXr2viDNsjQ&dl_branch=1
 
+castbox: https://castbox.fm/episode/EIP-(Ethereum-Improvement-Proposals)-%26-Updating-the-Chain-(S05E01)-id2539522-id407436081?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=EIP%20(Ethereum%20Improvement%20Proposals)%20%26%20Updating%20the%20Chain%20(S05E01)-CastBox_FM
+
 ---
 
 **شیر یا خط**

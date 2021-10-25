@@ -23,6 +23,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQ
 
 spotify: https://open.spotify.com/episode/3aSG7BB7HFyzb0jyeQamSf?si=_Ky--prWR5KHdJhJG2j2cA
 
+castbox: https://castbox.fm/episode/DeFi---Part-6---Liquidation%2C-Yield-Farming%2C-and-Governance-(S04E06)-id2539522-id339183634?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=DeFi%20-%20Part%206%20-%20Liquidation%2C%20Yield%20Farming%2C%20and%20Governance%20(S04E06)-CastBox_FM
+
 ---
 
 **شیر یا خط**

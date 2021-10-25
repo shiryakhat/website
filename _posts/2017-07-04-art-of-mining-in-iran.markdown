@@ -23,6 +23,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Art-of-Mining---Advanced-Mining-in
 apple_podcast: https://podcasts.apple.com/us/podcast/art-of-mining-advanced-mining-in-iran-s01e09/id1221206951?i=1000389966630
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzMzNTIyNDg4?ved=0CBsQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Art-of-Mining---Advanced-Mining-in-Iran-(S01E09)-id2539522-id216823183?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Art%20of%20Mining%20-%20Advanced%20Mining%20in%20Iran%20(S01E09)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت نهم**

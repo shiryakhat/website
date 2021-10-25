@@ -25,6 +25,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/Bitcoin-Fork--Bitcoin-Unlimited-an
 apple_podcast: https://podcasts.apple.com/us/podcast/bitcoin-fork-bitcoin-unlimited-blocksize-debate-s01e05/id1221206951?i=1000383726372
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzE1OTczODQ1?ved=0CCMQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/Bitcoin-Fork%2C-Bitcoin-Unlimited-and-Blocksize-debate-(S01E05)-id2539522-id216823179?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Bitcoin%20Fork%2C%20Bitcoin%20Unlimited%20and%20Blocksize%20debate%20(S01E05)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت پنجم**

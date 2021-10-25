@@ -28,6 +28,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWF
 
 spotify: https://open.spotify.com/episode/37FSPjVExJROls175LH6dM
 
+castbox: https://castbox.fm/episode/DeFi---Part-3---Evolution-of-Decentralized-Exchanges-(S04E03)-id2539522-id309473569?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=DeFi%20-%20Part%203%20-%20Evolution%20of%20Decentralized%20Exchanges%20(S04E03)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل چهار - قسمت سوم**

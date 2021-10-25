@@ -26,6 +26,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/blockchain-through-philosop
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/Yjk0YjU1YTQtYTllNS00ZTNhLWFmOWItNWFlMmFlYjMwMjc1?ved=0CAcQ38oDahcKEwjgkrqe9ODpAhUAAAAAHQAAAAAQAQ
 
+castbox: https://castbox.fm/episode/Blockchain-Through-Philosophy---Interview-with-Creston-Davis-[English]-(S03E07)-id2539522-id270468617?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Blockchain%20Through%20Philosophy%20-%20Interview%20with%20Creston%20Davis%20%5BEnglish%5D%20(S03E07)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل سوم - قسمت هفتم**

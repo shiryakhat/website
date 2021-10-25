@@ -24,6 +24,8 @@ apple_podcast: https://podcasts.apple.com/us/podcast/coronalysis-capitalism-is-c
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/aHR0cHM6Ly9hbmNob3IuZm0vc2hpcnlha2hhdC9lcGlzb2Rlcy9Db3JvbmFseXNpcy0tLUNhcGl0YWxpc20taXMtQ3JpdGljYWxseS1TaWNrLVMwM0UwNS1lYmwwZm4?ved=0CAkQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
 
+castbox: https://castbox.fm/episode/Coronalysis---Capitalism-is-Critically-Sick-(S03E05)-id2539522-id241627183?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Coronalysis%20-%20Capitalism%20is%20Critically%20Sick%20(S03E05)-CastBox_FM
+
 ---
 
 **شیر یا خط -  فصل سوم - قسمت پنجم**

@@ -22,6 +22,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQ
 
 spotify: https://open.spotify.com/episode/5n8P4KzlBTrwUMuVLfEkDc?si=K73sXgPHQ76Ra6a_iO-Ajw&dl_branch=1
 
+castbox: https://castbox.fm/episode/EIP-1559-Let-it-Burn-(S05E02)-id2539522-id414115937?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=EIP-1559%20Let%20it%20Burn%20(S05E02)-CastBox_FM
+
 ---
 
 **شیر یا خط**

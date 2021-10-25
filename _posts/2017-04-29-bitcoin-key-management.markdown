@@ -25,6 +25,9 @@ anchor: https://anchor.fm/shiryakhat/episodes/O-Bitcoin--Where-art-thou---Key-ma
 apple_podcast: https://podcasts.apple.com/us/podcast/o-bitcoin-where-art-thou-key-management-s01e07/id1221206951?i=1000385457215
 
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvMzIyMDQ3NjAx?ved=0CB8QzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
+
+castbox: https://castbox.fm/episode/O-Bitcoin%2C-Where-art-thou---Key-management(S01E07)-id2539522-id216823181?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=O%20Bitcoin%2C%20Where%20art%20thou%20-%20Key%20management(S01E07)-CastBox_FM
+
 ---
 
 **شیر یا خط - قسمت هفتم**
