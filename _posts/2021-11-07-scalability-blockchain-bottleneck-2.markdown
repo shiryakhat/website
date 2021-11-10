@@ -12,16 +12,16 @@ description: "در این قسمت راهکارهای مقیاس‌پذیری د
 
 youtube: https://youtu.be/9p97SXmquaY
 
-# soundcloud: 
+soundcloud: https://soundcloud.com/shiryakhat/scalability-the-blockchains-bottleneck-part-2-s06e02?si=58aa416d2aa248388fb94f88dcb56cc6
 
 anchor: https://anchor.fm/dashboard/episode/e1a1nin
 
 
 # apple_podcast: 
 
-# google_podcast: 
+google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MGMyMjllY2MtOTgxYS00MzA4LWEzMDItMjJmOWQ5MDc3OWE4?sa=X&ved=0CAUQkfYCahcKEwiAyreI-4z0AhUAAAAAHQAAAAAQAQ
 
-# spotify: 
+spotify: https://open.spotify.com/episode/3Rw1abHpfYzR74YqeGj72l?si=P0MTh3_CSWGLiNh5T1ik9w
 
 # castbox: 
 ---
