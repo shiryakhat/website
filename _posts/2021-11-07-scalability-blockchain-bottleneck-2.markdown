@@ -28,7 +28,7 @@ castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck--
 ---
 
 **شیر یا خط**
-**[فصل ششم - قسمت دوم](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck-2.html)**
+**[فصل ششم - قسمت دوم](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html)**
 
 **مقیاس‌پذیری گلوگاهی در بلاکچین‌ها (۲)**
 
