@@ -1,36 +1,35 @@
 ---
 layout: post
-modal-id: 29
-title: Scalability, The Blockchain's Bottleneck (2) (S06E02)
+modal-id: 30
+title: Scalability, The Blockchain's Bottleneck - Part 2 (S06E02)
 episode: S06E02
-date: 2021-10-23
+date: 2021-11-07
 img: img/episodes/S06E02.png
-alt: Scalability, The Blockchain's Bottleneck (2) (S06E02)
+alt: Scalability, The Blockchain's Bottleneck - Part 2 (S06E02)
 permalink: /:year/:month/:title:output_ext
-description: "در این قسمت راهکارهای مقیاس‌پذیری در بلاکچین‌ها از طریق تغییر مدل اجماع و راهکارهای لایه دومی را بررسی کردیم و به طور مختصر مزایا و معایب آن را شرح دادیم." 
+description: "در این قسمت راهکارهای مقیاس‌پذیری در بلاکچین‌ها از طریق تغییر مدل اجماع و راهکارهای لایه دومی را بررسی کردیم و به طور مختصر مزایا و معایب آن‌ها را شرح دادیم." 
 
 
-youtube: https://youtu.be/HnrXh4ASQOg
+youtube: https://youtu.be/9p97SXmquaY
 
-soundcloud: https://soundcloud.com/shiryakhat/scalability-the-blockchains-bottleneck-s06e01
+# soundcloud: 
 
-anchor: https://anchor.fm/shiryakhat/episodes/Scalability--The-Blockchains-Bottleneck-S06E01-e1973q7
+anchor: https://anchor.fm/dashboard/episode/e1a1nin
 
 
-apple_podcast: https://podcasts.apple.com/us/podcast/scalability-the-blockchains-bottleneck-s06e01/id1221206951?i=1000539491224
+# apple_podcast: 
 
-google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/YjIwZmU4NmQtZjgzMS00MDFlLWE1YWYtZWQ4ZGU4OWUwODBl?sa=X&ved=0CAUQkfYCahcKEwiQ5aORkeHzAhUAAAAAHQAAAAAQAQ
+# google_podcast: 
 
-spotify: https://open.spotify.com/episode/7B8nfhMvUXtdjuujHuyDMK?si=FALA_DBTQnO0gamLtgFNvA
+# spotify: 
 
-castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck-(S06E01)-id2539522-id435346186?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Scalability%2C%20The%20Blockchain's%20Bottleneck%20(S06E01)-CastBox_FM
-
+# castbox: 
 ---
 
 **شیر یا خط**
-**[فصل ششم - قسمت دوم](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck.html)**
+**[فصل ششم - قسمت دوم](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck-2.html)**
 
-**(۲) مقیاس‌پذیری گلوگاهی در بلاکچین‌ها**
+**مقیاس‌پذیری گلوگاهی در بلاکچین‌ها (۲)  **
 
 -------------------------------------------------------
 در این قسمت راهکارهای مقیاس‌پذیری در بلاکچین‌ها از طریق تغییر مدل اجماع و راهکارهای لایه دومی را بررسی کردیم و به طور مختصر مزایا و معایب آن‌ها را شرح دادیم.
@@ -45,7 +44,7 @@ castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck-(
     * مدل اجماع بلاکچین Avalanche 
     * مدل DLT
 * بررسی مدل‌های اجماع متفاوت به لحاظ مرکزیت و مقیاس پذیری
-* ؟راهکارهای لایه دومی در بلاکچین‌ها چیست
+* راهکارهای لایه دومی در بلاکچین‌ها چیست؟
 * کانال‌های پرداخت یک طرفه اولین راهکار لایه دومی
 * شبکه های پرداخت یا Payment Networks
 * مزایا و معایب شبکه‌ی لایتنینگ به عنوان مهم‌ترین شبکه‌ی پرداخت لایه دومی
