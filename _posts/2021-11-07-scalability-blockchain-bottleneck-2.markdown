@@ -23,7 +23,8 @@ google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQ
 
 spotify: https://open.spotify.com/episode/3Rw1abHpfYzR74YqeGj72l?si=P0MTh3_CSWGLiNh5T1ik9w
 
-# castbox: 
+castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck---Part-2-(S06E02)-id2539522-id440612307
+
 ---
 
 **شیر یا خط**
