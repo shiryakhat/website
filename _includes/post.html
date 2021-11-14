@@ -3,12 +3,7 @@
         <div class="col-lg-8 col-lg-offset-2">
             <div id="pagetitle" class="post-content">
                 <h2 >{{ page.title }}</h2>
-                <hr class="star-primary">
-                <img src="{{site.url}}/img/episodes/{{ page.episode }}.jpeg" class="img-responsive img-centered" alt="{{ page.alt }}">
-                
-                <!-- {% if page.content %} -->
-                    <p>{{ page.content }}</p>
-                <!-- {% endif %} -->
+
                 <ul class="list-inline item-details">
 
 
@@ -90,6 +85,12 @@
                     {% endcomment %}
 
                 </ul>
+                <hr class="star-primary">
+                <img src="{{site.url}}/img/episodes/{{ page.episode }}.jpeg" class="img-responsive img-centered" alt="{{ page.alt }}">
+                
+                <!-- {% if page.content %} -->
+                    <p>{{ page.content }}</p>
+                <!-- {% endif %} -->
 
             </div>
         </div>
