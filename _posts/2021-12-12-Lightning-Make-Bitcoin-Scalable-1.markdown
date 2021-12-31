@@ -10,20 +10,20 @@ permalink: /:year/:month/:title:output_ext
 description: " در این قسمت شبکه‌ی لایتنینگ را که یک راهکار لایه دومی برای مقیاس‌پذیری بلاکچین بیتکوین است بررسی می‌کنیم." 
 
 
-# youtube: https://youtu.be/9p97SXmquaY
+youtube: https://youtu.be/t5_-CpLSyu0
 
-# soundcloud: https://soundcloud.com/shiryakhat/scalability-the-blockchains-bottleneck-part-2-s06e02?si=58aa416d2aa248388fb94f88dcb56cc6
+soundcloud: https://soundcloud.com/shiryakhat/lightning-make-bitcoin-scalable-again-part-1-s06e03
 
-# anchor: https://anchor.fm/dashboard/episode/e1a1nin
+anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable-Again---Part-1-------S06E03-e1cc4qr
 
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/scalability-the-blockchains-bottleneck-part-2-s06e02/id1221206951?i=1000541300844
+apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scalable-again-part-1-%D8%B4%D8%A8%DA%A9%D9%87-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/id1221206951?i=1000546602941
 
-# google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MGMyMjllY2MtOTgxYS00MzA4LWEzMDItMjJmOWQ5MDc3OWE4?sa=X&ved=0CAUQkfYCahcKEwiAyreI-4z0AhUAAAAAHQAAAAAQAQ
+google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/ODNjZTFiZWYtMWQ1NC00YjJiLTg5MzItYTE2MDMwZjhjNDI4?sa=X&ved=0CAUQkfYCahcKEwig97j0zI71AhUAAAAAHQAAAAAQAQ
 
 # spotify: https://open.spotify.com/episode/3Rw1abHpfYzR74YqeGj72l?si=P0MTh3_CSWGLiNh5T1ik9w
 
-# castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck---Part-2-(S06E02)-id2539522-id440612307
+castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---Part-1---%D8%B4%D8%A8%DA%A9%D9%87%E2%80%8C-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D9%85%D9%82%DB%8C%D8%A7%D8%B3%E2%80%8C%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C-%D8%A8%DB%8C%D8%AA%DA%A9%D9%88%DB%8C%D9%86-(S06E03)-id2539522-id455202514?country=us
 
 ---
 
