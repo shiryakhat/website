@@ -21,7 +21,7 @@ apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scal
 
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/ODNjZTFiZWYtMWQ1NC00YjJiLTg5MzItYTE2MDMwZjhjNDI4?sa=X&ved=0CAUQkfYCahcKEwig97j0zI71AhUAAAAAHQAAAAAQAQ
 
-# spotify: https://open.spotify.com/episode/3Rw1abHpfYzR74YqeGj72l?si=P0MTh3_CSWGLiNh5T1ik9w
+spotify: https://open.spotify.com/episode/4Dx4AG9M8JXUZRoQ0lSR67
 
 castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---Part-1---%D8%B4%D8%A8%DA%A9%D9%87%E2%80%8C-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF-%D9%85%D9%82%DB%8C%D8%A7%D8%B3%E2%80%8C%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C-%D8%A8%DB%8C%D8%AA%DA%A9%D9%88%DB%8C%D9%86-(S06E03)-id2539522-id455202514?country=us
 
