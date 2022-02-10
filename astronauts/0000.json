@@ -1,0 +1,23 @@
+{
+	"name": "Shir ya Khat Astronaut",
+    "description": "Obverse and Reverse - We only can go to the moon together, let's go! <3   شیریاخط - تنها با یاری شما می‌توانیم ماه را فتح کنیم.", 
+    "external_url": "https:\/\/twitter.com\/shiryakhat\/status\/1484547277142245382", 
+    "home_url": "https:\/\/shiryakhat.net",
+	"image": "https:\/\/shiryakhat.net\/img\/astronauts\/0000.png", 
+    "version": "0.0.69",
+    "attributes": [ 
+        {
+            "trait_type": "Personality", 
+            "value": "Kind"
+          }, 
+          {
+            "trait_type": "Jurisdiction", 
+            "value": "Earth"
+          }, 
+          {
+            "display_type": "number", 
+            "trait_type": "Generation", 
+            "value": 0
+          }
+     ]
+}
