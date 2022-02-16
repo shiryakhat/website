@@ -14,7 +14,7 @@ youtube: https://youtu.be/9p97SXmquaY
 
 soundcloud: https://soundcloud.com/shiryakhat/scalability-the-blockchains-bottleneck-part-2-s06e02?si=58aa416d2aa248388fb94f88dcb56cc6
 
-anchor: https://anchor.fm/dashboard/episode/e1a1nin
+anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable-Again---Part-1-------S06E03-e1cc4qr
 
 
 apple_podcast: https://podcasts.apple.com/us/podcast/scalability-the-blockchains-bottleneck-part-2-s06e02/id1221206951?i=1000541300844
