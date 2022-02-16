@@ -4,7 +4,7 @@ modal-id: 30
 title: Scalability, The Blockchain's Bottleneck - Part 2 (S06E02)
 episode: S06E02
 date: 2021-11-07
-img: img/episodes/S06E02.png
+img: img/episodes/S06E02.jpeg
 alt: Scalability, The Blockchain's Bottleneck - Part 2 (S06E02)
 permalink: /:year/:month/:title:output_ext
 description: "در این قسمت راهکارهای مقیاس‌پذیری در بلاکچین‌ها از طریق تغییر مدل اجماع و راهکارهای لایه دومی را بررسی کردیم و به طور مختصر مزایا و معایب آن‌ها را شرح دادیم." 
