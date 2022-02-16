@@ -19,7 +19,7 @@ anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable-A
 
 apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scalable-again-part-2-%D8%B4%D8%A8%DA%A9%D9%87-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/id1221206951?i=1000551241668
 
-# TODO google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MGMyMjllY2MtOTgxYS00MzA4LWEzMDItMjJmOWQ5MDc3OWE4?sa=X&ved=0CAUQkfYCahcKEwiAyreI-4z0AhUAAAAAHQAAAAAQAQ
+google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MjhmMzg5MzctZWM3NC00OWJjLTlhNmMtZDQwMWRhNGNmNzNm?sa=X&ved=0CAUQkfYCahcKEwjYsMeXxIP2AhUAAAAAHQAAAAAQAQ
 
 spotify: https://open.spotify.com/episode/2oLe3OXJksIm7spvS5p6hX
 
