@@ -10,20 +10,20 @@ permalink: /:year/:month/:title:output_ext
 description: " در این قسمت شبکه‌ی لایتنینگ را به طور دقیق‌تری بررسی می‌کنیم و کیف پول‌ها و پیاده سازی‌های مختلف لایتنینگ را معرفی می‌کنیم." 
 
 
-# youtube: https://youtu.be/atwiAqhKjXQ
+youtube: https://youtu.be/atwiAqhKjXQ
 
-# soundcloud: https://soundcloud.com/shiryakhat/lightning-make-bitcoin-scalable-again-part-2-s06e04?si=6039f60dc3354cf781a7a21b6f35be52&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+soundcloud: https://soundcloud.com/shiryakhat/lightning-make-bitcoin-scalable-part-3-s06e05
 
-# anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable-Again---Part-2---------S06E04-e1ef6fq
+anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable---Part-3---------S06E05-e1h90q8
 
 
 # apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scalable-again-part-2-%D8%B4%D8%A8%DA%A9%D9%87-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/id1221206951?i=1000551241668
 
-# google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MjhmMzg5MzctZWM3NC00OWJjLTlhNmMtZDQwMWRhNGNmNzNm?sa=X&ved=0CAUQkfYCahcKEwjYsMeXxIP2AhUAAAAAHQAAAAAQAQ
+google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/OTgwYWJhZGEtNzliNC00MmRiLTllZDktYjBkMWJmOGU2YWMz?sa=X&ved=0CAUQkfYCahcKEwjojef4qJn3AhUAAAAAHQAAAAAQAQ
 
-# spotify: https://open.spotify.com/episode/2oLe3OXJksIm7spvS5p6hX
+spotify: https://open.spotify.com/episode/2V3uKjxqUPtx6SWHIIAQgX
 
-# castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---Part-2---شبکه‌-لایتنینگ-مقیاس‌پذیری-بیتکوین-بخش-۲-(S06E04)-id2539522-id468534606
+castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable---Part-3---شبکه‌-لایتنینگ-مقیاس‌پذیری-بیتکوین-بخش-۳-(S06E05)-id2539522-id486513898
 
 ---
 
