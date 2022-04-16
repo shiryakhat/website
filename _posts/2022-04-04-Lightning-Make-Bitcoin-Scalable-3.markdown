@@ -10,25 +10,25 @@ permalink: /:year/:month/:title:output_ext
 description: " در این قسمت شبکه‌ی لایتنینگ را به طور دقیق‌تری بررسی می‌کنیم و کیف پول‌ها و پیاده سازی‌های مختلف لایتنینگ را معرفی می‌کنیم." 
 
 
-youtube: https://youtu.be/2ZcwMutayx4
+# youtube: https://youtu.be/atwiAqhKjXQ
 
-soundcloud: https://soundcloud.com/shiryakhat/lightning-make-bitcoin-scalable-again-part-2-s06e04?si=6039f60dc3354cf781a7a21b6f35be52&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+# soundcloud: https://soundcloud.com/shiryakhat/lightning-make-bitcoin-scalable-again-part-2-s06e04?si=6039f60dc3354cf781a7a21b6f35be52&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 
-anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable-Again---Part-2---------S06E04-e1ef6fq
+# anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable-Again---Part-2---------S06E04-e1ef6fq
 
 
-apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scalable-again-part-2-%D8%B4%D8%A8%DA%A9%D9%87-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/id1221206951?i=1000551241668
+# apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scalable-again-part-2-%D8%B4%D8%A8%DA%A9%D9%87-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/id1221206951?i=1000551241668
 
-google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MjhmMzg5MzctZWM3NC00OWJjLTlhNmMtZDQwMWRhNGNmNzNm?sa=X&ved=0CAUQkfYCahcKEwjYsMeXxIP2AhUAAAAAHQAAAAAQAQ
+# google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/MjhmMzg5MzctZWM3NC00OWJjLTlhNmMtZDQwMWRhNGNmNzNm?sa=X&ved=0CAUQkfYCahcKEwjYsMeXxIP2AhUAAAAAHQAAAAAQAQ
 
-spotify: https://open.spotify.com/episode/2oLe3OXJksIm7spvS5p6hX
+# spotify: https://open.spotify.com/episode/2oLe3OXJksIm7spvS5p6hX
 
-castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---Part-2---شبکه‌-لایتنینگ-مقیاس‌پذیری-بیتکوین-بخش-۲-(S06E04)-id2539522-id468534606
+# castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---Part-2---شبکه‌-لایتنینگ-مقیاس‌پذیری-بیتکوین-بخش-۲-(S06E04)-id2539522-id468534606
 
 ---
 
 **شیر یا خط**
-** [فصل ششم - قسمت پنجم](https://shiryakhat.net/2022/02/Lightning-Make-Bitcoin-Scalable-2.html) **
+**[فصل ششم - قسمت پنجم](https://shiryakhat.net/2022/04/Lightning-Make-Bitcoin-Scalable-3.html)**
 
 **شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری شبکه‌ی بیتکوین (۳)**
 
@@ -62,22 +62,13 @@ castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---P
 **لینک های این اپیزود:**
 
 * [وبسایت آموزش بیتکوین به زبان فارسی](https://bitcoind.me/): https://bitcoind.me/
-
 * [کانال یوتیوب ضیا صدر](https://www.youtube.com/c/ZiyaSadr): https://www.youtube.com/c/ZiyaSadr
-
 * [اپیزود شیریاخط در مورد لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) : https://shiryakhat.net/2019/08/lightning-segwit.html
-
 * [آموزش بیتکوین: نصب کیف‌پول لایتنینگ](https://youtu.be/pJAaqZeWHWQ): https://youtu.be/pJAaqZeWHWQ
-
 * [لایتنینگ چیست؟](https://youtu.be/38T9VFXhYRg): https://youtu.be/38T9VFXhYRg
-
 * [Ride The Lightning آموزش استفاده از ابزار برای مدیریت نود لایتنینگ بیتکوین](https://youtu.be/IRnoRy0632E): https://youtu.be/IRnoRy0632E
-
 * [آموزش بیتکوین: نصب و استفاده لایتنینگ | phoenix lightning wallet](https://youtu.be/f7Sy-Fm3slQ): https://youtu.be/f7Sy-Fm3slQ
-
 * [آموزش نصب و راه اندازی لایتنینگ: کیف پول مون والت MUUN](https://youtu.be/1ASVX2ODFYw): https://youtu.be/1ASVX2ODFYw
-
-
 * [راهنمای مقدماتی لایتنینگ](https://bitcoind.me/blobs/tuts/lightning-network-chist-bitcoind_me.pdf): https://bitcoind.me/blobs/tuts/lightning-network-chist-bitcoind_me.pdf
 
 -----------------------------------------------------------------------
