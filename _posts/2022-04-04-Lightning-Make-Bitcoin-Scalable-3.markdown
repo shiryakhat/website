@@ -17,7 +17,7 @@ soundcloud: https://soundcloud.com/shiryakhat/lightning-make-bitcoin-scalable-pa
 anchor: https://anchor.fm/shiryakhat/episodes/Lightning--Make-Bitcoin-Scalable---Part-3---------S06E05-e1h90q8
 
 
-# apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scalable-again-part-2-%D8%B4%D8%A8%DA%A9%D9%87-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/id1221206951?i=1000551241668
+apple_podcast: https://podcasts.apple.com/us/podcast/lightning-make-bitcoin-scalable-part-3-%D8%B4%D8%A8%DA%A9%D9%87-%D9%84%D8%A7%DB%8C%D8%AA%D9%86%DB%8C%D9%86%DA%AF/id1221206951?i=1000557798789
 
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/OTgwYWJhZGEtNzliNC00MmRiLTllZDktYjBkMWJmOGU2YWMz?sa=X&ved=0CAUQkfYCahcKEwjojef4qJn3AhUAAAAAHQAAAAAQAQ
 
