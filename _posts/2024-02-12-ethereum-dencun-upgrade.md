@@ -16,13 +16,13 @@ soundcloud: https://soundcloud.com/shiryakhat/ethereum-dencun-upgrade-s07e01?si=
 
 # anchor: Anchor was bought by Spotify and is no longer available
 
-apple_podcast: 
+apple_podcast: https://podcasts.apple.com/us/podcast/ethereum-dencun-upgrade-s07e01/id1221206951?i=1000645186309
 
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/ZTM5ZWMyNjgtMDQ1ZC00OTFiLTk2YjktOWRhNjhlYWFjMTZj?sa=X&ved=0CAUQkfYCahcKEwi40IXWwaiEAxUAAAAAHQAAAAAQAQ
 
 spotify: https://open.spotify.com/episode/3VSWZJ09J5xbqIWkVLa5tw
 
-castbox: 
+castbox: https://castbox.fm/episode/Ethereum-Dencun-Upgrade-(S07E01)-id2539522-id672680014?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Ethereum%20Dencun%20Upgrade%20(S07E01)-CastBox_FM
 
 ---
 
