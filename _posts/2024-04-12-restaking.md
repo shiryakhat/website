@@ -16,13 +16,13 @@ soundcloud: https://soundcloud.com/shiryakhat/shir-ya-khat-ethereum-restaking-ei
 
 # anchor: Anchor was bought by Spotify and is no longer available
 
-apple_podcast: 
+apple_podcast: https://podcasts.apple.com/us/podcast/ethereum-restaking-eigenlayer-s07e02-%D8%A7%D8%AB%D8%A8%D8%A7%D8%AA-%D8%B3%D9%87%D8%A7%D9%85-%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA%DB%8C/id1221206951?i=1000652369147
 
 google_podcast: https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MjYyMzE4MTEzL3NvdW5kcy5yc3M/episode/ODczNmJhMGItMDdmNi00ZGRhLWJmNmQtY2MyYTkyY2I4YzM2?sa=X&ved=0CAUQkfYCahcKEwiQn5n04MCFAxUAAAAAHQAAAAAQAQ
 
 spotify: https://open.spotify.com/episode/483E1hmVvprGcFoH1FpFJJ
 
-castbox: # https://castbox.fm/app/castbox/player/id2539522/id692338625
+castbox: https://castbox.fm/episode/Ethereum-Restaking-%26-EigenLayer-%7C-(S07E02)-%7C-%D8%A7%D8%AB%D8%A8%D8%A7%D8%AA-%D8%B3%D9%87%D8%A7%D9%85-%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA%DB%8C-%D9%88-%D8%A2%DB%8C%DA%AF%D9%86%E2%80%8C%D9%84%DB%8C%D8%B1-id2539522-id692338625?country=us
 
 ---
 
