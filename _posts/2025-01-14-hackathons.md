@@ -1,13 +1,13 @@
 ---
 layout: post
 modal-id: 36
-title: Thriving Hackathons | چگونه در یک هفته هزاران دلار به دست بیاورید؟ هکتان (S07E03)
+title: Thriving Hackathons | راهنمای جامع شرکت در هکتان‌های وب۳ و بلاکچین (S07E03)
 episode: S07E03
 date: 2025-01-14
-img: img/episodes/S07E03.jpg #TODO
+img: img/episodes/S07E03.jpg
 alt: Thriving Hackathons (S07E03)
 permalink: /:year/:month/:title:output_ext
-description: "TODO" #TODO
+description: "در این قسمت از پادکست شیریاخط، راهنمای کاملی برای شرکت در هکتان‌های بلاکچین و وب۳ ارائه می‌دهیم. از نحوه پیدا کردن و ثبت‌نام در هکتان‌های ETHGlobal و DoraHacks گرفته تا مدیریت پروژه، کار تیمی و نحوه برنده شدن در هکتان‌های اتریوم را بررسی می‌کنیم." 
 
 
 youtube: https://youtu.be/iDRKYvQJSiA
@@ -28,9 +28,10 @@ castbox:
 
 
 **شیر یا خط**
+
 **[فصل هفتم - قسمت سوم](https://shiryakhat.net/2025/01/hackathons.html)**
 
-**راهنمای جامع شرکت در هکتان‌های وب۳ و بلاکچین | آموزش کسب درآمد از هکتان‌های اتریوم**
+**راهنمای جامع شرکت در هکتان‌های وب۳ و بلاکچین | و یا چگونه در یک هفته هزاران دلار به دست بیاورید؟**
 
 -------------------------------------------------------
 
@@ -86,10 +87,10 @@ castbox:
 
 **لینک های این اپیزود:**
 
-* دوراهکس - هکتان های جهانی | DoraHacks - Global Hackathons: [https://dorahacks.io/](https://dorahacks.io/)
-* هکتان های ای‌تی‌اچ گلوبال | ETHGlobal Hackathons: [https://ethglobal.com/events/hackathons](https://ethglobal.com/events/hackathons)
-* رویدادهای کریپتونومدز | CryptoNomads Events: [https://cryptonomads.org/](https://cryptonomads.org/)
-* دِوکانکت - کنفرانس توسعه‌دهندگان اتریوم | Devconnect - Ethereum Developer Conference: [https://devconnect.org/](https://devconnect.org/)
+* هکتان های ای‌تی‌اچ گلوبال | ETHGlobal Hackathons: [ethglobal.com/events/hackathons](https://ethglobal.com/events/hackathons)
+* دوراهکس - هکتان های جهانی | DoraHacks - Global Hackathons: [dorahacks.io](https://dorahacks.io/)
+* رویدادهای کریپتونومدز | CryptoNomads Events: [cryptonomads.org](https://cryptonomads.org/)
+* دِوکانکت - کنفرانس توسعه‌دهندگان اتریوم | Devconnect - Ethereum Developer Conference: [devconnect.org](https://devconnect.org/)
 
 -----------------------------------------------------------------------
 
