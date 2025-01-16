@@ -71,6 +71,11 @@
                                 </a>
                                 {% endif %} 
 
+                                {% if post.amazonmusic %}
+                                <a href= "{{ post.amazonmusic }}" target = "_blank" ><img src="/img/platforms/amazonmusic.png"  alt="music.amazon.com"> </img> 
+                                </a>
+                                {% endif %} 
+
                                 {% if page.castbox %}
                                 <a href= "{{ page.castbox }}" target = "_blank" ><img src="/img/platforms/castbox.png"  alt="CastBox"> </img> 
                                 </a>

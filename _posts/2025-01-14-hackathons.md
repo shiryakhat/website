@@ -18,9 +18,9 @@ soundcloud: https://soundcloud.com/shiryakhat/thriving-in-hackathons-s07e03
 
 apple_podcast: https://podcasts.apple.com/us/podcast/thriving-in-hackathons-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AC%D8%A7%D9%85%D8%B9-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AF%D8%B1-%D9%87%DA%A9%D8%AA%D8%A7%D9%86-%D9%87%D8%A7%DB%8C/id1221206951?i=1000684144525
 
-# google_podcast: discontinued , figure out how to do Youtube Music
+# google_podcast: discontinued , TODO figure out how to do Youtube Music
 
-# TODO: figure out amazon music 
+amazonmusic: https://music.amazon.com/podcasts/8e2f04ca-e371-47c9-9dc5-ce37656843d7/episodes/5eabb01f-c922-46c7-b4f7-f5945704fb92/thriving-in-hackathons-راهنمای-جامع-شرکت-در-هکتانهای-وب۳-s07e03
 
 spotify: https://open.spotify.com/episode/0WnkVNg1A2oYRUaXg1yUGh?si=393057ed7adf4415
 
