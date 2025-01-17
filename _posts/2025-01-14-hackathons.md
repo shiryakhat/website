@@ -87,6 +87,15 @@ castbox: https://castbox.fm/episode/Thriving-in-Hackathons---%D8%B1%D8%A7%D9%87%
   * تقویت رزومه و پروفایل گیت‌هاب
 
 
+**حاضران در این قسمت:**
+
+* شایان اسکندری: [shayan.es](https://shayan.es)  
+* مهدیه امیری: [linkedin.com/in/mahdieh-amiri-blockchain](https://www.linkedin.com/in/mahdieh-amiri-blockchain/)  
+* شهریار: [linktr.ee/0xshazam.eth](https://linktr.ee/0xshazam.eth)  
+* صارم اسکندری: [linkedin.com/in/sarem-eskandary-38674a185](https://www.linkedin.com/in/sarem-eskandary-38674a185/)  
+* الیاس سرجوقی: [x.com/elyas6126](https://x.com/elyas6126)  
+
+
 **لینک های این اپیزود:**
 
 * هکتان های ای‌تی‌اچ گلوبال | ETHGlobal Hackathons: [ethglobal.com/events/hackathons](https://ethglobal.com/events/hackathons)
