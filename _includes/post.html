@@ -54,8 +54,8 @@
                     </a>
                     {% endif %} 
 
-                    {% if post.amazonmusic %}
-                    <a href= "{{ post.amazonmusic }}" target = "_blank" ><img src="/img/platforms/amazonmusic.png"  alt="music.amazon.com"> </img> 
+                    {% if page.amazonmusic %}
+                    <a href= "{{ page.amazonmusic }}" target = "_blank" ><img src="/img/platforms/amazonmusic.png"  alt="music.amazon.com"> </img> 
                     </a>
                     {% endif %} 
 
@@ -97,6 +97,13 @@
                     <p>{{ page.content }}</p>
                 <!-- {% endif %} -->
 
+            <p class="text-muted">
+                <small>
+                    تاریخ انتشار: {{ page.date | date: "%B %d, %Y" }} 
+                </small>
+            <hr class="star-primary">
+
+            </p>
             </div>
         </div>
     </div>
