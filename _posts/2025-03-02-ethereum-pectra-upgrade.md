@@ -1,13 +1,14 @@
 ---
 layout: post
 modal-id: 38
-title:  Ethereum Dencun Upgrade (S07E05) ارتقای هاردفورک دنکون اتریوم
+title:  Ethereum Pectra Upgrade (S07E05) هاردفورک پکترا اتریوم
 episode: S07E05
 date: 2025-03-02
 img: img/episodes/S07E05.jpeg
-alt: Ethereum Dencun Upgrade (S07E05)
+alt: Ethereum Pectra Upgrade (S07E05)
 permalink: /:year/:month/:title:output_ext
-description: "" 
+description: "اتریوم در حال آماده‌سازی برای یک ارتقای بزرگ به نام Pectra است که تغییرات مهمی را در شبکه ایجاد خواهد کرد. از تبدیل حساب‌های معمولی به کیف‌پول‌های هوشمند گرفته تا تغییراتی در استیکینگ و نحوه‌ی پردازش داده‌ها، این آپگرید می‌تواند مسیر آینده‌ی اتریوم را شکل دهد. در این قسمت از پادکست شیر یا خط، بررسی می‌کنیم که این تغییرات چه تأثیری بر کاربران، توسعه‌دهندگان و امنیت شبکه خواهد داشت
+" 
 
 
 youtube: 
@@ -33,7 +34,7 @@ castbox:
 
 **[فصل هفتم - قسمت پنجم](https://shiryakhat.net/2025/03/ethereum-pectra-upgrade.html)**
 
-Ethereum Dencun Upgrade (S07E05) ارتقای هاردفورک دنکون و تغییرات جدید در اتریوم
+Ethereum Pectra Upgrade (S07E05) ارتقای هاردفورک پکترا و تغییرات جدید در اتریوم
 
 
 -------------------------------------------------------
