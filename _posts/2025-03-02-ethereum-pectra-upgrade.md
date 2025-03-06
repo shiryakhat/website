@@ -17,15 +17,15 @@ soundcloud:
 
 # anchor: Anchor was bought by Spotify and is no longer available
 
-apple_podcast: 
+apple_podcast: https://podcasts.apple.com/us/podcast/%D8%B4%DB%8C%D8%B1-%DB%8C%D8%A7-%D8%AE%D8%B7-%D9%87%D8%A7%D8%B1%D8%AF%D9%81%D9%88%D8%B1%DA%A9-%D9%BE%DA%A9%D8%AA%D8%B1%D8%A7-%D9%88-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%AA%D8%B1%DB%8C%D9%88%D9%85-s07e05/id1221206951?i=1000698126018
 
 # google_podcast: discontinued , TODO figure out how to do Youtube Music
 
 # amazonmusic: apparently doesn't support video podcasts conversion 
 
-spotify: 
+spotify: https://open.spotify.com/episode/3SETqGilRUPgVa8ykNupr9?si=9JlPqdXrTUy4neZ020vsdg
 
-castbox: 
+castbox: https://castbox.fm/episode/%D8%B4%DB%8C%D8%B1-%DB%8C%D8%A7-%D8%AE%D8%B7---%D9%87%D8%A7%D8%B1%D8%AF%D9%81%D9%88%D8%B1%DA%A9-%D9%BE%DA%A9%D8%AA%D8%B1%D8%A7-%D9%88-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%AA%D8%B1%DB%8C%D9%88%D9%85-%7C-(S07E05)-%7C-Ethereum-Pectra-Upgrade-id2539522-id785521605?country=us
 
 ---
 
