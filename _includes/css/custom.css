@@ -677,10 +677,8 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     width: 32px;
     height: 32px;
-    border-radius: 50%;
-    background-color: #f5f5f5;
-    color: #333;
-    margin-right: 8px;
+    color: rgb(222, 222, 222);
+    margin-right: 2px;
     transition: all 0.3s ease;
     text-decoration: none;
 }
@@ -717,25 +715,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .episodes-filter {
-    margin: 30px 0;
+    margin: 10px 0 20px;
+}
+
+.season-filter-container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .filter-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .btn-filter {
-    padding: 8px 15px;
+    padding: 5px 10px;
     background-color: #f1f1f1;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     color: #555;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 600;
     transition: all 0.3s ease;
+    margin: 2px;
 }
 
 .btn-filter:hover,
@@ -789,13 +796,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 5px;
 }
 
-/* Platform Links - Redesigned */
+/* Platform Links - Redesigned with Font Awesome */
 .platforms-container {
-    margin: 40px 0 50px;
+    margin: 30px 0 40px;
     text-align: center;
     background-color: #f9f9f9;
     border-radius: 12px;
-    padding: 30px 20px;
+    padding: 25px 15px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -827,81 +834,100 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .platforms-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    max-width: 800px;
+    gap: 8px;
+    max-width: 650px;
     margin: 20px auto;
 }
 
-.podcast-platform {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 110px;
-    height: 65px;
-    margin: 0 auto;
-    transition: all 0.3s ease;
-    position: relative;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-    padding: 8px 10px;
-    text-decoration: none !important;
-}
-
-.podcast-platform img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    transition: all 0.3s ease;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.05));
-}
-
-.podcast-platform:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-    text-decoration: none !important;
-}
-
-.podcast-platform:hover img {
-    transform: scale(1.15);
-    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.1));
-}
-
-.podcast-platform:focus,
-.podcast-platform:active {
-    outline: none;
-    text-decoration: none !important;
-}
-
-.platform-item {
+.platform-button {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    border-radius: 50px;
+    margin: 5px;
+    color: white;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.platform-icon {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    width: 100%;
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+}
+
+
+.platform-text {
+    padding: 0 15px 0 10px;
+    display: flex;
+    align-items: center;
     height: 100%;
 }
 
-.platform-label {
-    font-size: 0.7rem;
-    font-weight: 500;
-    color: #666;
-    margin-top: 8px;
-    text-align: center;
-    transition: all 0.3s ease;
-    display: block;
-    width: 100%;
+.platform-text span {
+    font-size: 1.2rem;
 }
 
-.platform-item:hover .platform-label {
-    color: #{{ site.color.primary }};
+.platform-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-decoration: none !important;
+    filter: brightness(110%);
+}
+
+.platform-button:focus,
+.platform-button:active {
+    outline: none;
+    color: white;
+    text-decoration: none !important;
+}
+
+/* Platform-specific colors */
+.platform-button.youtube {
+    background-color: #FF0000;
+}
+
+.platform-button.spotify {
+    background-color: #1DB954;
+}
+
+.platform-button.apple {
+    background-color: #A538FF;
+}
+
+.platform-button.soundcloud {
+    background-color: #FF5500;
+}
+
+.platform-button.google {
+    background-color: #4285F4;
+}
+
+.platform-button.anchor {
+    background-color: #5000B9;
+}
+
+.platform-button.aparat {
+    background-color: #ED145B;
+}
+
+.platform-button.amazon {
+    background-color: #00A8E1;
+}
+
+.platform-button.castbox {
+    background-color: #F55B23;
 }
 
 /* Platform-specific hover effects removed */
@@ -1038,6 +1064,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
     gap: 20px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .prev-post,
@@ -1066,8 +1093,15 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
 }
 
+/* Add a subtle transition to the hover state */
+.prev-post,
+.next-post {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
 .nav-thumb {
     flex: 0 0 100px;
+    min-width: 100px; /* Ensure fixed width */
     height: 100px;
     overflow: hidden;
     position: relative;
@@ -1120,6 +1154,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px;
     display: flex;
     flex-direction: column;
+    min-width: 0; /* Prevent content from expanding beyond container */
 }
 
 .prev-post .nav-content {
@@ -1176,6 +1211,8 @@ h1, h2, h3, h4, h5, h6 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    max-width: 100%; /* Ensure text doesn't overflow */
+    word-wrap: break-word; /* Allow long words to break */
 }
 
 .prev-post .nav-title {
@@ -1197,6 +1234,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    max-width: fit-content; /* Ensure the episode tag fits its content */
 }
 
 .prev-post:hover .nav-episode,
@@ -1206,23 +1244,57 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Adjust icon directions */
+.prev-post .nav-label i {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.next-post .nav-label i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
 .prev-post {
-    text-align: left;
+    text-align: right;
     margin-right: auto;
+    flex-direction: row-reverse;
 }
 
 .next-post {
-    text-align: right;
-    flex-direction: row-reverse;
+    text-align: left;
     margin-left: auto;
+    flex-direction: row;
 }
 
-.prev-post .nav-label {
+.prev-post .nav-content {
+    align-items: flex-end; /* Align content to the right */
+    text-align: right;
+}
+
+.next-post .nav-content {
+    align-items: flex-start; /* Align content to the left */
     text-align: left;
 }
 
-.next-post .nav-label {
+.prev-post .nav-label {
     text-align: right;
+    float: right;
+}
+
+.next-post .nav-label {
+    text-align: left;
+    float: left;
+}
+
+.prev-post .nav-title, 
+.prev-post .nav-episode {
+    text-align: right;
+}
+
+.next-post .nav-title,
+.next-post .nav-episode {
+    text-align: left;
 }
 
 /* About Section - Consistent sizing */
@@ -1937,6 +2009,28 @@ h1, h2, h3, h4, h5, h6 {
         flex: 0 0 100%;
         width: 100%;
         margin: 0;
+        /* Maintain the same layout on mobile */
+        flex-direction: row-reverse;
+    }
+    
+    .next-post .nav-content,
+    .prev-post .nav-content {
+        /* On mobile, align all content to the right for RTL language */
+        align-items: flex-end;
+        text-align: right;
+    }
+    
+    .next-post .nav-label,
+    .prev-post .nav-label {
+        text-align: right;
+        float: right;
+    }
+    
+    .next-post .nav-title,
+    .next-post .nav-episode,
+    .prev-post .nav-title,
+    .prev-post .nav-episode {
+        text-align: right;
     }
     
     .nav-thumb {
@@ -1948,6 +2042,18 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 0.3; /* Make direction arrows always slightly visible on mobile */
     }
     
+    /* In RTL layouts, show the newer episode first on mobile */
+    .post-navigation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    /* Add more space between navigation cards on mobile */
+    .prev-post {
+        margin-top: 20px;
+    }
+}
+    
     .post-content {
         padding: 20px;
     }
@@ -1957,14 +2063,20 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .filter-buttons {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
     }
     
     .btn-filter {
-        width: 100%;
-        max-width: 250px;
-        margin-bottom: 5px;
+        padding: 4px 8px;
+        font-size: 0.75rem;
+        margin: 2px;
+        width: auto;
+    }
+    
+    .season-filter-container {
+        padding: 8px;
     }
     
     .partners-logos {
@@ -2027,20 +2139,22 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .platforms-wrapper {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        gap: 10px;
+        gap: 6px;
         max-width: 100%;
     }
     
-    .podcast-platform {
-        width: 90px;
-        height: 54px;
-        padding: 6px 8px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    .platform-button {
+        font-size: 0.8rem;
+        margin: 3px;
     }
     
-    .platform-label {
-        font-size: 0.65rem;
-        margin-top: 4px;
+    .platform-icon {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
     }
-}
+    
+    .platform-icon i {
+        font-size: 2rem;
+    }
+    
