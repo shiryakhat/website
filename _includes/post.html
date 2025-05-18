@@ -15,57 +15,84 @@
                     </h4>
                     <div class="platforms-wrapper">
                         {% if page.youtube %}
-                        <a href="{{ page.youtube }}" target="_blank" class="podcast-platform youtube-icon" title="Listen on YouTube" onclick="ga('send', 'event', 'Platform', 'YouTube', '{{ page.title }}');">
-                            <img src="/img/platforms/youtube.png" alt="YouTube">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.youtube }}" target="_blank" class="podcast-platform youtube-icon" title="Listen on YouTube" onclick="ga('send', 'event', 'Platform', 'YouTube', '{{ page.title }}');">
+                                <img src="/img/platforms/youtube.png" alt="YouTube">
+                            </a>
+                            <span class="platform-label">YouTube</span>
+                        </div>
                         {% endif %}
 
                         {% if page.spotify %}
-                        <a href="{{ page.spotify }}" target="_blank" class="podcast-platform spotify-icon" title="Listen on Spotify" onclick="ga('send', 'event', 'Platform', 'Spotify', '{{ page.title }}');">
-                            <img src="/img/platforms/spotify.png" alt="Spotify">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.spotify }}" target="_blank" class="podcast-platform spotify-icon" title="Listen on Spotify" onclick="ga('send', 'event', 'Platform', 'Spotify', '{{ page.title }}');">
+                                <img src="/img/platforms/spotify.png" alt="Spotify">
+                            </a>
+                            <span class="platform-label">Spotify</span>
+                        </div>
                         {% endif %}
 
                         {% if page.apple_podcast %}
-                        <a href="{{ page.apple_podcast }}" target="_blank" class="podcast-platform apple-icon" title="Listen on Apple Podcasts" onclick="ga('send', 'event', 'Platform', 'Apple', '{{ page.title }}');">
-                            <img src="/img/platforms/apple_podcasts.png" alt="Apple Podcasts">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.apple_podcast }}" target="_blank" class="podcast-platform apple-icon" title="Listen on Apple Podcasts" onclick="ga('send', 'event', 'Platform', 'Apple', '{{ page.title }}');">
+                                <img src="/img/platforms/apple_podcasts.png" alt="Apple Podcasts">
+                            </a>
+                            <span class="platform-label">Apple</span>
+                        </div>
                         {% endif %}
                         
                         {% if page.soundcloud %}
-                        <a href="{{ page.soundcloud }}" target="_blank" class="podcast-platform soundcloud-icon" title="Listen on SoundCloud" onclick="ga('send', 'event', 'Platform', 'SoundCloud', '{{ page.title }}');">
-                            <img src="/img/platforms/soundcloud.png" alt="SoundCloud">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.soundcloud }}" target="_blank" class="podcast-platform soundcloud-icon" title="Listen on SoundCloud" onclick="ga('send', 'event', 'Platform', 'SoundCloud', '{{ page.title }}');">
+                                <img src="/img/platforms/soundcloud.png" alt="SoundCloud">
+                            </a>
+                            <span class="platform-label">SoundCloud</span>
+                        </div>
                         {% endif %}
                         
                         {% if page.google_podcast %}
-                        <a href="{{ page.google_podcast }}" target="_blank" class="podcast-platform google-icon" title="Listen on Google Podcasts" onclick="ga('send', 'event', 'Platform', 'Google', '{{ page.title }}');">
-                            <img src="/img/platforms/google_podcasts_dark.png" alt="Google Podcasts">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.google_podcast }}" target="_blank" class="podcast-platform google-icon" title="Listen on Google Podcasts" onclick="ga('send', 'event', 'Platform', 'Google', '{{ page.title }}');">
+                                <img src="/img/platforms/google_podcasts_dark.png" alt="Google Podcasts">
+                            </a>
+                            <span class="platform-label">Google</span>
+                        </div>
                         {% endif %}
 
                         {% if page.anchor %}
-                        <a href="{{ page.anchor }}" target="_blank" class="podcast-platform anchor-icon" title="Listen on Anchor.fm" onclick="ga('send', 'event', 'Platform', 'Anchor', '{{ page.title }}');">
-                            <img src="/img/platforms/anchor.png" alt="Anchor.fm">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.anchor }}" target="_blank" class="podcast-platform anchor-icon" title="Listen on Anchor.fm" onclick="ga('send', 'event', 'Platform', 'Anchor', '{{ page.title }}');">
+                                <img src="/img/platforms/anchor.png" alt="Anchor.fm">
+                            </a>
+                            <span class="platform-label">Anchor</span>
+                        </div>
                         {% endif %}
 
                         {% if page.aparat %}
-                        <a href="{{ page.aparat }}" target="_blank" class="podcast-platform aparat-icon" title="Watch on Aparat.com" onclick="ga('send', 'event', 'Platform', 'Aparat', '{{ page.title }}');">
-                            <img src="/img/platforms/aparat.png" alt="Aparat.com">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.aparat }}" target="_blank" class="podcast-platform aparat-icon" title="Watch on Aparat.com" onclick="ga('send', 'event', 'Platform', 'Aparat', '{{ page.title }}');">
+                                <img src="/img/platforms/aparat.png" alt="Aparat.com">
+                            </a>
+                            <span class="platform-label">Aparat</span>
+                        </div>
                         {% endif %}
 
                         {% if page.amazonmusic %}
-                        <a href="{{ page.amazonmusic }}" target="_blank" class="podcast-platform amazon-icon" title="Listen on Amazon Music" onclick="ga('send', 'event', 'Platform', 'Amazon', '{{ page.title }}');">
-                            <img src="/img/platforms/amazonmusic.png" alt="Amazon Music">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.amazonmusic }}" target="_blank" class="podcast-platform amazon-icon" title="Listen on Amazon Music" onclick="ga('send', 'event', 'Platform', 'Amazon', '{{ page.title }}');">
+                                <img src="/img/platforms/amazonmusic.png" alt="Amazon Music">
+                            </a>
+                            <span class="platform-label">Amazon</span>
+                        </div>
                         {% endif %}
 
                         {% if page.castbox %}
-                        <a href="{{ page.castbox }}" target="_blank" class="podcast-platform castbox-icon" title="Listen on CastBox" onclick="ga('send', 'event', 'Platform', 'CastBox', '{{ page.title }}');">
-                            <img src="/img/platforms/castbox.png" alt="CastBox">
-                        </a>
+                        <div class="platform-item">
+                            <a href="{{ page.castbox }}" target="_blank" class="podcast-platform castbox-icon" title="Listen on CastBox" onclick="ga('send', 'event', 'Platform', 'CastBox', '{{ page.title }}');">
+                                <img src="/img/platforms/castbox.png" alt="CastBox">
+                            </a>
+                            <span class="platform-label">CastBox</span>
+                        </div>
                         {% endif %}
                     </div>
                 </div>
