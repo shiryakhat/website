@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 25
-title: DeFi - Lending Protocols, Compound, and Wrapped Tokens (S04E05)
+title: "DeFi - Lending Protocols, Compound, and Wrapped Tokens | پروتکل‌‌های وام‌دهی (S04E05)"
 episode: S04E05
 date: 2020-12-14
 img: img/episodes/S04E05.jpeg

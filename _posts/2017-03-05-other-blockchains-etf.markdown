@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 3
-title: Other Blockchains + ETF (S01E03)
+title: "Other Blockchains + ETF | بلاکچین‌های دیگر و ETF (S01E03)"
 episode: S01E03
 date: 2017-03-05
 img: img/episodes/S01E03.jpeg

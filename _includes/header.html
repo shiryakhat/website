@@ -1,15 +1,35 @@
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+<!-- Header -->
+<header class="animated-header">
+    <div class="header-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="animated-logo">
                     <img class="img-responsive" src="{{site.url}}/img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">{{ site.title }} <br> {{ site.title_fa }}  </span>
-                        <hr class="star-light">
-                        <span class="skills">{{ site.skill_fa }} <br> {{ site.skills }}</span>
+                </div>
+                <div class="intro-text">
+                    <div class="intro-title">
+                        <span class="name-en">{{ site.title }}</span>
+                        <span class="name-fa">{{ site.title_fa }}</span>
+                    </div>
+                    <hr class="star-light">
+                    <div class="intro-subtitle">
+                        <span class="skills-fa">{{ site.skill_fa }}</span>
+                        <span class="skills-en">{{ site.skills }}</span>
+                    </div>
+                    <div class="listen-buttons">
+                        <a href="https://www.youtube.com/playlist?list=PL-5ByNFdKAWgJpWR_fWTd4T-gD64Cc31u" target="_blank" class="btn btn-listen youtube-btn">
+                            <i class="fa fa-youtube-play"></i> YouTube
+                        </a>
+                        <a href="https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N" target="_blank" class="btn btn-listen spotify-btn">
+                            <i class="fa fa-spotify"></i> Spotify
+                        </a>
+                        <a href="https://podcasts.apple.com/us/podcast/id1221206951" target="_blank" class="btn btn-listen apple-btn">
+                            <i class="fa fa-apple"></i> Apple
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>

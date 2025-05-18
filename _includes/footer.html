@@ -1,52 +1,101 @@
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Partners | همکاران</h3>
-                        <p>
-                            <a href= "https://coiniran.com" target="_blank">
-                            <img src="{{site.url}}/img/sponsors/coiniran.png" width="30%"> </a>
-                        </p>
+<!-- Footer -->
+<footer class="modern-footer">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.1s">
+                    <h3 class="footer-title">Support Us | حمایت از ما</h3>
+                    <div class="partners-logos">
+                        <a href="https://coiniran.com" target="_blank" class="partner-logo">
+                            <img src="{{site.url}}/img/sponsors/coiniran.png" alt="CoinIran">
+                        </a>
+                        <a href="https://giveth.io" target="_blank" class="partner-logo">
+                            <img src="{{site.url}}/img/sponsors/giveth.png" alt="Giveth">
+                        </a>
+                        <a href="https://buymeacoffee.com/pangana" target="_blank" class="partner-logo">
+                            <span class="bmc-icon">
+                                <i class="fa fa-coffee fa-2x" style="color: #FFDD00;"></i>
+                            </span>
+                        </a>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                {% if network.title == "telegram" %}
-                                <a href="{{ network.url }}" class="btn-social btn-outline">
-                                    <i>TLG</i>
-                                </a>
-                                {% else %}
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                                {% endif %}
-                            </li>
-		                    {% endfor %}
-                        </ul>
+                </div>
+                <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.3s">
+                    <h3 class="footer-title text-center">{{ site.footer.social }}</h3>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/playlist?list=PL-5ByNFdKAWgJpWR_fWTd4T-gD64Cc31u" class="social-link youtube" target="_blank" title="YouTube" onclick="ga('send', 'event', 'Social', 'YouTube', 'Footer');">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        
+                        <a href="https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N" class="social-link spotify" target="_blank" title="Spotify" onclick="ga('send', 'event', 'Social', 'Spotify', 'Footer');">
+                            <i class="fa fa-spotify"></i>
+                        </a>
+                        
+                        <a href="https://podcasts.apple.com/us/podcast/id1221206951" class="social-link apple" target="_blank" title="Apple Podcasts" onclick="ga('send', 'event', 'Social', 'Apple', 'Footer');">
+                            <i class="fa fa-apple"></i>
+                        </a>
+                        
+                        <a href="https://soundcloud.com/shiryakhat" class="social-link soundcloud" target="_blank" title="SoundCloud" onclick="ga('send', 'event', 'Social', 'SoundCloud', 'Footer');">
+                            <i class="fa fa-soundcloud"></i>
+                        </a>
+                        
+                        <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9zaGlyeWFraGF0Lm5ldC9mZWVkLnhtbA" class="social-link google" target="_blank" title="Google Podcasts" onclick="ga('send', 'event', 'Social', 'Google', 'Footer');">
+                            <i class="fa fa-google"></i>
+                        </a>
+                        
+                        <a href="https://t.me/shiryakhat" class="social-link telegram" target="_blank" title="Telegram" onclick="ga('send', 'event', 'Social', 'Telegram', 'Footer');">
+                            <i class="fa fa-paper-plane"></i>
+                        </a>
+                        
+                        <a href="https://twitter.com/shiryakhat" class="social-link twitter" target="_blank" title="Twitter" onclick="ga('send', 'event', 'Social', 'Twitter', 'Footer');">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        
+                        <a href="https://github.com/shiryakhat" class="social-link github" target="_blank" title="GitHub" onclick="ga('send', 'event', 'Social', 'GitHub', 'Footer');">
+                            <i class="fa fa-github"></i>
+                        </a>
+                        
+                        <a href="https://www.shiryakhat.net/feed.xml" class="social-link rss" target="_blank" title="RSS Feed" onclick="ga('send', 'event', 'Social', 'RSS', 'Footer');">
+                            <i class="fa fa-rss"></i>
+                        </a>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
+                </div>
+                <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.5s">
+                    <h3 class="footer-title">About Us</h3>
+                    <div class="footer-about">
                         <p>{{ site.credits }}</p>
+                        <div class="footer-logo">
+                            <img src="{{site.url}}/img/profile.png" alt="{{ site.title }}">
+                            <div class="footer-title-text">
+                                <span class="en">{{ site.title }}</span>
+                                <span class="fa">{{ site.title_fa }}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
-                    </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copyright">
+                    <p>&copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
+                </div>
+                <div class="col-md-6 footer-nav">
+                    <ul class="footer-links">
+                        <li><a href="/#about" onclick="ga('send', 'event', 'Navigation', 'About', 'Footer');">About</a></li>
+                        <li><a href="/archive#portfolio" onclick="ga('send', 'event', 'Navigation', 'Episodes', 'Footer');">Episodes</a></li>
+                        <li><a href="mailto:info@shiryakhat.net" onclick="ga('send', 'event', 'Navigation', 'Contact', 'Footer');">Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <a class="btn btn-scroll-top" href="#page-top" onclick="ga('send', 'event', 'Navigation', 'ScrollToTop', 'Page');">
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
+</footer>

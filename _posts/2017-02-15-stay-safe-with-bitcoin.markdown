@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 1
-title: "Stay Safe with Bitcoin (S01E01)"
+title: "Stay Safe with Bitcoin | با احتیاط حرکت کنید (S01E01)"
 episode: S01E01
 date: 2017-02-15
 img: "img/episodes/S01E01.jpeg"

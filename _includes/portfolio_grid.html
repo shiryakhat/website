@@ -1,37 +1,86 @@
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Episodes</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                {% for post in site.posts %}
-                  {% if forloop.index == 9 %}
-                        {% break %}
-                  {% endif %}
-                    <div class="col-sm-3 portfolio-item">
-                        <a href="{{site.url}}{{post.url}}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    {{ post.title }} 
-                                </div>
-                            </div>
-                            <figure class="figcaption">
-                            <img src="{{site.url}}/{{ post.img }}" class="img-responsive"  alt="{{ post.alt }}">
-                            <figcaption>{{ post.title }} </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                {% endfor %}
-                <div class="text-center">
-                    <a href="/archive#portfolio" class="btn btn-lg btn-more">
-                        <i class="fa fa-podcast" aria-hidden="true"></i> All Episodes | همه قسمت ها
-                    </a>
-                </div>
+<!-- Episodes Grid Section -->
+<section id="portfolio" class="episodes-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-title animated fadeInUp">Latest Episodes</h2>
+                <hr class="star-primary">
             </div>
         </div>
-    </section>
+        <div class="row episodes-grid">
+            {% for post in site.posts %}
+              {% if forloop.index == 10 %}
+                    {% break %}
+              {% endif %}
+                <div class="col-md-4 col-sm-6 episode-item animated fadeInUp" data-wow-delay="{{forloop.index | times: 0.1}}s">
+                    <div class="episode-card">
+                        <a href="{{site.url}}{{post.url}}" class="episode-link">
+                            <div class="episode-image">
+                                <img src="{{site.url}}/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                <div class="episode-overlay">
+                                    <div class="episode-info">
+                                        <div class="episode-number">{{ post.episode }}</div>
+                                        {% assign title_parts = post.title | split: "|" %}
+                                        {% if title_parts.size > 1 %}
+                                            <div class="episode-title">{{ title_parts[1] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}</div>
+                                        {% else %}
+                                            <div class="episode-title">{{ post.title | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}</div>
+                                        {% endif %}
+                                        {% if post.youtube %}
+                                            <div class="video-tag"><i class="fa fa-video-camera"></i> Video</div>
+                                        {% endif %}
+                                        <div class="episode-date">{{ post.date | date: "%B %d, %Y" }}</div>
+                                        <div class="read-more">Listen Now <i class="fa fa-headphones"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="episode-caption">
+                                <h3>
+                                {% if post.youtube %}<span class="card-video-tag"><i class="fa fa-film"></i></span>{% endif %}
+                                {% assign title_parts = post.title | split: "|" %}
+                                {% if title_parts.size > 1 %}
+                                    {{ title_parts[0] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
+                                {% else %}
+                                    {{ post.title | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
+                                {% endif %}
+                                </h3>
+                                <div class="card-footer">
+                                    <div class="episode-platforms">
+                                        {% if post.youtube %}
+                                        <a href="{{ post.youtube }}" target="_blank" class="platform-icon youtube">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                        {% endif %}
+                                        {% if post.spotify %}
+                                        <a href="{{ post.spotify }}" target="_blank" class="platform-icon spotify">
+                                            <i class="fa fa-spotify"></i>
+                                        </a>
+                                        {% endif %}
+                                        {% if post.apple_podcast %}
+                                        <a href="{{ post.apple_podcast }}" target="_blank" class="platform-icon apple">
+                                            <i class="fa fa-apple"></i>
+                                        </a>
+                                        {% endif %}
+                                    </div>
+                                    <div class="episode-meta">
+                                        <div class="meta-container">
+                                            <span class="episode-date"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %d, %Y" }}</span>
+                                            <span class="episode-number">{{ post.episode }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center animated fadeInUp">
+                <a href="/archive#portfolio" class="btn btn-lg btn-more">
+                    <i class="fa fa-podcast" aria-hidden="true"></i> All Episodes | همه قسمت ها
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 35
-title: Ethereum Restaking & EigenLayer | اثبات سهام  بازگشتی و آیگن‌لیر (S07E02)
+title: "Ethereum Restaking & EigenLayer | اثبات سهام بازگشتی و آیگن‌لیر (S07E02)"
 episode: S07E02
 date: 2024-04-12
 img: img/episodes/S07E02.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 28
-title: EIP-1559 Let it Burn (S05E02)
+title: "EIP-1559 Let it Burn | ساختار فی در شبکه اتریوم (S05E02)"
 episode: S05E02
 date: 2021-08-11
 img: img/episodes/S05E02.jpeg

@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 26
-title: DeFi - Liquidation, Yield Farming, and Governance (S04E06)
+title: "DeFi - Liquidation, Yield Farming, and Governance | تجمیع پروتکل‌‌های وام‌دهی و سيستم‌های حكمرانی غيرمتمركز (S04E06)"
 episode: S04E06
 date: 2020-12-24
 img: img/episodes/S04E06.jpeg

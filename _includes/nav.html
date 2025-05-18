@@ -1,36 +1,48 @@
-   <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{{site.url}}"> {{ site.title_fa }} || {{ site.title }}</a> 
-                <!-- <img class="img-responsive" src="img/profile.png" alt=""> -->
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="/archive#portfolio">Episodes</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <!-- <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li> -->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{site.url}}">
+                <span class="brand-en">{{ site.title }}</span>
+                <span class="brand-separator">||</span>
+                <span class="brand-fa">{{ site.title_fa }}</span>
+            </a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll nav-item">
+                    <a href="/archive#portfolio" class="nav-link"><i class="fa fa-podcast"></i> Episodes</a>
+                </li>
+                <li class="page-scroll nav-item">
+                    <a href="#about" class="nav-link"><i class="fa fa-info-circle"></i> About</a>
+                </li>
+                <li class="page-scroll nav-item dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-headphones"></i> Listen <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu platform-dropdown">
+                        <li><a href="https://www.youtube.com/playlist?list=PL-5ByNFdKAWgJpWR_fWTd4T-gD64Cc31u" target="_blank"><i class="fa fa-youtube-play"></i> YouTube</a></li>
+                        <li><a href="https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N" target="_blank"><i class="fa fa-spotify"></i> Spotify</a></li>
+                        <li><a href="https://podcasts.apple.com/us/podcast/id1221206951" target="_blank"><i class="fa fa-apple"></i> Apple Podcasts</a></li>
+                        <li><a href="https://soundcloud.com/shiryakhat" target="_blank"><i class="fa fa-soundcloud"></i> SoundCloud</a></li>
+                        <li><a href="https://www.shiryakhat.net/feed.xml" target="_blank"><i class="fa fa-rss"></i> RSS Feed</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>

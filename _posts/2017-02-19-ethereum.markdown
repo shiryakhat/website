@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 2
-title: Ethereum (S01E02)
+title: "Ethereum | اتریوم (S01E02)"
 episode: S01E02
 date: 2017-02-19
 img: img/episodes/S01E02.jpeg
