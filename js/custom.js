@@ -2,6 +2,34 @@
 
 // Initialize when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Setup crypto address copy functionality
+    document.querySelectorAll('.crypto-value').forEach(function(element) {
+        element.addEventListener('click', function() {
+            const text = this.getAttribute('data-clipboard-text');
+            const parent = this.closest('.crypto-address');
+            
+            // Create temporary textarea element to copy text
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'absolute';
+            textarea.style.left = '-9999px';
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            // Show copied feedback
+            this.classList.add('copied');
+            parent.classList.add('copied');
+            
+            // Reset after 2 seconds
+            setTimeout(() => {
+                this.classList.remove('copied');
+                parent.classList.remove('copied');
+            }, 2000);
+        });
+    });
+    
     // Animated elements
     const animatedElements = document.querySelectorAll('.animated');
     

@@ -19,49 +19,36 @@
                             </span>
                         </a>
                     </div>
+                    
+                    
+                    <div class="crypto-addresses">
+                        <div class="crypto-address btc">
+                            <span class="crypto-label">₿ BTC</span>
+                            <span class="crypto-value" id="btc-address" data-clipboard-text="{{ site.footer.btc_address }}">{{ site.footer.btc_address }}</span>
+                            <span class="copy-indicator"><i class="fa fa-copy"></i></span>
+                        </div>
+                        <div class="crypto-address eth">
+                            <span class="crypto-label">Ξ EVM</span>
+                            <span class="crypto-value" id="eth-address" data-clipboard-text="{{ site.footer.eth_address }}">{{ site.footer.eth_address }}</span>
+                            <span class="copy-indicator"><i class="fa fa-copy"></i></span>
+                        </div>
+                        <div class="crypto-qr">
+                            <img src="{{site.url}}/img/sponsors/eth-qr.svg" alt="ETH Address QR Code" width="80" height="80">
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.3s">
                     <h3 class="footer-title text-center">{{ site.footer.social }}</h3>
                     <div class="social-links">
-                        <a href="https://www.youtube.com/playlist?list=PLDwI1rIhknpNmr4nno40seb6FAiJ-jsun" class="social-link youtube" target="_blank" title="YouTube" onclick="ga('send', 'event', 'Social', 'YouTube', 'Footer');">
-                            <i class="fa fa-youtube-play"></i>
+                        {% for network in site.social %}
+                        <a href="{{ network.url }}" class="social-link {{ network.title }}" target="_blank" title="{{ network.title | capitalize }}" {% if network.title == 'twitter' or network.title == 'github' or network.title == 'rss' %}onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': '{{ network.title | capitalize }}', 'event_action': '{% if network.title == 'rss' %}Subscribe{% else %}Follow{% endif %}'});"{% else %}onclick="ga('send', 'event', 'Social', '{{ network.title | capitalize }}', 'Footer');"{% endif %} aria-label="{% if network.title == 'rss' %}Subscribe to our RSS feed{% else %}Follow us on {{ network.title | capitalize }}{% endif %}">
+                            <i class="fa fa-{% if network.title == 'youtube' %}youtube-play{% elsif network.title == 'telegram' %}paper-plane{% else %}{{ network.title }}{% endif %}"></i>
                         </a>
-                        
-                        <a href="https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N" class="social-link spotify" target="_blank" title="Spotify" onclick="ga('send', 'event', 'Social', 'Spotify', 'Footer');">
-                            <i class="fa fa-spotify"></i>
-                        </a>
-                        
-                        <a href="https://podcasts.apple.com/us/podcast/id1221206951" class="social-link apple" target="_blank" title="Apple Podcasts" onclick="ga('send', 'event', 'Social', 'Apple', 'Footer');">
-                            <i class="fa fa-apple"></i>
-                        </a>
-                        
-                        <a href="https://soundcloud.com/shiryakhat" class="social-link soundcloud" target="_blank" title="SoundCloud" onclick="ga('send', 'event', 'Social', 'SoundCloud', 'Footer');">
-                            <i class="fa fa-soundcloud"></i>
-                        </a>
-                        
-                        <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly9zaGlyeWFraGF0Lm5ldC9mZWVkLnhtbA" class="social-link google" target="_blank" title="Google Podcasts" onclick="ga('send', 'event', 'Social', 'Google', 'Footer');">
-                            <i class="fa fa-google"></i>
-                        </a>
-                        
-                        <a href="https://t.me/shiryakhat" class="social-link telegram" target="_blank" title="Telegram" onclick="ga('send', 'event', 'Social', 'Telegram', 'Footer');">
-                            <i class="fa fa-paper-plane"></i>
-                        </a>
-                        
-                        <a href="https://twitter.com/shiryakhat" class="social-link twitter" target="_blank" title="Twitter" onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': 'Twitter', 'event_action': 'Follow'});" aria-label="Follow us on Twitter">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        
-                        <a href="https://github.com/shiryakhat" class="social-link github" target="_blank" title="GitHub" onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': 'GitHub', 'event_action': 'Follow'});" aria-label="Follow us on GitHub">
-                            <i class="fa fa-github"></i>
-                        </a>
-                        
-                        <a href="https://www.shiryakhat.net/feed.xml" class="social-link rss" target="_blank" title="RSS Feed" onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': 'RSS', 'event_action': 'Subscribe'});" aria-label="Subscribe to our RSS feed">
-                            <i class="fa fa-rss"></i>
-                        </a>
+                        {% endfor %}
                     </div>
                 </div>
                 <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.5s">
-                    <h3 class="footer-title">About Us</h3>
+                    <h3 class="footer-title">{{ site.footer.credits }}</h3>
                     <div class="footer-about">
                         <p>{{ site.credits }}</p>
                         <div class="footer-logo">
@@ -80,23 +67,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 copyright">
-                    <p>&copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
+                    <p>&copy; {{ site.footer.copyright }} {{ site.time | date: '%Y' }}</p>
                 </div>
                 <div class="col-md-6 footer-nav">
                     <ul class="footer-links">
-                        <li><a href="/#about" onclick="ga('send', 'event', 'Navigation', 'About', 'Footer');">About</a></li>
-                        <li><a href="/archive#portfolio" onclick="ga('send', 'event', 'Navigation', 'Episodes', 'Footer');">Episodes</a></li>
-                        <li><a href="mailto:info@shiryakhat.net" onclick="ga('send', 'event', 'Navigation', 'Contact', 'Footer');">Contact</a></li>
+                        <li><a href="/#about" onclick="gtag('event', 'select_content', {'content_type': 'footer_nav', 'event_category': 'Navigation', 'event_label': 'About'});">About</a></li>
+                        <li><a href="/archive#portfolio" onclick="gtag('event', 'select_content', {'content_type': 'footer_nav', 'event_category': 'Navigation', 'event_label': 'Episodes'});">Episodes</a></li>
+                        <li><a href="mailto:{{ site.email }}" onclick="gtag('event', 'select_content', {'content_type': 'footer_nav', 'event_category': 'Navigation', 'event_label': 'Contact'});">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Crypto address copy functionality -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Setup crypto address copy functionality
+        document.querySelectorAll('.crypto-value').forEach(function(element) {
+            element.addEventListener('click', function() {
+                const text = this.getAttribute('data-clipboard-text');
+                const parent = this.closest('.crypto-address');
+                
+                // Create temporary textarea element to copy text
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                textarea.style.position = 'absolute';
+                textarea.style.left = '-9999px';
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                
+                // Show copied feedback
+                this.classList.add('copied');
+                parent.classList.add('copied');
+                
+                // Reset after 2 seconds
+                setTimeout(() => {
+                    this.classList.remove('copied');
+                    parent.classList.remove('copied');
+                }, 2000);
+            });
+        });
+    });
+    </script>
+
     <!-- Scroll to Top Button -->
     <div class="scroll-top">
-        <a class="btn btn-scroll-top" href="#page-top" onclick="ga('send', 'event', 'Navigation', 'ScrollToTop', 'Page');">
-            <i class="fa fa-chevron-up"></i>
+        <a class="btn btn-scroll-top" href="#page-top" onclick="gtag('event', 'select_content', {'content_type': 'scroll_action', 'event_category': 'Navigation', 'event_label': 'ScrollToTop'});" aria-label="Scroll to top">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
         </a>
     </div>
 </footer>

@@ -1946,6 +1946,106 @@ h1, h2, h3, h4, h5, h6 {
     color: #{{ site.color.primary }};
 }
 
+/* Crypto Addresses in Footer */
+.crypto-addresses {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crypto-address {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    gap: 6px;
+    position: relative;
+}
+
+.crypto-address:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.crypto-label {
+    font-weight: 600;
+    color: #ccc;
+    font-size: 1.1rem;
+    flex: 0 0 50px;
+    text-align: center;
+    padding-right: 8px;
+}
+
+.crypto-value {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: #ddd;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.crypto-value:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.crypto-value.copied {
+    background-color: rgba(76, 175, 80, 0.2);
+}
+
+.copy-indicator {
+    color: #777;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    flex: 0 0 auto;
+    width: 16px;
+}
+
+.crypto-address:hover .copy-indicator {
+    color: #999;
+}
+
+.crypto-address.copied .copy-indicator .fa-copy {
+    display: none;
+}
+
+.crypto-address.copied .copy-indicator:before {
+    content: '✓';
+    color: #4CAF50;
+}
+
+.crypto-qr {
+    text-align: center;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.crypto-qr img {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 991px) {
     .navbar-brand {
@@ -1985,6 +2085,39 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767px) {
     .name-en, .name-fa {
         font-size: 1.6rem;
+    }
+    
+    .crypto-addresses {
+        margin-top: 15px;
+        gap: 5px;
+    }
+    
+    .crypto-address {
+        padding: 5px 6px;
+    }
+    
+    .crypto-value {
+        font-size: 0.6rem;
+        padding: 3px 5px;
+    }
+    
+    .crypto-qr img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .crypto-qr {
+        margin-top: 4px;
+        padding: 3px;
+    }
+    
+    .crypto-label {
+        font-size: 0.95rem;
+        flex: 0 0 42px;
+    }
+    
+    .copy-indicator {
+        font-size: 0.65rem;
     }
     
     .listen-buttons {
