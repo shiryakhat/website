@@ -18,7 +18,7 @@
                     <div class="episode-card">
                         <a href="{{site.url}}{{post.url}}" class="episode-link">
                             <div class="episode-image">
-                                <img src="{{site.url}}/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                                <img src="{{site.url}}/{{ post.img }}" class="img-responsive" alt="{{ post.alt | default: post.title }}" width="400" height="220" loading="lazy">
                                 <div class="episode-overlay">
                                     <div class="episode-info">
                                         <div class="episode-number">{{ post.episode }}</div>

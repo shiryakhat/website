@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" aria-label="Primary Navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -18,26 +18,26 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" role="menubar">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                <li class="page-scroll nav-item">
-                    <a href="/archive#portfolio" class="nav-link"><i class="fa fa-podcast"></i> Episodes</a>
+                <li class="page-scroll nav-item" role="menuitem">
+                    <a href="/archive#portfolio" class="nav-link" aria-label="Go to episodes archive"><i class="fa fa-podcast" aria-hidden="true"></i> Episodes</a>
                 </li>
-                <li class="page-scroll nav-item">
-                    <a href="#about" class="nav-link"><i class="fa fa-info-circle"></i> About</a>
+                <li class="page-scroll nav-item" role="menuitem">
+                    <a href="#about" class="nav-link" aria-label="Go to about section"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
                 </li>
-                <li class="page-scroll nav-item dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-headphones"></i> Listen <span class="caret"></span>
+                <li class="page-scroll nav-item dropdown" role="menuitem">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Podcast platform options">
+                        <i class="fa fa-headphones" aria-hidden="true"></i> Listen <span class="caret"></span>
                     </a>
-                    <ul class="dropdown-menu platform-dropdown">
-                        <li><a href="https://www.youtube.com/playlist?list=PLDwI1rIhknpNmr4nno40seb6FAiJ-jsun" target="_blank"><i class="fa fa-youtube-play"></i> YouTube</a></li>
-                        <li><a href="https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N" target="_blank"><i class="fa fa-spotify"></i> Spotify</a></li>
-                        <li><a href="https://podcasts.apple.com/us/podcast/id1221206951" target="_blank"><i class="fa fa-apple"></i> Apple Podcasts</a></li>
-                        <li><a href="https://soundcloud.com/shiryakhat" target="_blank"><i class="fa fa-soundcloud"></i> SoundCloud</a></li>
-                        <li><a href="https://www.shiryakhat.net/feed.xml" target="_blank"><i class="fa fa-rss"></i> RSS Feed</a></li>
+                    <ul class="dropdown-menu platform-dropdown" role="menu" aria-label="Listening platforms">
+                        <li role="menuitem"><a href="https://www.youtube.com/playlist?list=PLDwI1rIhknpNmr4nno40seb6FAiJ-jsun" target="_blank" onclick="gtag('event', 'select_content', {'content_type': 'platform_nav', 'event_category': 'Navigation', 'event_label': 'YouTube'});"><i class="fa fa-youtube-play" aria-hidden="true"></i> YouTube</a></li>
+                        <li role="menuitem"><a href="https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N" target="_blank" onclick="gtag('event', 'select_content', {'content_type': 'platform_nav', 'event_category': 'Navigation', 'event_label': 'Spotify'});"><i class="fa fa-spotify" aria-hidden="true"></i> Spotify</a></li>
+                        <li role="menuitem"><a href="https://podcasts.apple.com/us/podcast/id1221206951" target="_blank" onclick="gtag('event', 'select_content', {'content_type': 'platform_nav', 'event_category': 'Navigation', 'event_label': 'Apple'});"><i class="fa fa-apple" aria-hidden="true"></i> Apple Podcasts</a></li>
+                        <li role="menuitem"><a href="https://soundcloud.com/shiryakhat" target="_blank" onclick="gtag('event', 'select_content', {'content_type': 'platform_nav', 'event_category': 'Navigation', 'event_label': 'SoundCloud'});"><i class="fa fa-soundcloud" aria-hidden="true"></i> SoundCloud</a></li>
+                        <li role="menuitem"><a href="https://www.shiryakhat.net/feed.xml" target="_blank" onclick="gtag('event', 'select_content', {'content_type': 'platform_nav', 'event_category': 'Navigation', 'event_label': 'RSS'});"><i class="fa fa-rss" aria-hidden="true"></i> RSS Feed</a></li>
                     </ul>
                 </li>
             </ul>

@@ -2,8 +2,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title_fa }} || {{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
+    <meta name="language" content="en, fa">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
     
     <script data-ad-client="ca-pub-2504378818468057" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     
@@ -20,6 +23,8 @@
       "seasonNumber": "{{ page.episode | slice: 1, 2 | plus: 0 }}",
       "description": "{{ page.description }}",
       "url": "{{ page.url | replace:'index.html','' | prepend: site.url }}",
+      "inLanguage": "fa",
+      "timeRequired": "PT45M",
       "associatedMedia": {
         "@type": "MediaObject",
         "contentUrl": "{% if page.youtube %}{{ page.youtube }}{% elsif page.spotify %}{{ page.spotify }}{% elsif page.apple_podcast %}{{ page.apple_podcast }}{% endif %}"
@@ -28,22 +33,69 @@
         "@type": "PodcastSeries",
         "name": "{{ site.title }} | {{ site.title_fa }}",
         "url": "{{ site.url }}"
-      }
+      },
+      "image": "{{ site.url }}/{{ page.img }}"
       {% else %}
       "name": "{{ site.title }} | {{ site.title_fa }}",
       "url": "{{ site.url }}",
-      "logo": "{{ site.url }}/img/profile.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/img/profile.png", 
+        "width": "512",
+        "height": "512"
+      },
       "sameAs": [
-        "https://www.youtube.com/playlist?list=PL-5ByNFdKAWgJpWR_fWTd4T-gD64Cc31u",
+        "https://www.youtube.com/playlist?list=PLDwI1rIhknpNmr4nno40seb6FAiJ-jsun",
         "https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N",
         "https://podcasts.apple.com/us/podcast/id1221206951",
-        "https://t.me/shiryakhat",
-        "https://twitter.com/shiryakhat"
+        "https://t.me/shiryakhatpod",
+        "https://twitter.com/shiryakhat",
+        "https://soundcloud.com/shiryakhat"
       ],
-      "description": "{{ site.description }}"
+      "description": "{{ site.description }}",
+      "inLanguage": ["fa", "en"],
+      "potentialAction": {
+        "@type": "ListenAction",
+        "target": [
+          "{{ site.url }}",
+          "https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N",
+          "https://podcasts.apple.com/us/podcast/id1221206951",
+          "https://www.youtube.com/playlist?list=PLDwI1rIhknpNmr4nno40seb6FAiJ-jsun"
+        ]
+      }
       {% endif %}
     }
     </script>
+    
+    <!-- BreadcrumbList structured data -->
+    {% if page.layout == 'post' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "{{ site.title }}",
+          "item": "{{ site.url }}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Season {{ page.episode | slice: 1, 2 | plus: 0 }}",
+          "item": "{{ site.url }}/archive#portfolio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ page.title }}",
+          "item": "{{ page.url | replace:'index.html','' | prepend: site.url }}"
+        }
+      ]
+    }
+    </script>
+    {% endif %}
     {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
@@ -97,7 +149,30 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', '{{ site.google_analytics }}');
+    gtag('config', '{{ site.google_analytics }}', {
+      'anonymize_ip': true,
+      'page_title': '{% if page.title %}{{ page.title }}{% else %}{{ site.title_fa }} || {{ site.title }}{% endif %}',
+      'page_path': '{{ page.url | replace:"index.html","" }}',
+      {% if page.layout == 'post' %}
+      'content_group': 'Podcast Episodes',
+      'custom_map': {
+        'dimension1': 'episode_number',
+        'dimension2': 'season_number'
+      }
+      {% else %}
+      'content_group': 'Website Pages'
+      {% endif %}
+    });
+    
+    {% if page.layout == 'post' %}
+    // Track podcast episode details
+    gtag('event', 'view_item', {
+      'event_category': 'Content',
+      'event_label': '{{ page.title }}',
+      'episode_number': '{{ page.episode }}',
+      'season_number': '{{ page.episode | slice: 1, 2 | plus: 0 }}'
+    });
+    {% endif %}
     </script>
 
     <!-- Clarity tracking code for http://shiryakhat.net/ -->

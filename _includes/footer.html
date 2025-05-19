@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="modern-footer">
+<footer class="modern-footer" role="contentinfo" aria-label="Site footer">
     <div class="footer-main">
         <div class="container">
             <div class="row">
@@ -7,10 +7,10 @@
                     <h3 class="footer-title">Support Us | حمایت از ما</h3>
                     <div class="partners-logos">
                         <a href="https://coiniran.com" target="_blank" class="partner-logo no-underline">
-                            <img src="{{site.url}}/img/sponsors/coiniran.png" alt="CoinIran">
+                            <img src="{{site.url}}/img/sponsors/coiniran.png" alt="CoinIran - Sponsor" width="60" height="60" loading="lazy">
                         </a>
                         <a href="https://giveth.io/project/ethereum-technology-for-farsi-speaking-population" target="_blank" class="partner-logo no-underline">
-                            <img src="{{site.url}}/img/sponsors/giveth.png" alt="Giveth">
+                            <img src="{{site.url}}/img/sponsors/giveth.png" alt="Giveth - Sponsor" width="60" height="60" loading="lazy">
                         </a>
                         <a href="https://buymeacoffee.com/pangana" target="_blank" class="partner-logo no-underline">
                             <span class="bmc-icon">
@@ -47,15 +47,15 @@
                             <i class="fa fa-paper-plane"></i>
                         </a>
                         
-                        <a href="https://twitter.com/shiryakhat" class="social-link twitter" target="_blank" title="Twitter" onclick="ga('send', 'event', 'Social', 'Twitter', 'Footer');">
+                        <a href="https://twitter.com/shiryakhat" class="social-link twitter" target="_blank" title="Twitter" onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': 'Twitter', 'event_action': 'Follow'});" aria-label="Follow us on Twitter">
                             <i class="fa fa-twitter"></i>
                         </a>
                         
-                        <a href="https://github.com/shiryakhat" class="social-link github" target="_blank" title="GitHub" onclick="ga('send', 'event', 'Social', 'GitHub', 'Footer');">
+                        <a href="https://github.com/shiryakhat" class="social-link github" target="_blank" title="GitHub" onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': 'GitHub', 'event_action': 'Follow'});" aria-label="Follow us on GitHub">
                             <i class="fa fa-github"></i>
                         </a>
                         
-                        <a href="https://www.shiryakhat.net/feed.xml" class="social-link rss" target="_blank" title="RSS Feed" onclick="ga('send', 'event', 'Social', 'RSS', 'Footer');">
+                        <a href="https://www.shiryakhat.net/feed.xml" class="social-link rss" target="_blank" title="RSS Feed" onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': 'RSS', 'event_action': 'Subscribe'});" aria-label="Subscribe to our RSS feed">
                             <i class="fa fa-rss"></i>
                         </a>
                     </div>
@@ -65,7 +65,7 @@
                     <div class="footer-about">
                         <p>{{ site.credits }}</p>
                         <div class="footer-logo">
-                            <img src="{{site.url}}/img/profile.png" alt="{{ site.title }}">
+                            <img src="{{site.url}}/img/profile.png" alt="{{ site.title }} podcast logo" width="50" height="50">
                             <div class="footer-title-text">
                                 <span class="en">{{ site.title }}</span>
                                 <span class="fa">{{ site.title_fa }}</span>

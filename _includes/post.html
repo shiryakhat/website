@@ -15,7 +15,7 @@
                     </h4>
                     <div class="platforms-wrapper">
                         {% if page.youtube %}
-                        <a href="{{ page.youtube }}" target="_blank" class="platform-button youtube" title="Listen on YouTube" onclick="ga('send', 'event', 'Platform', 'YouTube', '{{ page.title }}');">
+                        <a href="{{ page.youtube }}" target="_blank" class="platform-button youtube" title="Listen on YouTube" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'YouTube', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on YouTube">
                             <div class="platform-icon">
                                 <i class="fa fa-youtube-play"></i>
                             </div>
@@ -26,7 +26,7 @@
                         {% endif %}
 
                         {% if page.spotify %}
-                        <a href="{{ page.spotify }}" target="_blank" class="platform-button spotify" title="Listen on Spotify" onclick="ga('send', 'event', 'Platform', 'Spotify', '{{ page.title }}');">
+                        <a href="{{ page.spotify }}" target="_blank" class="platform-button spotify" title="Listen on Spotify" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'Spotify', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on Spotify">
                             <div class="platform-icon">
                                 <i class="fa fa-spotify"></i>
                             </div>
@@ -37,7 +37,7 @@
                         {% endif %}
 
                         {% if page.apple_podcast %}
-                        <a href="{{ page.apple_podcast }}" target="_blank" class="platform-button apple" title="Listen on Apple Podcasts" onclick="ga('send', 'event', 'Platform', 'Apple', '{{ page.title }}');">
+                        <a href="{{ page.apple_podcast }}" target="_blank" class="platform-button apple" title="Listen on Apple Podcasts" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'Apple', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on Apple Podcasts">
                             <div class="platform-icon">
                                 <i class="fa fa-apple"></i>
                             </div>
@@ -48,7 +48,7 @@
                         {% endif %}
                         
                         {% if page.soundcloud %}
-                        <a href="{{ page.soundcloud }}" target="_blank" class="platform-button soundcloud" title="Listen on SoundCloud" onclick="ga('send', 'event', 'Platform', 'SoundCloud', '{{ page.title }}');">
+                        <a href="{{ page.soundcloud }}" target="_blank" class="platform-button soundcloud" title="Listen on SoundCloud" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'SoundCloud', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on SoundCloud">
                             <div class="platform-icon">
                                 <i class="fa fa-soundcloud"></i>
                             </div>
@@ -59,7 +59,7 @@
                         {% endif %}
                         
                         {% if page.google_podcast %}
-                        <a href="{{ page.google_podcast }}" target="_blank" class="platform-button google" title="Listen on Google Podcasts" onclick="ga('send', 'event', 'Platform', 'Google', '{{ page.title }}');">
+                        <a href="{{ page.google_podcast }}" target="_blank" class="platform-button google" title="Listen on Google Podcasts" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'Google', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on Google Podcasts">
                             <div class="platform-icon">
                                 <i class="fa fa-google"></i>
                             </div>
