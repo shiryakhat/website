@@ -187,6 +187,27 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: #fff !important;
     transition: all 0.3s ease;
+    padding: 10px 15px;
+}
+
+.navbar-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo.shrink,
+.navbar-shrink .navbar-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.brand-text {
+    display: flex;
+    align-items: baseline;
 }
 
 .brand-en, .brand-fa {
@@ -912,7 +933,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .platform-text span {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .platform-button:hover {

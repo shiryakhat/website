@@ -93,12 +93,18 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Navbar animation
     const navbar = document.querySelector('.navbar-fixed-top');
+    const navLogo = document.querySelector('.navbar-logo');
+    const brandText = document.querySelector('.brand-text');
     
     function animateNavbar() {
         if (window.scrollY > 100) {
             navbar.classList.add('navbar-shrink');
+            if (navLogo) navLogo.classList.add('shrink');
+            if (brandText) brandText.classList.add('shrink');
         } else {
             navbar.classList.remove('navbar-shrink');
+            if (navLogo) navLogo.classList.remove('shrink');
+            if (brandText) brandText.classList.remove('shrink');
         }
     }
     
