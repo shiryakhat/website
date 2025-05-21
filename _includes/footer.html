@@ -1,52 +1,128 @@
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Partners | همکاران</h3>
-                        <p>
-                            <a href= "https://coiniran.com" target="_blank">
-                            <img src="{{site.url}}/img/sponsors/coiniran.png" width="30%"> </a>
-                        </p>
+<!-- Footer -->
+<footer class="modern-footer" role="contentinfo" aria-label="Site footer">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.1s">
+                    <h3 class="footer-title">Support Us | حمایت از ما</h3>
+                    <div class="partners-logos">
+                        <a href="https://coiniran.com" target="_blank" class="partner-logo no-underline" title="Our Sister group: CoinIran - Crypto News" data-toggle="tooltip" data-placement="top">
+                            <img src="{{site.url}}/img/sponsors/coiniran.png" alt="CoinIran - Partner" width="60" height="60" loading="lazy">
+                        </a>
+                        <a href="https://coiniran.academy" target="_blank" class="partner-logo no-underline" title="Our Sister group: Coiniran Academy - Education" data-toggle="tooltip" data-placement="top">
+                            <img src="{{site.url}}/img/sponsors/coiniranacademy-logo.png" alt="CoinIran Academy - Partner" width="60" height="60" loading="lazy">
+                        </a>
+                        <a href="https://giveth.io/project/ethereum-technology-for-farsi-speaking-population" target="_blank" class="partner-logo no-underline" title="Giveth - Support our project" data-toggle="tooltip" data-placement="top">
+                            <img src="{{site.url}}/img/sponsors/giveth-logo.jpg" alt="Giveth - Sponsor" width="60" height="60" loading="lazy">
+                        </a>
+                        <a href="https://buymeacoffee.com/pangana" target="_blank" class="partner-logo no-underline" title="Buy us a coffee" data-toggle="tooltip" data-placement="top">
+                            <span class="bmc-icon">
+                                <i class="fa-solid fa-mug-hot fa-2x" style="color: #FFDD00;"></i>
+                                <i class="fa-solid fa-heart fa-xs" style="color: #ff6b6b; position: absolute; top: 8px; right: 8px;"></i>
+                            </span>
+                        </a>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                {% if network.title == "telegram" %}
-                                <a href="{{ network.url }}" class="btn-social btn-outline">
-                                    <i>TLG</i>
-                                </a>
-                                {% else %}
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                                {% endif %}
-                            </li>
-		                    {% endfor %}
-                        </ul>
+                    
+                    
+                    <div class="crypto-addresses">
+                        <div class="crypto-address btc" title="Click to copy Bitcoin address" data-toggle="tooltip" data-placement="left">
+                            <span class="crypto-label">₿ BTC</span>
+                            <span class="crypto-value" id="btc-address" data-clipboard-text="{{ site.footer.btc_address }}">{{ site.footer.btc_address }}</span>
+                            <span class="copy-indicator"><i class="fa-regular fa-copy"></i></span>
+                        </div>
+                        <div class="crypto-address eth" title="Click to copy EVM address" data-toggle="tooltip" data-placement="left">
+                            <span class="crypto-label">Ξ EVM</span>
+                            <span class="crypto-value" id="eth-address" data-clipboard-text="{{ site.footer.eth_address }}">{{ site.footer.eth_address }}</span>
+                            <span class="copy-indicator"><i class="fa-regular fa-copy"></i></span>
+                        </div>
+                        <div class="crypto-qr" title="Ethereum QR Code" data-toggle="tooltip" data-placement="top">
+                            <img src="{{site.url}}/img/sponsors/eth-qr.svg" alt="ETH Address QR Code" width="80" height="80">
+                        </div>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
+                </div>
+                <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.3s">
+                    <h3 class="footer-title text-center">{{ site.footer.social }}</h3>
+                    <div class="social-links">
+                        {% for network in site.social %}
+                        <a href="{{ network.url }}" class="social-link {{ network.title }}" target="_blank" title="{{ network.title | capitalize }}" {% if network.title == 'twitter' or network.title == 'github' or network.title == 'rss' %}onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': '{{ network.title | capitalize }}', 'event_action': '{% if network.title == 'rss' %}Subscribe{% else %}Follow{% endif %}'});"{% else %}onclick="ga('send', 'event', 'Social', '{{ network.title | capitalize }}', 'Footer');"{% endif %} aria-label="{% if network.title == 'rss' %}Subscribe to our RSS feed{% else %}Follow us on {{ network.title | capitalize }}{% endif %}">
+                            <i class="{% if network.title == 'rss' %}fa-solid fa-rss{% elsif network.title == 'twitter' %}fa-brands fa-x-twitter{% else %}fa-brands fa-{% if network.title == 'youtube' %}youtube{% elsif network.title == 'telegram' %}telegram{% else %}{{ network.title }}{% endif %}{% endif %}"></i>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.5s">
+                    <h3 class="footer-title">{{ site.footer.credits }}</h3>
+                    <div class="footer-about">
                         <p>{{ site.credits }}</p>
+                        <div class="footer-logo">
+                            <img src="{{site.url}}/img/profile.png" alt="{{ site.title }} podcast logo" width="50" height="50">
+                            <div class="footer-title-text">
+                                <span class="en">{{ site.title }}</span>
+                                <span class="fa">{{ site.title_fa }}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
-                    </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copyright">
+                    <p>&copy; {{ site.footer.copyright }} {{ site.time | date: '%Y' }}</p>
+                </div>
+                <div class="col-md-6 footer-nav">
+                    <ul class="footer-links">
+                        <li><a href="/#about" onclick="gtag('event', 'select_content', {'content_type': 'footer_nav', 'event_category': 'Navigation', 'event_label': 'About'});">About</a></li>
+                        <li><a href="/archive#portfolio" onclick="gtag('event', 'select_content', {'content_type': 'footer_nav', 'event_category': 'Navigation', 'event_label': 'Episodes'});">Episodes</a></li>
+                        <li><a href="mailto:{{ site.email }}" onclick="gtag('event', 'select_content', {'content_type': 'footer_nav', 'event_category': 'Navigation', 'event_label': 'Contact'});">Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
+    <!-- Crypto address copy functionality and tooltips -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize Bootstrap tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+        
+        // Setup crypto address copy functionality
+        document.querySelectorAll('.crypto-value').forEach(function(element) {
+            element.addEventListener('click', function() {
+                const text = this.getAttribute('data-clipboard-text');
+                const parent = this.closest('.crypto-address');
+                
+                // Create temporary textarea element to copy text
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                textarea.style.position = 'absolute';
+                textarea.style.left = '-9999px';
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                
+                // Show copied feedback
+                this.classList.add('copied');
+                parent.classList.add('copied');
+                
+                // Reset after 2 seconds
+                setTimeout(() => {
+                    this.classList.remove('copied');
+                    parent.classList.remove('copied');
+                }, 2000);
+            });
+        });
+    });
+    </script>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <a class="btn btn-scroll-top" href="#page-top" onclick="gtag('event', 'select_content', {'content_type': 'scroll_action', 'event_category': 'Navigation', 'event_label': 'ScrollToTop'});" aria-label="Scroll to top">
+            <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
         </a>
     </div>
+</footer>

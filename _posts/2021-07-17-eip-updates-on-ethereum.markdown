@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 27
-title: EIP (Ethereum Improvement Proposals) & Updating the Chain (S05E01)
+title: "EIP (Ethereum Improvement Proposals) & Updating the Chain | فرایند به‌روز‌رسانی پروتکل اتریوم (S05E01)"
 episode: S05E01
 date: 2021-07-17
 img: img/episodes/S05E01.jpeg

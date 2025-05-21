@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 33
-title: Lightning, Make Bitcoin Scalable  - Part 3 (S06E05)
+title: "Lightning, Make Bitcoin Scalable - Part 3 | شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری بیتکوین (S06E05)"
 episode: S06E05
 date: 2022-04-04
 img: img/episodes/S06E05.png

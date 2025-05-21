@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 36
-title: Thriving Hackathons | راهنمای جامع شرکت در هکتان‌های وب۳ و بلاکچین (S07E03)
+title: "Thriving Hackathons | راهنمای جامع شرکت در هکتان‌های وب۳ و بلاکچین (S07E03)"
 episode: S07E03
 date: 2025-01-14
 img: img/episodes/S07E03.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 34
-title: Ethereum Dencun Upgrade (S07E01)
+title: "Ethereum Dencun Upgrade | ارتقای هاردفورک دنکون اتریوم (S07E01)"
 episode: S07E01
 date: 2024-02-12
 img: img/episodes/S07E01.jpg

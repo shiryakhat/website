@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 21
-title: DeFi - Decentralized Finance is Here to Stay (S04E01)
+title: "DeFi - Decentralized Finance is Here to Stay | اقتصاد غیر متمرکز٫ DeFi (S04E01)"
 episode: S04E01
 date: 2020-07-11
 img: img/episodes/S04E01.jpeg

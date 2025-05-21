@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 23
-title: DeFi - Evolution of Decentralized exchanges (S04E03)
+title: "DeFi - Evolution of Decentralized exchanges | صرافی های غیر متمرکز (S04E03)"
 episode: S04E03
 date: 2020-09-15
 img: img/episodes/S04E03.jpeg

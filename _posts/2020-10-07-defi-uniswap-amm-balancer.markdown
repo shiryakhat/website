@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 24
-title: DeFi - Automated Market Makers (S04E04)
+title: "DeFi - Automated Market Makers | صرافی های غیر متمرکز و بازارسازهای خودکار (S04E04)"
 episode: S04E04
 date: 2020-10-07
 img: img/episodes/S04E04.jpeg

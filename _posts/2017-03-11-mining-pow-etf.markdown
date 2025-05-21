@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 4
-title: "Mining, Proof of Work and ETF post mortem (S01E04)"
+title: "Mining, Proof of Work and ETF | ماینینگ، اثبات کار و ETF (S01E04)"
 episode: S01E04
 date: 2017-03-11
 img: "img/episodes/S01E04.jpeg"

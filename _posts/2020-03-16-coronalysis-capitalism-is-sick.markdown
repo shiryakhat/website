@@ -12,12 +12,11 @@ description: "این برنامه به اثرات ویروس کرونا (کوی�
 
 
 spotify: https://open.spotify.com/episode/4LpNyWRu7kHTSN5WfKs3yN?si=JT0plvVmQ7KNzPWTAq-a-Q
-spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/4LpNyWRu7kHTSN5WfKs3yN" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
+
 
 soundcloud: https://soundcloud.com/shiryakhat/coronalysis-capitalism-is-critically-sick-s03e05
-soundcloud_emb: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/778366678&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/shiryakhat" title="Shir | Khat" target="_blank" style="color: #cccccc; text-decoration: none;">Shir | Khat</a> · <a href="https://soundcloud.com/shiryakhat/coronalysis-capitalism-is-critically-sick-s03e05" title="Coronalysis - Capitalism is Critically Sick (S03E05)" target="_blank" style="color: #cccccc; text-decoration: none;">Coronalysis - Capitalism is Critically Sick (S03E05)</a></div>'
 
-anchorfm_emb: '<iframe src="https://anchor.fm/shiryakhat/embed/episodes/Coronalysis---Capitalism-is-Critically-Sick-S03E05-ebl0fn" width="100%" frameborder="0" scrolling="no"></iframe>'
+
 anchor: https://anchor.fm/shiryakhat/episodes/Coronalysis---Capitalism-is-Critically-Sick-S03E05-ebl0fn
 
 apple_podcast: https://podcasts.apple.com/us/podcast/coronalysis-capitalism-is-critically-sick-s03e05/id1221206951?i=1000468819086

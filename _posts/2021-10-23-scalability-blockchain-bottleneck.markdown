@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 29
-title: Scalability, The Blockchain's Bottleneck (S06E01)
+title: "Scalability, The Blockchain's Bottleneck | مقیاس‌پذیری گلوگاهی در بلاکچین‌ها (S06E01)"
 episode: S06E01
 date: 2021-10-23
 img: img/episodes/S06E01.jpeg

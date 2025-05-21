@@ -1,7 +1,7 @@
 ---
 layout: post
 modal-id: 38
-title:  Ethereum Pectra Upgrade (S07E05) هاردفورک پکترا اتریوم
+title: "Ethereum Pectra Upgrade | هاردفورک پکترا اتریوم (S07E05)"
 episode: S07E05
 date: 2025-03-02
 img: img/episodes/S07E05.jpg

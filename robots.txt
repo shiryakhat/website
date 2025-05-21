@@ -1,0 +1,17 @@
+# Allow crawling of all content
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://shiryakhat.net/sitemap.xml
+
+# Disallow specific files and directories
+Disallow: /LICENCE
+Disallow: /Gemfile
+Disallow: /README.md
+Disallow: /freelancer-theme-jekyll.gemspec
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /js/
+Disallow: /css/
+Disallow: /mail/
