@@ -6,11 +6,11 @@ url: https://shiryakhat.net
 
 # url: 127.0.0.1
 description: "The main goal is to remove the language barrier in order to allow the knowledge on blockchain and decentralization to be accessible to Farsi speakers, and offer a global open platform for people to discuss related subjects. "
-keywords: "Bitcoin, podcast, blockchain, decentralization, farsi, iran, persian, فارسی, بیتکوین, بلاکچین, غیرمتمرکز, چیست, اتریم, رمزارز"
+keywords: "Bitcoin, Ethereum, blockchain podcast, cryptocurrency education, decentralized finance, DeFi, Web3, NFT, crypto, Persian podcast, Farsi blockchain, پادکست بلاکچین, بیت کوین, اتریوم, رمزارز, دیفای, آموزش بلاکچین, وب۳, ان اف تی"
 skills: "Persian Blockchain Podcast"
 skill_fa: "پادکست آموزشی بلاکچین"
 meta_author: Eskandari Shayan
-img: img/profile.png
+img: img/favicon/web-app-manifest-512x512.png
 
 # Google webmaster tools
 google_verify: nlasOlIqr-uvs7V7c2Nkq6j9R0HcZqD8rFdq5qgMEn0
@@ -48,7 +48,7 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/shiryakhat
+    url: http://x.com/shiryakhat
   # - title: facebook
   #   url:
   - title: telegram

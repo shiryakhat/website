@@ -4,20 +4,20 @@
             <article class="post-content animated fadeIn">
                 <div class="post-header-info animated fadeInUp" data-wow-delay="0.2s">
                     <div class="post-meta">
-                        <span class="post-date"><i class="fa fa-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</span>
+                        <span class="post-date"><i class="fa-regular fa-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</span>
                     </div>
                 </div>
 
                 <!-- Platform icons -->
                 <div class="platforms-container animated fadeInUp" data-wow-delay="0.3s">
                     <h4 class="platforms-heading">
-                        {% if page.youtube %}<i class="fa fa-film"></i>{% else %}<i class="fa fa-headphones"></i>{% endif %} Available on
+                        {% if page.youtube %}<i class="fa-solid fa-film"></i>{% else %}<i class="fa-solid fa-headphones"></i>{% endif %} Available on
                     </h4>
                     <div class="platforms-wrapper">
                         {% if page.youtube %}
                         <a href="{{ page.youtube }}" target="_blank" class="platform-button youtube" title="Listen on YouTube" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'YouTube', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on YouTube">
                             <div class="platform-icon">
-                                <i class="fa fa-youtube-play"></i>
+                                <i class="fa-brands fa-youtube"></i>
                             </div>
                             <div class="platform-text">
                                 <span>YouTube</span>
@@ -28,7 +28,7 @@
                         {% if page.spotify %}
                         <a href="{{ page.spotify }}" target="_blank" class="platform-button spotify" title="Listen on Spotify" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'Spotify', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on Spotify">
                             <div class="platform-icon">
-                                <i class="fa fa-spotify"></i>
+                                <i class="fa-brands fa-spotify"></i>
                             </div>
                             <div class="platform-text">
                                 <span>Spotify</span>
@@ -39,7 +39,7 @@
                         {% if page.apple_podcast %}
                         <a href="{{ page.apple_podcast }}" target="_blank" class="platform-button apple" title="Listen on Apple Podcasts" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'Apple', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on Apple Podcasts">
                             <div class="platform-icon">
-                                <i class="fa fa-apple"></i>
+                                <i class="fa-brands fa-apple"></i>
                             </div>
                             <div class="platform-text">
                                 <span>Apple Podcasts</span>
@@ -50,7 +50,7 @@
                         {% if page.soundcloud %}
                         <a href="{{ page.soundcloud }}" target="_blank" class="platform-button soundcloud" title="Listen on SoundCloud" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'SoundCloud', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on SoundCloud">
                             <div class="platform-icon">
-                                <i class="fa fa-soundcloud"></i>
+                                <i class="fa-brands fa-soundcloud"></i>
                             </div>
                             <div class="platform-text">
                                 <span>SoundCloud</span>
@@ -61,7 +61,7 @@
                         {% if page.google_podcast %}
                         <a href="{{ page.google_podcast }}" target="_blank" class="platform-button google" title="Listen on Google Podcasts" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'Google', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on Google Podcasts">
                             <div class="platform-icon">
-                                <i class="fa fa-google"></i>
+                                <i class="fa-brands fa-google"></i>
                             </div>
                             <div class="platform-text">
                                 <span>Google Podcasts</span>
@@ -72,7 +72,7 @@
                         {% if page.anchor %}
                         <a href="{{ page.anchor }}" target="_blank" class="platform-button anchor" title="Listen on Anchor.fm" onclick="ga('send', 'event', 'Platform', 'Anchor', '{{ page.title }}');">
                             <div class="platform-icon">
-                                <i class="fa fa-anchor"></i>
+                                <i class="fa-solid fa-anchor"></i>
                             </div>
                             <div class="platform-text">
                                 <span>Anchor</span>
@@ -83,7 +83,7 @@
                         {% if page.aparat %}
                         <a href="{{ page.aparat }}" target="_blank" class="platform-button aparat" title="Watch on Aparat.com" onclick="ga('send', 'event', 'Platform', 'Aparat', '{{ page.title }}');">
                             <div class="platform-icon">
-                                <i class="fa fa-video-camera"></i>
+                                <i class="fa-solid fa-video"></i>
                             </div>
                             <div class="platform-text">
                                 <span>Aparat</span>
@@ -94,7 +94,7 @@
                         {% if page.amazonmusic %}
                         <a href="{{ page.amazonmusic }}" target="_blank" class="platform-button amazon" title="Listen on Amazon Music" onclick="ga('send', 'event', 'Platform', 'Amazon', '{{ page.title }}');">
                             <div class="platform-icon">
-                                <i class="fa fa-amazon"></i>
+                                <i class="fa-brands fa-amazon"></i>
                             </div>
                             <div class="platform-text">
                                 <span>Amazon Music</span>
@@ -105,7 +105,7 @@
                         {% if page.castbox %}
                         <a href="{{ page.castbox }}" target="_blank" class="platform-button castbox" title="Listen on CastBox" onclick="ga('send', 'event', 'Platform', 'CastBox', '{{ page.title }}');">
                             <div class="platform-icon">
-                                <i class="fa fa-play-circle"></i>
+                                <i class="fa-regular fa-circle-play"></i>
                             </div>
                             <div class="platform-text">
                                 <span>CastBox</span>
@@ -123,13 +123,13 @@
                     <div class="post-share">
                         <span>Share:</span>
                         <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn twitter" onclick="ga('send', 'event', 'Share', 'Twitter', '{{ page.title }}');">
-                            <i class="fa fa-twitter"></i>
+                            <i class="fa-brands fa-twitter"></i>
                         </a>
                         <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn facebook" onclick="ga('send', 'event', 'Share', 'Facebook', '{{ page.title }}');">
-                            <i class="fa fa-facebook"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
                         </a>
                         <a href="https://t.me/share/url?url={{ site.url }}{{ page.url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" class="share-btn telegram" onclick="ga('send', 'event', 'Share', 'Telegram', '{{ page.title }}');">
-                            <i class="fa fa-paper-plane"></i>
+                            <i class="fa-brands fa-telegram"></i>
                         </a>
                     </div>
                     
@@ -137,7 +137,7 @@
                         {% if page.next.url %}
                         <a class="next-post" href="{{site.url}}{{page.next.url}}" onclick="ga('send', 'event', 'Navigation', 'NextEpisode', '{{ page.next.title }}');">
                             <div class="nav-content">
-                                <span class="nav-label">Next Episode <i class="fa fa-step-forward"></i></span>
+                                <span class="nav-label">Next Episode <i class="fa-solid fa-step-forward"></i></span>
                                 <span class="nav-title">{% assign title_parts = page.next.title | split: "|" %}
                                 {% if title_parts.size > 1 %}
                                     {{ title_parts[0] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
@@ -148,7 +148,7 @@
                             </div>
                             <div class="nav-thumb">
                                 <img src="{{site.url}}/img/episodes/{{ page.next.img | split: '/' | last }}" alt="{{ page.next.title }}">
-                                <div class="nav-direction"><i class="fa fa-arrow-right"></i></div>
+                                <div class="nav-direction"><i class="fa-solid fa-arrow-right"></i></div>
                             </div>
                         </a>
                         {% endif %}
@@ -156,7 +156,7 @@
                         {% if page.previous.url %}
                         <a class="prev-post" href="{{site.url}}{{page.previous.url}}" onclick="ga('send', 'event', 'Navigation', 'PreviousEpisode', '{{ page.previous.title }}');">
                             <div class="nav-content">
-                                <span class="nav-label"><i class="fa fa-step-backward"></i> Previous Episode</span>
+                                <span class="nav-label"><i class="fa-solid fa-step-backward"></i> Previous Episode</span>
                                 <span class="nav-title">{% assign title_parts = page.previous.title | split: "|" %}
                                 {% if title_parts.size > 1 %}
                                     {{ title_parts[0] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
@@ -167,7 +167,7 @@
                             </div>
                             <div class="nav-thumb">
                                 <img src="{{site.url}}/img/episodes/{{ page.previous.img | split: '/' | last }}" alt="{{ page.previous.title }}">
-                                <div class="nav-direction"><i class="fa fa-arrow-left"></i></div>
+                                <div class="nav-direction"><i class="fa-solid fa-arrow-left"></i></div>
                             </div>
                         </a>
                         {% endif %}

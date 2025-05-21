@@ -6,36 +6,36 @@
                 <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.1s">
                     <h3 class="footer-title">Support Us | حمایت از ما</h3>
                     <div class="partners-logos">
-                        <a href="https://coiniran.com" target="_blank" class="partner-logo no-underline">
+                        <a href="https://coiniran.com" target="_blank" class="partner-logo no-underline" title="Our Sister group: CoinIran - Crypto News" data-toggle="tooltip" data-placement="top">
                             <img src="{{site.url}}/img/sponsors/coiniran.png" alt="CoinIran - Partner" width="60" height="60" loading="lazy">
                         </a>
-                        <a href="https://coiniran.academy" target="_blank" class="partner-logo no-underline">
+                        <a href="https://coiniran.academy" target="_blank" class="partner-logo no-underline" title="Our Sister group: Coiniran Academy" data-toggle="tooltip" data-placement="top">
                             <img src="{{site.url}}/img/sponsors/coiniranacademy-logo.png" alt="CoinIran Academy - Partner" width="60" height="60" loading="lazy">
                         </a>
-                        <a href="https://giveth.io/project/ethereum-technology-for-farsi-speaking-population" target="_blank" class="partner-logo no-underline">
+                        <a href="https://giveth.io/project/ethereum-technology-for-farsi-speaking-population" target="_blank" class="partner-logo no-underline" title="Giveth - Support our project" data-toggle="tooltip" data-placement="top">
                             <img src="{{site.url}}/img/sponsors/giveth-logo.jpg" alt="Giveth - Sponsor" width="60" height="60" loading="lazy">
                         </a>
-                        <a href="https://buymeacoffee.com/pangana" target="_blank" class="partner-logo no-underline">
+                        <a href="https://buymeacoffee.com/pangana" target="_blank" class="partner-logo no-underline" title="Buy us a coffee" data-toggle="tooltip" data-placement="top">
                             <span class="bmc-icon">
-                                <i class="fa fa-coffee fa-2x" style="color: #FFDD00;"></i>
-                                <i class="fa fa-heart fa-xs" style="color: #ff6b6b; position: absolute; top: 8px; right: 8px;"></i>
+                                <i class="fa-solid fa-mug-hot fa-2x" style="color: #FFDD00;"></i>
+                                <i class="fa-solid fa-heart fa-xs" style="color: #ff6b6b; position: absolute; top: 8px; right: 8px;"></i>
                             </span>
                         </a>
                     </div>
                     
                     
                     <div class="crypto-addresses">
-                        <div class="crypto-address btc">
+                        <div class="crypto-address btc" title="Click to copy Bitcoin address" data-toggle="tooltip" data-placement="left">
                             <span class="crypto-label">₿ BTC</span>
                             <span class="crypto-value" id="btc-address" data-clipboard-text="{{ site.footer.btc_address }}">{{ site.footer.btc_address }}</span>
-                            <span class="copy-indicator"><i class="fa fa-copy"></i></span>
+                            <span class="copy-indicator"><i class="fa-regular fa-copy"></i></span>
                         </div>
-                        <div class="crypto-address eth">
+                        <div class="crypto-address eth" title="Click to copy Ethereum address" data-toggle="tooltip" data-placement="left">
                             <span class="crypto-label">Ξ EVM</span>
                             <span class="crypto-value" id="eth-address" data-clipboard-text="{{ site.footer.eth_address }}">{{ site.footer.eth_address }}</span>
-                            <span class="copy-indicator"><i class="fa fa-copy"></i></span>
+                            <span class="copy-indicator"><i class="fa-regular fa-copy"></i></span>
                         </div>
-                        <div class="crypto-qr">
+                        <div class="crypto-qr" title="Ethereum QR Code" data-toggle="tooltip" data-placement="top">
                             <img src="{{site.url}}/img/sponsors/eth-qr.svg" alt="ETH Address QR Code" width="80" height="80">
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="social-links">
                         {% for network in site.social %}
                         <a href="{{ network.url }}" class="social-link {{ network.title }}" target="_blank" title="{{ network.title | capitalize }}" {% if network.title == 'twitter' or network.title == 'github' or network.title == 'rss' %}onclick="gtag('event', 'social', {'event_category': 'Social', 'event_label': '{{ network.title | capitalize }}', 'event_action': '{% if network.title == 'rss' %}Subscribe{% else %}Follow{% endif %}'});"{% else %}onclick="ga('send', 'event', 'Social', '{{ network.title | capitalize }}', 'Footer');"{% endif %} aria-label="{% if network.title == 'rss' %}Subscribe to our RSS feed{% else %}Follow us on {{ network.title | capitalize }}{% endif %}">
-                            <i class="fa fa-{% if network.title == 'youtube' %}youtube-play{% elsif network.title == 'telegram' %}paper-plane{% else %}{{ network.title }}{% endif %}"></i>
+                            <i class="{% if network.title == 'rss' %}fa-solid fa-rss{% elsif network.title == 'twitter' %}fa-brands fa-x-twitter{% else %}fa-brands fa-{% if network.title == 'youtube' %}youtube{% elsif network.title == 'telegram' %}telegram{% else %}{{ network.title }}{% endif %}{% endif %}"></i>
                         </a>
                         {% endfor %}
                     </div>
@@ -83,9 +83,12 @@
         </div>
     </div>
 
-    <!-- Crypto address copy functionality -->
+    <!-- Crypto address copy functionality and tooltips -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Initialize Bootstrap tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+        
         // Setup crypto address copy functionality
         document.querySelectorAll('.crypto-value').forEach(function(element) {
             element.addEventListener('click', function() {
@@ -119,7 +122,7 @@
     <!-- Scroll to Top Button -->
     <div class="scroll-top">
         <a class="btn btn-scroll-top" href="#page-top" onclick="gtag('event', 'select_content', {'content_type': 'scroll_action', 'event_category': 'Navigation', 'event_label': 'ScrollToTop'});" aria-label="Scroll to top">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
         </a>
     </div>
 </footer>

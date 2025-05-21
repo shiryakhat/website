@@ -40,7 +40,7 @@
       "url": "{{ site.url }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.url }}/img/profile.png", 
+        "url": "{{ site.url }}/img/favicon/web-app-manifest-512x512.png", 
         "width": "512",
         "height": "512"
       },
@@ -99,12 +99,14 @@
     {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-    <link rel="shortcut icon" type="image/png" href="{{site.url}}/img/favicon.jpg">
-    <link rel="apple-touch-icon" href="{{site.url}}/img/favicon_16_16.png">
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/_includes/css/bootstrap.min.css">
     
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="{{site.url}}/img/favicon/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="{{site.url}}/img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{site.url}}/img/favicon/favicon-96x96.png">
+    <link rel="apple-touch-icon" href="{{site.url}}/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="{{site.url}}/img/favicon/site.webmanifest">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/style.css">
     
@@ -114,7 +116,7 @@
     <!-- Social Media & Open Graph Meta Tags -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title_fa }} || {{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
-    <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/profile.png{% endif %}">
+    <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/favicon/web-app-manifest-512x512.png{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -123,7 +125,7 @@
 
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title_fa }} || {{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
-    <meta name="twitter:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/profile.png{% endif %}">
+    <meta name="twitter:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/favicon/web-app-manifest-512x512.png{% endif %}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@shiryakhat">
     
@@ -185,7 +187,10 @@
     </script>
     
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/brands.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/solid.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/regular.min.css">
     <link rel="stylesheet" href="/css/fonts/Vazir.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

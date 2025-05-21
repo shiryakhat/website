@@ -42,16 +42,15 @@
                                             <div class="episode-title">{{ post.title | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}</div>
                                         {% endif %}
                                         {% if post.youtube %}
-                                            <div class="video-tag"><i class="fa fa-video-camera"></i> Video</div>
+                                            <div class="video-tag"><i class="fa-solid fa-video"></i> Video</div>
                                         {% endif %}
                                         <div class="episode-date">{{ post.date | date: "%B %d, %Y" }}</div>
-                                        <div class="read-more">Listen Now <i class="fa fa-headphones"></i></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="episode-caption">
                                 <h3>
-                                {% if post.youtube %}<span class="card-video-tag"><i class="fa fa-film"></i></span>{% endif %}
+                                {% if post.youtube %}<span class="card-video-tag"><i class="fa-solid fa-film"></i></span>{% endif %}
                                 {% assign title_parts = post.title | split: "|" %}
                                 {% if title_parts.size > 1 %}
                                     {{ title_parts[0] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
@@ -63,23 +62,23 @@
                                     <div class="episode-platforms">
                                         {% if post.youtube %}
                                         <a href="{{ post.youtube }}" target="_blank" class="platform-icon youtube">
-                                            <i class="fa fa-youtube-play"></i>
+                                            <i class="fa-brands fa-youtube"></i>
                                         </a>
                                         {% endif %}
                                         {% if post.spotify %}
                                         <a href="{{ post.spotify }}" target="_blank" class="platform-icon spotify">
-                                            <i class="fa fa-spotify"></i>
+                                            <i class="fa-brands fa-spotify"></i>
                                         </a>
                                         {% endif %}
                                         {% if post.apple_podcast %}
                                         <a href="{{ post.apple_podcast }}" target="_blank" class="platform-icon apple">
-                                            <i class="fa fa-apple"></i>
+                                            <i class="fa-brands fa-apple"></i>
                                         </a>
                                         {% endif %}
                                     </div>
                                     <div class="episode-meta">
                                         <div class="meta-container">
-                                            <span class="episode-date"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %d, %Y" }}</span>
+                                            <span class="episode-date"><i class="fa-regular fa-calendar"></i> {{ post.date | date: "%b %d, %Y" }}</span>
                                             <span class="episode-number">{{ post.episode }}</span>
                                         </div>
                                     </div>
