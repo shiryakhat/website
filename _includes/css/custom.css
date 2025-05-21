@@ -580,16 +580,6 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;
 }
 
-.read-more {
-    display: inline-block;
-    background-color: #{{ site.color.secondary }};
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
 
 .episode-caption {
     padding: 15px 15px 10px 15px;
@@ -1483,7 +1473,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 15px;
     margin: 0 auto 20px;
     text-align: center;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .partner-logo {
@@ -1651,6 +1641,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     gap: 15px;
     margin: 0 auto 25px;
+    max-width: 300px;
 }
 
 .social-link {
