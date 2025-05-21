@@ -865,10 +865,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .platforms-heading {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     color: #555;
-    margin-bottom: 30px;
-    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: 500;
     display: inline-block;
     position: relative;
     padding-bottom: 10px;
