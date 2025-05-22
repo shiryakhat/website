@@ -71,8 +71,8 @@ AI & Blockchain: When Code Writes Back (S07E06) هوش مصنوعی و بلاک�
 
 * شایان اسکندری: [shayan.es](https://shayan.es)  
 * حمید باطنی: [x.com/n3wbateni](https://x.com/n3wbateni)
-* امین
-* امیر
+* امین عباسلو: [linkedin.com//amin-abbasloo](https://www.linkedin.com/in/amin-abbasloo-3a2747121/)
+* امیر مبهوت: [x.com/amirmabhout](https://x.com/amirmabhout)
 
 
 ## منابع و لینک‌های ذکرشده
