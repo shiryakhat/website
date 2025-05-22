@@ -17,7 +17,7 @@ soundcloud:
 
 # anchor: Anchor was bought by Spotify and is no longer available
 
-apple_podcast: 
+apple_podcast: https://podcasts.apple.com/us/podcast/ai-blockchain-when-code-writes-back-s07e06-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C/id1221206951?i=1000709375090
 
 # google_podcast: discontinued , TODO figure out how to do Youtube Music
 
