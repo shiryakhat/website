@@ -23,9 +23,9 @@ apple_podcast:
 
 # amazonmusic: apparently doesn't support video podcasts conversion 
 
-spotify: 
+spotify: https://open.spotify.com/episode/7x8svacQGEZDdS8iu2LFcT?si=SYPv5npVRqaI3qtW-Nm1_w
 
-castbox: 
+castbox: https://castbox.fm/vi/810689460
 
 ---
 
