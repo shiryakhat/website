@@ -68,25 +68,56 @@ AI & Blockchain: When Code Writes Back (S07E06) هوش مصنوعی و بلاک�
 
 * شایان اسکندری: [shayan.es](https://shayan.es)  
 * حمید باطنی: [x.com/n3wbateni](https://x.com/n3wbateni)
-* سینا محمودی: [x.com/sina_mahmoodi](https://x.com/sina_mahmoodi)
+* امین
+* امیر
 
 
 ## منابع و لینک‌های ذکرشده
 
-* [LangChain](https://github.com/langchain-ai/langchain)
-* [smolAgent](https://github.com/smol-ai/developer)
-* [ElizaOS](https://github.com/ElizaOS)
-* [Virtuals](https://virtuals.ai)
-* [Chaoschain](https://chaoschain.io)
-* [N8N Workflow Automation](https://n8n.io)
-* [Intel SGX](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html)
-* [Zama.ai](https://zama.ai)
-* [Fully Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
-* [LangGraph](https://github.com/langgraph)
-* [Cursor IDE](https://cursor.sh)
-* [Autogen by Microsoft](https://github.com/microsoft/autogen)
-* [DataBarista](https://github.com/databarista)
-* [Cursorrules](https://github.com/cursorrules)
+- Shir Ya Khat Website: [shiryakhat.net](https://shiryakhat.net/)
+- Shir Ya Khat GitHub: [github.com/shiryakhat](https://github.com/shiryakhat)
+
+#### ابزارها و فریم‌ورک‌ها:
+- Awesome Vibe Coding: [github.com/filipecalegario/awesome-vibecoding](https://github.com/filipecalegario/awesome-vibe-coding)
+- LangChain: [github.com/langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+- LangGraph: [github.com/langgraph](https://github.com/langgraph)
+- smolAgent: [github.com/smol-ai/developer](https://github.com/smol-ai/developer)
+- Cursor IDE: [cursor.sh](https://cursor.sh)
+- Autogen by Microsoft: [github.com/microsoft/autogen](https://github.com/microsoft/autogen)
+- Cursorrules: [github.com/cursorrules](https://github.com/cursorrules)
+- Dify (LLMOps Platform): [github.com/langgenius/dify](https://github.com/langgenius/dify)
+- Langflow: [github.com/langflow-ai/langflow](https://github.com/langflow-ai/langflow)
+
+#### پروژه‌ها و نمونه‌های کاربردی:
+- Chaoschain: [chaoschain.io](https://chaoschain.io)
+- Virtuals: [virtuals.ai](https://virtuals.ai)
+- ElizaOS: [github.com/ElizaOS](https://github.com/ElizaOS)
+- ElizaOS Framework: [elizaos.ai](https://elizaos.ai)
+- Spartan Agent Manager: [x.com/spartanversus](https://x.com/spartanversus)
+- DataBarista AI Matchmaker: [databarista.ai](https://databarista.ai)
+- OriginTrail (Decentralized Knowledge Graph): [origintrail.io](https://origintrail.io)
+- EthGlobal AI Showcase (AiVS): [ethglobal.com/showcase/aivs-o2t7f](https://ethglobal.com/showcase/aivs-o2t7f)
+- PocketFlow Tutorial Codebase: [github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge)
+- Arbitrum (OffchainLabs): [gitctx.com/OffchainLabs/arbitrum](https://gitctx.com/OffchainLabs/arbitrum)
+
+#### امنیت، رمزنگاری و سخت‌افزار:
+- Intel SGX Overview: [intel.com/.../software-guard-extensions](https://www.intel.com/content/www/us/en/products/docs/accelerator-engines/software-guard-extensions.html)
+- Fully Homomorphic Encryption: [en.wikipedia.org/wiki/Homomorphic_encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption)
+- Zama (FHE Tooling): [zama.ai](https://www.zama.ai/)
+
+#### مدل‌های زبان و کدنویسی:
+- Claude Code GitHub: [github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
+- Claude Code Overview: [docs.anthropic.com/claude-code](https://docs.anthropic.com/en/docs/claude-code/overview)
+- OpenAI Codex: [openai.com/index/introducing-codex](https://openai.com/index/introducing-codex/)
+
+#### وایب‌کدینگ و ساخت اپلیکیشن‌ها:
+- Reddit VibeCoding Community: [reddit.com/r/vibecoding](https://www.reddit.com/r/vibecoding/)
+- Padsnap Launch Thread: [reddit.com/r/vibecoding/comments/1ks5rcl/...](https://www.reddit.com/r/vibecoding/comments/1ks5rcl/i_vibecoded_an_app_i_desperately_wanted_and/)
+- PadSnap App: [padsnap.app](https://padsnap.app)
+
+#### توییت‌ها و گفتگوهای مرتبط:
+- AI + Blockchain Commentary: [x.com/sbetamc/status/1891950821618663588](https://x.com/sbetamc/status/1891950821618663588)
+
 
 ---
 
