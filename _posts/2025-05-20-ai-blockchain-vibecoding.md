@@ -116,7 +116,7 @@ AI & Blockchain: When Code Writes Back (S07E06) هوش مصنوعی و بلاک�
 
 #### وایب‌کدینگ و ساخت اپلیکیشن‌ها:
 - Reddit VibeCoding Community: [reddit.com/r/vibecoding](https://www.reddit.com/r/vibecoding/)
-- Padsnap Launch Thread: [reddit.com/r/vibecoding/comments/1ks5rcl/...](https://www.reddit.com/r/vibecoding/comments/1ks5rcl/i_vibecoded_an_app_i_desperately_wanted_and/)
+- Padsnap Launch Thread: [/r/AnalogCommunity/comments](https://www.reddit.com/r/AnalogCommunity/comments/1krqvw8/thanks_for_this_joyful_experience_padsnapapp_is/)
 - PadSnap App: [padsnap.app](https://padsnap.app)
 
 #### توییت‌ها و گفتگوهای مرتبط:
