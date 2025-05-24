@@ -84,3 +84,47 @@ defaults:
 
 plugins:
   - jekyll-sitemap
+
+
+# Seasons configuration
+seasons:
+  all:
+    title: "All Seasons"
+    title_fa: "همه فصل‌ها"
+    date_range: "2017 - Present"
+    date_range_fa: "۱۳۹۵ - اکنون"
+  S01:
+    title: "Bitcoin Fundamentals"
+    title_fa: "مبانی بیت‌کوین"
+    date_range: "Feb - Jul 2017"
+    date_range_fa: "بهمن ۱۳۹۵ - مرداد ۱۳۹۶"
+  S02:
+    title: "Blockchain Evolution"
+    title_fa: "تکامل بلاکچین"
+    date_range: "Oct - Nov 2017"
+    date_range_fa: "مهر - آذر ۱۳۹۶"
+  S03:
+    title: "Technical Deep Dives"
+    title_fa: "بررسی‌های فنی عمیق"
+    date_range: "Jun 2019 - Apr 2020"
+    date_range_fa: "خرداد ۱۳۹۸ - اردیبهشت ۱۳۹۹"
+  S04:
+    title: "DeFi Revolution"
+    title_fa: "انقلاب دیفای"
+    date_range: "Jul - Dec 2020"
+    date_range_fa: "تیر - دی ۱۳۹۹"
+  S05:
+    title: "Ethereum Updates"
+    title_fa: "به‌روزرسانی‌های اتریوم"
+    date_range: "Jul - Aug 2021"
+    date_range_fa: "تیر - مرداد ۱۴۰۰"
+  S06:
+    title: "Scalability Solutions"
+    title_fa: "راه‌حل‌های مقیاس‌پذیری"
+    date_range: "Oct 2021 - Apr 2022"
+    date_range_fa: "مهر ۱۴۰۰ - فروردین ۱۴۰۱"
+  S07:
+    title: "Future of Blockchain"
+    title_fa: "آینده بلاکچین"
+    date_range: "Feb 2024 - Present"
+    date_range_fa: "بهمن ۱۴۰۲ - اکنون"

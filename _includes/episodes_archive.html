@@ -13,14 +13,81 @@
             <div class="col-lg-12 text-center">
                 <div class="season-filter-container">
                     <div class="filter-buttons">
-                        <button class="btn btn-filter active" data-filter="all">All Seasons</button>
-                        <button class="btn btn-filter" data-filter="S01">Season 1</button>
-                        <button class="btn btn-filter" data-filter="S02">Season 2</button>
-                        <button class="btn btn-filter" data-filter="S03">Season 3</button>
-                        <button class="btn btn-filter" data-filter="S04">Season 4</button>
-                        <button class="btn btn-filter" data-filter="S05">Season 5</button>
-                        <button class="btn btn-filter" data-filter="S06">Season 6</button>
-                        <button class="btn btn-filter" data-filter="S07">Season 7</button>
+                        <!-- All Seasons button first -->
+                        <button class="btn btn-filter active" data-filter="all" 
+                                data-title-en="{{ site.seasons.all.title }}" 
+                                data-title-fa="{{ site.seasons.all.title_fa }}"
+                                data-date-en="{{ site.seasons.all.date_range }}"
+                                data-date-fa="{{ site.seasons.all.date_range_fa }}">
+                            {{ site.seasons.all.title }}
+                        </button>
+                        
+                        <!-- Season buttons in reverse order (S07 to S01) -->
+                        <button class="btn btn-filter" data-filter="S07" 
+                                data-title-en="{{ site.seasons.S07.title }}" 
+                                data-title-fa="{{ site.seasons.S07.title_fa }}"
+                                data-date-en="{{ site.seasons.S07.date_range }}"
+                                data-date-fa="{{ site.seasons.S07.date_range_fa }}">
+                            Season 7
+                        </button>
+                        <button class="btn btn-filter" data-filter="S06" 
+                                data-title-en="{{ site.seasons.S06.title }}" 
+                                data-title-fa="{{ site.seasons.S06.title_fa }}"
+                                data-date-en="{{ site.seasons.S06.date_range }}"
+                                data-date-fa="{{ site.seasons.S06.date_range_fa }}">
+                            Season 6
+                        </button>
+                        <button class="btn btn-filter" data-filter="S05" 
+                                data-title-en="{{ site.seasons.S05.title }}" 
+                                data-title-fa="{{ site.seasons.S05.title_fa }}"
+                                data-date-en="{{ site.seasons.S05.date_range }}"
+                                data-date-fa="{{ site.seasons.S05.date_range_fa }}">
+                            Season 5
+                        </button>
+                        <button class="btn btn-filter" data-filter="S04" 
+                                data-title-en="{{ site.seasons.S04.title }}" 
+                                data-title-fa="{{ site.seasons.S04.title_fa }}"
+                                data-date-en="{{ site.seasons.S04.date_range }}"
+                                data-date-fa="{{ site.seasons.S04.date_range_fa }}">
+                            Season 4
+                        </button>
+                        <button class="btn btn-filter" data-filter="S03" 
+                                data-title-en="{{ site.seasons.S03.title }}" 
+                                data-title-fa="{{ site.seasons.S03.title_fa }}"
+                                data-date-en="{{ site.seasons.S03.date_range }}"
+                                data-date-fa="{{ site.seasons.S03.date_range_fa }}">
+                            Season 3
+                        </button>
+                        <button class="btn btn-filter" data-filter="S02" 
+                                data-title-en="{{ site.seasons.S02.title }}" 
+                                data-title-fa="{{ site.seasons.S02.title_fa }}"
+                                data-date-en="{{ site.seasons.S02.date_range }}"
+                                data-date-fa="{{ site.seasons.S02.date_range_fa }}">
+                            Season 2
+                        </button>
+                        <button class="btn btn-filter" data-filter="S01" 
+                                data-title-en="{{ site.seasons.S01.title }}" 
+                                data-title-fa="{{ site.seasons.S01.title_fa }}"
+                                data-date-en="{{ site.seasons.S01.date_range }}"
+                                data-date-fa="{{ site.seasons.S01.date_range_fa }}">
+                            Season 1
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Season Info Display -->
+        <div class="row season-info-display" id="seasonInfo" style="display: none;">
+            <div class="col-lg-12">
+                <div class="season-info-container">
+                    <div class="season-title-section">
+                        <h3 id="seasonTitleEn" class="season-title-en"></h3>
+                        <h4 id="seasonTitleFa" class="season-title-fa"></h4>
+                    </div>
+                    <div class="season-dates-section">
+                        <span id="seasonDateEn" class="season-date-en"></span>
+                        <span id="seasonDateFa" class="season-date-fa"></span>
                     </div>
                 </div>
             </div>
