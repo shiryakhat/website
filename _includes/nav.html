@@ -32,41 +32,42 @@
                     <ul class="dropdown-menu platform-dropdown" role="menu" aria-label="Episodes and seasons">
                         <li role="menuitem"><a href="/archive#portfolio" onclick="gtag('event', 'select_content', {'content_type': 'episodes_nav', 'event_category': 'Navigation', 'event_label': 'All Episodes'});"><i class="fa-solid fa-list" aria-hidden="true"></i> All Episodes</a></li>
                         <li class="divider"></li>
-                        <li role="menuitem">
-                            <a href="/archive#portfolio" class="season-nav-link" data-season="S07" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': 'S07'});">
-                                <i class="fa-solid fa-play-circle" aria-hidden="true"></i> Season 7
-                            </a>
-                        </li>
-                        <li role="menuitem">
-                            <a href="/archive#portfolio" class="season-nav-link" data-season="S06" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': 'S06'});">
-                                <i class="fa-solid fa-play-circle" aria-hidden="true"></i> Season 6
-                            </a>
-                        </li>
-                        <li role="menuitem">
-                            <a href="/archive#portfolio" class="season-nav-link" data-season="S05" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': 'S05'});">
-                                <i class="fa-solid fa-play-circle" aria-hidden="true"></i> Season 5
-                            </a>
-                        </li>
-                        <li role="menuitem">
-                            <a href="/archive#portfolio" class="season-nav-link" data-season="S04" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': 'S04'});">
-                                <i class="fa-solid fa-play-circle" aria-hidden="true"></i> Season 4
-                            </a>
-                        </li>
-                        <li role="menuitem">
-                            <a href="/archive#portfolio" class="season-nav-link" data-season="S03" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': 'S03'});">
-                                <i class="fa-solid fa-play-circle" aria-hidden="true"></i> Season 3
-                            </a>
-                        </li>
-                        <li role="menuitem">
-                            <a href="/archive#portfolio" class="season-nav-link" data-season="S02" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': 'S02'});">
-                                <i class="fa-solid fa-play-circle" aria-hidden="true"></i> Season 2
-                            </a>
-                        </li>
-                        <li role="menuitem">
-                            <a href="/archive#portfolio" class="season-nav-link" data-season="S01" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': 'S01'});">
-                                <i class="fa-solid fa-play-circle" aria-hidden="true"></i> Season 1
-                            </a>
-                        </li>
+                        {% comment %} Create array of season keys and sort numerically in reverse order {% endcomment %}
+                        {% assign season_keys = "" | split: "" %}
+                        {% for season in site.seasons %}
+                            {% unless season[0] == 'all' %}
+                                {% assign season_keys = season_keys | push: season[0] %}
+                            {% endunless %}
+                        {% endfor %}
+                        {% comment %} Sort seasons numerically by extracting numbers {% endcomment %}
+                        {% assign sorted_seasons = "" | split: "" %}
+                        {% assign season_numbers = "" | split: "" %}
+                        {% for season_key in season_keys %}
+                            {% assign season_num = season_key | remove: 'S' | plus: 0 %}
+                            {% assign season_numbers = season_numbers | push: season_num %}
+                        {% endfor %}
+                        {% assign sorted_numbers = season_numbers | sort | reverse %}
+                        {% for num in sorted_numbers %}
+                            {% if num < 10 %}
+                                {% assign season_key = 'S0' | append: num %}
+                            {% else %}
+                                {% assign season_key = 'S' | append: num %}
+                            {% endif %}
+                            {% assign sorted_seasons = sorted_seasons | push: season_key %}
+                        {% endfor %}
+                        
+                        {% comment %} Season navigation links in reverse order (S07 to S01) {% endcomment %}
+                        {% for season_key in sorted_seasons %}
+                            {% unless season_key == 'all' %}
+                                {% assign season_data = site.seasons[season_key] %}
+                                <li role="menuitem">
+                                    <a href="/archive#portfolio" class="season-nav-link" data-season="{{ season_key }}" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': '{{ season_key }}'});">
+                                        <i class="fa-solid fa-play-circle" aria-hidden="true"></i> 
+                                        Season {{ season_key | remove: 'S' }}
+                                    </a>
+                                </li>
+                            {% endunless %}
+                        {% endfor %}
                     </ul>
                 </li>
                 <li class="page-scroll nav-item" role="menuitem">

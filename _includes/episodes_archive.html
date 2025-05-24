@@ -13,65 +13,53 @@
             <div class="col-lg-12 text-center">
                 <div class="season-filter-container">
                     <div class="filter-buttons">
-                        <!-- All Seasons button first -->
+                        {% comment %} Create array of season keys and sort numerically in reverse order {% endcomment %}
+                        {% assign season_keys = "" | split: "" %}
+                        {% for season in site.seasons %}
+                            {% unless season[0] == 'all' %}
+                                {% assign season_keys = season_keys | push: season[0] %}
+                            {% endunless %}
+                        {% endfor %}
+                        {% comment %} Sort seasons numerically by extracting numbers {% endcomment %}
+                        {% assign sorted_seasons = "" | split: "" %}
+                        {% assign season_numbers = "" | split: "" %}
+                        {% for season_key in season_keys %}
+                            {% assign season_num = season_key | remove: 'S' | plus: 0 %}
+                            {% assign season_numbers = season_numbers | push: season_num %}
+                        {% endfor %}
+                        {% assign sorted_numbers = season_numbers | sort | reverse %}
+                        {% for num in sorted_numbers %}
+                            {% if num < 10 %}
+                                {% assign season_key = 'S0' | append: num %}
+                            {% else %}
+                                {% assign season_key = 'S' | append: num %}
+                            {% endif %}
+                            {% assign sorted_seasons = sorted_seasons | push: season_key %}
+                        {% endfor %}
+                        
+                        {% comment %} All Seasons button first {% endcomment %}
+                        {% assign all_season = site.seasons.all %}
                         <button class="btn btn-filter active" data-filter="all" 
-                                data-title-en="{{ site.seasons.all.title }}" 
-                                data-title-fa="{{ site.seasons.all.title_fa }}"
-                                data-date-en="{{ site.seasons.all.date_range }}"
-                                data-date-fa="{{ site.seasons.all.date_range_fa }}">
-                            {{ site.seasons.all.title }}
+                                data-title-en="{{ all_season.title }}" 
+                                data-title-fa="{{ all_season.title_fa }}"
+                                data-date-en="{{ all_season.date_range }}"
+                                data-date-fa="{{ all_season.date_range_fa }}">
+                            {{ all_season.title }}
                         </button>
                         
-                        <!-- Season buttons in reverse order (S07 to S01) -->
-                        <button class="btn btn-filter" data-filter="S07" 
-                                data-title-en="{{ site.seasons.S07.title }}" 
-                                data-title-fa="{{ site.seasons.S07.title_fa }}"
-                                data-date-en="{{ site.seasons.S07.date_range }}"
-                                data-date-fa="{{ site.seasons.S07.date_range_fa }}">
-                            Season 7
-                        </button>
-                        <button class="btn btn-filter" data-filter="S06" 
-                                data-title-en="{{ site.seasons.S06.title }}" 
-                                data-title-fa="{{ site.seasons.S06.title_fa }}"
-                                data-date-en="{{ site.seasons.S06.date_range }}"
-                                data-date-fa="{{ site.seasons.S06.date_range_fa }}">
-                            Season 6
-                        </button>
-                        <button class="btn btn-filter" data-filter="S05" 
-                                data-title-en="{{ site.seasons.S05.title }}" 
-                                data-title-fa="{{ site.seasons.S05.title_fa }}"
-                                data-date-en="{{ site.seasons.S05.date_range }}"
-                                data-date-fa="{{ site.seasons.S05.date_range_fa }}">
-                            Season 5
-                        </button>
-                        <button class="btn btn-filter" data-filter="S04" 
-                                data-title-en="{{ site.seasons.S04.title }}" 
-                                data-title-fa="{{ site.seasons.S04.title_fa }}"
-                                data-date-en="{{ site.seasons.S04.date_range }}"
-                                data-date-fa="{{ site.seasons.S04.date_range_fa }}">
-                            Season 4
-                        </button>
-                        <button class="btn btn-filter" data-filter="S03" 
-                                data-title-en="{{ site.seasons.S03.title }}" 
-                                data-title-fa="{{ site.seasons.S03.title_fa }}"
-                                data-date-en="{{ site.seasons.S03.date_range }}"
-                                data-date-fa="{{ site.seasons.S03.date_range_fa }}">
-                            Season 3
-                        </button>
-                        <button class="btn btn-filter" data-filter="S02" 
-                                data-title-en="{{ site.seasons.S02.title }}" 
-                                data-title-fa="{{ site.seasons.S02.title_fa }}"
-                                data-date-en="{{ site.seasons.S02.date_range }}"
-                                data-date-fa="{{ site.seasons.S02.date_range_fa }}">
-                            Season 2
-                        </button>
-                        <button class="btn btn-filter" data-filter="S01" 
-                                data-title-en="{{ site.seasons.S01.title }}" 
-                                data-title-fa="{{ site.seasons.S01.title_fa }}"
-                                data-date-en="{{ site.seasons.S01.date_range }}"
-                                data-date-fa="{{ site.seasons.S01.date_range_fa }}">
-                            Season 1
-                        </button>
+                        {% comment %} Season buttons in reverse order (S07 to S01) {% endcomment %}
+                        {% for season_key in sorted_seasons %}
+                            {% unless season_key == 'all' %}
+                                {% assign season_data = site.seasons[season_key] %}
+                                <button class="btn btn-filter" data-filter="{{ season_key }}" 
+                                        data-title-en="{{ season_data.title }}" 
+                                        data-title-fa="{{ season_data.title_fa }}"
+                                        data-date-en="{{ season_data.date_range }}"
+                                        data-date-fa="{{ season_data.date_range_fa }}">
+                                    Season {{ season_key | remove: 'S' }}
+                                </button>
+                            {% endunless %}
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -103,11 +91,21 @@
                                     <div class="episode-info">
                                         <div class="episode-number">{{ post.episode }}</div>
                                         {% assign title_parts = post.title | split: "|" %}
+                                        {% comment %} Clean episode codes dynamically {% endcomment %}
                                         {% if title_parts.size > 1 %}
-                                            <div class="episode-title">{{ title_parts[1] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}</div>
+                                            {% assign clean_title = title_parts[1] | strip %}
                                         {% else %}
-                                            <div class="episode-title">{{ post.title | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}</div>
+                                            {% assign clean_title = post.title %}
                                         {% endif %}
+                                        {% comment %} Remove any (SXXEXX) pattern dynamically {% endcomment %}
+                                        {% assign clean_title = clean_title | split: '(' %}
+                                        {% assign final_title = clean_title[0] %}
+                                        {% for part in clean_title offset:1 %}
+                                            {% unless part contains 'S' and part contains 'E' and part contains ')' %}
+                                                {% assign final_title = final_title | append: '(' | append: part %}
+                                            {% endunless %}
+                                        {% endfor %}
+                                        <div class="episode-title">{{ final_title | strip }}</div>
                                         {% if post.youtube %}
                                             <div class="video-tag"><i class="fa-solid fa-video"></i> Video</div>
                                         {% endif %}
@@ -119,11 +117,21 @@
                                 <h3>
                                 {% if post.youtube %}<span class="card-video-tag"><i class="fa-solid fa-film"></i></span>{% endif %}
                                 {% assign title_parts = post.title | split: "|" %}
+                                {% comment %} Clean episode codes dynamically {% endcomment %}
                                 {% if title_parts.size > 1 %}
-                                    {{ title_parts[0] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
+                                    {% assign clean_title = title_parts[0] | strip %}
                                 {% else %}
-                                    {{ post.title | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
+                                    {% assign clean_title = post.title %}
                                 {% endif %}
+                                {% comment %} Remove any (SXXEXX) pattern dynamically {% endcomment %}
+                                {% assign clean_title = clean_title | split: '(' %}
+                                {% assign final_title = clean_title[0] %}
+                                {% for part in clean_title offset:1 %}
+                                    {% unless part contains 'S' and part contains 'E' and part contains ')' %}
+                                        {% assign final_title = final_title | append: '(' | append: part %}
+                                    {% endunless %}
+                                {% endfor %}
+                                {{ final_title | strip }}
                                 </h3>
                                 <div class="card-footer">
                                     <div class="episode-platforms">
