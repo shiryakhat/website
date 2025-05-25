@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-title {
     margin-bottom: 15px;
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     color: #{{ site.color.secondary }};
 }
 
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .skills-en, .skills-fa {
     display: block;
-    font-size: 1.2rem;
+    font-size: 3.2rem;
     font-weight: 400;
 }
 
@@ -465,16 +465,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-header-title {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     font-weight: 700;
     margin: 0 0 5px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .post-header-subtitle {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     font-weight: 600;
-    margin: 5px 0 15px;
+    margin: 10px 0 15px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     direction: rtl;
     color: rgba(255, 255, 255, 0.9);
@@ -777,36 +777,170 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .season-filter-container {
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    padding: 10px;
-    max-width: 850px;
+    background: rgba(248, 249, 250, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 100%;
     margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .filter-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    gap: 8px;
 }
 
 .btn-filter {
-    padding: 5px 10px;
-    background-color: #f1f1f1;
-    border: none;
-    border-radius: 15px;
-    color: #555;
-    font-size: 0.8rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    margin: 2px;
+    position: relative;
+    padding: 14px 22px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 2px solid #e9ecef;
+    border-radius: 30px;
+    color: #495057;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    min-width: 100px;
 }
 
-.btn-filter:hover,
+
+.btn-filter::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    transition: all 0.6s ease;
+}
+
+.btn-filter:hover::before {
+    left: 100%;
+}
+
+.btn-filter:hover {
+    background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+    color: #2c3e50;
+    border-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.15);
+}
+
 .btn-filter.active {
-    background-color: #{{ site.color.primary }};
+    background: linear-gradient(135deg, #{{ site.color.primary }} 0%, #{{ site.color.secondary }} 100%);
     color: #fff;
+    border-color: #{{ site.color.primary }};
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(5, 11, 62, 0.3);
+}
+
+.btn-filter.active::before {
+    display: none;
+}
+
+/* Tooltip functionality removed for better performance and compatibility */
+
+/* Season Info Display */
+.season-info-display {
+    margin: 20px 0 30px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.4s ease;
+}
+
+.season-info-display.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.season-info-container {
+    background: linear-gradient(135deg, #{{ site.color.primary }} 0%, #{{ site.color.secondary }} 100%);
+    border-radius: 20px;
+    padding: 15px 25px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(5, 11, 62, 0.2);
+    position: relative;
+    overflow: hidden;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.season-info-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.season-title-section,
+.season-dates-section {
+    position: relative;
+    z-index: 2;
+}
+
+.season-title-section {
+    text-align: left;
+    flex: 1;
+}
+
+.season-title-en {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.season-title-fa {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    direction: rtl;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.season-dates-section {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.season-date-en,
+.season-date-fa {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 4px 12px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+
+.season-date-en {
+    margin-bottom: 6px;
+}
+
+.season-date-fa {
+    direction: rtl;
 }
 
 /* Post Content */
@@ -888,6 +1022,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .platforms-heading i {
     margin-right: 8px;
+    margin-left: 5px;
     color: #{{ site.color.primary }};
 }
 
@@ -1089,13 +1224,15 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: #f5f5f5;
     color: #555;
     margin-right: 10px;
     transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .share-btn:hover {
@@ -1103,7 +1240,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .share-btn.twitter {
-    background-color: #1DA1F2;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -1226,7 +1363,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-label {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 8px;
     color: #777;
@@ -1262,7 +1399,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-title {
     display: block;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 5px;
     overflow: hidden;
@@ -1289,7 +1426,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3px 8px;
     border-radius: 20px;
     font-weight: 600;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     margin-top: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -1424,14 +1561,14 @@ h1, h2, h3, h4, h5, h6 {
 .about-card h3 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     color: #fff;
 }
 
 .about-card p {
     margin-bottom: 15px;
     line-height: 1.8;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 }
 
 .about-english {
@@ -2106,6 +2243,92 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
+/* Image Modal Styles */
+.image-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    animation-duration: 0.3s;
+}
+
+.image-modal.show {
+    display: block;
+    animation-name: modalFadeIn;
+}
+
+.image-modal.hide {
+    animation-name: modalFadeOut;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes modalFadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    animation-duration: 0.4s;
+    animation-name: modalZoom;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes modalZoom {
+    from { transform: scale(0.1); }
+    to { transform: scale(1); }
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.post-logo:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 991px) {
     .navbar-brand {
@@ -2117,7 +2340,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .post-header-title {
-        font-size: 1.8rem;
+        font-size: 2.8rem;
     }
     
     .platforms-wrapper {
@@ -2245,6 +2468,48 @@ h1, h2, h3, h4, h5, h6 {
     .prev-post {
         margin-top: 20px;
     }
+    
+    /* Season filter mobile styles */
+    .season-filter-container {
+        padding: 20px;
+        border-radius: 12px;
+        background: rgba(248, 249, 250, 0.2);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.01);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    
+    .season-info-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 20px;
+        max-width: 95%;
+    }
+    
+    .season-title-section {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .season-dates-section {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .season-title-en {
+        font-size: 1.5rem;
+    }
+    
+    .season-title-fa {
+        font-size: 1.8rem;
+    }
+    
+    .season-date-en,
+    .season-date-fa {
+        font-size: 1rem;
+        padding: 3px 10px;
+        margin-bottom: 4px;
+    }
 }
     
     .post-content {
@@ -2252,7 +2517,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .post-header-title {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     
     .filter-buttons {
@@ -2261,12 +2526,6 @@ h1, h2, h3, h4, h5, h6 {
         gap: 5px;
     }
     
-    .btn-filter {
-        padding: 4px 8px;
-        font-size: 0.75rem;
-        margin: 2px;
-        width: auto;
-    }
     
     .season-filter-container {
         padding: 8px;

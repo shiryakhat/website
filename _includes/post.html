@@ -122,13 +122,13 @@
                 <div class="post-footer animated fadeInUp" data-wow-delay="0.5s">
                     <div class="post-share">
                         <span>Share:</span>
-                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn twitter" onclick="ga('send', 'event', 'Share', 'Twitter', '{{ page.title }}');">
-                            <i class="fa-brands fa-twitter"></i>
+                        <a href="https://x.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn twitter no-underline" onclick="ga('send', 'event', 'Share', 'X', '{{ page.title }}');">
+                            <i class="fa-brands fa-x-twitter"></i>
                         </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn facebook" onclick="ga('send', 'event', 'Share', 'Facebook', '{{ page.title }}');">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn facebook no-underline" onclick="ga('send', 'event', 'Share', 'Facebook', '{{ page.title }}');">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
-                        <a href="https://t.me/share/url?url={{ site.url }}{{ page.url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" class="share-btn telegram" onclick="ga('send', 'event', 'Share', 'Telegram', '{{ page.title }}');">
+                        <a href="https://t.me/share/url?url={{ site.url }}{{ page.url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" class="share-btn telegram no-underline" onclick="ga('send', 'event', 'Share', 'Telegram', '{{ page.title }}');">
                             <i class="fa-brands fa-telegram"></i>
                         </a>
                     </div>
@@ -138,12 +138,22 @@
                         <a class="next-post" href="{{site.url}}{{page.next.url}}" onclick="ga('send', 'event', 'Navigation', 'NextEpisode', '{{ page.next.title }}');">
                             <div class="nav-content">
                                 <span class="nav-label">Next Episode <i class="fa-solid fa-step-forward"></i></span>
-                                <span class="nav-title">{% assign title_parts = page.next.title | split: "|" %}
+                                {% comment %} Clean episode codes dynamically {% endcomment %}
+                                {% assign title_parts = page.next.title | split: "|" %}
                                 {% if title_parts.size > 1 %}
-                                    {{ title_parts[0] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
+                                    {% assign clean_title = title_parts[0] | strip %}
                                 {% else %}
-                                    {{ page.next.title | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
-                                {% endif %}</span>
+                                    {% assign clean_title = page.next.title %}
+                                {% endif %}
+                                {% comment %} Remove any (SXXEXX) pattern dynamically {% endcomment %}
+                                {% assign clean_title = clean_title | split: '(' %}
+                                {% assign final_title = clean_title[0] %}
+                                {% for part in clean_title offset:1 %}
+                                    {% unless part contains 'S' and part contains 'E' and part contains ')' %}
+                                        {% assign final_title = final_title | append: '(' | append: part %}
+                                    {% endunless %}
+                                {% endfor %}
+                                <span class="nav-title">{{ final_title | strip }}</span>
                                 <span class="nav-episode">{{ page.next.episode }}</span>
                             </div>
                             <div class="nav-thumb">
@@ -157,12 +167,22 @@
                         <a class="prev-post" href="{{site.url}}{{page.previous.url}}" onclick="ga('send', 'event', 'Navigation', 'PreviousEpisode', '{{ page.previous.title }}');">
                             <div class="nav-content">
                                 <span class="nav-label"><i class="fa-solid fa-step-backward"></i> Previous Episode</span>
-                                <span class="nav-title">{% assign title_parts = page.previous.title | split: "|" %}
+                                {% comment %} Clean episode codes dynamically {% endcomment %}
+                                {% assign title_parts = page.previous.title | split: "|" %}
                                 {% if title_parts.size > 1 %}
-                                    {{ title_parts[0] | strip | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
+                                    {% assign clean_title = title_parts[0] | strip %}
                                 {% else %}
-                                    {{ page.previous.title | replace: '(S01E01)', '' | replace: '(S01E02)', '' | replace: '(S01E03)', '' | replace: '(S01E04)', '' | replace: '(S01E05)', '' | replace: '(S01E06)', '' | replace: '(S01E07)', '' | replace: '(S01E08)', '' | replace: '(S01E09)', '' | replace: '(S01E10)', '' | replace: '(S02E01)', '' | replace: '(S02E02)', '' | replace: '(S02E03)', '' | replace: '(S03E01)', '' | replace: '(S03E02)', '' | replace: '(S03E03)', '' | replace: '(S03E04)', '' | replace: '(S03E05)', '' | replace: '(S03E06)', '' | replace: '(S03E07)', '' | replace: '(S04E01)', '' | replace: '(S04E02)', '' | replace: '(S04E03)', '' | replace: '(S04E04)', '' | replace: '(S04E05)', '' | replace: '(S04E06)', '' | replace: '(S05E01)', '' | replace: '(S05E02)', '' | replace: '(S06E01)', '' | replace: '(S06E02)', '' | replace: '(S06E03)', '' | replace: '(S06E04)', '' | replace: '(S06E05)', '' | replace: '(S07E01)', '' | replace: '(S07E02)', '' | replace: '(S07E03)', '' | replace: '(S07E04)', '' | replace: '(S07E05)', '' }}
-                                {% endif %}</span>
+                                    {% assign clean_title = page.previous.title %}
+                                {% endif %}
+                                {% comment %} Remove any (SXXEXX) pattern dynamically {% endcomment %}
+                                {% assign clean_title = clean_title | split: '(' %}
+                                {% assign final_title = clean_title[0] %}
+                                {% for part in clean_title offset:1 %}
+                                    {% unless part contains 'S' and part contains 'E' and part contains ')' %}
+                                        {% assign final_title = final_title | append: '(' | append: part %}
+                                    {% endunless %}
+                                {% endfor %}
+                                <span class="nav-title">{{ final_title | strip }}</span>
                                 <span class="nav-episode">{{ page.previous.episode }}</span>
                             </div>
                             <div class="nav-thumb">
@@ -176,6 +196,13 @@
             </article>
         </div>
     </div>
+</div>
+
+<!-- Image Modal -->
+<div id="imageModal" class="image-modal" onclick="closeImageModal()">
+    <span class="modal-close" onclick="closeImageModal()">&times;</span>
+    <img class="modal-content" id="modalImage" alt="Episode Image">
+    <div class="modal-caption" id="modalCaption"></div>
 </div>
 
 {% include about.html %}

@@ -25,8 +25,50 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                <li class="page-scroll nav-item" role="menuitem">
-                    <a href="/archive#portfolio" class="nav-link" aria-label="Go to episodes archive"><i class="fa-solid fa-podcast" aria-hidden="true"></i> Episodes</a>
+                <li class="page-scroll nav-item dropdown" role="menuitem">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Episodes and seasons">
+                        <i class="fa-solid fa-podcast" aria-hidden="true"></i> Episodes <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu platform-dropdown" role="menu" aria-label="Episodes and seasons">
+                        <li role="menuitem"><a href="/archive#portfolio" onclick="gtag('event', 'select_content', {'content_type': 'episodes_nav', 'event_category': 'Navigation', 'event_label': 'All Episodes'});"><i class="fa-solid fa-list" aria-hidden="true"></i> All Episodes</a></li>
+                        <li class="divider"></li>
+                        {% comment %} Create array of season keys and sort numerically in reverse order {% endcomment %}
+                        {% assign season_keys = "" | split: "" %}
+                        {% for season in site.seasons %}
+                            {% unless season[0] == 'all' %}
+                                {% assign season_keys = season_keys | push: season[0] %}
+                            {% endunless %}
+                        {% endfor %}
+                        {% comment %} Sort seasons numerically by extracting numbers {% endcomment %}
+                        {% assign sorted_seasons = "" | split: "" %}
+                        {% assign season_numbers = "" | split: "" %}
+                        {% for season_key in season_keys %}
+                            {% assign season_num = season_key | remove: 'S' | plus: 0 %}
+                            {% assign season_numbers = season_numbers | push: season_num %}
+                        {% endfor %}
+                        {% assign sorted_numbers = season_numbers | sort | reverse %}
+                        {% for num in sorted_numbers %}
+                            {% if num < 10 %}
+                                {% assign season_key = 'S0' | append: num %}
+                            {% else %}
+                                {% assign season_key = 'S' | append: num %}
+                            {% endif %}
+                            {% assign sorted_seasons = sorted_seasons | push: season_key %}
+                        {% endfor %}
+                        
+                        {% comment %} Season navigation links in reverse order (S07 to S01) {% endcomment %}
+                        {% for season_key in sorted_seasons %}
+                            {% unless season_key == 'all' %}
+                                {% assign season_data = site.seasons[season_key] %}
+                                <li role="menuitem">
+                                    <a href="/archive#portfolio" class="season-nav-link" data-season="{{ season_key }}" onclick="gtag('event', 'select_content', {'content_type': 'season_nav', 'event_category': 'Navigation', 'event_label': '{{ season_key }}'});">
+                                        <i class="fa-solid fa-play-circle" aria-hidden="true"></i> 
+                                        Season {{ season_key | remove: 'S' }}
+                                    </a>
+                                </li>
+                            {% endunless %}
+                        {% endfor %}
+                    </ul>
                 </li>
                 <li class="page-scroll nav-item" role="menuitem">
                     <a href="#about" class="nav-link" aria-label="Go to about section"><i class="fa-solid fa-info-circle" aria-hidden="true"></i> About</a>
