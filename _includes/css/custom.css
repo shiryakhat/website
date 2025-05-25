@@ -1130,46 +1130,110 @@ h1, h2, h3, h4, h5, h6 {
     text-align: right;
     direction: rtl;
     line-height: 1.8;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #333;
-    max-width: 850px;
+    max-width: 900px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Episode title and intro */
+.post-body > p:first-child,
+.post-body > p:nth-child(2),
+.post-body > p:nth-child(3) {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.post-body > p:first-child {
+    font-size: 1.3rem;
+    color: #{{ site.color.primary }};
+    margin-bottom: 5px;
+}
+
+.post-body > p:nth-child(2) {
+    font-size: 1.5rem;
+    color: #{{ site.color.secondary }};
+    margin-bottom: 20px;
+}
+
+.post-body hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #{{ site.color.primary }}, transparent);
+    margin: 30px 0;
+    border-radius: 1px;
 }
 
 .post-body h2 {
-    font-size: 1.9rem;
-    margin: 50px 0 25px;
+    font-size: 1.8rem;
+    margin: 40px 0 20px;
     color: #{{ site.color.secondary }};
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #{{ site.color.secondary }};
+    position: relative;
+}
+
+.post-body h2::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #{{ site.color.primary }};
 }
 
 .post-body h3 {
-    font-size: 1.6rem;
-    margin: 40px 0 20px;
+    font-size: 1.5rem;
+    margin: 35px 0 18px;
     color: #{{ site.color.primary }};
+    position: relative;
+    padding-right: 15px;
+}
+
+.post-body h3::before {
+    content: '▶';
+    position: absolute;
+    right: -5px;
+    color: #{{ site.color.secondary }};
+    font-size: 0.8em;
 }
 
 .post-body h4 {
-    font-size: 1.4rem;
-    margin: 30px 0 15px;
-    color: #444;
+    font-size: 1.3rem;
+    margin: 25px 0 12px;
+    color: #555;
+    font-weight: 600;
 }
 
 .post-body p {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     line-height: 1.9;
+    text-align: justify;
+}
+
+/* Description paragraph styling */
+.post-body > p:nth-child(4) {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 20px;
+    border-radius: 10px;
+    border-right: 4px solid #{{ site.color.primary }};
+    font-size: 1.15rem;
+    margin: 30px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .post-body ul, 
 .post-body ol {
     margin-bottom: 25px;
-    padding-right: 30px;
+    padding-right: 25px;
     list-style-position: outside;
 }
 
 .post-body ul {
-    list-style-type: disc;
+    list-style-type: none;
 }
 
 .post-body ol {
@@ -1177,29 +1241,118 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-body li {
-    margin-bottom: 15px;
-    padding-right: 10px;
-    line-height: 1.9;
-    font-size: 1.2rem;
+    margin-bottom: 12px;
+    padding-right: 25px;
+    line-height: 1.8;
+    font-size: 1.4rem;
     position: relative;
-    color: #333;
+    color: #444;
 }
 
-.post-body li::marker {
+.post-body ul li::before {
+    content: '●';
+    color: #{{ site.color.primary }};
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    font-size: 1.76em;
+    line-height: 0.8;
+    top: 0.1em;
+}
+
+.post-body ol li::marker {
     color: #{{ site.color.primary }};
     font-weight: bold;
 }
 
+/* Nested lists */
+.post-body li ul,
+.post-body li ol {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.post-body li ul li::before {
+    content: '◦';
+    font-size: 1.92em;
+    line-height: 0.8;
+    top: 0.1em;
+}
+
+/* Timeline section styling */
+.post-body h3 + ul,
+.post-body h2 + ul {
+    background-color: #fafbfc;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e1e8ed;
+}
+
+/* Links section */
 .post-body a {
     color: #{{ site.color.primary }};
     text-decoration: none;
     border-bottom: 1px dotted #{{ site.color.primary }};
     transition: all 0.3s ease;
+    font-weight: 500;
 }
 
 .post-body a:hover {
     color: #{{ site.color.secondary }};
     border-bottom-color: #{{ site.color.secondary }};
+    background-color: rgba(239, 174, 34, 0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Special styling for participant/resources sections */
+.post-body strong {
+    color: #{{ site.color.secondary }};
+    font-weight: 600;
+}
+
+/* Code and technical terms */
+.post-body code {
+    background-color: #f1f3f4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    color: #d73a49;
+}
+
+/* Block quotes for important information */
+.post-body blockquote {
+    border-right: 4px solid #{{ site.color.secondary }};
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+    margin: 25px 0;
+    border-radius: 5px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    .post-body {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    
+    .post-body h2 {
+        font-size: 1.6rem;
+        margin: 30px 0 15px;
+    }
+    
+    .post-body h3 {
+        font-size: 1.3rem;
+        margin: 25px 0 12px;
+    }
+    
+    .post-body > p:nth-child(2) {
+        font-size: 1.3rem;
+    }
 }
 
 .post-footer {

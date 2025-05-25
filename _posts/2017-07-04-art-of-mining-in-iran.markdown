@@ -1,13 +1,16 @@
 ---
 layout: post
 modal-id: 9
-title: Art of Mining - Advanced Mining in Iran (S01E09)
+title: "Art of Mining - Advanced Mining in Iran | هنر ماینینگ در ایران (S01E09)"
 episode: S01E09
 date: 2017-07-04
 img: img/episodes/S01E09.jpeg
 alt: Art of Mining - Advanced Mining in Iran (S01E09)
-project-date: July 2017
 permalink: /:year/:month/:title:output_ext
+description: "هنر ماینینگ پیشرفته در ایران - بررسی وضعیت استخراج بیت‌کوین در ایران، تکنیک‌های پیشرفته ماینینگ، چالش‌ها و فرصت‌های ماینینگ در کشور."
+
+youtube: 
+youtube_emb:
 description: "با یک سری از دوستان ماینر در ایران گفتگویی داشتیم و به موضوع بهینه سازی و بومی سازی صنعت استخراج دیجی ارز ها (کریپتوکارنسی) در ایران و چالشهایی که در این راه است پرداختیم."
 
 

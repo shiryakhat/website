@@ -1,13 +1,16 @@
 ---
 layout: post
 modal-id: 12
-title: What The Fork, Bitcoin Forks - Part 1/2 (S02E02)
+title: "What The Fork, Bitcoin Forks - Part 1/2 | چه فورکی، انشعابات بیتکوین - قسمت ۱ (S02E02)"
 episode: S02E02
 date: 2017-11-26
 img: img/episodes/S02E02.jpeg
 alt: What The Fork, Bitcoin Forks - Part 1/2 (S02E02)
-project-date: November 2017
 permalink: /:year/:month/:title:output_ext
+description: "بررسی انشعابات بیت‌کوین - قسمت اول: تحلیل ماهیت فورک‌های نرم و سخت، تاریخچه انشعابات بیت‌کوین، و بررسی علل و عوامل ایجادکننده انشعاب در شبکه‌های بلاک‌چین."
+
+youtube: 
+youtube_emb:
 description: "در این اپیزود به ادامه بحث در مورد شاخه (فورک) های بیتکوین٫ تاریخچه فورک ها٫ تحلیل پیدایش و تاثیر ایجاد یک کوین(رمزارز٫ دیجی ارز) جدید از این شاخه های نرم افزاری می پردازیم."
 
 

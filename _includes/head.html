@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title_fa }} || {{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description_fa | default: site.description }} {% endif %}">
     <meta name="language" content="en, fa">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="7 days">
@@ -31,8 +31,12 @@
       },
       "partOfSeries": {
         "@type": "PodcastSeries",
-        "name": "{{ site.title }} | {{ site.title_fa }}",
-        "url": "{{ site.url }}"
+        "name": "{{ site.title_fa }} | {{ site.title }}",
+        "alternateName": "پادکست بلاکچین شیر یا خط",
+        "url": "{{ site.url }}",
+        "description": "{{ site.description_fa | default: site.description }}",
+        "genre": ["Technology", "Education", "Blockchain", "Cryptocurrency"],
+        "inLanguage": "fa"
       },
       "image": "{{ site.url }}/{{ page.img }}"
       {% else %}
@@ -115,7 +119,7 @@
 
     <!-- Social Media & Open Graph Meta Tags -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title_fa }} || {{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description_fa | default: site.description }} {% endif %}">
     <meta property="og:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/favicon/web-app-manifest-512x512.png{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
@@ -124,7 +128,7 @@
     <meta property="og:locale:alternate" content="en_US">
 
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title_fa }} || {{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description_fa | default: site.description }} {% endif %}">
     <meta name="twitter:image" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/img/favicon/web-app-manifest-512x512.png{% endif %}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@shiryakhat">
