@@ -2363,11 +2363,21 @@ h1, h2, h3, h4, h5, h6 {
     .about-card {
         margin-bottom: 30px;
     }
+    
 }
 
 @media (max-width: 767px) {
     .name-en, .name-fa {
         font-size: 1.6rem;
+    }
+    
+    /* Fix platforms-heading and post-date text wrapping on mobile only */
+    .platforms-heading {
+        white-space: nowrap !important;
+    }
+    
+    .post-date {
+        white-space: nowrap !important;
     }
     
     .crypto-addresses {
