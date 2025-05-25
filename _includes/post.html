@@ -122,8 +122,8 @@
                 <div class="post-footer animated fadeInUp" data-wow-delay="0.5s">
                     <div class="post-share">
                         <span>Share:</span>
-                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn twitter no-underline" onclick="ga('send', 'event', 'Share', 'Twitter', '{{ page.title }}');">
-                            <i class="fa-brands fa-twitter"></i>
+                        <a href="https://x.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn twitter no-underline" onclick="ga('send', 'event', 'Share', 'X', '{{ page.title }}');">
+                            <i class="fa-brands fa-x-twitter"></i>
                         </a>
                         <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn facebook no-underline" onclick="ga('send', 'event', 'Share', 'Facebook', '{{ page.title }}');">
                             <i class="fa-brands fa-facebook-f"></i>
@@ -196,6 +196,13 @@
             </article>
         </div>
     </div>
+</div>
+
+<!-- Image Modal -->
+<div id="imageModal" class="image-modal" onclick="closeImageModal()">
+    <span class="modal-close" onclick="closeImageModal()">&times;</span>
+    <img class="modal-content" id="modalImage" alt="Episode Image">
+    <div class="modal-caption" id="modalCaption"></div>
 </div>
 
 {% include about.html %}
