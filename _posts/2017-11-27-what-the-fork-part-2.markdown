@@ -1,13 +1,16 @@
 ---
 layout: post
 modal-id: 13
-title: What The Fork, Bitcoin Forks - Part 2/2 (S02E03)
+title: "What The Fork, Bitcoin Forks - Part 2/2 | چه فورکی، انشعابات بیتکوین - قسمت ۲ (S02E03)"
 episode: S02E03
 date: 2017-11-27
 img: img/episodes/S02E03.jpeg
 alt: What The Fork, Bitcoin Forks - Part 2/2 (S02E03)
-project-date: November 2017
 permalink: /:year/:month/:title:output_ext
+description: "بررسی انشعابات بیت‌کوین - قسمت دوم: تحلیل عمیق Bitcoin Cash، Bitcoin Gold، و سایر فورک‌های بیت‌کوین، تاثیرات آن‌ها بر اکوسیستم و آینده این انشعابات."
+
+youtube: 
+youtube_emb:
 description: "در این اپیزود به ادامه بحث در مورد شاخه (فورک) های بیتکوین٫ تاریخچه فورک ها٫ تحلیل پیدایش و تاثیر ایجاد یک کوین(رمزارز٫ دیجی ارز) جدید از این شاخه های نرم افزاری می پردازیم."
 
 

@@ -1,13 +1,16 @@
 ---
 layout: post
 modal-id: 10
-title: Witnessing August 1st - Segwit, BIP148 and beyond (S01E10)
+title: "Witnessing August 1st - Segwit, BIP148 and beyond | شاهد اول آگوست - سگویت و BIP148 (S01E10)"
 episode: S01E10
 date: 2017-07-22
 img: img/episodes/S01E10.jpeg
 alt: Witnessing August 1st - Segwit, BIP148 and beyond (S01E10)
-project-date: July 2017
 permalink: /:year/:month/:title:output_ext
+description: "شاهد اول آگوست - بررسی سگویت، BIP148، و آینده بیت‌کوین - تحلیل تغییرات مهم پروتکل بیت‌کوین و تاثیرات آن بر شبکه."
+
+youtube: 
+youtube_emb:
 description: "در این اپیزود به ادامه بحث در مورد فورک بیتکوین، سگویت و محدودیت حجم بلاک بیت کوین می‌نشینیم که قبلا در اپیزود ۵ به تفصیل به آن پرداخته شده و سپس مروری خواهیم داشت بر اتفاقاتی که این روز ها برای بیتکوین می افتد."
 
 # client: Start Bootstrap
