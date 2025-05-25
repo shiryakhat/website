@@ -122,13 +122,13 @@
                 <div class="post-footer animated fadeInUp" data-wow-delay="0.5s">
                     <div class="post-share">
                         <span>Share:</span>
-                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn twitter" onclick="ga('send', 'event', 'Share', 'Twitter', '{{ page.title }}');">
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn twitter no-underline" onclick="ga('send', 'event', 'Share', 'Twitter', '{{ page.title }}');">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn facebook" onclick="ga('send', 'event', 'Share', 'Facebook', '{{ page.title }}');">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" class="share-btn facebook no-underline" onclick="ga('send', 'event', 'Share', 'Facebook', '{{ page.title }}');">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
-                        <a href="https://t.me/share/url?url={{ site.url }}{{ page.url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" class="share-btn telegram" onclick="ga('send', 'event', 'Share', 'Telegram', '{{ page.title }}');">
+                        <a href="https://t.me/share/url?url={{ site.url }}{{ page.url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" class="share-btn telegram no-underline" onclick="ga('send', 'event', 'Share', 'Telegram', '{{ page.title }}');">
                             <i class="fa-brands fa-telegram"></i>
                         </a>
                     </div>
