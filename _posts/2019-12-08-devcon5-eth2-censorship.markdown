@@ -1,16 +1,16 @@
 ---
 layout: post
 modal-id: 16
-title: DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic (S03E03)
+title: "DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic | دوکان پنج، اتریوم ۲، سانسور بیتکوین (S03E03)"
 episode: S03E03
 date: 2019-12-08
 img: img/episodes/S03E03.jpeg
 alt: DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic (S03E03)
-project-date: December 2019
 permalink: /:year/:month/:title:output_ext
+description: "گزارش از کنفرانس DevCon V، بررسی اتریوم ۲.۰، مسائل سانسور بیتکوین و برنامه پرسش و پاسخ مایک آزاد - تحلیل آخرین تحولات اکوسیستم بلاکچین و رمزارزها."
 
-# client: Start Bootstrap
-# category: Web Development
+youtube: 
+youtube_emb:
 
 spotify: https://open.spotify.com/episode/7u1O8mEUd37D057SMzpace?si=sPcfcg_TS56HBF-Y-Kbt_Q
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/7u1O8mEUd37D057SMzpace" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

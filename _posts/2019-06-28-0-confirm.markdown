@@ -1,16 +1,16 @@
 ---
 layout: post
 modal-id: 14
-title: Confirm me if you can - 0-conf (S03E01)
+title: "Confirm me if you can - 0-conf | تایید کن اگر می‌تونی (S03E01)"
 episode: S03E01
 date: 2019-06-28
 img: img/episodes/S03E01.jpeg
 alt: Confirm me if you can - 0-conf (S03E01)
-project-date: July 2019
 permalink: /:year/:month/:title:output_ext
+description: "تایید تراکنش‌ها و سرعت پردازش مالی - بررسی تراکنش در لحظه و مدل پیاده‌سازی آن، تفاوت تایید تراکنش روی BTC و BSV، و روش‌های کاهش ریسک خطا در تایید تراکنش‌ها."
 
-# client: Start Bootstrap
-# category: Web Development
+youtube: 
+youtube_emb:
 
 spotify: https://open.spotify.com/episode/18hBPyls0lFqYVN26tcTBa?si=beSFlJ-fTP6JbO-4Mp3kwA
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/18hBPyls0lFqYVN26tcTBa" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
@@ -26,30 +26,36 @@ apple_podcast: https://podcasts.apple.com/us/podcast/confirm-me-if-you-can-0-con
 google_podcast: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMWFhODUzYy9wb2RjYXN0L3Jzcw/episode/dGFnOnNvdW5kY2xvdWQsMjAxMDp0cmFja3MvNjU5MTU2MDY5?ved=0CBEQzsICahcKEwiw46XZ-NXpAhUAAAAAHQAAAAAQAQ
 
 castbox: https://castbox.fm/episode/Confirm-me-if-you-can---0-conf-(S03E01)-id2539522-id216823188?utm_source=website&utm_medium=dlink&utm_campaign=web_share&utm_content=Confirm%20me%20if%20you%20can%20-%200-conf%20(S03E01)-CastBox_FM
- 
- 
 ---
 
-**شیر یا خط -  فصل سوم - قسمت اول**
+# شیر یا خط - فصل سوم - قسمت اول
 
-**تایید تراکنش ها و سرعت پردازش مالی**
-
-------------------------------------------------------------------------------------
+## تایید تراکنش‌ها و سرعت پردازش مالی
 
 پاسخ سوالات زیر را در اپیزود اول فصل سوم پادکست شیر یا خط بشنوید:
-* تراکنش در لحظه چیست و مدل پیاده‌سازی آن چگونه است؟
-* نحوه تایید تراکنش روی BTC و BSV چه تفاوتی دارد؟
-* روش‌های کاهش ریسک خطا در تایید تراکنش‌ها چیست؟
-* تراکنش در لحظه برای چه بیزینس‌هایی کارایی دارد؟
-* آیا تراکنش در لحظه راه‌حل انجام تراکنش‌های خرد با سرعت بالاست؟
-* شبکه چگونه از تراکنش در لحظه در زمان دابل اسپند محافظت می‌کند؟
 
-Update: [BIP70](https://github.com/bitcoin/bips/blob/m…/bip-0070.mediawiki) is the correct BIP for Payment templates
+### موضوعات بحث‌شده
 
-با حضور: شایان اسکندری٫ میثم رضایی٫ یاشار راشدی٫ حمیدرضا عسگری٫ بابک جلیلوند٫ فرجام٫ پدرام بیرک
+- تراکنش در لحظه چیست و مدل پیاده‌سازی آن چگونه است؟
+- نحوه تایید تراکنش روی BTC و BSV چه تفاوتی دارد؟
+- روش‌های کاهش ریسک خطا در تایید تراکنش‌ها چیست؟
+- تراکنش در لحظه برای چه بیزینس‌هایی کارایی دارد؟
+- آیا تراکنش در لحظه راه‌حل انجام تراکنش‌های خرد با سرعت بالاست؟
+- شبکه چگونه از تراکنش در لحظه در زمان دابل اسپند محافظت می‌کند؟
 
-۶ مرداد ۱۳۹۸
+### منابع
 
-July 28  2019
+- [BIP70](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) - Payment Protocol Templates
 
------------------------------------------------------------------------
+### شرکت‌کنندگان
+
+شایان اسکندری، میثم رضایی، یاشار راشدی، حمیدرضا عسگری، بابک جلیلوند، فرجام، پدرام بیرک
+
+### تاریخ انتشار
+
+**فارسی:** ۶ مرداد ۱۳۹۸  
+**میلادی:** July 28, 2019
+
+---
+
+### TODO: Add Timeline Timestamps

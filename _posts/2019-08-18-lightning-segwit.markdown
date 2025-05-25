@@ -1,16 +1,16 @@
 ---
 layout: post
 modal-id: 15
-title: Segwit and lightning, very very... exciting! (S03E02)
+title: "Segwit and lightning, very very... exciting! | سگویت و لایتنینگ (S03E02)"
 episode: S03E02
 date: 2019-08-18
 img: img/episodes/S03E02.jpeg
 alt: Segwit and lightning, very very... exciting! (S03E02)
-project-date: August 2019
 permalink: /:year/:month/:title:output_ext
+description: "بررسی سگویت و شبکه لایتنینگ - تکنولوژی‌های ارتقای مقیاس‌پذیری بیت‌کوین و پیاده‌سازی‌های عملی آن‌ها در شبکه‌های پرداخت فوری."
 
-# client: Start Bootstrap
-# category: Web Development
+youtube: 
+youtube_emb:
 
 spotify: https://open.spotify.com/episode/4Lm7mqCmqq6diIeeiOEqM4?si=5MG2XghbQ52tOicCs9FEIA
 spotify_emb: '<iframe src="https://open.spotify.com/embed-podcast/episode/4Lm7mqCmqq6diIeeiOEqM4" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'

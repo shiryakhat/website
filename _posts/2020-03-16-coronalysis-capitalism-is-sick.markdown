@@ -1,14 +1,16 @@
 ---
 layout: post
 modal-id: 18
-title: Coronalysis - Capitalism is Critically Sick (S03E05)
+title: "Coronalysis - Capitalism is Critically Sick | کرونا و بازارهای مالی (S03E05)"
 episode: S03E05
 date: 2020-03-16
 img: img/episodes/S03E05.jpeg
 alt: Coronalysis - Capitalism is Critically Sick (S03E05)
-project-date: March 2020
 permalink: /:year/:month/:title:output_ext
-description: "این برنامه به اثرات ویروس کرونا (کوید-19) و دلایل سقوط بازارهای رمزارز و بازارهای اقتصادی جهانی، آینده این بازارها، فرصت های ایجاد شده برای کارهای راه دور و درآمدزایی و موضوعات دیگر به بحث و تبادل نظر می پردازد." 
+description: "این برنامه به اثرات ویروس کرونا (کووید-۱۹) و دلایل سقوط بازارهای رمزارز و بازارهای اقتصادی جهانی، آینده این بازارها، فرصت‌های ایجاد شده برای کارهای راه دور و درآمدزایی را بررسی می‌کند."
+
+youtube: 
+youtube_emb: 
 
 
 spotify: https://open.spotify.com/episode/4LpNyWRu7kHTSN5WfKs3yN?si=JT0plvVmQ7KNzPWTAq-a-Q
