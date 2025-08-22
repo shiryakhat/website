@@ -9,7 +9,7 @@ alt: "Privacy in Blockchain: Right or Crime Tool? (S07E07)"
 permalink: /:year/:month/:title:output_ext
 description: "در این اپیزود از پادکست شیر یا خط، به بررسی عمیق مفهوم حریم خصوصی در بلاکچین می‌پردازیم. از مبانی فنی و فلسفی حریم خصوصی تا داستان‌های جنجالی تورنادو کش و سامورایی والت، سفری کامل در دنیای پیچیده حریم خصوصی دیجیتال خواهیم داشت. آیا حریم خصوصی یک حق بنیادین است یا ابزاری برای مجرمان؟"
 
-youtube: PLACEHOLDER_YOUTUBE_LINK
+youtube: https://youtu.be/QIr6ghLxJaM
 
 soundcloud: PLACEHOLDER_SOUNDCLOUD_LINK
 
@@ -33,7 +33,7 @@ Privacy in Blockchain: Right or Crime Tool? (S07E07) حریم خصوصی در ب
 
 ## توضیحات اپیزود
 
-این اپیزود با حضور فاطمه (وکیل دادگستری متخصص بلاکچین در سوئیس)، مهدیه (کارشناس حریم خصوصی)، و حمید (توسعه‌دهنده بلاکچین)، نگاهی جامع و چندبعدی به مسئله حریم خصوصی در بلاکچین دارد. از مبانی فنی شبه‌ناشناسی (pseudonymity) در بیتکوین و اتریوم گرفته تا تحلیل دقیق پرونده‌های قضایی تورنادو کش و سامورایی والت، همه جنبه‌های این موضوع پیچیده بررسی می‌شود.
+این اپیزود با حضور شایان (دکترای سیستم های اطلاعاتی و کارشناس امنیت بلاکچین)٫ فاطمه (وکیل متخصص بلاکچین در سوئیس)، مهدیه (توسعه‌دهنده قرارداد هوشمند)، و حمید (توسعه‌دهنده بلاکچین)، نگاهی جامع و چندبعدی به مسئله حریم خصوصی در بلاکچین دارد. از مبانی فنی شبه‌ناشناسی (pseudonymity) در بیتکوین و اتریوم گرفته تا تحلیل دقیق پرونده‌ی قضایی تورنادو کش و سامورایی والت، همه جنبه‌های این موضوع پیچیده بررسی می‌شود.
 
 گفتگو با مقایسه حقوق حریم خصوصی در دنیای سنتی (مانند GDPR در اروپا) و چالش‌های بلاکچین آغاز می‌شود. سپس به تحلیل عمیق ابزارهای حریم خصوصی مانند میکسرها، CoinJoin، و رمزارزهای حریم‌خصوصی مثل مونرو و زیکش می‌پردازد.
 
@@ -49,7 +49,7 @@ Privacy in Blockchain: Right or Crime Tool? (S07E07) حریم خصوصی در ب
 * استفاده‌های مشروع و غیرمشروع
 * تحریم‌های OFAC و پیامدهای آن
 * پرونده قضایی Roman Storm و پیامدهای حقوقی
-* لغو تحریم‌ها در مارس ۲۰۲۵ و دالیل آن
+* لغو تحریم‌ها در مارس ۲۰۲۵ و دلیل آن
 
 ### سامورایی والت و CoinJoin:
 * معرفی پروتکل CoinJoin و ویژگی Whirlpool
@@ -70,11 +70,20 @@ Privacy in Blockchain: Right or Crime Tool? (S07E07) حریم خصوصی در ب
 ## **حاضران در این قسمت:**
 
 * شایان اسکندری: [shayan.es](https://shayan.es)
-* فاطمه: وکیل دادگستری متخصص بلاکچین در سوئیس
-* مهدیه امیری: 
+* فاطمه فنی‌زاده: [x.com/Fatalmeh](https://x.com/Fatalmeh)
+* مهدیه امیری: [linkedin.com/in/mahdieh-amiri-blockchain](https://www.linkedin.com/in/mahdieh-amiri-blockchain)
 * حمید باطنی: [x.com/n3wbateni](https://x.com/n3wbateni)
 
 ## منابع و لینک‌های ذکرشده
+
+### منابع تاریخی و آموزشی:
+- جلسه دوازدهم - Zero Knowledge و مباحث پیشرفته ۲ - دوره ۱۴۰۲: [https://www.youtube.com/watch?v=DfimVN-Kfds&list=PLDwI1rIhknpN-4ZnbcQfqDgM5dVY73ruS&index=12](https://www.youtube.com/watch?v=DfimVN-Kfds&list=PLDwI1rIhknpN-4ZnbcQfqDgM5dVY73ruS&index=12)
+- Bitcoin Whitepaper (Section 10): Privacy بخش حریم خصوصی در وایت‌پیپر بیتکوین
+- Bernstein v. State Department (1996): پرونده مبنای «کد = بیان»
+- Cypherpunk Manifesto: [https://activism.net/cypherpunk](https://activism.net/cypherpunk)
+- zkSNARKs in Ethereum (2016): [https://electriccoin.co/blog/zksnarks-in-ethereum](https://electriccoin.co/blog/zksnarks-in-ethereum)
+- Devcon4 Miximus Presentation: [https://slideslive.com/38911801/snarks-for-mixing-signaling-and-scaling](https://slideslive.com/38911801/snarks-for-mixing-signaling-and-scaling)
+
 
 ### پروژه‌ها و پروتکل‌ها:
 - Tornado Cash Wikipedia: [https://en.wikipedia.org/wiki/Tornado_Cash](https://en.wikipedia.org/wiki/Tornado_Cash)
@@ -86,6 +95,7 @@ Privacy in Blockchain: Right or Crime Tool? (S07E07) حریم خصوصی در ب
 - Privacy Pools: [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364)
 - Miximus (zkSNARK PoC): [https://github.com/barrywhitehat/miximus](https://github.com/barrywhitehat/miximus)
 - Aztec Protocol: [https://aztec.network](https://aztec.network)
+- Semaphore v1 Whitepaper: [https://semaphore.pse.dev/whitepaper-v1.pdf](https://semaphore.pse.dev/whitepaper-v1.pdf)
 
 ### منابع حقوقی و اسناد رسمی:
 - OFAC Sanctions JY0916: [https://home.treasury.gov/news/press-releases/jy0916](https://home.treasury.gov/news/press-releases/jy0916)
@@ -101,54 +111,66 @@ Privacy in Blockchain: Right or Crime Tool? (S07E07) حریم خصوصی در ب
 - Alexey Pertsev Conviction: [https://www.coindesk.com/policy/2024/05/14/tornado-cash-developer-alexey-pertsev-found-guilty-of-money-laundering](https://www.coindesk.com/policy/2024/05/14/tornado-cash-developer-alexey-pertsev-found-guilty-of-money-laundering)
 
 ### تحلیل‌های تخصصی و گزارش‌ها:
+- The Rage Tornado Cash Court Cover: [therage.co/tag/tornado-cash/](https://www.therage.co/tag/tornado-cash/)
 - Reuters Fifth Circuit Analysis: [https://www.reuters.com/legal/court-overturns-us-sanctions-against-cryptocurrency-mixer-tornado-cash-2024-11-27](https://www.reuters.com/legal/court-overturns-us-sanctions-against-cryptocurrency-mixer-tornado-cash-2024-11-27)
 - Circle USDC Freezing: [https://www.theblock.co/post/162172/circle-freezes-usdc-funds-in-tornado-cashs-us-treasury-sanctioned-wallets](https://www.theblock.co/post/162172/circle-freezes-usdc-funds-in-tornado-cashs-us-treasury-sanctioned-wallets)
 - GitHub Tornado Cash Ban: [https://www.theregister.com/2022/08/10/github_tornado_cookies](https://www.theregister.com/2022/08/10/github_tornado_cookies)
 - Coin Center Legal Defense: [https://coincenter.org](https://coincenter.org)
 - Electronic Frontier Foundation (EFF): [https://eff.org](https://eff.org)
 
-### منابع تاریخی و آموزشی:
-- Bitcoin Whitepaper (Section 10): Privacy بخش حریم خصوصی در وایت‌پیپر بیتکوین
-- Bernstein v. State Department (1996): پرونده مبنای «کد = بیان»
-- Cypherpunk Manifesto: [https://activism.net/cypherpunk](https://activism.net/cypherpunk)
-- zkSNARKs in Ethereum (2016): [https://electriccoin.co/blog/zksnarks-in-ethereum](https://electriccoin.co/blog/zksnarks-in-ethereum)
-- Devcon4 Miximus Presentation: [https://slideslive.com/38911801/snarks-for-mixing-signaling-and-scaling](https://slideslive.com/38911801/snarks-for-mixing-signaling-and-scaling)
-
-### اپیزودهای مرتبط شیر یا خط:
-- Zero Knowledge مباحث پیشرفته (جلسه دوازدهم): [https://www.youtube.com/watch?v=DfimVN-Kfds&list=PLDwI1rIhknpN-4ZnbcQfqDgM5dVY73ruS&index=12](https://www.youtube.com/watch?v=DfimVN-Kfds&list=PLDwI1rIhknpN-4ZnbcQfqDgM5dVY73ruS&index=12)
-
-### پروژه‌های امنیتی و رمزنگاری:
-- Semaphore v1 Whitepaper: [https://semaphore.pse.dev/whitepaper-v1.pdf](https://semaphore.pse.dev/whitepaper-v1.pdf)
-
-
-
 ---
 
 ### زمان‌بندی فصل‌ها
 
-- 00:06 مقدمه و معرفی موضوع
-- 00:50 معرفی مهمانان - فاطمه، مهدیه، حمید
+
+- 00:00 مقدمه و معرفی موضوع حریم خصوصی در بلاکچین
+- 00:50 معرفی مهمانان
 - 01:42 مبانی حریم خصوصی در بلاکچین
-- 04:05 شبه‌ناشناسی vs ناشناسی کامل
-- 06:48 نقش Chainalysis و ابزارهای تحلیل
-- 10:19 مقایسه با تحولات اینترنت
+- 04:05 شبه‌ناشناسی vs ناشناسی کامل - Pseudonymity vs Anonymity
+- 06:48 نقش Chainalysis و ابزارهای تحلیل بلاکچین
+- 10:19 مقایسه با تحولات اینترنت و پروتکل‌های حریم خصوصی
 - 12:51 حقوق حریم خصوصی در دنیای سنتی (GDPR)
-- 16:10 تفاوت‌های بلاکچین با قوانین موجود
-- 19:45 معرفی CoinJoin و ابزارهای میکسینگ
-- 24:53 تاریخچه میکسرهای بیتکوین
-- 28:00 ورود به داستان تورنادو کش
-- 33:49 معماری فنی تورنادو کش
-- 38:52 تحریم‌های OFAC و پیامدها
-- 42:46 پرونده قضایی Roman Storm
-- 47:19 تحلیل حقوقی «کد = بیان»
-- 52:04 سامورایی والت و CoinJoin
-- 57:02 واکنش جامعه کریپتو
-- 01:02:15 رمزارزهای حریم‌خصوصی (مونرو، زیکش)
-- 01:08:30 چالش‌های قانونی پیش رو
-- 01:15:45 آینده حریم خصوصی در بلاکچین
-- 01:22:10 Privacy Pools و راه‌حل‌های جدید
-- 01:28:20 بحث نهایی: حق یا ابزار جرم؟
-- 01:35:00 جمع‌بندی و نتیجه‌گیری
+- 16:10 تفاوت‌های بلاکچین با قوانین موجود و Right to be Forgotten
+- 19:45 معرفی CoinJoin و ابزارهای میکسینگ بیتکوین
+- 24:53 تاریخچه میکسرهای بیتکوین - Bitcoin Mixers History
+- 28:00 ورود به داستان تورنادو کش - Tornado Cash Story
+- 30:29 استقرار قراردادهای هوشمند و مکانیزم zkSNARKs
+- 33:49 معماری فنی تورنادو کش و ویژگی‌های آن
+- 37:24 Fungibility و اهمیت آن در رمزارزها
+- 38:52 تحریم‌های OFAC و پیامدهای آن
+- 41:13 تحلیل داده‌ها و ردیابی تراکنش‌ها
+- 42:46 پرونده قضایی Roman Storm - Criminal Case Analysis
+- 45:03 چالش‌های فنی و قانونی میکسرها
+- 47:19 تحلیل حقوقی «کد = بیان» - Code is Speech
+- 51:28 تاریخچه و توسعه تکنولوژی‌های Zero Knowledge
+- 52:04 سامورایی والت و CoinJoin - Samourai Wallet Case
+- 56:57 واکنش جامعه کریپتو و Wasabi Wallet
+- 01:00:00 نقش دانشگاه‌ها در توسعه پروتکل‌های حریم خصوصی
+- 01:02:30 تجربیات عملی پیاده‌سازی پروتکل‌های حریم خصوصی
+- 01:07:38 تحلیل هک‌ها و آسیب‌پذیری‌های امنیتی
+- 01:08:41 آپدیت‌های سیستم و رفع باگ‌ها
+- 01:10:37 حملات سایبری و تأثیرات آن‌ها بر DeFi
+- 01:12:13 تحریم‌ها و تأثیرات آن بر بلاکچین
+- 01:15:02 دستگیری توسعه‌دهندگان و پیامدهای قانونی
+- 01:18:06 نقش کره شمالی و گروه Lazarus در سوءاستفاده
+- 01:20:21 هک‌های بزرگ Harmony و Nomad
+- 01:23:27 تأثیرات دستگیری‌ها بر صنعت بلاکچین
+- 01:24:08 پرونده Alexey Pertsev و محاکمه در هلند
+- 01:26:38 تحریم‌ها و تأثیرات آن بر فناوری و آموزش
+- 01:30:10 چالش‌های قانونی در دنیای کریپتو
+- 01:32:45 تحریم‌ها و مسائل حقوقی پیچیده
+- 01:35:49 تحلیل دادگاه و شواهد ارائه شده
+- 01:38:52 نتایج دادگاه Roman Storm و تأثیرات آن
+- 01:41:41 تحلیل نهایی و آینده تحریم‌های OFAC
+- 01:45:18 پیچیدگی‌های حقوقی دادگاه‌های میکسر
+- 01:52:48 شهادت‌ها و شواهد کلیدی در دادگاه
+- 01:59:26 نتایج دادگاه و Hung Jury (عدم اجماع هیئت منصفه)
+- 02:03:48 آینده پروژه‌های حریم خصوصی
+- 02:05:57 جنگ حریم خصوصی: Crypto Wars دهه ۹۰ vs امروز
+- 02:10:31 چالش‌های سرمایه‌گذاری در پروژه‌های Privacy
+- 02:12:58 اهمیت حریم خصوصی در بلاکچین و آینده آن
+- 02:15:17 جمع‌بندی: حق یا ابزار جرم؟
+- 02:20:39 پایان
 
 ---
 
