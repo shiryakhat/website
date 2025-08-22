@@ -13,7 +13,7 @@ youtube: https://youtu.be/QIr6ghLxJaM
 
 # soundcloud: 
 
-# apple_podcast: PLACEHOLDER_APPLE_PODCAST_LINK
+apple_podcast: https://podcasts.apple.com/us/podcast/%D8%B4%DB%8C%D8%B1-%DB%8C%D8%A7-%D8%AE%D8%B7-privacy-in-blockchain-right-or-crime-tool/id1221206951?i=1000723035674
 
 spotify: https://open.spotify.com/episode/7fbs9AAaGhBb0w798yL0ch?si=yWkUkIJFQuGfxZlhD9QMug
 
