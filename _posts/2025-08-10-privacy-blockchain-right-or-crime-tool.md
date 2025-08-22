@@ -11,13 +11,13 @@ description: "در این اپیزود از پادکست شیر یا خط، به
 
 youtube: https://youtu.be/QIr6ghLxJaM
 
-soundcloud: PLACEHOLDER_SOUNDCLOUD_LINK
+# soundcloud: 
 
-apple_podcast: PLACEHOLDER_APPLE_PODCAST_LINK
+# apple_podcast: PLACEHOLDER_APPLE_PODCAST_LINK
 
-spotify: PLACEHOLDER_SPOTIFY_LINK
+spotify: https://open.spotify.com/episode/7fbs9AAaGhBb0w798yL0ch?si=yWkUkIJFQuGfxZlhD9QMug
 
-castbox: PLACEHOLDER_CASTBOX_LINK
+castbox: https://castbox.fm/episode/%D8%B4%DB%8C%D8%B1-%DB%8C%D8%A7-%D8%AE%D8%B7-%7C-Privacy-in-Blockchain%3A-Right-or-Crime-Tool--(S07E07)-%D8%AD%D8%B1%DB%8C%D9%85-%D8%AE%D8%B5%D9%88%D8%B5%DB%8C-%D8%AF%D8%B1-%D8%A8%D9%84%D8%A7%DA%A9%DA%86%DB%8C%D9%86-%E2%80%93-%D8%AD%D9%82-%DB%8C%D8%A7-%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1-%D8%AC%D8%B1%D9%85%D8%9F-id2539522-id838831868?country=us
 
 ---
 
