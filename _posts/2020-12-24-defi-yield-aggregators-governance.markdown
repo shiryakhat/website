@@ -101,6 +101,15 @@ castbox: https://castbox.fm/episode/DeFi---Part-6---Liquidation%2C-Yield-Farming
 - [Reza Nourmohammadi](https://www.instagram.com/rezanmmd/)
 - [Shayan Eskandari](https://twitter.com/sbetamc) 
 
+### قسمت‌های مرتبط
+
+- [پروتکل‌های وام‌دهی و کامپاوند (S04E05)](https://shiryakhat.net/2020/12/defi-lending-protocols.html) — این اپیزود مستقیماً ادامه‌ی همان بحث وام‌دهی، کامپاوند و over-collateralization است که در قسمت قبل شروع شد.
+- [معرفی اقتصاد غیرمتمرکز DeFi (S04E01)](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) — شروع سری دیفای و توضیح اینکه چرا امور مالی غیرمتمرکز لازم است؛ پیش‌نیاز کل این بحث.
+- [کوین‌های پایدار و دای (S04E02)](https://shiryakhat.net/2020/07/defi-stable-coins.html) — در این اپیزود مکرراً به دای، میکردائو و مکانیزم وثیقه‌گذاری استیبل‌کوین‌ها ارجاع داده می‌شود.
+- [بازارسازهای خودکار و یونی‌سواپ (S04E04)](https://shiryakhat.net/2020/10/defi-uniswap-amm-balancer.html) — استخرهای نقدینگی، یونی‌سواپ و کرو که پایه‌ی فلش‌لون و یلد فارمینگ‌اند در این قسمت توضیح داده شده‌اند.
+- [صرافی‌های غیرمتمرکز (S04E03)](https://shiryakhat.net/2020/09/defi-dex-cex-evolution.html) — صرافی‌های غیرمتمرکز و استخرهای نقدینگی که این اپیزود برای آربیتراژ و فلش‌لون به آن‌ها تکیه می‌کند.
+- [اتریوم و قراردادهای هوشمند (S01E02)](https://shiryakhat.net/2017/02/ethereum.html) — مفهوم سمارت کانترکت و ترنزکشن‌های اتمیک اتریوم که مبنای فلش‌لون و نان‌کاستودیال بودن است.
+
 ### زمان‌بندی فصل‌ها
 
 - 00:00 خلاصه ی قسمت قبل

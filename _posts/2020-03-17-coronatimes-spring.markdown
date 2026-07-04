@@ -83,3 +83,12 @@ castbox: https://castbox.fm/episode/Coronatimes---Spring-is-inside-our-homes-(S0
 <!-- TODO: Add episode timeline -->
 
 ---
+
+### قسمت‌های مرتبط
+
+- [کرونا و بازارهای مالی (S03E05)](https://shiryakhat.net/2020/03/coronalysis-capitalism-is-sick.html) — این اپیزود مستقیماً ادامهٔ همان جلسه است؛ در بخش اول به کرونا و بازارهای سهام و کریپتو پرداخته شد.
+- [لیکوئیدیشن و حکمرانی غیرمتمرکز (S04E06)](https://shiryakhat.net/2020/12/defi-yield-aggregators-governance.html) — بحث پایانی این قسمت دربارهٔ لیکوئید شدن وام‌ها در میکردائو و کرش قیمت اتریوم است که اینجا عمیق‌تر بررسی می‌شود.
+- [پروتکل‌های وام‌دهی (S04E05)](https://shiryakhat.net/2020/12/defi-lending-protocols.html) — در این اپیزود وام با وثیقه (collateralized loan) روی میکردائو و دای توضیح داده شد که موضوع اصلی این قسمت است.
+- [کوین‌های پایدار (S04E02)](https://shiryakhat.net/2020/07/defi-stable-coins.html) — استیبل‌کوین دای و مکانیزم حفظ ارزش یک دلاری آن که در این قسمت مطرح شد، اینجا کامل بررسی می‌شود.
+- [اقتصاد غیرمتمرکز، DeFi (S04E01)](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) — مقدمه و معرفی کامل دیفای که در این اپیزود به‌اختصار دربارهٔ آن صحبت شد.
+- [بلاکچین در کشورهای در حال توسعه (S02E01)](https://shiryakhat.net/2017/10/blockchain-usecases-social-pathology.html) — بحث کاربرد بلاکچین برای خیریه‌ها و کمک به جامعهٔ ایران در شرایط تحریم، مرتبط با کاربردهای اجتماعی بلاکچین است.

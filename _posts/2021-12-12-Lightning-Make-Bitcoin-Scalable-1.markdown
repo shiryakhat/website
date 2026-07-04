@@ -102,6 +102,15 @@ castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---P
 
 * [اپیزود شیریاخط در مورد لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) : https://shiryakhat.net/2019/08/lightning-segwit.html
 
+### قسمت‌های مرتبط
+
+- [لایتنینگ - قسمت ۲](https://shiryakhat.net/2022/02/Lightning-Make-Bitcoin-Scalable-2.html) — ادامه‌ی مستقیم همین اپیزود؛ همان‌طور که در پایان قول دادند، واچ‌تاورها، تئوری بازی تقلب و کانال‌های پرداخت را باز می‌کند
+- [لایتنینگ - قسمت ۳](https://shiryakhat.net/2022/04/Lightning-Make-Bitcoin-Scalable-3.html) — سومین قسمت همین سری لایتنینگ که ادامه‌ی جزئیات مسیریابی و شبکه‌ی پرداخت را پوشش می‌دهد
+- [مقیاس‌پذیری - قسمت ۲](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html) — اپیزود بلافاصله قبلی که راهکارهای لایه دوم را معرفی کرد؛ در همین قسمت بارها به آن ارجاع داده شد
+- [مقیاس‌پذیری - قسمت ۱](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck.html) — شروع بحث مقیاس‌پذیری و گلوگاه بلاکچین که پیش‌زمینه‌ی چرایی نیاز به لایتنینگ است
+- [سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) — معرفی اولیه‌ی شبکه لایتنینگ و سگویت که آپگرید کلیدی و پیش‌نیاز پیاده‌سازی کامل لایتنینگ است
+- [سگویت و BIP148](https://shiryakhat.net/2017/07/segwit-august1st-bip148.html) — توضیح سگویت که در این اپیزود به‌عنوان آپگرید لازم برای فعال شدن بهترین حالت لایتنینگ به آن اشاره شد
+
 ### زمان‌بندی فصل‌ها
 
 - 00:00 مقدمه و معرفی

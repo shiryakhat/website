@@ -124,3 +124,12 @@ castbox: https://castbox.fm/episode/Genesisary---Bitcoin-goes-up-to-eleven-(S03E
 * [پادکست شیر یا خط - فورک های بیت کوین - قسمت دوم](https://shiryakhat.net/2017/11/what-the-fork-part-2.html)
 * [پادکست شیر یا خط - سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html)
 * [پادکست چنل بی - سری مسترمایند](http://channelbpodcast.com/archives/1189)
+
+### قسمت‌های مرتبط
+
+- [فورک بیت‌کوین و بحث بلاک‌سایز](https://shiryakhat.net/2017/04/bitcoin-fork-blocksize-debate.html) — در این اپیزود صریحاً به این قسمت ارجاع داده شد؛ بحث بلاک‌سایز و فورک بیت‌کوین که بخش مهمی از تاریخچه مرور شده است.
+- [شاهد اول آگوست - سگویت و BIP148](https://shiryakhat.net/2017/07/segwit-august1st-bip148.html) — مستقیماً معرفی شد؛ جزئیات سگویت و فورک اول آگوست ۲۰۱۷ که در این تاریخچه اشاره شد.
+- [چه فورکی، انشعابات بیت‌کوین - قسمت ۱](https://shiryakhat.net/2017/11/what-the-fork-part-1.html) — صریحاً پیشنهاد شد برای عمیق‌تر شدن در فورک‌های بیت‌کوین (BCH، BSV) که در این اپیزود مرور شدند.
+- [چه فورکی، انشعابات بیت‌کوین - قسمت ۲](https://shiryakhat.net/2017/11/what-the-fork-part-2.html) — ادامه بحث فورک‌ها که همین اپیزود آن را برای جزئیات بیشتر معرفی کرد.
+- [سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) — در انتهای اپیزود به این قسمت برای جزئیات سگویت و شبکه لایتنینگ به‌عنوان راه‌حل لایه دوم ارجاع داده شد.
+- [ماینینگ، اثبات کار و ETF](https://shiryakhat.net/2017/03/mining-pow-etf.html) — بخش مفصلی از این اپیزود به تاریخچه ماینینگ و اثبات کار (Proof of Work) اختصاص داشت.

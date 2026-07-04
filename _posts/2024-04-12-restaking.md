@@ -106,6 +106,15 @@ castbox: https://castbox.fm/episode/Ethereum-Restaking-%26-EigenLayer-%7C-(S07E0
 * EigenLayer Whitepaper: [https://docs.eigenlayer.xyz/eigenlayer/overview/whitepaper](https://docs.eigenlayer.xyz/eigenlayer/overview/whitepaper)
 * Puffer Overview: [https://docs.puffer.fi/protocol/overview](https://docs.puffer.fi/protocol/overview)
 
+### قسمت‌های مرتبط
+
+- [ارتقای دنکون اتریوم](https://shiryakhat.net/2024/02/ethereum-dencun-upgrade.html) — اپیزود قبلی همین فصل که در آن راجع به بلاب‌ها و ذخیره موقت دیتا (data availability) صحبت شد؛ در این قسمت مستقیماً به «جلسه قبلی» ارجاع داده می‌شود.
+- [فرایند به‌روزرسانی و EIPها](https://shiryakhat.net/2021/07/eip-updates-on-ethereum.html) — بحث EIP-7251 و EIPهایی که سرعت ورود به استیکینگ را کم می‌کنند و نقش آیگن‌لیر در آن‌ها مطرح می‌شود؛ درک فرایند EIP پیش‌نیاز است.
+- [مقیاس‌پذیری و لایه دوم](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html) — در قسمت به سکوئنسر، رول‌آپ‌ها (آربیتروم/اپتیمیزم)، دیتا اولیبیلیتی و دیسنترالایز کردن لایه‌دو اشاره می‌شود که موضوع اصلی این اپیزود است.
+- [ماینینگ و اثبات کار](https://shiryakhat.net/2017/03/mining-pow-etf.html) — در تاریخچه‌ی ابتدای اپیزود مستقیماً به اپیزودهای قدیمی ماینینگ و ماینینگ‌پول ارجاع داده می‌شود تا مسیر گذار به اثبات سهام روشن شود.
+- [بازارسازهای خودکار و توکن LP](https://shiryakhat.net/2020/10/defi-uniswap-amm-balancer.html) — مفهوم لیکوید استیکینگ با مثال توکن‌های LP یونی‌سواپ و استفاده از آن‌ها به‌عنوان وثیقه در دیفای توضیح داده می‌شود.
+- [اقتصاد غیرمتمرکز DeFi](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) — بحث ری‌هایپوتیکیشن، وثیقه‌گذاری استیک و استفاده‌های مالی چندلایه از دارایی قفل‌شده ریشه در مفاهیم دیفای دارد.
+
 ### زمان‌بندی فصل‌ها
 
 - 00:00 مقدمه و معرفی

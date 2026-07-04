@@ -110,3 +110,12 @@ castbox: https://castbox.fm/episode/EIP-(Ethereum-Improvement-Proposals)-%26-Upd
     * EIP1 : [https://eips.ethereum.org/EIPS/eip-1](https://eips.ethereum.org/EIPS/eip-1)
     * وبسایت Cat Herders: [https://ethereumcatherders.com/](https://ethereumcatherders.com/)
     * رپو مدیریتی برای برگزاری ACD call ها: [https://github.com/ethereum/pm](https://github.com/ethereum/pm)
+
+### قسمت‌های مرتبط
+
+- [EIP-1559 و فورک لندن](https://shiryakhat.net/2021/08/eip-1559-let-it-burn.html) — ادامه مستقیم همین قسمت؛ در متن بارها به EIP-1559 و فورک لندن به‌عنوان نمونه‌ی کور EIP اشاره شد.
+- [هاردفورک دنکون](https://shiryakhat.net/2024/02/ethereum-dencun-upgrade.html) — نمونه‌ی عملی همان فرایند کور EIP و هاردفورک اتریوم که اینجا توضیح داده شد.
+- [هاردفورک پکترا](https://shiryakhat.net/2025/03/ethereum-pectra-upgrade.html) — کاربرد واقعی روند EIP و هاردفورک محور در به‌روزرسانی پروتکل اتریوم.
+- [فورک بیت‌کوین و سگویت/BIP148](https://shiryakhat.net/2017/10/blockchain-usecases-social-pathology.html) — بحث BIP و گاورننس آفچین و یوزر-اکتیویتد سافت‌فورک که در این قسمت با روند اتریوم مقایسه شد.
+- [چه فورکی، انشعابات بیت‌کوین](https://shiryakhat.net/2017/11/what-the-fork-part-1.html) — ریشه‌ی فورک در دنیای اوپن‌سورس و مدل BIP بیت‌کوین که مبنای EIP اتریوم است.
+- [اتریوم](https://shiryakhat.net/2017/02/ethereum.html) — معرفی پایه‌ی اتریوم و EVM که پیش‌نیاز درک تغییرات کور EIP روی این پروتکل است.

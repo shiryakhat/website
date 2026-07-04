@@ -128,3 +128,12 @@ castbox: https://castbox.fm/episode/DeFi---Part-3---Evolution-of-Decentralized-E
 - [Mehdi Salehi](https://twitter.com/GreatSaoshyant)
 - [Reza Nourmohammadi](https://www.instagram.com/rezanmmd/)
 - [Shayan Eskandari](https://twitter.com/sbetamc)
+
+### قسمت‌های مرتبط
+
+- [بازارسازهای خودکار و یونی‌سواپ (S04E04)](https://shiryakhat.net/2020/10/defi-uniswap-amm-balancer.html) — ادامه‌ی مستقیم همین اپیزود؛ در متن قول داده شد که یونی‌سواپ، بالانسر و بازارسازهای خودکار (AMM) و لیکویدیتی پول‌ها را عمیق‌تر باز کنند.
+- [کوین‌های پایدار (S04E02)](https://shiryakhat.net/2020/07/defi-stable-coins.html) — اپیزود قبلی همین سری که چند بار به آن ارجاع داده شد؛ استیبل‌کوین‌ها و بحث شفافیت پیش‌نیاز درک دکس‌ها و لیکویدیتی هستند.
+- [اقتصاد غیرمتمرکز، DeFi (S04E01)](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) — شروع سری دیفای و توضیح کلیات اقتصاد غیرمتمرکز و کامپوزیبیلیتی که این اپیزود بر پایه‌ی آن بنا شده.
+- [ییلد فارمینگ و لیکویدیتی ماینینگ (S04E06)](https://shiryakhat.net/2020/12/defi-yield-aggregators-governance.html) — بحث لیکویدیتی ماینینگ و ریسک‌های تأمین نقدینگی که در انتهای این اپیزود مطرح و به آینده موکول شد، اینجا کامل بررسی می‌شود.
+- [پروتکل‌های وام‌دهی و کامپاند (S04E05)](https://shiryakhat.net/2020/12/defi-lending-protocols.html) — ادامه‌ی سری دیفای؛ پروتکل‌ها و لیکویدیتی که در این اپیزود معرفی شد، پایه‌ی سیستم‌های وام‌دهی بعدی است.
+- [آلتکوین، توکن و ICO (S01E08)](https://shiryakhat.net/2017/05/blockchain-altcoins-tokens-ico.html) — در متن به کریز آی‌سی‌او و توکن‌های نیتیو پروژه‌هایی مثل بنکور اشاره شد؛ این اپیزود مفهوم توکن و ICO را تعریف می‌کند.

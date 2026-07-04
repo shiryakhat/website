@@ -108,3 +108,11 @@ castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---P
 * [کانال یوتیوب ضیا صدر](https://www.youtube.com/c/ZiyaSadr): https://www.youtube.com/c/ZiyaSadr
 
 * [اپیزود شیریاخط در مورد لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) : https://shiryakhat.net/2019/08/lightning-segwit.html
+
+### قسمت‌های مرتبط
+
+- [لایتنینگ – قسمت ۱](https://shiryakhat.net/2021/12/Lightning-Make-Bitcoin-Scalable-1.html) — قسمت اول همین مجموعه که پیش‌زمینه‌ی این اپیزود است؛ در متن بارها به آن ارجاع داده و توصیه به شنیدنش شده (تراکنش‌های کامیتمنت و فاندینگ، کانال دو نفره).
+- [لایتنینگ – قسمت ۳](https://shiryakhat.net/2022/04/Lightning-Make-Bitcoin-Scalable-3.html) — ادامه‌ی مستقیم این اپیزود؛ در پایان قول داده شده بستن کانال، کیف‌پول‌ها و تأثیر تپروت در قسمت بعد بررسی شود.
+- [سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) — معرفی اولیه‌ی شبکه لایتنینگ و سگویت که پایه‌ی فنی مباحث این اپیزود است.
+- [مقیاس‌پذیری – قسمت ۱](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck.html) — زمینه‌ساز کل بحث؛ لایتنینگ به‌عنوان راهکار مقیاس‌پذیری و لایه دوم بیتکوین معرفی می‌شود که موضوع محوری این اپیزود است.
+- [مقیاس‌پذیری – قسمت ۲](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html) — راهکارهای لایه دومی مقیاس‌پذیری را بررسی می‌کند که لایتنینگ نمونه‌ی اصلی آن است.

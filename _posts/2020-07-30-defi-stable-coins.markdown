@@ -117,3 +117,11 @@ castbox: https://castbox.fm/episode/DeFi---Part-2---The-Finance-in-StableCoins-(
 - [Shayan Eskandari](https://twitter.com/sbetamc) 
 - [Meysam Rezaei](https://twitter.com/meysamrezaei) 
 - [Pedram Birack](https://twitter.com/pedrambirack)
+
+### قسمت‌های مرتبط
+
+- [دیفای، اقتصاد غیرمتمرکز (S04E01)](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) — قسمت قبلی همین سری و مقدمهٔ مستقیم این اپیزود؛ کلیات دیفای و استیبل‌کوین‌ها را معرفی کرد که اینجا ادامه یافته
+- [لیکویدیشن، ییلد فارمینگ و حکمرانی (S04E06)](https://shiryakhat.net/2020/12/defi-yield-aggregators-governance.html) — مباحث لیکویدیشن/شناوری، لیکویدیتی ماینینگ و گاورننس توکن میکردائو که در این قسمت مطرح و به آینده موکول شد
+- [پروتکل‌های وام‌دهی و کامپاند (S04E05)](https://shiryakhat.net/2020/12/defi-lending-protocols.html) — بحث قرض‌دهی/وام‌گیری و فلش‌لون که در این اپیزود قول داده شد جداگانه توضیح داده شود
+- [بازارسازهای خودکار و یونی‌سواپ (S04E04)](https://shiryakhat.net/2020/10/defi-uniswap-amm-balancer.html) — یونی‌سواپ و مسئلهٔ اوراکل و تعیین نرخ که در این قسمت به‌عنوان نمونهٔ دیسنترالایز مطرح شد
+- [صرافی‌های غیرمتمرکز (S04E03)](https://shiryakhat.net/2020/09/defi-dex-cex-evolution.html) — تکامل دکس‌ها و مقایسهٔ سنترال/دیسنترال اکسچنج و آربیتراژ که در این اپیزود بارها به آن اشاره شد

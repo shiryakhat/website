@@ -114,6 +114,15 @@ castbox: https://castbox.fm/episode/Ethereum-Dencun-Upgrade-(S07E01)-id2539522-i
 * وایت پیپر یونی‌سواپ نسخه ۴: [https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper-v4.pdf](https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper-v4.pdf)
 * (جدید) دوره توسعه بلاکچین و قرارداد‌هوشمند با سالیدیتی ۱۴۰۲: [https://www.youtube.com/playlist?list=PLDwI1rIhknpN-4ZnbcQfqDgM5dVY73ruS](https://www.youtube.com/playlist?list=PLDwI1rIhknpN-4ZnbcQfqDgM5dVY73ruS)
 
+### قسمت‌های مرتبط
+
+- [هاردفورک پکترا اتریوم](https://shiryakhat.net/2025/03/ethereum-pectra-upgrade.html) — هاردفورک بعدی اتریوم؛ ادامه مستقیم همین بحث ارتقای شبکه و EIPها
+- [فرایند به‌روزرسانی پروتکل اتریوم و EIP](https://shiryakhat.net/2021/07/eip-updates-on-ethereum.html) — در همین اپیزود به آن ارجاع داده شد؛ توضیح می‌دهد EIP و متا-EIP و گاورننس هاردفورک چطور کار می‌کند
+- [EIP-1559 و ساختار فی](https://shiryakhat.net/2021/08/eip-1559-let-it-burn.html) — مدل فی بلاب‌ها روی همان مکانیزم EIP-1559 ساخته شده و در اپیزود صریحاً به آن اشاره شد
+- [ری‌استیکینگ و آیگن‌لیر](https://shiryakhat.net/2024/04/restaking.html) — اپیزود بعدی با مهدی؛ ادامه بحث استیکینگ، رول‌اپ‌ها و راهکارهای دیتا اویلیبیلیتی
+- [مقیاس‌پذیری و لایه دو](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html) — پیش‌نیاز درک رول‌اپ‌ها و پروتو-دنک‌شاردینگ که هدف اصلی این آپگرید است
+- [سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) — بلاب‌ها بارها با سگویت (Segregated Witness) مقایسه شدند؛ درک سگویت به فهم دیتای جداشده کمک می‌کند
+
 ### زمان‌بندی فصل‌ها
 
 - 00:00 مقدمه و معرفی

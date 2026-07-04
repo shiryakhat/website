@@ -92,3 +92,11 @@ castbox: https://castbox.fm/episode/DeFi---Part-4---Automated-Market-Makers-(S04
 - [Mehdi Salehi](https://twitter.com/GreatSaoshyant)
 - [Reza Nourmohammadi](https://www.instagram.com/rezanmmd/)
 - [Shayan Eskandari](https://twitter.com/sbetamc)
+
+### قسمت‌های مرتبط
+
+- [صرافی‌های غیرمتمرکز (دکس)](https://shiryakhat.net/2020/09/defi-dex-cex-evolution.html) — قسمت قبلی و مستقیم همین بحث؛ کلیات دکس، اردربوک و تاریخچه که این اپیزود ادامه‌اش است
+- [پروتکل‌های وام‌دهی](https://shiryakhat.net/2020/12/defi-lending-protocols.html) — قسمت بعدی که در انتهای همین اپیزود به‌عنوان ادامه بحث و اتصال لیکویدیتی به لندینگ معرفی می‌شود
+- [کوین‌های پایدار](https://shiryakhat.net/2020/07/defi-stable-coins.html) — در بحث curve.fi و بازارسازی استیبل‌کوین‌ها به‌طور مفصل به مفهوم استیبل‌کوین تکیه می‌شود
+- [معرفی دیفای](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) — قسمت آغازین سری دیفای و پیش‌نیاز مفهومی اقتصاد غیرمتمرکز که این اپیزود بخشی از آن است
+- [ییلد فارمینگ و حکمرانی](https://shiryakhat.net/2020/12/defi-yield-aggregators-governance.html) — قسمت پایانی سری که تجمیع لیکویدیتی و سودآوری روی همین استخرهای AMM را کامل می‌کند

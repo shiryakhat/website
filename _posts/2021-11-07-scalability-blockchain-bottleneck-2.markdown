@@ -93,6 +93,14 @@ castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck--
 
 *  [توضیحات جامع تیم پارادایم در مورد راهکار لایه دومی Optimism](https://research.paradigm.xyz/optimism) : https://research.paradigm.xyz/optimism
 
+### قسمت‌های مرتبط
+
+- [مقیاس‌پذیری - قسمت اول](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck.html) — قسمت اول همین مجموعه که راهکارهای کلی مقیاس‌پذیری و مثلث سه‌گانه بلاکچین را معرفی کرد و این اپیزود مستقیماً ادامه‌ی آن است.
+- [شبکه لایتنینگ - قسمت اول](https://shiryakhat.net/2021/12/Lightning-Make-Bitcoin-Scalable-1.html) — لایتنینگ به‌عنوان اولین راهکار لایه دوم و پیمنت‌چنل‌ها در این اپیزود مطرح شد و بارها گفتند در اپیزودهای بعدی کامل بازش می‌کنند.
+- [شبکه لایتنینگ - قسمت دوم](https://shiryakhat.net/2022/02/Lightning-Make-Bitcoin-Scalable-2.html) — ادامه‌ی بررسی لایتنینگ و سناریوهای پیمنت‌چنل، راوتینگ و مشکلات هاب‌ها که در این اپیزود فقط کلیات‌شان گفته شد.
+- [فورک بیت‌کوین و بحث بلاک‌سایز](https://shiryakhat.net/2017/04/bitcoin-fork-blocksize-debate.html) — در اپیزود صراحتاً به بحث بلاک‌سایز به‌عنوان راهکار افزایش حجم بلاک ارجاع داده شد و رفرنس همان اپیزود را دادند.
+- [شبکه لایتنینگ - قسمت سوم](https://shiryakhat.net/2022/04/Lightning-Make-Bitcoin-Scalable-3.html) — سومین بخش بررسی لایتنینگ که تکمیل‌کننده‌ی مباحث پیمنت‌نتورک و لایه دوم بیت‌کوین مطرح‌شده در این اپیزود است.
+
 ### زمان‌بندی فصل‌ها
 
 - 00:00 خلاصه قسمت‌های قبل

@@ -91,3 +91,11 @@ castbox: https://castbox.fm/episode/Blockchain-Through-Philosophy---Interview-wi
 - [Creston Davis](https://twitter.com/daviscreston) - [GCAS College Dublin](https://gcas.ie/)
 - [Salman Sadeghi](https://twitter.com/salman_sadeghi)
 - [Shayan Eskandari](https://twitter.com/sbetamc)
+
+### قسمت‌های مرتبط
+
+- [کرونا و بحران سرمایه‌داری](https://shiryakhat.net/2020/03/coronalysis-capitalism-is-sick.html) — همین اپیزود به‌شدت به نقد سرمایه‌داری بیمار و تأثیر کرونا بر بازارها و ساختار قدرت می‌پردازد که ادامهٔ مستقیم بحث فلسفی این قسمت است
+- [کرونا و اقتصاد جهانی](https://shiryakhat.net/2020/03/coronatimes-spring.html) — بحث دربارهٔ پیامدهای کووید-۱۹ بر اقتصاد و جامعه که در این گفتگو محور اصلی نگاه فلسفی به بلاکچین است
+- [بلاکچین و آسیب‌شناسی اجتماعی](https://shiryakhat.net/2017/10/blockchain-usecases-social-pathology.html) — نگاه اجتماعی-فلسفی به بلاکچین و تمرکززدایی در کشورهای در حال توسعه، هم‌راستا با موضوع قدرت و اتوماسیون در این قسمت
+- [ذات بیت‌کوین و بلاک‌چین](https://shiryakhat.net/2017/04/open-mic-essence-of-bitcoin.html) — بررسی ماهیت و فلسفهٔ بنیادین بیت‌کوین و بلاکچین که این اپیزود آن را از منظر فلسفه بسط می‌دهد
+- [اقتصاد غیرمتمرکز DeFi](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) — ادامهٔ بحث تمرکززدایی مالی و جایگزینی واسطه‌های مالی که در این گفتگو دربارهٔ استثمار و بانک‌ها مطرح می‌شود

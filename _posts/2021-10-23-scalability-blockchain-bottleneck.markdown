@@ -110,6 +110,15 @@ castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck-(
 
 * سایت [ethresearch](http://ethresear.ch) : http://ethresear.ch
 
+### قسمت‌های مرتبط
+
+- [مقیاس‌پذیری - قسمت ۲](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html) — ادامه‌ی مستقیم همین بحث؛ راهکارهای لایه اجماع و لایه دوم که در پایان این اپیزود وعده داده شد.
+- [EIP-1559 و ساختار فی](https://shiryakhat.net/2021/08/eip-1559-let-it-burn.html) — در اپیزود به‌صراحت به آن ارجاع می‌دهند؛ مبنای بحث گس‌لیمیت و محدودیت بلاک اتریوم.
+- [سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) — سگویت به‌عنوان راهکار بهینه‌سازی و لایتنینگ به‌عنوان لایه دوم، هر دو در این اپیزود بررسی شدند.
+- [فورک و بحث بلاک‌سایز](https://shiryakhat.net/2017/04/bitcoin-fork-blocksize-debate.html) — جنگ بلاک‌سایز و افزایش سایز بلاک به‌عنوان اولین راهکار مقیاس‌پذیری در همین اپیزود مطرح شد.
+- [لایتنینگ راهکار مقیاس‌پذیری](https://shiryakhat.net/2021/12/Lightning-Make-Bitcoin-Scalable-1.html) — همان راهکار لایه دومی که در اپیزود به‌عنوان دسته سوم مقیاس‌پذیری معرفی شد.
+- [سگویت و BIP148](https://shiryakhat.net/2017/07/segwit-august1st-bip148.html) — محدودیت حجم بلاک و سگویت که در بحث بهینه‌سازی و چهار مگابایت شدن بلاک بیت‌کوین اشاره شد.
+
 ### زمان‌بندی فصل‌ها
 
 - 00:00 مقیاس‌پذیری چیست؟ چرا مقیاس‌پذیری مهم است؟

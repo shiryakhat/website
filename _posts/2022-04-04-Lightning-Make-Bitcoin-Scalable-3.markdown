@@ -101,6 +101,15 @@ castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable---Part-3-
 * [آموزش نصب و راه اندازی لایتنینگ: کیف پول مون والت MUUN](https://youtu.be/1ASVX2ODFYw): https://youtu.be/1ASVX2ODFYw
 * [راهنمای مقدماتی لایتنینگ](https://bitcoind.me/blobs/tuts/lightning-network-chist-bitcoind_me.pdf): https://bitcoind.me/blobs/tuts/lightning-network-chist-bitcoind_me.pdf
 
+### قسمت‌های مرتبط
+
+- [لایتنینگ - قسمت ۲](https://shiryakhat.net/2022/02/Lightning-Make-Bitcoin-Scalable-2.html) — قسمت قبلی همین مجموعه سریالی؛ در این اپیزود بحث تقلب و جریمه و توپولوژی شبکه که پیش‌نیاز مستقیم بستن کانال است را ادامه می‌دهد.
+- [لایتنینگ - قسمت ۱](https://shiryakhat.net/2021/12/Lightning-Make-Bitcoin-Scalable-1.html) — قسمت اول همین مجموعه؛ معرفی لایتنینگ، ساخت کانال و تراکنش‌های آف‌چین که مبنای این اپیزود است.
+- [مقیاس‌پذیری - قسمت ۲](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html) — راهکارهای لایه دوم و مقیاس‌پذیری که لایتنینگ نمونه‌ی آن است در همین فصل بررسی شده.
+- [مقیاس‌پذیری - قسمت ۱](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck.html) — سرآغاز فصل ششم و طرح مسئله‌ی گلوگاه مقیاس‌پذیری که کل بحث لایتنینگ برای حل آن است.
+- [سگویت و لایتنینگ](https://shiryakhat.net/2019/08/lightning-segwit.html) — معرفی اولیه شبکه لایتنینگ و سگویت که پیش‌زمینه فنی این اپیزود محسوب می‌شود.
+- [حریم خصوصی در بلاکچین](https://shiryakhat.net/2025/08/privacy-blockchain-right-or-crime-tool.html) — این اپیزود درباره‌ی بهبود پرایویسی با آپگرید تپروت در لایتنینگ صحبت می‌کند که به مفهوم حریم خصوصی مرتبط است.
+
 ### زمان‌بندی فصل‌ها
 
 - 00:00 شروع
