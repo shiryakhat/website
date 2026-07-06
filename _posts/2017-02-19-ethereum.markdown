@@ -44,12 +44,12 @@ castbox: https://castbox.fm/episode/Ethereum-(S01E02)-id2539522-id216823176?utm_
 
 ## نکات اصلی بحث‌شده
 
-* معرفی مفهوم اسمارت کانترکت یا قرارداد هوشمند
-* بررسی تفاوت‌های بنیادین اتریوم و بیتکوین
+* معرفی [مفهوم اسمارت کانترکت یا قرارداد هوشمند](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html)
+* بررسی [تفاوت‌های بنیادین اتریوم و بیتکوین](https://shiryakhat.net/2017/04/open-mic-essence-of-bitcoin.html)
 * نحوه عملکرد اتر (ETH) به عنوان کوین محلی اتریوم
 * تاریخچه و نحوه به‌وجود آمدن اتریوم
-* مفهوم توکن و کاربرد آن در ICOها
-* بررسی موارد استفاده گسترده اتریوم
+* [مفهوم توکن و کاربرد آن در ICOها](https://shiryakhat.net/2017/05/blockchain-altcoins-tokens-ico.html)
+* بررسی [موارد استفاده گسترده اتریوم](https://shiryakhat.net/2017/10/blockchain-usecases-social-pathology.html)
 * مقایسه تراکنش‌های بیتکوینی و اتریومی
 * تحلیل بازار و قیمت‌گذاری اتریوم
 

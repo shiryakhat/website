@@ -46,9 +46,9 @@ castbox: https://castbox.fm/episode/Mining%2C-Proof-of-Work-and-ETF-post-mortem-
 
 * معرفی مفاهیم پایه: Hashing و تابع بی‌همتا
 * توضیح گواه اثبات کار (Proof of Work)
-* فرآیند استخراج بیتکوین و نحوه عملکرد آن
+* [فرآیند استخراج بیتکوین](https://shiryakhat.net/2017/07/art-of-mining-in-iran.html) و نحوه عملکرد آن
 * بررسی تجهیزات استخراج و تکامل آن‌ها
-* تحلیل ETF بیتکوین و دلایل رد آن توسط SEC
+* [تحلیل ETF بیتکوین](https://shiryakhat.net/2017/03/other-blockchains-etf.html) و دلایل رد آن توسط SEC
 * بررسی تأثیر تصمیم SEC بر قیمت بیتکوین
 * آینده ETF بیتکوین و احتمال تصویب آن
 

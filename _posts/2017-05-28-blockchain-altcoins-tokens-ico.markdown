@@ -39,7 +39,7 @@ castbox: https://castbox.fm/episode/Is-it-a-Blockchain--Altcoins%2C-Tokens-and-I
 
 -------------------------------------------------------
 
-در این اپیزود به بررسی ماهیت و چیستی بلاکچین و بیتکوین، آلتکوین‌ها، توکن‌ها و ICOها پرداختیم.
+در این اپیزود به بررسی [ماهیت و چیستی بلاکچین و بیتکوین](https://shiryakhat.net/2017/04/open-mic-essence-of-bitcoin.html)، آلتکوین‌ها، توکن‌ها و ICOها پرداختیم.
 
 ## توضیحات اپیزود
 
@@ -55,9 +55,9 @@ castbox: https://castbox.fm/episode/Is-it-a-Blockchain--Altcoins%2C-Tokens-and-I
 * تفاوت بلاکچین با پایگاه داده معمولی
 * معیارهای تعیین غیرمتمرکز یا متمرکز بودن کوین‌ها
 * مفهوم آلتکوین‌ها و تفاوت‌شان با بیتکوین
-* توضیح توکن‌ها و نحوه عملکرد آن‌ها
+* [توضیح توکن‌ها و نحوه عملکرد آن‌ها](https://shiryakhat.net/2017/02/ethereum.html)
 * بررسی ICO (Initial Coin Offering) و کاربردهای آن
-* ارزیابی پروژه‌های بلاکچینی و نحوه تشخیص آن‌ها
+* [ارزیابی پروژه‌های بلاکچینی و نحوه تشخیص آن‌ها](https://shiryakhat.net/2017/02/stay-safe-with-bitcoin.html)
 
 ## حاضران در این قسمت
 <!-- TODO: Add participant information and links -->

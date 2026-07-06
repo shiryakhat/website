@@ -39,7 +39,7 @@ castbox: https://castbox.fm/episode/Bitcoin-Fork%2C-Bitcoin-Unlimited-and-Blocks
 
 -------------------------------------------------------
 
-در این اپیزود به بررسی انشعابات بیتکوین و بحث افزایش سایز بلاک و مشکلات مقیاس‌پذیری که بیتکوین با آن مواجه است پرداختیم.
+در این اپیزود به بررسی انشعابات بیتکوین و بحث افزایش سایز بلاک و [مشکلات مقیاس‌پذیری](https://shiryakhat.net/2021/10/scalability-blockchain-bottleneck.html) که بیتکوین با آن مواجه است پرداختیم.
 
 ## توضیحات اپیزود
 
@@ -56,12 +56,12 @@ castbox: https://castbox.fm/episode/Bitcoin-Fork%2C-Bitcoin-Unlimited-and-Blocks
 * مشکلات احتمالی افزایش اندازه بلاک برای نودهای کوچک
 * نقش استخراج‌کنندگان در رای‌گیری و تصمیم‌گیری شبکه
 * بحث حق رای نودها در تغییرات شبکه
-* مقایسه هارد فورک و سافت فورک
+* مقایسه [هارد فورک و سافت فورک](https://shiryakhat.net/2017/11/what-the-fork-part-1.html)
 * معرفی UASF (User Activated Soft Fork)
-* بررسی پیشنهاد SegWit توسط Bitcoin Core
-* توضیح Lightning Network و فواید آن
-* مقایسه فورک بیتکوین با فورک اتریوم
-* بررسی امکان جایگزینی بیتکوین توسط آلتکوین‌ها
+* بررسی پیشنهاد [SegWit](https://shiryakhat.net/2017/07/segwit-august1st-bip148.html) توسط Bitcoin Core
+* توضیح [Lightning Network](https://shiryakhat.net/2021/12/Lightning-Make-Bitcoin-Scalable-1.html) و فواید آن
+* مقایسه فورک بیتکوین با [فورک اتریوم](https://shiryakhat.net/2017/02/ethereum.html)
+* بررسی امکان جایگزینی بیتکوین توسط [آلتکوین‌ها](https://shiryakhat.net/2017/05/blockchain-altcoins-tokens-ico.html)
 * راهنمایی نگهداری امن کوین‌ها در زمان فورک
 
 ## حاضران در این قسمت

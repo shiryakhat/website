@@ -48,7 +48,7 @@ castbox: https://castbox.fm/episode/Coronalysis---Capitalism-is-Critically-Sick-
 * امیدها به بازار رمزارزها علی‌رغم سقوط فعلی
 * آشفتگی بازار و تأثیر جنگ قیمتی نفت
 * نقش PlusToken و موتور BitMEX در ریزش بازار رمزارز
-* زیرساخت‌های دورکاری در دنیا چگونه است؟
+* [زیرساخت‌های دورکاری در دنیا](https://shiryakhat.net/2020/03/coronatimes-spring.html) چگونه است؟
 
 ## منابع
 
