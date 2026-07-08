@@ -36,6 +36,15 @@ castbox: https://castbox.fm/episode/DeFi---Part-5---Lending-Protocols%2C-Compoun
 
 در این اپیزود به بررسی سیستم‌های وام‌دهی غیرمتمرکز پرداختیم و آن را با سیستم وام‌دهی سنتی مقایسه کردیم.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+The episode dives into DeFi lending protocols as the capstone of the podcast's decentralized finance series, building on prior episodes about stablecoins and decentralized exchanges (DEXs like Uniswap, order books versus automated market makers, and liquidity pools). The hosts explain why lending matters economically—boosting liquidity for better price discovery, allocating capital to those who need it, and serving as a building block for structures like leveraged trading (e.g., collateralizing Bitcoin to borrow a stablecoin and buy more BTC)—while contrasting on-chain lending with traditional fractional-reserve banking, money creation, the reserve requirement, and the money multiplier. They trace crypto lending's history from early peer-to-peer, reputation-based platforms like BTCJam (which failed due to lack of collateral and defaults) and fiat-collateralized services like Lendab and Hodl Hodl (which uses 2-of-3 multisig but is distributed rather than truly decentralized), highlighting legal and counterparty risks. The core discussion centers on pool-based lending via Compound Finance, where lenders deposit crypto assets (ETH, ERC-20 tokens, stablecoins like DAI, USDT, and USDC) into smart-contract liquidity pools to earn transparent, pooled interest, while borrowers post collateral to draw a different asset. A major segment covers wrapped tokens—WBTC, renBTC (built by BitGo and others using multisig and MPC/multi-party computation), and wrapped Ethereum (WETH)—that bring Bitcoin and other off-chain assets onto Ethereum as ERC-20 collateral and simplify smart-contract token interfaces. The hosts close by outlining over-collateralization and the collateral factor (C factor) that sets borrowing limits based on each asset's volatility and risk, teeing up the next episode's coverage of liquidation and counterparty-risk mechanisms.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 تاریخچه و مثال‌هایی از وام‌دهی در حوزه بلاکچین را بررسی کردیم. به توکن‌های Wrapped و استفاده از آن‌ها به عنوان وثیقه اشاره کردیم و در نهایت [وام‌دهی در حوزه DeFi](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html) را با بررسی پروژه Compound تشریح کردیم.

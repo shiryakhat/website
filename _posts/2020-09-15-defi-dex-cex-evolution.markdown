@@ -46,6 +46,15 @@ castbox: https://castbox.fm/episode/DeFi---Part-3---Evolution-of-Decentralized-E
 
 در ادامه‌ی مجموعه‌ی [اقتصاد غیرمتمرکز](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html)، بعد از اپیزود [کوین‌های پایدار (Stablecoin)](https://shiryakhat.net/2020/07/defi-stable-coins.html) این بار سراغ یکی از پرکاربردترین بخش‌های دنیای دیفای می‌رویم: صرافی‌های غیرمتمرکز یا دکس‌ها. در این قسمت قدم‌به‌قدم از تاریخچه‌ی شکل‌گیری این صرافی‌ها شروع می‌کنیم، می‌بینیم که چرا و از کجا آمدند و امروز به کجا رسیده‌اند تا در پایان تصویری روشن از تکامل این فناوری در ذهنتان شکل بگیرد.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode of the Shir Ya Khat podcast continues its DeFi (decentralized finance) series by tracing the evolution of decentralized exchanges (DEXs), building on the prior episode's discussion of stablecoins. The hosts explain why DEXs emerged as non-custodial alternatives to centralized exchanges—driven by hacks like Mt. Gox, price manipulation, and KYC/censorship concerns—and walk through the anatomy of an exchange, including order books, custodians, deposits, order matching, atomic swaps, and the roles of market makers and market takers. They chart the first generation of on-chain/off-chain order-book DEXs such as EtherDelta (and its ForkDelta), covering front-running, DDoS via order cancellation, and gossip-based relayers, then detail the 0x messaging protocol with its relayers, ZRX token fees, and 0x Mesh, alongside hybrid/semi-decentralized exchanges like dYdX, IDEX, DDEX, and Oasis DEX that kept settlement on-chain while addressing ghost orders and gas costs. The core of the discussion moves to liquidity pools and automated market makers (AMM/CFMM), explaining Bancor's BNT-based pools and its flaws (sandwiching, front-running), Kyber Network's liquidity-aggregation and composability protocol, and Uniswap's constant-product formula (x·y=k) where users trade against pools rather than counterparties, with arbitrageurs balancing prices. Finally, the hosts unpack liquidity providing and liquidity mining—50/50 pair deposits, LP fee earnings, slippage, price impact, and impermanent-loss-style risks (illustrated with an ETH/LINK example)—critique ICO-era token justifications, and preview upcoming coverage of Balancer, Curve, and the future of DeFi liquidity mining.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 صحبت را از این پرسش آغاز می‌کنیم که اصلاً چرا بحث صرافی غیرمتمرکز مطرح شد. ریشه‌ی ماجرا به هک‌های بزرگ صرافی‌های متمرکز مثل مانت‌گاکس بازمی‌گردد؛ صرافی‌هایی که کنترل تمام کوین‌های کاربران را در دست داشتند و با هر هک، دارایی کاربران در معرض خطر بود. ایده‌ی دکس این بود که به‌جای اینکه یک نهاد مرکزی موجودی و کنترل همه‌چیز را نگه دارد، این وظیفه بین یک قرارداد هوشمند و یک سیستم غیرمتمرکز پخش شود. مهم‌ترین ویژگی‌ای که این پروژه‌ها را از هم متمایز می‌کند، غیرحضانتی یا نان‌کاستودیال بودن است؛ یعنی شما حضانت رمزارز خودتان را به یک صرافی متمرکز نمی‌سپارید. در کنار این، بحث دستکاری قیمت و بازار در صرافی‌های متمرکز و نیاز به یک منبع شفاف برای کشف قیمت درست، انگیزه‌ی دیگری برای حرکت به سمت دکس‌ها بود.

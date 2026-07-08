@@ -40,6 +40,15 @@ castbox: https://castbox.fm/episode/Ethereum-(S01E02)-id2539522-id216823176?utm_
 
 در این اپیزود به بررسی اتریوم و ساختار فنی این تکنولوژی پرداختیم که نسل بعد از آلتکوین‌های اولیه محسوب می‌شود.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode of Shir Ya Khat dives into Ethereum as a second-generation blockchain, framing it as a "decentralized computer" in contrast to Bitcoin's "decentralized database," and explaining how smart contracts written in languages like Solidity turn code into law (the "code is law" principle). The hosts trace Ethereum's history—Vitalik Buterin's late-2013 white paper, the 2014 crowd sale run through a Swiss company selling software licenses, the July 2015 Frontier launch, and the network's use of Proof of Work with an intended migration to Proof of Stake—while contrasting Ethereum's account/balance model against Bitcoin's transaction-based UTXO ledger and touching on its Merkle-tree tweak that preserves expired ("uncle") blocks. A major thread is the DAO hack (~$68–150 million in ETH drained via a smart-contract exploit) and the contentious hard fork that froze the attacker's balance, which the panel debates as a form of censorship that split the chain into Ethereum and Ethereum Classic, raised replay-attack concerns, and eroded investor trust despite protecting the ecosystem's value. They also discuss ETH's economics as "crypto fuel" (uncapped supply, gas costs) likened to oil rather than gold, the rise of ERC-style tokens and ICOs traded on exchanges like Bittrex and Poloniex, real-world use cases (decentralized exchanges, music-streaming platforms, IoT, replacing NASDAQ-style IPO intermediaries), and competing projects like RootStock. The episode closes with a market report covering Bitcoin trading around the $100K channel, Ripple hitting support near 560 satoshi, and Dashcoin's strength, plus a segment introducing "DigiArz," a local Iranian price-aggregation and exchange-transparency service with a Telegram bot, alongside candid talk about exchanger spreads and "dirty Bitcoin" legal risks.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 اگر بیتکوین را یک دیتابیس یا پایگاه داده غیرمتمرکز بدانیم، باید گفت که اتریوم یک کامپیوتر غیرمتمرکز است که امکان اجرای برنامه‌های پیچیده را فراهم می‌کند.

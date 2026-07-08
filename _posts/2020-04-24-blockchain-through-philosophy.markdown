@@ -36,6 +36,15 @@ castbox: https://castbox.fm/episode/Blockchain-Through-Philosophy---Interview-wi
 
 در این قسمت از پادکست شیر یا خط سراغ نگاهی فلسفی و رادیکال به بلاک‌چین می‌رویم؛ گفت‌وگویی که در آن بلاک‌چین نه صرفاً یک فناوری مالی، بلکه فناوری‌ای در نظر گرفته می‌شود که می‌تواند مناسبات قدرت، کار و زندگی انسان را دگرگون کند. مهمان این قسمت پروفسور کرستون دیویس، استاد فلسفه و از بنیان‌گذاران مدرسه مطالعات عالی جهانی (GCAS) در دوبلین است که همراه با سلمان و شایان از دریچه فلسفه به سراغ تمرکززدایی، سرمایه‌داری و آینده می‌رود.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode of the Shir Ya Khat (Sheer ya Khat) podcast breaks format as an English-language video interview—later to be released in Persian translation—featuring co-host Salman's former professor Creston Davis, a philosopher and co-founder of the Global Center for Advanced Studies (GCAS) in Dublin, in a wide-ranging philosophical conversation about blockchain, decentralization, and the political economy of technology. Grounding the talk in libertarian and anarcho-capitalist thought, individual sovereignty in free markets, and the distrust of states and corporations, the hosts and guest examine how Bitcoin and decentralized systems were meant to empower people yet often backfired—citing Wall Street bank bailouts, corporate rescues, and the deepening burden placed on individuals. Drawing on thinkers like Marx, Deleuze, Lyotard, Adam Greenfield, Jeremy Rifkin, and Bertrand Russell, the discussion connects fractional-reserve banking and financial intermediaries to a "second exploitation" of labor and money, while touching on DeFi (decentralized finance), speculative crypto markets, IPOs, market manipulation, and regulation. Much of the conversation reflects on the COVID-19 pandemic as a "Petri dish" for dystopian scenarios, exploring fake news, post-truth media, conspiracy theories, nationalism, xenophobia, surveillance capitalism (Facebook, Twitter, Google), automation, AI algorithms, and offshored labor. The dialogue also weighs the sustainability of protest movements—referencing Occupy Wall Street, Bernie Sanders, and Alain Badiou—and how GCAS was built as a P2P (peer-to-peer) collective to sustain autonomy over generations, closing on themes of trust, culture, and community as the necessary ethos underpinning decentralized technology, with notes on GCAS's open-source work via Slack and GitHub and its outreach to Iran.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 این اپیزود گفت‌وگویی است میان سلمان صادقی، شایان اسکندری و مهمان برنامه، پروفسور کرستون دیویس، که فلسفه را در دانشگاه‌های آمریکا خوانده و از بنیان‌گذاران و استادان مدرسه مطالعات عالی جهانی (GCAS) است. محور بحث این است که بلاک‌چین را می‌توان همچون یک فناوری رادیکال دید و آن را در زمینه‌ای فلسفی و تاریخی نشاند؛ از سنت فکری ارسطو و افلاطون تا اندیشه‌های مدرن درباره فرد، جامعه و قدرت. گفت‌وگو با طرح مفهوم لیبرتارینیسم و آنارکو-کاپیتالیسم آغاز می‌شود، جایی که به فرد و حاکمیت او در بازار آزاد بیش از دولت‌ها و شرکت‌ها اعتماد می‌شود.

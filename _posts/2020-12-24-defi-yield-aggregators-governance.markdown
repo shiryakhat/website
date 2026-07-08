@@ -38,6 +38,15 @@ castbox: https://castbox.fm/episode/DeFi---Part-6---Liquidation%2C-Yield-Farming
 
 در این قسمت که آخرین اپیزود از سری دیفای است، ادامه‌ی بحث سیستم‌های وام‌دهی غیرمتمرکز را دنبال می‌کنیم. از فرایند نقد شدن وثیقه گرفته تا تفاوت پلتفرم‌های حضانتی و غیرحضانتی، مدل‌های نرخ بهره، وام‌های لحظه‌ای و در نهایت توکن‌های حکمرانی و ییلد فارمینگ را باز می‌کنیم و با یک جمع‌بندی کلی از کل فصل دیفای این سری را می‌بندیم.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This is the final episode of the Shir Ya Khat DeFi series, focusing on decentralized lending mechanics, liquidation, yield farming, and on-chain governance. The hosts explain over-collateralization and the collateral ratio (C ratio) used by protocols like Compound, MakerDAO (DAI), Synthetix, and Aave, walking through how depositing volatile collateral such as Ethereum to borrow stablecoins like DAI or USDC exposes borrowers to liquidation when prices crash—referencing the March 2020 "Black Thursday" ETH collapse—and how liquidators earn low-risk profit via auctions or first-come-first-serve bidding to keep loans over-collateralized. They contrast custodial, semi-custodial (Hodl Hodl, 2-of-3 multi-sig), and non-custodial smart-contract lending, stressing trustless immutable code, oracle manipulation risk, and anti-liquidation tools like DeFi Saver, plus interest-rate models built on the utilization rate and APY/APR spreads between borrowing and supplying. A major segment covers Aave's innovations—fixed vs. variable interest rates and flash loans (uncollateralized single-block borrowing enabled by Ethereum's atomic revert property) used for arbitrage, collateral swaps, and self-liquidation, as well as flash-loan attacks that exploit oracle price manipulation across interdependent markets. The episode closes on yield aggregators and "DeFi Legos"—Yearn (Andre Cronje), Curve Finance, Harvest, and Pickle Finance acting as decentralized hedge funds—and on governance tokens (COMP, MKR, UNI), yield farming, token scarcity and valuation, DAO voting risks (including flash-loan governance attacks), and SushiSwap's "vampire attack" on Uniswap liquidity pools.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 این اپیزود از همان‌جایی آغاز می‌شود که [قسمت قبل](https://shiryakhat.net/2020/12/defi-lending-protocols.html) رها شده بود: سیستم‌های وام‌دهی که با استفاده از استخرهای نقدینگی امکان می‌دهند دارنده‌ی یک دارایی بدون فروش آن، آن را به‌عنوان وثیقه بگذارد و پول دریافت کند. مجریان توضیح می‌دهند که چون قیمت دارایی وثیقه‌گذاری‌شده (مثلاً اتریوم) می‌تواند به‌شدت نوسان کند، این پروتکل‌ها بر پایه‌ی وثیقه‌گذاری بیش از حد (over-collateralization) کار می‌کنند؛ مثالی که بارها تکرار می‌شود این است که با گذاشتن صد دلار اتر می‌توان حدود هفتاد و پنج دلار دای یا یو‌اس‌دی‌سی وام گرفت، و این نسبت وثیقه (collateral ratio) بسته به ریسک هر دارایی و پروژه‌ای مثل میکر دائو، کامپاوند یا سینتتیکس متفاوت است. با یادآوری اتفاق «[پنج‌شنبه‌ی سیاه](https://shiryakhat.net/2020/03/coronalysis-capitalism-is-sick.html)» اتریوم در مارس، بحث به سراغ نقد شدن یا liquidation می‌رود.

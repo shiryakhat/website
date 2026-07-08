@@ -35,6 +35,15 @@ castbox: https://castbox.fm/episode/DeFi---Part-4---Automated-Market-Makers-(S04
 
 در این قسمت که ادامه مستقیم بحث صرافی‌های غیرمتمرکز است، وارد دنیای بازارسازهای خودکار (AMM) می‌شویم؛ همان مدلی که در آن به‌جای دفتر سفارش و انتظار برای طرف مقابل، کاربر مستقیماً با یک قرارداد هوشمند و یک استخر نقدینگی معامله می‌کند. مهدی، رضا و شایان با هم منطق پشت یونی‌سواپ، بالانسر و کرو را باز می‌کنند و نشان می‌دهند چطور یک فرمول ریاضی ساده به موتور اصلی دیفای تبدیل شده است.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+DeFi decentralized exchanges (DEXs) and automated market makers (AMMs) are the focus of this fourth episode in the Shir Ya Khat podcast's DeFi series, continuing from a prior discussion of DEX history and order-book models like EtherDelta, 0x, and Kyber Network with their relayers. The hosts explain how AMMs replaced two-sided order books with single-sided liquidity pools held in smart contracts, centering on Uniswap and its constant-function market maker (CFMM) formula x·y=k, including the factory contract that spins up a new pool per token pair, the 50/50 dollar-value liquidity provider model, price ratios maintained by arbitrageurs, trading fees earned by LPs, and Uniswap V2's Smart Order Routing (SOR) that swaps token A to token B in one transaction. They then explore Balancer, which generalizes the constant-function formula to weighted portfolios of up to eight tokens (acting like an automated, manager-less hedge fund whose tradable pool tokens hedge risk), Curve (curve.fi), which flattens the hyperbola into a near one-to-one curve optimized for low-slippage stablecoin swaps and pegged assets like WBTC and renBTC, and DEX aggregators such as 1inch that route trades across exchanges for the best rate. The discussion also covers impermanent loss for correlated pairs like ETH and LINK, slippage relative to pool depth, wrapped/tokenized Bitcoin, and MetaMask-based usability. Finally, they preview how idle pooled capital connects AMMs to lending protocols like Compound, Aave, and Yearn Finance—tying in collateral, oracles, and stablecoins—to set up the next episode on DeFi lending systems and yield.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 این اپیزود از جایی آغاز می‌شود که قسمت قبلی به پایان رسید. در قسمت پیشین [کلیات صرافی‌های غیرمتمرکز (دکس‌ها)](https://shiryakhat.net/2020/09/defi-dex-cex-evolution.html)، تاریخچه‌شان از پروژه‌های اولیه‌ای مثل EtherDelta و مدل دفتر سفارش دوطرفه و همچنین پروژه‌هایی مثل 0x و Kyber که سرور متمرکز را در قالب شبکه‌ای از ریلیرها پخش کردند بررسی شد. حالا در این قسمت تمرکز روی نسل جدید صرافی‌ها یعنی بازارسازهای خودکار است؛ مدلی که در آن فراهم‌آورندگان نقدینگی سرمایه‌شان را در یک قرارداد هوشمند قفل می‌کنند و بازار به‌جای دوطرفه بودن، خودکار و یک‌طرفه می‌شود.

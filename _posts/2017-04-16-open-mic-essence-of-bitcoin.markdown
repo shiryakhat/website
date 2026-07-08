@@ -43,6 +43,15 @@ castbox: https://castbox.fm/episode/Open-Mic-(Q%26A)--Essence-of-Bitcoin-%26-Blo
 
 در این اپیزود ویژه به سوالات شنوندگان در مورد ماهیت ارزش بیتکوین و بلاکچین پاسخ دادیم.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This is episode 6 of the "Heads or Tails" (Shir Ya Khat) podcast, a live open-mic Q&A session covering the fundamental nature of Bitcoin and blockchain, in which the hosts explain why Bitcoin has value through the lens of monetary history, supply and demand, and a "social agreement" model that requires no government or gold backing, contrasting Bitcoin's decentralized, serverless architecture (illustrated via torrent-like peer-to-peer full nodes and distributed ledgers) with custodial digital-money services like WebMoney, Perfect Money, and the shut-down Liberty Reserve. The discussion digs into Bitcoin's fixed 21-million supply cap, the block reward and its roughly four-year halving schedule (50 → 25 → 12.5 BTC), miner economics and transaction-fee incentives after 2140, mining difficulty adjustment, hashrate, SHA-256 proof-of-work, and the ASICBoost controversy involving Bitmain and Gregory Maxwell, while also debunking a listener's misconception that mining hashes could form a reverse-lookup rainbow table to crack passwords. The hosts address Bitcoin's pseudonymous (not fully anonymous) nature, chain-analysis and address-clustering tools like walletexplorer.com, Chainalysis, and Scorechain, privacy techniques such as CoinJoin, plus fungibility, "dirty Bitcoin," Silk Road, and the argument that cash remains the dominant tool for illicit finance. They compare altcoin monetary policies—Ethereum's uncapped issuance, Dogecoin, Litecoin's scrypt algorithm and ASIC resistance, and Iceland's Auroracoin pre-mine failure—and touch on coin burning, difficulty-based supply adjustment, and validator/block-time design. The episode closes on blockchain's broader promise: micropayments and the Lightning Network (off-chain payment channels), smart contracts, IoT security use cases like Slock.it smart locks, and especially the potential for economic freedom in sanctioned Iran—enabling freelancers, handicraft exporters, and cross-border payments (including a Swiss company letting foreigners buy Iranian stocks via Bitcoin) to bypass the traditional banking system that blocks access to PayPal, Visa, and MasterCard.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 این هفته جلسه‌ی آزادی خواهیم داشت و تنها می‌خواهیم به سوالات دوستان پاسخ بدهیم.

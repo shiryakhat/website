@@ -51,6 +51,15 @@ castbox: https://castbox.fm/episode/Art-of-Mining---Advanced-Mining-in-Iran-(S01
 
 در قسمت نهم «شیر یا خط» سراغ ادامه بحث ماینینگ رفتیم، اما این‌بار با تمرکز بیشتر بر تجربه استخراج در ایران. چند تن از دوستانی که به‌طور واقعی و در مقیاس فارم در داخل کشور ماینینگ می‌کنند در این اپیزود حاضر شدند تا از خاطرات، چالش‌ها و درس‌هایی که در این مسیر آموخته‌اند بگویند. اگر با مفاهیم پایه ماینینگ آشنا نیستید، مبانی آن (تعریف ماینینگ و الگوریتم‌ها) [در قسمت چهارم پوشش داده شده](https://shiryakhat.net/2017/03/mining-pow-etf.html) و موضوع [UASF (یوزر اکتیویتد سافت‌فورک) که قرار است اول آگوست رخ دهد](https://shiryakhat.net/2017/07/segwit-august1st-bip148.html) نیز به اپیزود آینده موکول شده است.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Iran's mining scene at a professional level is the focus of this ninth episode of the Shir ya Khat podcast, which builds on the earlier basics episode to dig into the hardware, economics, and challenges of running crypto mining rigs and farms inside Iran. The hosts and guest miners compare mining hardware options—ASICs (Application Specific Integrated Circuits) like Bitmain's Antminer for Bitcoin's SHA-256 versus GPU rigs (AMD's RX 470/480/580 and Nvidia's GTX 1070/1080) for ASIC-resistant algorithms such as Ethereum's Dagger-Hashimoto, Monero (CPU-friendly), Equihash coins, Zcash, and Ethereum Classic—while stressing the difficulty of importing scarce, warranty-less, non-resalable gear amid a global GPU, power-supply, and riser shortage. They explain mining pools versus solo mining, block rewards and the Bitcoin halving, pool payout methods, P2Pool, server ping and orphan/uncle rates, the case for an Iran-based pool, mining-pool centralization, the 51% attack, mempool transaction censorship, and how China's cheap electricity, mining farms, and firewall pose network fork risks. Practical rig-building advice covers electrical amperage and cabling, heat dissipation and airflow, undervolting/downclocking, BIOS/RAM-timing overclocking, swamp coolers, dust management, virtual memory for growing DAG epoch sizes, and detailed ROI calculations warning against short-term payback expectations given volatile prices and the difficulty bomb. The episode also previews the upcoming August 1st UASF (User Activated Soft Fork) and SegWit debate, explains soft forks versus hard forks and Ethereum's planned move to Proof of Stake, and promotes new Iranian tools at miningbox.com—a Stack Overflow-style mining Q&A forum and a localized profitability calculator factoring hardware, electricity tiers, difficulty, and coin selection.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 مهمانان این قسمت از انگیزه ورودشان به ماینینگ گفتند؛ برای بسیاری از آن‌ها نقطه شروع، کنجکاوی درباره نحوه کار بیت‌کوین و ارتباط ماینینگ با آن بود، نه صرفاً درآمد. یکی از مهمان‌ها تعریف کرد که چطور با دنبال کردن مطالب فروم‌های خارجی و گروه کوین ایران، کم‌کم شروع به جمع کردن سخت‌افزار برای یک ریگ کرد و در آن مقطع تمرکز بیشتر روی توان CPU بود. چالش‌های اصلی آن روزها گرانی سخت‌افزار، دشواری تأمین و وارد کردن قطعات، نبود قطعات مکمل در بازار، و حالت آزمون‌وخطا بودن کار (چون هنوز جامعه امروزی شکل نگرفته بود) عنوان شد.

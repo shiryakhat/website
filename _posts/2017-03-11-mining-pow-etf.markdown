@@ -40,6 +40,15 @@ castbox: https://castbox.fm/episode/Mining%2C-Proof-of-Work-and-ETF-post-mortem-
 
 در این اپیزود به بررسی ماینینگ (استخراج) و Proof-of-Work (گواه اثبات کار) پرداختیم.
 
+
+<details markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Iran's crypto podcast "Shir Ya Khat" (Heads or Tails) dedicates episode four to Bitcoin mining and Proof of Work, starting with the cryptographic fundamentals of hashing (a unique, tamper-evident function) and how Adam Back's 1997 Hashcash algorithm—originally an anti-spam, anti-DoS measure—underpins Bitcoin's SHA-256 proof-of-work, alongside alternatives like Litecoin's Scrypt, and it explains mining difficulty (the leading-zero target readjusting every 2016 blocks to hold ~10-minute block times), plus competing consensus models including Proof of Stake (Ethereum), Proof of Burn, and sidechain coins like Zerocoin. Guest miners trace the hardware evolution from CPU and GPU mining to purpose-built ASICs (Bitmain Antminer S9, Bitfury, early Dragon rigs at ~$2,500 per terahash), discussing terahash rates, watt consumption, the rising network hashrate, and the economics of return-on-investment, electricity, cooling, and location (free power in China, cold-climate farms in Iceland and northern Canada). The episode covers mining pools and reward schemes—solo, PPS (pay-per-share), and PPLNS (pay per last N shares)—decentralized options like P2Pool, multi-pool coin-switching for profitability, and a skeptical take on cloud mining as effectively gambling, noting AWS/App Engine's early ban on mining. It closes with a market report framed around the SEC's rejection of a Bitcoin ETF, analyzing price volatility, whale manipulation, and a long-term bullish outlook, followed by technical-analysis commentary (triangles, Elliott waves, support/resistance) on altcoins including Ethereum, Ethereum Classic, Dash, Monero (XMR), and numerous smaller tokens on exchanges like Bittrex.
+
+</details>
+<!--en-summary-->
+
 ## توضیحات اپیزود
 
 در این اپیزود به بررسی ماینینگ (استخراج) و Proof-of-Work (گواه اثبات کار) پرداختیم. همچنین بررسی ETF و تحلیل تصمیم SEC در رابطه با رد آن را مورد بحث قرار دادیم.
