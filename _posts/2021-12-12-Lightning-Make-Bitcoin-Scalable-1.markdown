@@ -4,6 +4,8 @@ modal-id: 31
 title: "Lightning, Make Bitcoin Scalable - Part 1 | شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری بیتکوین (S06E03)"
 episode: S06E03
 date: 2021-12-12
+keywords: "شیر یا خط, Bitcoin, MEV, hash, CheckMultiSigVerify, CheckLockTimeVerify, CheckSequenceVerify, ZiyaSadr, UTXO, HTLC, CLTV, CSV, PTLC"
+duration: PT1H15M56S
 img: img/episodes/S06E03.jpeg
 alt: Lightning, Make Bitcoin Scalable Again - Part 1 (S06E03)
 permalink: /:year/:month/:title:output_ext
@@ -33,6 +35,15 @@ castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---P
 -------------------------------------------------------
 
 در این اپیزود شبکه لایتنینگ را که یک راهکار لایه دوم برای مقیاس‌پذیری بلاکچین بیتکوین است به طور فنی بررسی می‌کنیم. این قسمت با حضور سه مهمان از ترکیب طلایی بیتکوین ایران، زیا صدر، نیما و امیر حسین، ضبط شده و در آن قدم به قدم پیش‌زمینه‌های لازم روی شبکه اصلی بیتکوین را مرور می‌کنیم تا بفهمیم لایتنینگ واقعاً چگونه ساخته می‌شود و چطور کار می‌کند.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+The episode "Lightning, Make Bitcoin Scalable - Part 1" kicks off شیر یا خط's season-six deep dive into Bitcoin scalability and Layer 2 solutions, with host Mehdi joined by Bitcoin Iran experts Zia, Nima, and Amir Hossein (a Bitcoin Core contributor) to unpack the Lightning Network as the first practical off-chain, Layer 2 payment network built on BTC. Framing Lightning against the blockchain trilemma of scalability, security, and decentralization, the hosts explain how it moves cheap, high-throughput microtransactions off-chain while relying on Bitcoin's base-layer security, using only two on-chain transactions (a funding transaction and a channel-closing transaction) to enable unlimited off-chain payments through an "overlay network." They walk through the on-chain prerequisites in technical depth—2-of-2 multisig accounts, UTXOs, chainstate, Bitcoin Script with locking/unlocking scripts (pubScript and scriptSig), and the stack-based validation machine with opcodes like OP_CHECKMULTISIGVERIFY, OP_CHECKLOCKTIMEVERIFY (CLTV, via BIP 65) and OP_CHECKSEQUENCEVERIFY (CSV, relative timelocks added around SegWit)—and how these enable bidirectional payment channels. The discussion covers HTLCs (Hash Time Locked Contracts) and OP_IF conditional script paths, channel opening, and commitment transactions that let either party unilaterally reclaim funds if a counterparty goes offline or turns malicious. A central segment details how off-chain payments work by creating and exchanging new commitment transactions that rebalance the channel, how old commitments are revoked via revocation keys and penalty transactions (with watchtowers and game-theoretic anti-fraud incentives), and how the fully interactive nature of Lightning is the trade-off accepted for scalability. The hosts also preview future episodes on payment routing across multi-hop channels and upcoming Bitcoin upgrades like Taproot, PTLCs, and OP_CHECKTEMPLATEVERIFY (OP_CTV), repeatedly using a bank-and-check analogy to make multisig, commitments, and off-chain settlement intuitive.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

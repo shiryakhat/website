@@ -4,6 +4,8 @@ modal-id: 18
 title: "Coronalysis - Capitalism is Critically Sick | کرونا و بازارهای مالی (S03E05)"
 episode: S03E05
 date: 2020-03-16
+keywords: "شیر یا خط, Bitcoin, PlusToken, BitMEX"
+duration: PT50M9S
 img: img/episodes/S03E05.jpeg
 alt: Coronalysis - Capitalism is Critically Sick (S03E05)
 permalink: /:year/:month/:title:output_ext
@@ -36,6 +38,15 @@ castbox: https://castbox.fm/episode/Coronalysis---Capitalism-is-Critically-Sick-
 -------------------------------------------------------
 
 در این اپیزود ویژه به بررسی اثرات ویروس کرونا (کوید-۱۹) و دلایل سقوط بازارهای رمزارز و بازارهای اقتصادی جهانی، آینده این بازارها، فرصت‌های ایجاد شده برای کارهای راه دور و درآمدزایی و موضوعات دیگر پرداختیم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Capitalism is Critically Sick is a March 2020 episode of the Shir ya Khat (Coin Iran) podcast recorded live online amid the early COVID-19 pandemic, examining how the coronavirus and the Russia–Saudi oil price war triggered simultaneous crashes across traditional and crypto markets — the S&P 500 and Dow Jones each falling roughly 12–13% in a day (echoing Black Monday and 1929), and Bitcoin plunging around 35% in a week to about $6,890. The hosts contrast the regulated stock market's circuit breakers and trading halts (designed to prevent flash crashes) with the unregulated, 24-hour cryptocurrency markets, debating which is truly a "free market" and arguing that Bitcoin sold off because leveraged holders and financial-market investors dumped risk assets for liquidity, worsened by the PlusToken scam's coin dumping and a BitMEX outage that disrupted short liquidations. They discuss Bitcoin's history of 70–87% drawdowns, the upcoming halving and miner break-even price levels, hash rate resilience, the 21-million supply cap versus central banks' unlimited fiat money-printing and quantitative easing (the Fed's $700 billion injection and rate cuts likened to a "band-aid on a hemorrhage"), and whether Bitcoin can decouple from capitalist markets as digital gold or shift from a speculative investment lens toward real-world use cases. The conversation extends to blockchain's revolutionary, decentralized origins in the 2008 crisis, comparisons to gold and silver during systemic risk, and remote-work culture at crypto and tech firms (Coinbase, Shopify's $1,000 home-office stipend, Zoom's rise, VPN limitations). Finally, referencing economist Nouriel Roubini's 2020 recession prediction and philosopher Giorgio Agamben, the hosts raise concerns about privacy, KYC, government surveillance, facial recognition, and expanded state control in a post-corona world, positioning Bitcoin and open blockchain systems as tools to resist centralized authority.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

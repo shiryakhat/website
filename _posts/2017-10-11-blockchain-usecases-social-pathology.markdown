@@ -4,6 +4,8 @@ modal-id: 11
 title: "Blockchain Use cases and Social Pathology in Developing Countries | استفاده از بلاک‌چین در کشورهای در حال توسعه (S02E01)"
 episode: S02E01
 date: 2017-10-11
+keywords: "شیر یا خط, Bitcoin, BitPesa, ASIC, CPU, WCX, ICO, ETF"
+duration: PT1H19M49S
 img: img/episodes/S02E01.jpeg
 alt: Blockchain Use cases and Social Pathology in Developing Countries (S02E01)
 permalink: /:year/:month/:title:output_ext
@@ -46,6 +48,15 @@ October 11 2017
 -----------------------------------------------------------------------
 
 فصل دوم پادکست «شیر یا خط» را با یک بحث بنیادی آغاز می‌کنیم: بلاکچین به‌عنوان یک تکنولوژی نوین چه امکاناتی برای جامعه ایجاد می‌کند و چه آسیب‌هایی می‌تواند به همراه داشته باشد؟ درست مثل اینترنت و تلفن، این تکنولوژی هم زیبایی و هم زشتی خودش را دارد؛ قدرت را از دست عده‌ای به دست عده‌ای دیگر منتقل می‌کند و همین جابجایی، هم فرصت است و هم چالش. در این قسمت با نگاهی تکنیکال و در کنارش نگاهی جامعه‌شناختی و فلسفی، سراغ آسیب‌شناسی این تکنولوژی در کشورهای در حال توسعه، از جمله ایران، می‌رویم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This season 2 premiere of the Shir Ya Khat (شیر یا خط) podcast examines blockchain adoption in Iran and other developing countries alongside a broader "pathology" of the technology, weighing its social benefits and harms much like the internet or mobile phones before it. The hosts discuss how blockchain's decentralization strips power from centralized institutions, governments, and intermediaries while raising unresolved technical hurdles like scalability, and they explain why a blockchain—unlike its exchange gateways—cannot truly be shut down, citing crackdowns on Bitcoin and Ethereum exchanges in China and Russia. They frame network governance as a form of "absolute democracy" built on consensus and mining hash power, illustrated by hard forks such as Bitcoin/Bitcoin Cash and Ethereum/Ethereum Classic (the latter stemming from the reverted DAO-style hack), while flagging mining centralization in China, ASIC and mining-pool dominance versus Satoshi Nakamoto's one-node-per-person vision, and CPU-based alternatives like Zcash, Monero, and Bitcoin Gold—including browser-based JavaScript cryptojacking and Android mining malware. Real-world use cases are highlighted, notably Kenya's mobile-airtime money system BitPesa bridging local finance to Bitcoin, blockchain-based civil registration in Africa, and Silk Road as an early experiment in individual freedom. A large portion addresses scams, Ponzi schemes (OneCoin, BitClub), fraudulent ICOs, Telegram signal-selling groups, and how Iranian platforms like Coiniran and DigiArz build trust and vet projects, distinguishing altcoins, tokens, market cap, and legitimate ventures. The panelists conclude that raising free, unbiased awareness and education—rather than restriction, dictatorship, or government bans—is the best path to protect newcomers, empower producers like a rural rug-weaver to transact globally, and foster healthy, culturally grounded adoption of the technology.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

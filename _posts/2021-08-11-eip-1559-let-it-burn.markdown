@@ -4,6 +4,8 @@ modal-id: 28
 title: "EIP-1559 Let it Burn | ساختار فی در شبکه اتریوم (S05E02)"
 episode: S05E02
 date: 2021-08-11
+keywords: "شیر یا خط, Ethereum, Bitcoin, EVM, gas, blob, Dencun, MEV, EIP-1559, EtherChain, BitGo, PoW, EIP, EIPS"
+duration: PT1H43M1S
 img: img/episodes/S05E02.jpeg
 alt: EIP-1559 Let it Burn (S05E02)
 permalink: /:year/:month/:title:output_ext
@@ -33,6 +35,15 @@ castbox: https://castbox.fm/episode/EIP-1559-Let-it-Burn-(S05E02)-id2539522-id41
 -------------------------------------------------------
 
 در این اپیزود ساختار فی در [بلاکچین اتریوم](https://shiryakhat.net/2017/02/ethereum.html) را شرح دادیم. نحوه‌ی انتخاب تراکنش‌ها توسط ماینرها و حراج قیمت اولی را بررسی کردیم. از معایب و دلایل لزوم تغییر این مدل صحبت کردیم و در نهایت EIP-1559 را شرح دادیم و گفتیم چگونه ساختار پرداخت فی در شبکه‌ی اتریوم را دگرگون می‌کند.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+EIP-1559 and the London hard fork are the focus of this season 5, episode 2 of the Shir Ya Khat podcast, which explains how Ethereum's transaction fee structure works and why it was overhauled. The hosts first ground the discussion in fundamentals—how fees originated in Bitcoin as an anti-spam and denial-of-service defense and a miner reward, how blocks must be resource-limited in permissionless decentralized networks, and how Ethereum introduced gas as a unit of miner "effort" measured across EVM opcodes (e.g., 21,000 gas for an ether transfer), with the legacy model built on gas price, gas limit, and a first-price auction that caused overpaying, fee volatility, poor UX, and unpredictable confirmation times. They then unpack EIP-1559's split of fees into a mandatory base fee and an optional miner tip (priority fee), the max fee parameter and refund of unused base fee, and the algorithmically adjusted base fee that rises or falls up to 12.5% per block against a variable, elastic block size with a 15-million-gas target and a 30-million-gas cap to gauge network congestion. A central theme is that the base fee is burned rather than paid to miners—both to prevent miners from gaming and spamming the network to inflate fees and as a monetary-policy change that removes ETH from supply, drawing comparisons to Avalanche, Polkadot, Vitalik Buterin's 2018 block-space-market/elastic-block-size proposal, and Tim Roughgarden's research. Finally, the episode weighs the implications: reduced miner revenue, greater fairness shifting value toward ETH holders, the smooth Layer 1 upgrade despite miner opposition (supporteip1559.org vs. stopeip1559.org), the deflationary narrative, and how burning fees laid groundwork for Ethereum's move to Proof of Stake and the Merge, with a forthcoming discussion of MEV and miner tips teased for the next episode.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

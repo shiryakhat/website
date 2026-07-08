@@ -4,6 +4,8 @@ modal-id: 32
 title: "Lightning, Make Bitcoin Scalable - Part 2 | شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری بیتکوین (S06E04)"
 episode: S06E04
 date: 2022-02-13
+keywords: "شیر یا خط, Bitcoin, ZiyaSadr, HTLC, AMP, BGP"
+duration: PT54M21S
 img: img/episodes/S06E04.png
 alt: Lightning, Make Bitcoin Scalable  - Part 2 (S06E04)
 permalink: /:year/:month/:title:output_ext
@@ -31,6 +33,15 @@ castbox: https://castbox.fm/episode/Lightning%2C-Make-Bitcoin-Scalable-Again---P
 **شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری شبکه‌ی بیتکوین (۲)**
 
 در دومین اپیزود از مجموعه‌ی گفتگوهای‌مان درباره‌ی لایتنینگ، این بار شبکه را از زاویه‌ی یک شبکه‌ی پرداخت واقعی می‌بینیم. بعد از اینکه در قسمت قبل ساخت کانال میان دو نفر را کامل بررسی کردیم، حالا سراغ دو موضوع کلیدی می‌رویم: اینکه چطور می‌توان جلوی تقلب یک طرف کانال را گرفت، و اینکه چطور یک پرداخت میان افرادی که مستقیماً با هم کانال ندارند مسیریابی و انجام می‌شود. اپیزودی پر از جزئیات فنی، مثال‌های ساده و ملموس، و نگاهی به تئوری بازی‌ها که پشت طراحی لایتنینگ نشسته است.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This second installment on the Bitcoin Lightning Network dives into how the Layer 2 scaling solution prevents cheating and enables off-chain payment routing, building on prerequisites like 2-of-2 multi-signature accounts, Bitcoin Script, Hashed Timelock Contracts (HTLCs), funding transactions, and commitment transactions. The hosts explain the fraud scenario in which a party broadcasts an outdated channel state to reclaim already-spent funds, and how it is deterred through revocation secrets (the "revocable key"), a configurable timelock window (commonly ~5 days / a set number of blocks), and a slashing-style penalty that lets the wronged party seize the cheater's entire channel balance—an incentive/game-theory design assuming all actors are potentially malicious. They detail watchtowers, the monitoring software that watches the blockchain for fraudulent UTXO spends and can auto-broadcast justice transactions, covering self-hosted, free, subscription (e.g., Electrum, priced in satoshis), and encrypted third-party business models, plus beginner-friendly wallets like Phoenix and Muun that abstract these risks. The episode then transitions from single payment channels to the broader Lightning Network, explaining pathfinding across a graph of channels, channel capacity and receiving/sending liquidity limits, and multi-hop routing where intermediaries forward payments "pocket to pocket." It draws analogies to internet routing concepts—best-effort/IP/BGP routing versus source-based routing like the Tor network—and describes Lightning's use of source-based routing with onion packeting for privacy, gossip network topology discovery, DFS-style path algorithms, invoices with payment hashes, and Atomic Multi-Path Payments (AMP) for splitting larger transactions across multiple routes. It closes by previewing future topics including channel closing, Lightning clients and wallets, and the impact of Bitcoin upgrades like Taproot.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

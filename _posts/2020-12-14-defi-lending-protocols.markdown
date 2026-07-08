@@ -4,6 +4,8 @@ modal-id: 25
 title: "DeFi - Lending Protocols, Compound, and Wrapped Tokens | پروتکل‌‌های وام‌دهی (S04E05)"
 episode: S04E05
 date: 2020-12-14
+keywords: "شیر یا خط, Ethereum, DeFi, Uniswap, AMM, renBTC, GreatSaoshyant, BTCJAM, WBTC, WETH, USDC"
+duration: PT58M18S
 img: img/episodes/S04E05.jpeg
 alt: DeFi - Lending Protocols, Compound, and Wrapped Tokens (S04E05)
 project-date: December 2020
@@ -33,6 +35,15 @@ castbox: https://castbox.fm/episode/DeFi---Part-5---Lending-Protocols%2C-Compoun
 -------------------------------------------------------
 
 در این اپیزود به بررسی سیستم‌های وام‌دهی غیرمتمرکز پرداختیم و آن را با سیستم وام‌دهی سنتی مقایسه کردیم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+The episode dives into DeFi lending protocols as the capstone of the podcast's decentralized finance series, building on prior episodes about stablecoins and decentralized exchanges (DEXs like Uniswap, order books versus automated market makers, and liquidity pools). The hosts explain why lending matters economically—boosting liquidity for better price discovery, allocating capital to those who need it, and serving as a building block for structures like leveraged trading (e.g., collateralizing Bitcoin to borrow a stablecoin and buy more BTC)—while contrasting on-chain lending with traditional fractional-reserve banking, money creation, the reserve requirement, and the money multiplier. They trace crypto lending's history from early peer-to-peer, reputation-based platforms like BTCJam (which failed due to lack of collateral and defaults) and fiat-collateralized services like Lendab and Hodl Hodl (which uses 2-of-3 multisig but is distributed rather than truly decentralized), highlighting legal and counterparty risks. The core discussion centers on pool-based lending via Compound Finance, where lenders deposit crypto assets (ETH, ERC-20 tokens, stablecoins like DAI, USDT, and USDC) into smart-contract liquidity pools to earn transparent, pooled interest, while borrowers post collateral to draw a different asset. A major segment covers wrapped tokens—WBTC, renBTC (built by BitGo and others using multisig and MPC/multi-party computation), and wrapped Ethereum (WETH)—that bring Bitcoin and other off-chain assets onto Ethereum as ERC-20 collateral and simplify smart-contract token interfaces. The hosts close by outlining over-collateralization and the collateral factor (C factor) that sets borrowing limits based on each asset's volatility and risk, teeing up the next episode's coverage of liquidation and counterparty-risk mechanisms.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

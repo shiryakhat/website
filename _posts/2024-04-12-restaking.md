@@ -4,6 +4,8 @@ modal-id: 35
 title: "Ethereum Restaking & EigenLayer | اثبات سهام بازگشتی و آیگن‌لیر (S07E02)"
 episode: S07E02
 date: 2024-04-12
+keywords: "شیر یا خط, Ethereum, zk-SNARK, DeFi, DAO, Proof of Stake, Proof of Work, validator, staking, restaking, Dencun, Uniswap, AMM, MEV, consensus, EIP-7251"
+duration: PT1H25M44S
 img: img/episodes/S07E02.jpg
 alt: Ethereum Restaking (S07E02)
 permalink: /:year/:month/:title:output_ext
@@ -32,6 +34,15 @@ castbox: https://castbox.fm/episode/Ethereum-Restaking-%26-EigenLayer-%7C-(S07E0
 -------------------------------------------------------
 
 ری‌استیکینگ این روزها یکی از داغ‌ترین بحث‌های فضای کریپتو و توییتر است؛ ایده‌ای که به قول یکی از دوستان مثل کشف نفت است، همه می‌دانند چیز باارزشی پیدا شده اما هنوز کسی دقیقاً نمی‌داند با آن چه می‌شود کرد. در این اپیزود که کمی متفاوت از قسمت‌های قبلی است، از تاریخچه شروع می‌کنیم، به وضعیت امروز می‌رسیم و در نهایت به شکل یک گفت‌وگو و تبادل نظر درباره آینده این فناوری با هم صحبت می‌کنیم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode of the Shir Ya Khat podcast explores restaking and EigenLayer, framed as arguably the most revolutionary idea in Ethereum since the Merge. The hosts trace the historical arc from Proof of Work mining and mining pools (including merge mining, the Stratum and Stratum V2 protocols, and 51% centralization concerns) to Ethereum's Proof of Stake, explaining 32-ETH validators, the consensus and execution layers, RANDAO validator selection, and reward models spanning block proposals, attestations, sync committees, priority fees, MEV, slashing, and whistleblower rewards. They then cover liquid staking derivatives (LSDs) via Lido and Rocket Pool, smoothing pools, EIP-7251, and the rehypothecation risk that over-leveraging staked ETH can undermine Layer 1 security. The core discussion dives deep into EigenLayer's mechanics—restaking through the deposit contract and withdrawal credentials, EigenPods and the factory pattern, opt-in AVSs (Actively Validated Services) like decentralized sequencers, bridges, oracles, and data availability (EigenDA, Celestia), plus operators, delegation, slasher contracts, and zk-proof verification of consensus-layer state via protocols like Telepathy. The hosts also examine pooled security, the concept of renting Ethereum's economic security for modular blockchains and trusted execution environments (TEEs), edge-case applications like attacking a Bitcoin user-activated soft fork, and note that EigenLayer's mainnet launch (on Holesky after Goerli's deprecation) will initially ship without slashing. Finally, one host discloses his role as Head of Security at Puffer Finance, detailing its pufETH liquid restaking token, native versus liquid restaking, a self-imposed 22% cap to preserve network diversity, and its "vampire attack" strategy against Lido's growing 34% stake dominance.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

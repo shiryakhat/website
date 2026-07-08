@@ -4,6 +4,8 @@ modal-id: 14
 title: "Confirm me if you can - 0-conf | تایید کن اگر می‌تونی (S03E01)"
 episode: S03E01
 date: 2019-06-28
+keywords: "شیر یا خط, Bitcoin, blob, BitGo, BTC, BSV, RBF, SSL, ATM, CTOR"
+duration: PT1H4M45S
 img: img/episodes/S03E01.jpeg
 alt: Confirm me if you can - 0-conf (S03E01)
 permalink: /:year/:month/:title:output_ext
@@ -28,6 +30,15 @@ castbox: https://castbox.fm/episode/Confirm-me-if-you-can---0-conf-(S03E01)-id25
 ---
 
 # شیر یا خط - فصل سوم - قسمت اول
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This «شیر یا خط» (Shir Ya Khat) episode opens Season 3 with a technical roundtable on Bitcoin zero-confirmation (0-conf) transactions—payments a merchant accepts the moment they hit the mempool, before any block confirmation or the customary six confirmations. The hosts walk through the transaction lifecycle (wallet broadcast, mempool propagation, mining, and confirmation depth) and debate whether 0-conf is safe enough for real businesses like coffee shops, vending machines, metro tap-and-go cards, and Bitcoin ATMs, versus high-value purchases where double-spend risk is unacceptable. Central to the discussion is the double-spend attack surface, the controversial Replace-By-Fee (RBF) opt-in flag, the Satoshi/whitepaper "first-seen" rule (unwritten and unenforceable on most networks but hard-coded on Bitcoin SV), and the divergent ideologies of Bitcoin (BTC) versus BSV over whether to mitigate risk at the protocol layer or through off-chain measures like cameras and reputation. They examine miner incentives and hash-rate economics (e.g., a 20% miner's probability of pulling off a double-spend), plus real attacks including the Verge and Ethereum Classic chain reorganizations (reorgs), 51% attacks, NiceHash-rented hash power, and selfish mining. Practical 0-conf hardening approaches are covered—merchant-built transaction templates (BIP 70/BIP 274 / "Request For Payment," SIGHASH_ALL vs SIGHASH_NONE, merchant-paid fees), BitGo Instant's 2-of-2 multi-signature trust model, BIP 77/79, pre-consensus, and Bitcoin Cash ABC's CTOR transaction ordering—while noting the trade-off that trusted third parties undermine Bitcoin's peer-to-peer nature. The episode closes by contrasting 0-conf with the Lightning Network as a Layer-2 alternative (deferred to a future dedicated episode) and framing the whole debate around fraud risk relative to legacy Visa/credit-card payment systems.
+
+</details>
+<!--en-summary-->
 
 ## تایید تراکنش‌ها و سرعت پردازش مالی
 

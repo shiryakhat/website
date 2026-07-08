@@ -4,6 +4,8 @@ modal-id: 19
 title: Coronatimes - Spring is inside our homes (S03E06)
 episode: S03E06
 date: 2020-03-17
+keywords: "شیر یا خط, Ethereum, DeFi, TODO"
+duration: PT45M34S
 img: img/episodes/S03E06.jpeg
 alt: Coronatimes - Spring is inside our homes (S03E06)
 project-date: March 2020
@@ -35,6 +37,15 @@ castbox: https://castbox.fm/episode/Coronatimes---Spring-is-inside-our-homes-(S0
 -------------------------------------------------------
 
 این برنامه به اثرات ویروس کرونا (کوید-19) و دلایل [سقوط بازارهای رمزارز و بازارهای اقتصادی جهانی](https://shiryakhat.net/2020/03/coronalysis-capitalism-is-sick.html)، آینده این بازارها، فرصت‌های ایجاد شده برای کارهای راه دور و درآمدزایی پرداخته است.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Iran's cryptocurrency podcast «شیر یا خط» (Shir Ya Khat) Season 3 Episode 6, recorded March 16, 2020, continues the CoinIran team's discussion of the COVID-19 pandemic by exploring how blockchain and remote work can help Iranians under sanctions, covering collaboration tools like Telegram, Discord, Monday, and Trello for distributed startup teams. The hosts examine freelancing and online income through platforms such as Gitcoin (Ethereum-based bounties, grants, and bug bounties tied to GitHub issues), domestic sites like Ponisha, and crypto payment gateways including Coinbase Commerce, WordPill for WordPress, and Jibit, alongside Bitcoin-based donations for live streamers as an alternative to Twitch. They discuss decentralized freelancing dApps (ETHLance) and the trade-offs between centralized platforms and decentralized systems with escrow, dispute resolution, ratings, and peer-to-peer exchanges like LocalBitcoins, plus educational resources such as Mastering Bitcoin, Mastering Ethereum (a planned Persian translation), Coursera, and code.org founded by the Iranian Partovi brothers. A major segment addresses how blockchain enables transparent, sanction-resistant charity fundraising—contrasting frozen Facebook/GoFundMe donations with campaigns like Iran Rescue Bit—and the use of oracles for trustworthy pandemic case-count reporting, referencing the 1918 Spanish flu, a rumored "Corona Coin," and the WHO pandemic fund. The episode closes with a deep dive into DeFi under the March 2020 market crash, explaining how MakerDAO's DAI/SAI stablecoin, over-collateralized Ethereum loans, liquidations, network congestion, and a stale oracle price led to zero-bid collateral auctions and the MKR-token buyback recovery plan.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

@@ -23,8 +23,21 @@
       "seasonNumber": "{{ page.episode | slice: 1, 2 | plus: 0 }}",
       "description": "{{ page.description }}",
       "url": "{{ page.url | replace:'index.html','' | prepend: site.url }}",
-      "inLanguage": "fa",
-      "timeRequired": "PT45M",
+      "inLanguage": ["fa", "en"],
+      "timeRequired": "{{ page.duration | default: 'PT45M' }}",
+      "duration": "{{ page.duration | default: 'PT45M' }}",
+      {% if page.keywords %}"keywords": "{{ page.keywords }}",{% endif %}
+      "author": [
+        { "@type": "Organization", "name": "Shir Ya Khat | شیر یا خط", "url": "{{ site.url }}" },
+        { "@type": "Person", "name": "Shayan Eskandari", "url": "https://shayan.es" }
+      ],
+      "creator": { "@type": "Person", "name": "Shayan Eskandari", "url": "https://shayan.es" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shir Ya Khat | شیر یا خط",
+        "url": "{{ site.url }}",
+        "logo": { "@type": "ImageObject", "url": "{{ site.url }}/img/favicon/web-app-manifest-512x512.png" }
+      },
       "associatedMedia": {
         "@type": "MediaObject",
         "contentUrl": "{% if page.youtube %}{{ page.youtube }}{% elsif page.spotify %}{{ page.spotify }}{% elsif page.apple_podcast %}{{ page.apple_podcast }}{% endif %}"

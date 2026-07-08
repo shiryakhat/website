@@ -4,6 +4,8 @@ modal-id: 1
 title: "Stay Safe with Bitcoin | با احتیاط حرکت کنید (S01E01)"
 episode: S01E01
 date: 2017-02-15
+keywords: "شیر یا خط, Ethereum, Bitcoin, Proof of Work, ICO"
+duration: PT1H3M5S
 img: "img/episodes/S01E01.jpeg"
 alt: "Stay Safe with Bitcoin (S01E01)"
 project-date: February 2017
@@ -37,6 +39,15 @@ castbox: https://castbox.fm/episode/Stay-Safe-with-Bitcoin-(S01E01)-id2539522-id
 -------------------------------------------------------
 
 در این اپیزود به بررسی شناخت اسکم‌های بیتکوین در ایران و روش‌های تشخیص شرکت‌ها و پلتفرم‌های سالم و ناسالم پرداختیم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+The Iranian people had money troubles, and Bitcoin scams were spreading... let me give you the summary. In this inaugural episode of the Shir Ya Khat (Heads or Tails) podcast, a group of Persian-speaking Bitcoin enthusiasts open their weekly conversation by dissecting cryptocurrency scams and fraud, with a focus on how bad actors exploit the ambiguous, unregulated crypto landscape in Iran. The hosts stress that Bitcoin is simply a form of digital money, so any conventional fraud—Ponzi and pyramid schemes, referral-based cloud mining operations, ASIC hardware cons like Butterfly Labs, and bogus trading services promising guaranteed returns—can be layered on top of it, made easier by pseudonymity and irreversible transactions. They walk through the concept of "clean" versus "unclean" (tainted or hacked) Bitcoin, blockchain traceability, and how exchanges like Coinbase and Coinolix freeze accounts flagged for AML compliance, referencing the Bitfinex hack and China's central bank forcing exchanges to restrict withdrawals. On trading, guest Ehsan explains market manipulation by "whales," pump-and-dump schemes, paid Telegram signal groups, the difference between technical analysis and news-driven fundamentals, and recent altcoin moves (Komodo, Quatloo, Pascal, Litecoin on Bittrex), repeatedly warning listeners never to hand custody of their coins to anyone and to instead use API keys with withdrawal disabled. The episode closes with advice for newcomers on legitimately earning in crypto—accepting Bitcoin payments for freelance software, design, or services via tools like ShapeShift, long-term holding given Bitcoin's fixed supply, researching ICOs, whitepapers, CoinMarketCap data and Bitcoin Talk before buying—while emphasizing personal risk management, doing independent due diligence, and only investing money one can afford to lose.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

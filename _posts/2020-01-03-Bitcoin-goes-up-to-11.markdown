@@ -4,6 +4,8 @@ modal-id: 17
 title: "Genesisary - Bitcoin goes up to eleven | بیش از یک دهه با بیت‌کوین (S03E04)"
 episode: S03E04
 date: 2020-01-03
+keywords: "شیر یا خط, Bitcoin, Proof of Work, hash, KeepKey, TCP, RSA, ECC, PGP, RAR, SRC, CPU, GPU, ASIC, USB, FBI"
+duration: PT1H20M54S
 img: img/episodes/S03E04.jpeg
 alt: Genesisary - Bitcoin goes up to eleven (S03E04)
 permalink: /:year/:month/:title:output_ext
@@ -29,6 +31,15 @@ castbox: https://castbox.fm/episode/Genesisary---Bitcoin-goes-up-to-eleven-(S03E
 ---
 
 # شیر یا خط - فصل سوم - قسمت چهارم
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Bitcoin's Genesis block was mined on January 3, 2009, and this episode traces the full lineage of that moment—arguing Bitcoin was a synthesis of over forty years of networking and cryptographic research rather than a single invention—walking through TCP/IP, Diffie-Hellman asymmetric (public/private key) cryptography, RSA, David Chaum's blind signatures and DigiCash, elliptic curve cryptography (ECDSA), the Crypto Anarchist Manifesto and Cypherpunks, Adam Back's Hashcash proof-of-work, Nick Szabo's smart contracts, Wei Dai's b-money, Hal Finney's Reusable Proof of Work, and the 2008 financial crisis that preceded Satoshi Nakamoto's Bitcoin whitepaper and the "Chancellor on brink of second bailout" Genesis message. It then covers the evolution of mining from CPUs to GPUs to ASICs (Butterfly Labs, Bitmain's S1, SHA-256) and the rise of mining pools like Slush Pool, alongside P2P file-sharing precursors (Napster, BitTorrent, eDonkey2000's Jed McCaleb of Ripple/Stellar), the Bitcoin Pizza Day valuation, WikiLeaks adoption, hardware wallets (Trezor) and Casascius physical coins. The hosts recount major exchange and crime episodes—the Mt. Gox transaction-malleability hack, Silk Road and Ross Ulbricht, Bitfinex and CryptoWall/ransomware, Charlie Shrem and BitInstant—plus growing merchant and regulatory acceptance (Microsoft, Japan, ETF/CFTC debates, exahash milestones). A large segment dissects the scalability and block-size wars, Gavin Andresen, Bitcoin XT/Classic, SegWit as a soft fork, and the 2017 hard forks creating Bitcoin Cash (BCH) and later Bitcoin SV (BSV) amid Craig Wright, Roger Ver, and Jihan Wu's hash war. It closes on Bitcoin economics—the halving schedule (50→25→12.5→6.25 BTC), reduced inflation and fixed 21-million supply—and Layer 2 scaling via the Lightning Network, framed as a celebration of Bitcoin's birthday.
+
+</details>
+<!--en-summary-->
 
 ## بیش از یک دهه با بیتکوین
 

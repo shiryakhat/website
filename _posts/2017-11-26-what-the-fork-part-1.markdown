@@ -4,6 +4,8 @@ modal-id: 12
 title: "What The Fork, Bitcoin Forks - Part 1/2 | چه فورکی، انشعابات بیتکوین - قسمت ۱ (S02E02)"
 episode: S02E02
 date: 2017-11-26
+keywords: "شیر یا خط, Ethereum, Bitcoin, hash, SegWit, BIP, AWS"
+duration: PT1H2M11S
 img: img/episodes/S02E02.jpeg
 alt: What The Fork, Bitcoin Forks - Part 1/2 (S02E02)
 permalink: /:year/:month/:title:output_ext
@@ -45,6 +47,15 @@ November 26 2017
 -----------------------------------------------------------------------
 
 فورک؛ کلمه‌ای که این روزها در دنیای بیتکوین زیاد شنیده می‌شود اما همیشه به یک معنا نیست. در این قسمت با نگاهی به ریشه این واژه در دنیای برنامه‌نویسی و اوپن‌سورس، سراغ تاریخچه فورک‌های بیتکوین می‌رویم؛ از نخستین پروپوزال‌های تغییر بلاک سایز گرفته تا پیدایش کوین‌های جدیدی مثل بیت‌کوین کش، و در نهایت این پرسش کلیدی که آیا این همه فورک، فرصت‌اند یا تهدید برای خودِ بیتکوین.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Bitcoin forks are the focus of this Part 1 episode of the Shir Ya Khat (Shirakherad) podcast, which begins by defining a "fork" from its open-source software roots—source control on GitHub and Bitbucket, forking a codebase, and the distinction between a soft fork (backward-compatible update) and a hard fork (incompatible update requiring all nodes to upgrade, akin to Ethereum's Vitalik-led network updates)—drawing analogies to Linux and Unix. The hosts trace Bitcoin's block-size debate and scaling war, covering early hard-fork proposals like Bitcoin XT (8MB blocks), Bitcoin Unlimited (miner-adjustable/16MB blocks), Bitcoin Classic (2MB), and the UASF (User Activated Soft Fork), most of which failed as node counts collapsed. They explain Segregated Witness (SegWit / BIP 141), which moves transaction signatures out of the block to roughly double capacity, and how its August 2017 activation via miner version-bits signaling triggered the chain-split creation of Bitcoin Cash, distributed to existing BTC holders in an airdrop-style manner (compared to Clam in 2013 and Ethereum token airdrops), alongside discussion of Bitcoin Gold (Equihash proof-of-work), the failed SegWit2x, and copycat coins like Bitcoin Diamond and Bitcoin Dark that merely borrow the Bitcoin name. A lengthy debate follows on whether forks are an opportunity or threat, touching on centralization concerns around Bitcoin Cash, Bitmain, Jihan Wu and Roger Ver, mining profitability versus ideology, propagation delays favoring China-based miners, and Satoshi's "electronic cash" versus "store of value" visions. The panel also weighs Bitcoin's price (around $9,280 at recording), the 21-million supply cap, satoshi divisibility and micropayments, transaction fees, decentralization, testnets (with Litecoin noted as a de facto testbed), and how free forked coins draw liquidity yet paradoxically pushed BTC's price up. They conclude that trust, network effects, node count, security, and Bitcoin's multi-year track record make it dominant, arguing most forks are short-lived speculation and that only a genuinely superior coin—not an overnight clone—could ever displace it.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

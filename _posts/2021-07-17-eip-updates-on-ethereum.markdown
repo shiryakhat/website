@@ -4,6 +4,8 @@ modal-id: 27
 title: "EIP (Ethereum Improvement Proposals) & Updating the Chain | فرایند به‌روز‌رسانی پروتکل اتریوم (S05E01)"
 episode: S05E01
 date: 2021-07-17
+keywords: "شیر یا خط, Ethereum, Bitcoin, smart contract, EVM, Proof of Stake, Proof of Work, Dencun, Pectra, hard fork, EIP-1, EIP-20, EIP-3074, EIP-1559, OpenEthereum, ProgPoW"
+duration: PT1H26M37S
 img: img/episodes/S05E01.jpeg
 alt: EIP (Ethereum Improvement Proposals) & Updating the Chain (S05E01)
 permalink: /:year/:month/:title:output_ext
@@ -30,6 +32,15 @@ castbox: https://castbox.fm/episode/EIP-(Ethereum-Improvement-Proposals)-%26-Upd
 **فرایند به‌روز‌رسانی پروتکل اتریوم**
 
 فصل پنجم پادکست «شیر یا خط» را در جولای ۲۰۲۱ و پس از حدود یک سال وقفه دوباره آغاز کردیم و این فصل را به‌طور کامل روی اتریوم متمرکز می‌کنیم؛ نه صرفاً به‌خاطر کوین اتریوم، بلکه به‌خاطر فرایندها و پروسه‌هایی که پیرامون آن شکل گرفته و این‌که بیشترین تعداد توسعه‌دهنده روی این تکنولوژی کار می‌کنند. در این قسمت اول سراغ یک پرسش پایه‌ای می‌رویم: اصلاً تغییرات روی اتریوم چگونه انجام می‌شود و چطور می‌توان در یک نرم‌افزار غیرمتمرکز، تغییری را به منصفانه‌ترین شکل ممکن از ایده تا اجرا رساند؟
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+The «شیر یا خط» (Shir Ya Khat) podcast opens its fifth season (July 2021) with a deep dive into how protocol changes are proposed, debated, and shipped on Ethereum through EIPs (Ethereum Improvement Proposals), tracing the lineage of open-source governance from the IETF's RFC process and Python's PEP to Bitcoin's BIP before landing on Ethereum's EIP-1 (originated by Amir Taaki and adapted by Martin Becze and Hudson Jameson). The hosts break down the EIP taxonomy—Meta EIPs (like EIP-1 itself), Informational EIPs (e.g., the Smart Contract Weakness Classification), and Standards Track EIPs, which split into Core (EVM logic changes requiring consensus), Networking (peer/mining layers, Swarm, Whisper), Interface (client RPC/APIs), and ERCs (application-layer standards such as the token standard ERC-20 with name, symbol, decimals, balanceOf, transfer, and allowance)—and stress the addition of mandatory security considerations, illustrated by battles to amend the process and by outsourced security audits (e.g., for EIP-7074 and EIP-1559, reviewed by firms like PeckShield). It walks the full workflow—champion, EIP editors (and the Ethereum Cat Herders), draft, last call, final, plus states like stagnant, withdrawn, and living—through the All Core Devs (ACD) calls, Ethereum Magicians, EthResearch, and the ethereum/pm GitHub repo, up to EIP-centric hard forks tested on devnets, testnets (Ropsten, Rinkeby), and mainnet, with the client implementations (Geth's ~85% dominance, OpenEthereum/Parity, Nethermind, Besu, Erigon) effectively casting the votes. The episode contextualizes the upcoming London fork and EIP-1559 fee-burn changes, the difficulty bomb that pressures nodes toward the Proof-of-Work to Proof-of-Stake transition, and Ethereum's reliance on off-chain governance rather than on-chain voting or Bitcoin-style user-activated soft forks. Throughout, the hosts weigh the trade-offs of decentralized decision-making—slower, harder change versus the early-days speed once wielded by Vitalik Buterin and Gavin Wood—and touch on developer culture terms like "YOLO" testnets and "test in production."
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

@@ -4,6 +4,8 @@ modal-id: 13
 title: "What The Fork, Bitcoin Forks - Part 2/2 | چه فورکی، انشعابات بیتکوین - قسمت ۲ (S02E03)"
 episode: S02E03
 date: 2017-11-27
+keywords: "شیر یا خط, Ethereum, Bitcoin"
+duration: PT50M28S
 img: img/episodes/S02E03.jpeg
 alt: What The Fork, Bitcoin Forks - Part 2/2 (S02E03)
 permalink: /:year/:month/:title:output_ext
@@ -45,6 +47,15 @@ November 26 2017
 -----------------------------------------------------------------------
 
 به دلیل طولانی شدن ضبط، [این گفتگو به دو بخش تقسیم شد](https://shiryakhat.net/2017/11/what-the-fork-part-1.html) و اکنون بخش دوم آن را می‌شنوید. در این قسمت میزبان بحثی چندصدایی و پرمحتوا درباره فورک‌های بیت‌کوین هستیم؛ از جنبه روانشناسی اعتماد به یک رمزارز تازه‌متولدشده گرفته تا نقش بیت‌کوین به‌عنوان پشتوانه مالی و طلای دیجیتال، و در نهایت راهنمای کاملاً عملی برای این‌که کاربران در زمان وقوع یک فورک چگونه از دارایی خود محافظت کنند و به هر دو کوین دسترسی داشته باشند.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This second and final part of Shir Ya Khat's episode on Bitcoin forks continues a panel discussion about whether hard forks and alternative coins can dethrone Bitcoin, framing Bitcoin increasingly as digital gold and a store of value (SoV) rather than transactional currency, prized for its hardcoded 21-million supply cap versus uncapped coins like Ethereum. The hosts debate decentralization versus centralization—stressing that open-source code, node distribution, network effect, mining power, and liquidity determine whether a coin like Bitcoin Cash, Bitcoin Gold, Bitcoin Unlimited, Litecoin, or Ethereum Classic is trustworthy, and warning that new forks are unproven until time passes (citing Bitcoin Unlimited's node collapse within 48 hours). A major practical segment covers how to safely preserve assets during a fork: control your own private key and seed phrase using open-source wallets from bitcoin.org, avoid scam sites and fake wallets that harvest keys, be patient and wait for reputable wallets (Ledger, Trezor, Coinbase) and replay protection before moving funds, and understand replay attacks learned from the Ethereum/Ethereum Classic split. The episode also digs into fee markets and block-size politics, explaining that Bitcoin's high fees stem from heavy transaction volume, why SegWit adoption and atomic swaps boosted Litecoin, and the New York Agreement power struggle behind Bitcoin Cash. It profiles Roger Ver ("Bitcoin Jesus"), his early Bitcoin investments, ownership of Bitcoin.com, and his marketing-driven push for Bitcoin Cash, questioning whether forks are technical improvements or political and financial maneuvers by players like Bitcoin Core, Bitcoin ABC, and media outlets such as CoinDesk. Throughout, the panel emphasizes risk management, capital management, avoiding greed, self-custody, and researching each coin's team and whitepaper before trusting any fork.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

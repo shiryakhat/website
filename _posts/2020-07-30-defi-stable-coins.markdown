@@ -4,6 +4,8 @@ modal-id: 22
 title: "DeFi - The Finance in StableCoins | کوین های پایدار (S04E02)"
 episode: S04E02
 date: 2020-07-30
+keywords: "شیر یا خط, Ethereum, DeFi, DAO, Uniswap, AMM, stablecoin, sUSD, BabakJalilvand, GreatSaoshyant, USDT, USDC, CDP, DAI"
+duration: PT1H33M40S
 img: img/episodes/S04E02.jpeg
 alt: DeFi - The Finance in StableCoins (S04E02)
 project-date: July 2020
@@ -42,6 +44,15 @@ castbox: https://castbox.fm/episode/DeFi---Part-2---The-Finance-in-StableCoins-(
 -------------------------------------------------------
 
 در ادامه [سری دیفای](https://shiryakhat.net/2020/07/defi-is-here-to-stay.html)، در این قسمت دوباره از بالا به مفهوم اقتصاد باز و غیرمتمرکز نگاه می‌کنیم و این‌بار عمیق‌تر سراغ کوین‌های پایدار می‌رویم. دیفای یک کوین یا پروژه‌ی خاص نیست؛ مجموعه‌ای از ابزارهای مالی است که روی بستر بلاکچین کنار هم پکیج می‌شوند تا اقتصاد باز را به کمک اتوماسیون و حذف واسطه‌ها بازتعریف کنند. این اپیزود بخشی از یک مجموعه‌ی چند قسمتی است که در انتهای آن قرار است تصویری کلی و از بالا از اینکه دیفای واقعاً چیست به‌دست بیاید.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode of the شیر یا خط (Shir Ya Khat) podcast is the second installment in a multi-part series on DeFi (decentralized finance), framing it as a set of financial services—stablecoins, lending and borrowing, derivatives, and advanced instruments like going long or short, leverage, and insuring positions—built as a decentralized layer atop blockchain economies such as Bitcoin, Ethereum, and Algorand, with the hosts stressing that DeFi has no single "DeFi coin" but is instead a composable collection of projects like Aave, Compound, Uniswap, Synthetix, and Ampleforth. The bulk of the discussion classifies stablecoins into backed versus unbacked and, within backed, fiat-collateralized (non-redeemable like Tether/USDT versus redeemable and audited like USDC and Paxos) versus crypto-collateralized, weighing the trade-offs of centralization, censorship resistance, transparency, bank-run risk, and the need for banking audits. A central case study is MakerDAO and its DAI stablecoin, explained through over-collateralization with ETH, the collateralization ratio (150%), CDPs (collateralized debt positions) that function like leveraged trades, liquidation mechanics analogous to margin trading, stability fees, and governance via the MKR token and DAO voting, alongside reputation-based governance and oracle price feeds (referencing Chainlink's multi-node averaging). The hosts debate whether real users actually value decentralization or merely adopt tools like Tether for arbitrage and convenience, invoking the blockchain scalability trilemma, Byzantine Fault Tolerance, and historical incidents (Mt. Gox, Bitfinex, FTX, early Bitcoin inflation bugs) to argue that DeFi is a gradual transition from centralized to trustless systems. They also highlight two genuinely novel DeFi primitives—flash loans and composability—plus yield opportunities such as lending interest rates on DAI and liquidity mining, previewing deeper coverage of oracles, lending/borrowing, and governance tokens in upcoming episodes.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

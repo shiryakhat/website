@@ -4,6 +4,8 @@ modal-id: 7
 title: "O Bitcoin, Where art thou - Key management | مدیریت کلیدهای بیت‌کوین (S01E07)"
 episode: S01E07
 date: 2017-04-29
+keywords: "شیر یا خط, Ethereum, Bitcoin, wallet, MyEtherWallet, HTTPS, SHA, TODO"
+duration: PT1H9M59S
 img: img/episodes/S01E07.jpeg
 alt: O Bitcoin, Where art thou - Key management (S01E07)
 permalink: /:year/:month/:title:output_ext
@@ -40,6 +42,15 @@ castbox: https://castbox.fm/episode/O-Bitcoin%2C-Where-art-thou---Key-management
 -------------------------------------------------------
 
 در این اپیزود به بررسی مدیریت کلیدها و روشهای امن نگهداری بیتکوین پرداختیم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode of the Shir Ya Khat (Heads or Tails) podcast dives deep into Bitcoin key management, explaining how private keys and public keys work through the lens of public-key cryptography, digital signatures, and comparisons to RSA-based HTTPS/SSL certificates, hashing algorithms like SHA-256, and hash collisions. The hosts clarify that Bitcoin transactions don't move coins but transfer ownership recorded on the blockchain, and they survey a wide range of private-key storage methods: keeping encrypted keys on your hard drive (Bitcoin QT/Armory), paper wallets (bitaddress.org), brain wallets and their brute-force vulnerabilities, hardware wallets like Ledger Nano and Trezor, exchange/custodial and web wallets (Blockchain.info, MyEtherWallet, Mycelium, Copay), and the security-versus-usability trade-offs of each, stressing open-source verifiability and self-custody. They also cover advanced topics including multisig (multi-signature) addresses for shared/joint-account setups and their higher transaction fees due to larger byte size, HD/deterministic wallets with master private/public keys (xprv, extended public keys, BIP39 seed phrases), physical Bitcoins with hologram-hidden keys, gifting Bitcoin, and Bitcoin's pseudonymous "glass wallet" traceability. The episode closes with a market report analyzing Bitcoin's ascending price channel near $1,300–$1,500, ETF news, Tether-driven price gaps on Poloniex versus Bitfinex/OKCoin/BTC-e, the Poloniex altcoin delistings, how Bitcoin rallies pressure altcoins like Monero, Ether, and Zcash, and a call for contributors to earn Bitcoin through Coin Iran and the DigiArz logo contest.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

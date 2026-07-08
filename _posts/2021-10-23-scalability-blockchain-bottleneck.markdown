@@ -4,6 +4,8 @@ modal-id: 29
 title: "Scalability, The Blockchain's Bottleneck | مقیاس‌پذیری گلوگاهی در بلاکچین‌ها (S06E01)"
 episode: S06E01
 date: 2021-10-23
+keywords: "شیر یا خط, Ethereum, Bitcoin, Layer 2, blob, Dencun, consensus, sharding, EIP-1559, DoS, SegWit, AWS, TPS, CPU, EIP, CCL"
+duration: PT58M25S
 img: img/episodes/S06E01.jpeg
 alt: Scalability, The Blockchain's Bottleneck (S06E01)
 permalink: /:year/:month/:title:output_ext
@@ -33,6 +35,15 @@ castbox: https://castbox.fm/episode/Scalability%2C-The-Blockchain's-Bottleneck-(
 -------------------------------------------------------
 
 فصل جدید «شیر یا خط» را با موضوعی کلیدی آغاز می‌کنیم: مقیاس‌پذیری یا همان اسکیلیبیلیتی در بلاکچین‌ها. مهدی و حمید در این قسمت که در ۱۱ اکتبر ۲۰۲۱ ضبط شده، پیش از ورود به برنامه‌های آینده‌ی اتریوم، پایه‌ای‌ترین پرسش را پاسخ می‌دهند: اصلاً مقیاس‌پذیری چیست، چرا برای بلاکچین‌ها یک چالش جدی است و چه راه‌حل‌هایی تا امروز برای آن ارائه شده است. این اپیزود نقطه‌ی شروع سفری است که در طول فصل، پله‌پله اتفاقات گذشته و آینده‌ی اسکیل کردن اتریوم را دنبال خواهد کرد.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Here is the summary paragraph: This season-opening episode of Shir ya Khat (Heads or Tails) introduces scalability as the fundamental bottleneck facing blockchains like Bitcoin and Ethereum, explaining why low transactions-per-second (TPS) limits how many people can use a decentralized network compared to centralized services like AWS. The hosts (Mehdi and Hamid) detail why blockchains must impose block-size and gas limits, tracing them to three node constraints—computation (verification, UTXOs, Ethereum's smart-contract state and Turing-complete EVM), storage (chainstate vs. state databases, Merkle trees), and bandwidth (gossip protocol propagation, block-size wars)—and stress the importance of keeping node syncing (including Ethereum's fast sync) feasible so new validators can join without centralizing the network or being vulnerable to DoS attacks. Central to the discussion is Vitalik Buterin's blockchain trilemma, the trade-off between decentralization, security, and scalability, illustrated with examples such as BNB Smart Chain and Solana sacrificing decentralization for higher TPS, and Lightning Network sacrificing data availability (and thus security) for off-chain scaling. The episode frames data availability, custodial risk, and self-custody (private keys and mnemonic seed phrases) as security concerns, and points to advances in cryptography—zero-knowledge proofs and the Mina Protocol's recursive proofs—as the only genuine way to push past the trilemma's limits. It then surveys Layer 1 scaling solutions, contrasting the flawed approach of increasing block size (referencing the Bitcoin block-size war) with optimization via SegWit (segregating signatures into a separate Merkle tree) and sharding (Ethereum 2.0's 64 shards plus a beacon chain, along with Cardano's CCL and Polkadot's parachains using XCMP cross-chain messaging). Setting up the season ahead, the hosts outline three broad categories of scaling—Layer 1 blockchain-logic changes, Layer 1 consensus changes, and Layer 2 solutions—while touching on account abstraction (EIP-3074), EIP-1559's elastic block size, and composability challenges to be explored in future episodes.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

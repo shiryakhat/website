@@ -4,6 +4,8 @@ modal-id: 34
 title: "Ethereum Dencun Upgrade | ارتقای هاردفورک دنکون اتریوم (S07E01)"
 episode: S07E01
 date: 2024-02-12
+keywords: "شیر یا خط, Ethereum, EVM, rollup, zk-SNARK, DeFi, validator, staking, restaking, gas, blob, EIP-4844, proto-danksharding, danksharding, KZG commitment, Dencun"
+duration: PT1H47M5S
 img: img/episodes/S07E01.jpg
 alt: Ethereum Dencun Upgrade (S07E01)
 permalink: /:year/:month/:title:output_ext
@@ -32,6 +34,15 @@ castbox: https://castbox.fm/episode/Ethereum-Dencun-Upgrade-(S07E01)-id2539522-i
 -------------------------------------------------------
 
 بعد از حدود دو سال، شیر یا خط با یک اپیزود پرمحتوا برمی‌گردد؛ اپیزودی که در آن به سراغ یکی از مهم‌ترین ارتقاءهای شبکه اتریوم یعنی هارد فورک دِنکُن (Dencun) می‌رویم. در این قسمت شایان و حمید نه‌تنها درباره خودِ این ارتقاء و EIPهای همراهش صحبت می‌کنند، بلکه از چراییِ نیاز اتریوم به آپدیت، معماری تازه‌ی این شبکه و مسیر پیشِ روی اکوسیستم هم می‌گویند. اگر به بلاکچین، قرارداد هوشمند، [لایه دو و رول‌آپ‌ها](https://shiryakhat.net/2021/11/scalability-blockchain-bottleneck-2.html) علاقه دارید، این اپیزود شروع دوباره‌ی جذابی برای شماست.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode marks the return of the Shir Ya Khat (Shir ya Khat) podcast after a two-year hiatus, opening Season 7 with a deep dive into Ethereum's Dencun hard fork and a recap of the hosts' meetup at Devconnect/ETHGlobal in Istanbul. The hosts explain why Ethereum requires upgrades, walk through its post-Merge architecture split into an execution layer (EL, e.g. Geth, Nethermind) and a consensus layer (CL, running Casper FFG Proof of Stake with slots, epochs, and validator committees) connected via the Engine API, and stress the importance of client diversity, EIP governance, and the Ethereum Cat Herders. The core technical focus is EIP-4844 (proto-danksharding), which introduces blob transactions—temporary data (pruned after ~14 days) posted to the consensus layer with KZG polynomial commitments (built from a multi-party trusted setup "ceremony" with 141,000 participants, Lagrange interpolation, powers of tau, and elliptic-curve pairings)—to slash Layer 2 rollup data-availability costs for both optimistic (fraud-proof) and zk-rollups, touching on data availability solutions like Celestia and EigenLayer DA and Ethereum's goal of becoming zk-friendly. They also unpack EIP-6780, which neuters the SELFDESTRUCT opcode (restricting it to same-transaction CREATE/CREATE2 use) to close security holes around upgradeable proxy contracts, gas tokens, and MEV, alongside related EIPs like EIP-1153 transient storage and the blob base fee. The discussion closes with staking topics tied to the Pectra/Prague roadmap—capping the validator entry rate as ~30% of ETH is staked (via Lido, Rocket Pool), exposing the Beacon Chain block root to the EVM to reduce oracle trust, plus fork-choice and attestation timing fixes—situated within Ethereum's broader Merge/Surge/Scourge/Verge/Purge/Splurge roadmap.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

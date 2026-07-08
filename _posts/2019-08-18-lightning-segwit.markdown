@@ -4,6 +4,8 @@ modal-id: 15
 title: "Segwit and lightning, very very... exciting! | سگویت و لایتنینگ (S03E02)"
 episode: S03E02
 date: 2019-08-18
+keywords: "شیر یا خط, Bitcoin, blob, MEV, wallet, CheckSequenceVerify, CheckLockTimeVerify, DDoS, FinCEN, BlueWallet, CoinGate, OpenNode, ZigZag, UASF, ECDSA, BSA"
+duration: PT1H13M7S
 img: img/episodes/S03E02.jpeg
 alt: Segwit and lightning, very very... exciting! (S03E02)
 permalink: /:year/:month/:title:output_ext
@@ -35,6 +37,15 @@ castbox: https://castbox.fm/episode/Segwit-and-lightning%2C-very-very...-excitin
 ------------------------------------------------------------------------------------
 
 اگر بخواهیم بفهمیم [شبکه لایتنینگ چیست](https://shiryakhat.net/2021/12/Lightning-Make-Bitcoin-Scalable-1.html) و چرا اصلاً به وجود آمد، ناچاریم کمی به عقب برگردیم؛ به [دعوای بلاک‌سایز](https://shiryakhat.net/2017/04/bitcoin-fork-blocksize-debate.html)، به مشکلی به نام transaction malleability، به [سافت‌فورک سگویت](https://shiryakhat.net/2017/07/segwit-august1st-bip148.html) و به روزهایی که [بیتکوین کش از بیتکوین جدا شد](https://shiryakhat.net/2017/11/what-the-fork-part-1.html). در این اپیزود تلاش می‌کنیم این زنجیره تاریخی و تکنیکال را از ابتدا تا امروز کنار هم بگذاریم، درباره نحوه کار کانال‌های پرداخت آف‌چین حرف بزنیم، به محدودیت‌ها و نگرانی‌های شبکه لایتنینگ بپردازیم و در آخر گپی با دوستان [ایران رسکیو بیت](http://iranrescuebit.com) بزنیم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+This episode of the Shir ya Khat podcast traces the history of Bitcoin's Lightning Network and the scaling debates that made it possible, beginning with the pre-2017 block size war between big-block advocates (Bitcoin Unlimited) and those favoring smaller transactions. The hosts explain SegWit (Segregated Witness, BIP 141), the June 2016 soft fork that separated signature/witness data from transactions to fix transaction malleability—a flaw exploited in incidents like the Mt. Gox collapse and, critically, a prerequisite for Lightning since payment channels depend on stable transaction IDs—along with weight units, the four-million-weight-unit block limit, the ECDSA Lower-S/Higher-S signature issue, and the UASF (User Activated Soft Fork, BIP 148) that let economic nodes pressure miners, killing the SegWit2x compromise and spawning the Bitcoin Cash fork in August 2017. It then details how the Lightning Network works as a Bitcoin Layer 2 for cheap, instant micropayments: opening multisig channels with locked funds, exchanging sequence-numbered off-chain transactions between parties (illustrated with Alice and Bob), timelock scripts like CheckSequenceVerify and CheckLockTimeVerify, watchtowers that guard against fraudulent channel closes, and routing/hops across a network of roughly 17,000 nodes and 28,000 channels with about 838 BTC capacity. The discussion covers Lightning's history—Joseph Poon's proposal, Blockstream's 2018 mainnet launch, testing on Litecoin, a March 2018 DDoS attack—plus sidechains, Stellar (Jed McCaleb's Ripple fork), and trade-offs around decentralization, scalability, channel-capacity limits, hot-wallet risk, and hub centralization. The hosts also raise long-term concerns about miner incentives as block rewards halve and on-chain fees rise, and the regulatory question of whether running a Lightning node makes one a money transmitter under FinCEN, the Bank Secrecy Act, KYC/AML rules, or a Canadian MSB. Finally, they survey real-world Lightning wallets and services—Eclair, Blue Wallet, Zap, C-Lightning, Casa Node, tippin.me, Bitrefill, CoinGate, OpenNode, and ZigZag—and close by promoting iranrescuebit.com, a crypto-donation campaign channeling international aid to Iranian flood victims despite banking sanctions.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 

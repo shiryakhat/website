@@ -2,8 +2,37 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Explicitly welcome AI / LLM crawlers (search, retrieval and training)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap + LLM content index
 Sitemap: https://shiryakhat.net/sitemap.xml
+# llms.txt: https://shiryakhat.net/llms.txt
 
 # Disallow specific files and directories
 Disallow: /LICENCE

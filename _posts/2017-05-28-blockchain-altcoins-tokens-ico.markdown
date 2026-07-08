@@ -4,6 +4,8 @@ modal-id: 8
 title: "Is it a Blockchain? Altcoins, Tokens and ICO | آلتکوین، توکن و ICO (S01E08)"
 episode: S01E08
 date: 2017-05-28
+keywords: "شیر یا خط, Ethereum, Bitcoin, DAO, ICO, TODO, DNS"
+duration: PT1H22M55S
 img: img/episodes/S01E08.jpeg
 alt: Is it a Blockchain? Altcoins, Tokens and ICO (S01E08)
 permalink: /:year/:month/:title:output_ext
@@ -40,6 +42,15 @@ castbox: https://castbox.fm/episode/Is-it-a-Blockchain--Altcoins%2C-Tokens-and-I
 -------------------------------------------------------
 
 در این اپیزود به بررسی [ماهیت و چیستی بلاکچین و بیتکوین](https://shiryakhat.net/2017/04/open-mic-essence-of-bitcoin.html)، آلتکوین‌ها، توکن‌ها و ICOها پرداختیم.
+
+
+<details class="en-summary" markdown="1">
+<summary>🇬🇧 English Summary</summary>
+
+Iran's blockchain podcast Shir ya Khat, episode eight, explores what technically qualifies as a blockchain and unpacks altcoins, tokens, and the emerging ICO frenzy. The hosts trace the lineage from Bitcoin forks like Litecoin and Namecoin (a DNS system) through the explosion of altcoins to Ethereum's smart contracts and the rise of tokens, defining blockchain as a distributed, decentralized database whose state is agreed upon by network nodes through consensus—contrasting genuine decentralization with merely distributed systems like Facebook's load-balanced data centers, and calling out Ripple as centralized (company-backed, sueable for money laundering, no downloadable full-node wallet, no Proof of Work algorithm in its whitepaper). They discuss blockchain's core innovation of trustless, transparent, censorship-resistant financial consensus, its scalability and storage costs (every node holding the full chain), alternatives like IPFS for decentralized storage, and broader use cases such as land/ownership registries and DAOs (referencing The DAO hack). The bulk of the episode critiques ICOs as an alternative to VC funding, IPOs, and Kickstarter-style crowdfunding, noting hard caps, pre-mining, token distribution, and how projects (Ethereum's own presale, Gnosis, Augur, and a dubious Visa-linked "Card" token that raised $12.5 million in half an hour) raise millions in minutes—while warning of broken incentive models, exit scams, unregulated Russian-hosted sites, and the need to scrutinize whitepapers, GitHub commits/contributors, vesting schedules, team reputation, and real token utility. The conversation weighs regulation versus trustlessness, Bitcoin's irreversibility (invoking the Apple–FBI San Bernardino case), unforeseeable design flaws like ASIC mining centralization and the 1MB block size debate, and cites the elegant, ICO-free Mimblewimble whitepaper as a counterexample of value created through peer review rather than hype. It closes with a market report on Bitcoin's unprecedented rally from around $1,700 to roughly $2,700 and how altcoin prices like Ethereum's rise and crash in tandem with Bitcoin.
+
+</details>
+<!--en-summary-->
 
 ## توضیحات اپیزود
 
