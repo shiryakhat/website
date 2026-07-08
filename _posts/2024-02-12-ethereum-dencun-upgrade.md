@@ -4,6 +4,8 @@ modal-id: 34
 title: "Ethereum Dencun Upgrade | ارتقای هاردفورک دنکون اتریوم (S07E01)"
 episode: S07E01
 date: 2024-02-12
+keywords: "شیر یا خط, Ethereum, EVM, rollup, zk-SNARK, DeFi, validator, staking, restaking, gas, blob, EIP-4844, proto-danksharding, danksharding, KZG commitment, Dencun"
+duration: PT1H47M5S
 img: img/episodes/S07E01.jpg
 alt: Ethereum Dencun Upgrade (S07E01)
 permalink: /:year/:month/:title:output_ext

@@ -4,6 +4,8 @@ modal-id: 28
 title: "EIP-1559 Let it Burn | ساختار فی در شبکه اتریوم (S05E02)"
 episode: S05E02
 date: 2021-08-11
+keywords: "شیر یا خط, Ethereum, Bitcoin, EVM, gas, blob, Dencun, MEV, EIP-1559, EtherChain, BitGo, PoW, EIP, EIPS"
+duration: PT1H43M1S
 img: img/episodes/S05E02.jpeg
 alt: EIP-1559 Let it Burn (S05E02)
 permalink: /:year/:month/:title:output_ext

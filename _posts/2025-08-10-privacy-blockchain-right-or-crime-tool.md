@@ -4,6 +4,8 @@ modal-id: 40
 title: "Privacy in Blockchain: Right or Crime Tool? | حریم خصوصی در بلاکچین – حق یا ابزار جرم؟ (S07E07)"
 episode: S07E07
 date: 2025-08-10
+keywords: "شیر یا خط, Ethereum, Bitcoin, DeFi, wallet, Tornado Cash, CoinJoin, DfimVN, zkSNARKs, zkSNARK, PoC, GitHub, EthBoston, GDPR, OFAC, KYC"
+duration: PT2H20M45S
 img: img/episodes/S07E07.jpg
 alt: "Privacy in Blockchain: Right or Crime Tool? (S07E07)"
 permalink: /:year/:month/:title:output_ext

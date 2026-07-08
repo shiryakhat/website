@@ -4,6 +4,8 @@ modal-id: 29
 title: "Scalability, The Blockchain's Bottleneck | مقیاس‌پذیری گلوگاهی در بلاکچین‌ها (S06E01)"
 episode: S06E01
 date: 2021-10-23
+keywords: "شیر یا خط, Ethereum, Bitcoin, Layer 2, blob, Dencun, consensus, sharding, EIP-1559, DoS, SegWit, AWS, TPS, CPU, EIP, CCL"
+duration: PT58M25S
 img: img/episodes/S06E01.jpeg
 alt: Scalability, The Blockchain's Bottleneck (S06E01)
 permalink: /:year/:month/:title:output_ext

@@ -4,6 +4,8 @@ modal-id: 27
 title: "EIP (Ethereum Improvement Proposals) & Updating the Chain | فرایند به‌روز‌رسانی پروتکل اتریوم (S05E01)"
 episode: S05E01
 date: 2021-07-17
+keywords: "شیر یا خط, Ethereum, Bitcoin, smart contract, EVM, Proof of Stake, Proof of Work, Dencun, Pectra, hard fork, EIP-1, EIP-20, EIP-3074, EIP-1559, OpenEthereum, ProgPoW"
+duration: PT1H26M37S
 img: img/episodes/S05E01.jpeg
 alt: EIP (Ethereum Improvement Proposals) & Updating the Chain (S05E01)
 permalink: /:year/:month/:title:output_ext

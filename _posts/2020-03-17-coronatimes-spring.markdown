@@ -4,6 +4,8 @@ modal-id: 19
 title: Coronatimes - Spring is inside our homes (S03E06)
 episode: S03E06
 date: 2020-03-17
+keywords: "شیر یا خط, Ethereum, DeFi, TODO"
+duration: PT45M34S
 img: img/episodes/S03E06.jpeg
 alt: Coronatimes - Spring is inside our homes (S03E06)
 project-date: March 2020

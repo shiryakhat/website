@@ -4,6 +4,8 @@ modal-id: 36
 title: "Thriving Hackathons | راهنمای جامع شرکت در هکتان‌های وب۳ و بلاکچین (S07E03)"
 episode: S07E03
 date: 2025-01-14
+keywords: "شیر یا خط, Ethereum, Bitcoin, DeFi, Chainlink, DoraHacks, CryptoNomads, DevBoost, CryptoKitties, ICP, MVP, VRF, API"
+duration: PT1H56M45S
 img: img/episodes/S07E03.jpg
 alt: Thriving Hackathons (S07E03)
 permalink: /:year/:month/:title:output_ext

@@ -4,6 +4,8 @@ modal-id: 31
 title: "Lightning, Make Bitcoin Scalable - Part 1 | شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری بیتکوین (S06E03)"
 episode: S06E03
 date: 2021-12-12
+keywords: "شیر یا خط, Bitcoin, MEV, hash, CheckMultiSigVerify, CheckLockTimeVerify, CheckSequenceVerify, ZiyaSadr, UTXO, HTLC, CLTV, CSV, PTLC"
+duration: PT1H15M56S
 img: img/episodes/S06E03.jpeg
 alt: Lightning, Make Bitcoin Scalable Again - Part 1 (S06E03)
 permalink: /:year/:month/:title:output_ext

@@ -4,6 +4,8 @@ modal-id: 32
 title: "Lightning, Make Bitcoin Scalable - Part 2 | شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری بیتکوین (S06E04)"
 episode: S06E04
 date: 2022-02-13
+keywords: "شیر یا خط, Bitcoin, ZiyaSadr, HTLC, AMP, BGP"
+duration: PT54M21S
 img: img/episodes/S06E04.png
 alt: Lightning, Make Bitcoin Scalable  - Part 2 (S06E04)
 permalink: /:year/:month/:title:output_ext

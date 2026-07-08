@@ -4,6 +4,8 @@ modal-id: 38
 title: "Ethereum Pectra Upgrade | هاردفورک پکترا اتریوم (S07E05)"
 episode: S07E05
 date: 2025-03-02
+keywords: "شیر یا خط, Ethereum, EVM, staking, restaking, blob, EIP-4844, Dencun, Pectra, account abstraction, zkSync, EIP-4337, EIP-7702, EIP-3074, EIP-7691, EIP-7840"
+duration: PT1H57M28S
 img: img/episodes/S07E05.jpg
 alt: Ethereum Pectra Upgrade (S07E05)
 permalink: /:year/:month/:title:output_ext

@@ -4,6 +4,8 @@ modal-id: 15
 title: "Segwit and lightning, very very... exciting! | سگویت و لایتنینگ (S03E02)"
 episode: S03E02
 date: 2019-08-18
+keywords: "شیر یا خط, Bitcoin, blob, MEV, wallet, CheckSequenceVerify, CheckLockTimeVerify, DDoS, FinCEN, BlueWallet, CoinGate, OpenNode, ZigZag, UASF, ECDSA, BSA"
+duration: PT1H13M7S
 img: img/episodes/S03E02.jpeg
 alt: Segwit and lightning, very very... exciting! (S03E02)
 permalink: /:year/:month/:title:output_ext

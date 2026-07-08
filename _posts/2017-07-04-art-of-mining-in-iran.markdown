@@ -4,6 +4,8 @@ modal-id: 9
 title: "Art of Mining - Advanced Mining in Iran | هنر ماینینگ در ایران (S01E09)"
 episode: S01E09
 date: 2017-07-04
+keywords: "شیر یا خط, Ethereum, Bitcoin, Proof of Work, portfolioModal, ETF, UASF, CPU, ASIC, GPU, HFE, AMD, DAG, ROI, GTX"
+duration: PT1H26M2S
 img: img/episodes/S01E09.jpeg
 alt: Art of Mining - Advanced Mining in Iran (S01E09)
 permalink: /:year/:month/:title:output_ext

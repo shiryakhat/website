@@ -4,6 +4,8 @@ modal-id: 35
 title: "Ethereum Restaking & EigenLayer | اثبات سهام بازگشتی و آیگن‌لیر (S07E02)"
 episode: S07E02
 date: 2024-04-12
+keywords: "شیر یا خط, Ethereum, zk-SNARK, DeFi, DAO, Proof of Stake, Proof of Work, validator, staking, restaking, Dencun, Uniswap, AMM, MEV, consensus, EIP-7251"
+duration: PT1H25M44S
 img: img/episodes/S07E02.jpg
 alt: Ethereum Restaking (S07E02)
 permalink: /:year/:month/:title:output_ext

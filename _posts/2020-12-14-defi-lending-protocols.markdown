@@ -4,6 +4,8 @@ modal-id: 25
 title: "DeFi - Lending Protocols, Compound, and Wrapped Tokens | پروتکل‌‌های وام‌دهی (S04E05)"
 episode: S04E05
 date: 2020-12-14
+keywords: "شیر یا خط, Ethereum, DeFi, Uniswap, AMM, renBTC, GreatSaoshyant, BTCJAM, WBTC, WETH, USDC"
+duration: PT58M18S
 img: img/episodes/S04E05.jpeg
 alt: DeFi - Lending Protocols, Compound, and Wrapped Tokens (S04E05)
 project-date: December 2020

@@ -4,6 +4,8 @@ modal-id: 5
 title: "Bitcoin Fork, Bitcoin Unlimited and Blocksize debate | فورک بیت‌کوین و بحث بلاک‌سایز (S01E05)"
 episode: S01E05
 date: 2017-04-01
+keywords: "شیر یا خط, Ethereum, Bitcoin, SegWit, UASF, TODO"
+duration: PT1H15M26S
 img: img/episodes/S01E05.jpeg
 alt: Bitcoin Fork, Bitcoin Unlimited and Blocksize debate (S01E05)
 permalink: /:year/:month/:title:output_ext

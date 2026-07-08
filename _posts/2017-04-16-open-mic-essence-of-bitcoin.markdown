@@ -4,6 +4,8 @@ modal-id: 6
 title: "Open Mic (Q&A)- Essence of Bitcoin & Blockchain | مایک آزاد - ذات بیت‌کوین و بلاک‌چین (S01E06)"
 episode: S01E06
 date: 2017-04-17
+keywords: "شیر یا خط, Bitcoin, TODO"
+duration: PT1H19M36S
 img: img/episodes/S01E06.jpeg
 alt: Open Mic (Q&A)- Essence of Bitcoin & Blockchain (S01E06)
 permalink: /:year/:month/:title:output_ext

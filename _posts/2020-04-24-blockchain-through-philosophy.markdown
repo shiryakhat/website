@@ -4,6 +4,8 @@ modal-id: 20
 title: Blockchain Through Philosophy - Interview with Creston Davis [English] (S03E07)
 episode: S03E07
 date: 2020-04-24
+keywords: "شیر یا خط, Bitcoin, DeFi, GCAS"
+duration: PT58M35S
 img: img/episodes/S03E07.jpeg
 alt: Blockchain Through Philosophy - Interview with Creston Davis [English] (S03E07)
 project-date: April 2020

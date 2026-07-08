@@ -4,6 +4,8 @@ modal-id: 11
 title: "Blockchain Use cases and Social Pathology in Developing Countries | استفاده از بلاک‌چین در کشورهای در حال توسعه (S02E01)"
 episode: S02E01
 date: 2017-10-11
+keywords: "شیر یا خط, Bitcoin, BitPesa, ASIC, CPU, WCX, ICO, ETF"
+duration: PT1H19M49S
 img: img/episodes/S02E01.jpeg
 alt: Blockchain Use cases and Social Pathology in Developing Countries (S02E01)
 permalink: /:year/:month/:title:output_ext

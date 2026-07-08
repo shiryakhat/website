@@ -4,6 +4,8 @@ modal-id: 33
 title: "Lightning, Make Bitcoin Scalable - Part 3 | شبکه‌ی لایتنینگ راهکار مقیاس‌پذیری بیتکوین (S06E05)"
 episode: S06E05
 date: 2022-04-04
+keywords: "شیر یا خط, Bitcoin, blob, liquidity, wallet, ZiyaSadr, HTLC, CPFP, LND, ACINQ, LDK, PSBT, MAST, PTLC"
+duration: PT1H8M14S
 img: img/episodes/S06E05.png
 alt: Lightning, Make Bitcoin Scalable  - Part 3 (S06E05)
 permalink: /:year/:month/:title:output_ext

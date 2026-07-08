@@ -4,6 +4,8 @@ modal-id: 3
 title: "Other Blockchains + ETF | بلاکچین‌های دیگر و ETF (S01E03)"
 episode: S01E03
 date: 2017-03-05
+keywords: "شیر یا خط, Ethereum, Bitcoin, OneCoin, DNS, ETF, SEC, TODO, ICO"
+duration: PT57M10S
 img: img/episodes/S01E03.jpeg
 alt: Other Blockchains + ETF (S01E03)
 project-date: March 2017

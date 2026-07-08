@@ -4,6 +4,8 @@ modal-id: 4
 title: "Mining, Proof of Work and ETF | ماینینگ، اثبات کار و ETF (S01E04)"
 episode: S01E04
 date: 2017-03-11
+keywords: "شیر یا خط, Ethereum, Bitcoin, Proof of Work, hash, ETF, SEC, TODO, CPU, GPU, ASIC"
+duration: PT45M12S
 img: "img/episodes/S01E04.jpeg"
 alt: "Mining, Proof of Work and ETF post mortem (S01E04)"
 project-date: March 2017

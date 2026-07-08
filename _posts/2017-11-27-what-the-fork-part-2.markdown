@@ -4,6 +4,8 @@ modal-id: 13
 title: "What The Fork, Bitcoin Forks - Part 2/2 | چه فورکی، انشعابات بیتکوین - قسمت ۲ (S02E03)"
 episode: S02E03
 date: 2017-11-27
+keywords: "شیر یا خط, Ethereum, Bitcoin"
+duration: PT50M28S
 img: img/episodes/S02E03.jpeg
 alt: What The Fork, Bitcoin Forks - Part 2/2 (S02E03)
 permalink: /:year/:month/:title:output_ext

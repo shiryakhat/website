@@ -4,6 +4,8 @@ modal-id: 18
 title: "Coronalysis - Capitalism is Critically Sick | کرونا و بازارهای مالی (S03E05)"
 episode: S03E05
 date: 2020-03-16
+keywords: "شیر یا خط, Bitcoin, PlusToken, BitMEX"
+duration: PT50M9S
 img: img/episodes/S03E05.jpeg
 alt: Coronalysis - Capitalism is Critically Sick (S03E05)
 permalink: /:year/:month/:title:output_ext

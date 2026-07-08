@@ -4,6 +4,8 @@ modal-id: 14
 title: "Confirm me if you can - 0-conf | تایید کن اگر می‌تونی (S03E01)"
 episode: S03E01
 date: 2019-06-28
+keywords: "شیر یا خط, Bitcoin, blob, BitGo, BTC, BSV, RBF, SSL, ATM, CTOR"
+duration: PT1H4M45S
 img: img/episodes/S03E01.jpeg
 alt: Confirm me if you can - 0-conf (S03E01)
 permalink: /:year/:month/:title:output_ext

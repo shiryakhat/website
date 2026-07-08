@@ -4,6 +4,8 @@ modal-id: 26
 title: "DeFi - Liquidation, Yield Farming, and Governance | تجمیع پروتکل‌‌های وام‌دهی و سيستم‌های حكمرانی غيرمتمركز (S04E06)"
 episode: S04E06
 date: 2020-12-24
+keywords: "شیر یا خط, Ethereum, DeFi, Uniswap, AMM, GreatSaoshyant, COMP, APR, MKR"
+duration: PT1H7M14S
 img: img/episodes/S04E06.jpeg
 alt: DeFi - Liquidation, Yield Farming, and Governance (S04E06)
 project-date: December 2020

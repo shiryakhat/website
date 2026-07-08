@@ -4,6 +4,8 @@ modal-id: 24
 title: "DeFi - Automated Market Makers | صرافی های غیر متمرکز و بازارسازهای خودکار (S04E04)"
 episode: S04E04
 date: 2020-10-07
+keywords: "شیر یا خط, DeFi, AMM, EtherDelta, yEarn, rBTC, renBTC, GreatSaoshyant, CFMM, SOR"
+duration: PT42M2S
 img: img/episodes/S04E04.jpeg
 alt: DeFi - Automated Market Makers (S04E04)
 project-date: October 2020

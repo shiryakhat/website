@@ -4,6 +4,8 @@ modal-id: 16
 title: "DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic | دوکان پنج، اتریوم ۲، سانسور بیتکوین (S03E03)"
 episode: S03E03
 date: 2019-12-08
+keywords: "شیر یا خط, Ethereum, Dencun, wallet, hash, MyEtherWallet, CoinIran, ENS, DNS, AZTEC"
+duration: PT1H15M26S
 img: img/episodes/S03E03.jpeg
 alt: DevCon V, Eth 2.0, Bitcoin Censorship, and Open mic (S03E03)
 permalink: /:year/:month/:title:output_ext

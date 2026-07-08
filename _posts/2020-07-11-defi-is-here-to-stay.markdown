@@ -4,6 +4,8 @@ modal-id: 21
 title: "DeFi - Decentralized Finance is Here to Stay | اقتصاد غیر متمرکز٫ DeFi (S04E01)"
 episode: S04E01
 date: 2020-07-11
+keywords: "شیر یا خط, DeFi, Uniswap, AMM, BabakJalilvand, GreatSaoshyant, USDT, DEX"
+duration: PT1H8M22S
 img: img/episodes/S04E01.jpeg
 alt: DeFi - Decentralized Finance is Here to Stay (S04E01)
 project-date: July 2020

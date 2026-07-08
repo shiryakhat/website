@@ -4,6 +4,8 @@ modal-id: 30
 title: "Scalability, The Blockchain's Bottleneck - Part 2 | مقیاس‌پذیری گلوگاهی در بلاکچین‌ها (S06E02)"
 episode: S06E02
 date: 2021-11-07
+keywords: "شیر یا خط, Ethereum, Bitcoin, EVM, rollup, optimistic rollup, zk-rollup, zk-SNARK, zero-knowledge, DeFi, Proof of Stake, Proof of Work, Uniswap, liquidity, AMM, state channel"
+duration: PT1H17M45S
 img: img/episodes/S06E02.jpeg
 alt: Scalability, The Blockchain's Bottleneck - Part 2 (S06E02)
 permalink: /:year/:month/:title:output_ext

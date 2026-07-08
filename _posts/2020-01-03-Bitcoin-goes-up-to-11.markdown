@@ -4,6 +4,8 @@ modal-id: 17
 title: "Genesisary - Bitcoin goes up to eleven | بیش از یک دهه با بیت‌کوین (S03E04)"
 episode: S03E04
 date: 2020-01-03
+keywords: "شیر یا خط, Bitcoin, Proof of Work, hash, KeepKey, TCP, RSA, ECC, PGP, RAR, SRC, CPU, GPU, ASIC, USB, FBI"
+duration: PT1H20M54S
 img: img/episodes/S03E04.jpeg
 alt: Genesisary - Bitcoin goes up to eleven (S03E04)
 permalink: /:year/:month/:title:output_ext

@@ -4,6 +4,8 @@ modal-id: 1
 title: "Stay Safe with Bitcoin | با احتیاط حرکت کنید (S01E01)"
 episode: S01E01
 date: 2017-02-15
+keywords: "شیر یا خط, Ethereum, Bitcoin, Proof of Work, ICO"
+duration: PT1H3M5S
 img: "img/episodes/S01E01.jpeg"
 alt: "Stay Safe with Bitcoin (S01E01)"
 project-date: February 2017

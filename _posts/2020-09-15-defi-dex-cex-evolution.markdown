@@ -4,6 +4,8 @@ modal-id: 23
 title: "DeFi - Evolution of Decentralized exchanges | صرافی های غیر متمرکز (S04E03)"
 episode: S04E03
 date: 2020-09-15
+keywords: "شیر یا خط, Ethereum, DeFi, Uniswap, AMM, stablecoin, EtherDelta, ForkDelta, GreatSaoshyant, DEX, IDEX, NXT, ZRX, TPS, DDEX, BNT"
+duration: PT1H8M26S
 img: img/episodes/S04E03.jpeg
 alt: DeFi - Evolution of Decentralized exchanges (S04E03)
 project-date: September 2020

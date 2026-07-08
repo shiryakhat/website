@@ -4,6 +4,8 @@ modal-id: 8
 title: "Is it a Blockchain? Altcoins, Tokens and ICO | آلتکوین، توکن و ICO (S01E08)"
 episode: S01E08
 date: 2017-05-28
+keywords: "شیر یا خط, Ethereum, Bitcoin, DAO, ICO, TODO, DNS"
+duration: PT1H22M55S
 img: img/episodes/S01E08.jpeg
 alt: Is it a Blockchain? Altcoins, Tokens and ICO (S01E08)
 permalink: /:year/:month/:title:output_ext

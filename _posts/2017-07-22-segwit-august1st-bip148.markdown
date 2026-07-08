@@ -4,6 +4,8 @@ modal-id: 10
 title: "Witnessing August 1st - Segwit, BIP148 and beyond | شاهد اول آگوست - سگویت و BIP148 (S01E10)"
 episode: S01E10
 date: 2017-07-22
+keywords: "شیر یا خط, Ethereum, Bitcoin, mempool, nonce, BIP, ERC, UASF, ECDSA, SPV, VIP, ICO"
+duration: PT1H26M50S
 img: img/episodes/S01E10.jpeg
 alt: Witnessing August 1st - Segwit, BIP148 and beyond (S01E10)
 permalink: /:year/:month/:title:output_ext

@@ -4,6 +4,8 @@ modal-id: 22
 title: "DeFi - The Finance in StableCoins | کوین های پایدار (S04E02)"
 episode: S04E02
 date: 2020-07-30
+keywords: "شیر یا خط, Ethereum, DeFi, DAO, Uniswap, AMM, stablecoin, sUSD, BabakJalilvand, GreatSaoshyant, USDT, USDC, CDP, DAI"
+duration: PT1H33M40S
 img: img/episodes/S04E02.jpeg
 alt: DeFi - The Finance in StableCoins (S04E02)
 project-date: July 2020

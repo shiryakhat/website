@@ -4,6 +4,8 @@ modal-id: 12
 title: "What The Fork, Bitcoin Forks - Part 1/2 | چه فورکی، انشعابات بیتکوین - قسمت ۱ (S02E02)"
 episode: S02E02
 date: 2017-11-26
+keywords: "شیر یا خط, Ethereum, Bitcoin, hash, SegWit, BIP, AWS"
+duration: PT1H2M11S
 img: img/episodes/S02E02.jpeg
 alt: What The Fork, Bitcoin Forks - Part 1/2 (S02E02)
 permalink: /:year/:month/:title:output_ext

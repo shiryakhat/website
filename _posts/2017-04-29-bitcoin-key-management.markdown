@@ -4,6 +4,8 @@ modal-id: 7
 title: "O Bitcoin, Where art thou - Key management | مدیریت کلیدهای بیت‌کوین (S01E07)"
 episode: S01E07
 date: 2017-04-29
+keywords: "شیر یا خط, Ethereum, Bitcoin, wallet, MyEtherWallet, HTTPS, SHA, TODO"
+duration: PT1H9M59S
 img: img/episodes/S01E07.jpeg
 alt: O Bitcoin, Where art thou - Key management (S01E07)
 permalink: /:year/:month/:title:output_ext

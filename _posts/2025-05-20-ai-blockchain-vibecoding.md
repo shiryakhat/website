@@ -4,6 +4,8 @@ modal-id: 39
 title: "AI & Blockchain: When Code Writes Back | هوش مصنوعی و بلاکچین: همگرایی فناوری‌ها (S07E06)"
 episode: S07E06
 date: 2025-05-20
+keywords: "شیر یا خط, Ethereum, DeFi, DAO, staking, restaking, Pectra, Arbitrum, LangChain, LangGraph, smolAgent, ElizaOS, EthGlobal, GitHub, AiVS, PocketFlow"
+duration: PT2H21M5S
 img: img/episodes/S07E06.jpg
 alt: "AI & Blockchain: When Code Writes Back (S07E06)"
 permalink: /:year/:month/:title:output_ext
