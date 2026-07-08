@@ -1204,7 +1204,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 12px 18px;
     font-weight: 700;
     font-size: 1.05rem;
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
     background: rgba(239, 174, 34, 0.10);
     display: flex;
     align-items: center;
