@@ -1,36 +1,55 @@
-# Shir Ya Khat
-This is the repository for Shir Ya Khat website.
+# Shir Ya Khat · شیر یا خط
 
-[Shir Ya Khat](http://shiryakhat.net) podcast, which translates to "Head or Tails" in Farsi, started its non-profit mission in early 2017.
+> A non-profit, volunteer-run podcast making blockchain and cryptocurrency accessible to Farsi speakers everywhere.
 
-The Vision of Shir Ya Khat is open and free information for all, similar to [Coiniran](https://coiniran.com)
+**[shiryakhat.net](https://shiryakhat.net)** · *"Heads or Tails"* in Farsi
 
-The main goal is to remove the language barrier in order to allow the knowledge on blockchain and decentralization to be accessible to Farsi speakers, and offer a global open platform for people to discuss related subjects. 
+**Shir Ya Khat** has published seven seasons (since 2016) of in-depth, bilingual conversations — recorded as live panels with builders, researchers, and experts from around the world. We cover Bitcoin fundamentals and mining, Ethereum and smart contracts, the DeFi ecosystem, scaling and Layer 2, major network upgrades (EIP-1559, Dencun, Pectra), privacy and its legal battles, AI × blockchain, and the philosophy of decentralization.
 
+Part of the [Coiniran](https://coiniran.com) family, alongside [Coiniran Academy](https://coiniran.academy). Free and open — our goal is to remove the language barrier so the knowledge of blockchain and decentralization is accessible to Farsi speakers, and to offer a global open platform to discuss it.
 
-## How to run locally
+## Listen & follow
 
-- [Install Ruby 2.7.4 ](https://github.com/rbenv/rbenv#installing-ruby-versions)
-- Follow these commands:
+- 🎧 [Spotify](https://open.spotify.com/show/7AQ3C6yGz4haADinqtP63N) · [Apple Podcasts](https://podcasts.apple.com/us/podcast/id1221206951) · [SoundCloud](https://soundcloud.com/shiryakhat)
+- 📺 [YouTube](https://www.youtube.com/playlist?list=PLDwI1rIhknpNmr4nno40seb6FAiJ-jsun)
+- 💬 [Telegram](https://t.me/shiryakhatpod) · [X / Twitter](https://x.com/shiryakhat)
+- 📡 [RSS](https://shiryakhat.net/feed.xml)
+
+## This repository
+
+The Jekyll source for **shiryakhat.net**. Notable paths:
+
+- `_posts/` — one Markdown file per episode (episode notes, sources, chapters, cross-links)
+- `_includes/`, `_layouts/` — theme templates (episode `PodcastEpisode` JSON-LD lives in `_includes/head.html`)
+- `llms.txt`, `llms-full.txt` — LLM-friendly index and full episode notes for AI crawlers
+- `robots.txt`, `sitemap.xml`, `feed.xml` — crawler, sitemap, and RSS
+
+## Run locally
+
+Requires **Ruby 3.x** (e.g. via `rbenv` or Homebrew) and Bundler 2.
+
 ```bash
-# Install jekyll and bundler
-gem install jekyll bundler
-
-# Install requirements
+gem install bundler
 bundle install
-
-# Run the web server
-bundle exec jekyll serve 
+bundle exec jekyll serve
+# open http://127.0.0.1:4000/
 ```
-- Go to http://127.0.0.1:4000/
 
+## Add a new episode
 
-## Add new episode
-- Create a new branch (e.g. `S0502`)
-- Duplicate one of the files in `_posts` and rename it to DATE-NAME.md
-- Add all the episode details to the file
-- Push to your repo and create a Pull Request on the main repo
+1. Create a branch (e.g. `S08E01`).
+2. Duplicate a file in `_posts/` and rename it `YYYY-MM-DD-slug.md`.
+3. Fill in the front matter — `title`, `episode` (e.g. `S08E01`), `date`, `description`
+   (a concise SEO paragraph), `img`, the platform links (`youtube`, `spotify`, …), and
+   optionally `duration` and `keywords` — then write the episode notes in the body.
+4. Push and open a Pull Request.
 
+## Contributing
 
---------------------------
-Jekyll Theme: [Freelancer](https://github.com/jeromelachaud/freelancer-theme)
+Issues and PRs are welcome — episode notes, corrections, translations, and site
+improvements. The episode notes aim to be accurate, detailed, and richly cross-linked
+so both people and search/AI can find and learn from them.
+
+---
+
+Jekyll theme: [Freelancer](https://github.com/jeromelachaud/freelancer-theme)
