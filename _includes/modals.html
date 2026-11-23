@@ -23,6 +23,10 @@
                             {% endif %}
                             <ul class="list-inline item-details">
 
+                                {% if post.episode %}
+                                <a href="{{ site.app.episode_url }}{{ post.episode | downcase }}" target="_blank" rel="noopener"><img src="/img/badges/open-in-app.svg" alt="Open in the Shir Ya Khat app | در اپ باز کن" height="80">
+                                </a>
+                                {% endif %}
 
                                 {% if post.youtube %}
                                 <a href= "{{ post.youtube }}" target = "_blank" ><img src="/img/platforms/youtube.png"  alt="Watch on Youtube"> </img> 

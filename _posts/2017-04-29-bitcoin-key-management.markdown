@@ -78,8 +78,7 @@ This episode of the Shir Ya Khat (Heads or Tails) podcast dives deep into Bitcoi
 ## منابع و لینک‌های ذکرشده
 <!-- TODO: Add resources and links mentioned in the episode -->
 
-### زمان‌بندی اپیزود
-<!-- TODO: Add episode timeline -->
+## سوالات مطرح‌شده
 
 بطور کلی آدرس بیتکوین چیست؟
 

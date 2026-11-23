@@ -8,3 +8,6 @@ _site
 Gemfile.lock
 .claude/settings.local.json
 CLAUDE.md
+jekyll.log
+/vendor
+.bundle

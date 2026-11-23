@@ -2819,3 +2819,360 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 2rem;
     }
     
+
+/* ==========================================================================
+   App integration
+   Store badges, hero call-out, footer block, per-episode "Open in app"
+   links and the chapters list generated from the app's data.
+   ========================================================================== */
+
+/* Store badges (shared by hero and footer) */
+.app-badges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-badge {
+    display: inline-block;
+    line-height: 0;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-badge img {
+    display: block;
+    height: 44px;
+    width: auto;
+}
+
+.app-badge:hover,
+.app-badge:focus {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+/* Primary "Get the app" button */
+.btn-app {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 2px solid #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.btn-app:hover,
+.btn-app:focus {
+    background-color: #fff;
+    border-color: #fff;
+    color: #{{ site.color.primary }};
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.btn-app-sep {
+    opacity: 0.45;
+    font-weight: 400;
+}
+
+/* Hero call-out: one card, English on the left and Farsi on the right */
+.app-callout {
+    position: relative;
+    max-width: 760px;
+    margin: 38px auto 0;
+    padding: 20px 10px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 14px;
+    background-color: rgba(5, 11, 62, 0.78);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.app-callout-tag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 2px 12px;
+    border-radius: 20px;
+    background-color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
+    font-size: 1.15rem;
+    font-weight: 700;
+    white-space: nowrap;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.app-callout-copy {
+    display: flex;
+    align-items: stretch;
+}
+
+.app-callout-lang {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0 16px;
+}
+
+.app-callout-lang.is-en {
+    text-align: left;
+}
+
+.app-callout-lang.is-fa {
+    text-align: right;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.app-callout-title {
+    margin: 0 0 2px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #fff;
+    text-transform: none;
+}
+
+.app-callout-text {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.app-callout-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+/* Slimmer button and badges inside the hero call-out */
+.app-callout .btn-app {
+    padding: 6px 18px;
+    font-size: 1.3rem;
+}
+
+.app-callout .app-badge img {
+    height: 36px;
+}
+
+/* Footer block */
+.footer-app-title {
+    margin-top: 35px;
+}
+
+.footer-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-app-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+    border: 1px solid #{{ site.color.secondary }};
+    border-radius: 30px;
+    color: #{{ site.color.secondary }};
+    font-size: 1.5rem;
+    font-weight: 600;
+    direction: ltr;
+    transition: all 0.3s ease;
+}
+
+.footer-app-link:hover,
+.footer-app-link:focus {
+    background-color: #{{ site.color.secondary }};
+    color: #222;
+    text-decoration: none;
+    transform: translateY(-3px);
+}
+
+.footer-app .app-badge img {
+    height: 40px;
+}
+
+/* Per-episode "Open in app" (post page button + episode card icon) */
+.platform-button.app {
+    background-color: #{{ site.color.primary }};
+}
+
+.platform-button.app .platform-icon i {
+    color: #{{ site.color.secondary }};
+}
+
+.platform-text-fa {
+    margin-inline-start: 6px;
+    padding-inline-start: 8px;
+    border-inline-start: 1px solid rgba(255, 255, 255, 0.35);
+    font-weight: 500;
+}
+
+.platform-icon.app {
+    background-color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
+}
+
+.platform-icon.app:hover,
+.platform-icon.app:focus {
+    color: #{{ site.color.secondary }};
+}
+
+/* Chapters generated from the app (collapsible, same family as .en-summary) */
+.post-body details.app-chapters {
+    border: 1px solid #{{ site.color.secondary }};
+    border-right: 5px solid #{{ site.color.secondary }};
+    border-radius: 8px;
+    background: rgba(239, 174, 34, 0.04);
+    margin: 40px 0 28px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+}
+
+.post-body details.app-chapters:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.post-body details.app-chapters > summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #{{ site.color.primary }};
+    background: rgba(239, 174, 34, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+}
+
+.post-body details.app-chapters > summary::-webkit-details-marker { display: none; }
+
+.post-body details.app-chapters > summary::after {
+    content: '▾';
+    margin-right: auto;
+    font-size: 0.9em;
+    transition: transform 0.2s ease;
+}
+
+.post-body details.app-chapters[open] > summary {
+    border-bottom: 1px solid #{{ site.color.secondary }};
+}
+
+.post-body details.app-chapters[open] > summary::after { transform: rotate(180deg); }
+.post-body details.app-chapters > summary:hover { background: rgba(239, 174, 34, 0.18); }
+
+.post-body .app-chapters-hint {
+    margin: 0;
+    padding: 14px 18px 0;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #777;
+    text-align: right;
+}
+
+.post-body ol.app-chapters-list {
+    list-style: none;
+    margin: 0;
+    padding: 12px 18px 16px;
+}
+
+.post-body ol.app-chapters-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin: 0;
+    padding: 7px 0;
+    border-bottom: 1px dashed rgba(5, 11, 62, 0.12);
+}
+
+.post-body ol.app-chapters-list li:last-child {
+    border-bottom: none;
+}
+
+.post-body a.chapter-time,
+.post-body a.chapter-time:hover {
+    flex: 0 0 auto;
+    min-width: 72px;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(5, 11, 62, 0.07);
+    color: #{{ site.color.primary }};
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.post-body a.chapter-time:hover,
+.post-body a.chapter-time:focus {
+    background-color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .app-callout {
+        margin-top: 34px;
+        padding: 20px 14px 14px;
+    }
+
+    .app-callout-copy {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .app-callout-lang,
+    .app-callout-lang.is-en,
+    .app-callout-lang.is-fa {
+        padding: 0;
+        text-align: center;
+    }
+
+    .app-callout-lang.is-fa {
+        padding-top: 10px;
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .app-callout-title {
+        font-size: 1.6rem;
+    }
+
+    .app-callout-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .platform-text-fa {
+        display: none;
+    }
+
+    .post-body ol.app-chapters-list li {
+        gap: 10px;
+    }
+
+    .post-body a.chapter-time,
+    .post-body a.chapter-time:hover {
+        min-width: 64px;
+    }
+}

@@ -82,6 +82,11 @@
                                             <i class="fa-brands fa-apple"></i>
                                         </a>
                                         {% endif %}
+                                        {% if post.episode %}
+                                        <a href="{{ site.app.episode_url }}{{ post.episode | downcase }}" target="_blank" rel="noopener" class="platform-icon app" title="Open in app | در اپ باز کن" aria-label="Open in the Shir Ya Khat app">
+                                            <i class="fa-solid fa-mobile-screen-button"></i>
+                                        </a>
+                                        {% endif %}
                                     </div>
                                     <div class="episode-meta">
                                         <div class="meta-container">

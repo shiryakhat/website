@@ -14,6 +14,7 @@ Part of the [Coiniran](https://coiniran.com) family, alongside [Coiniran Academy
 - 📺 [YouTube](https://www.youtube.com/playlist?list=PLDwI1rIhknpNmr4nno40seb6FAiJ-jsun)
 - 💬 [Telegram](https://t.me/shiryakhatpod) · [X / Twitter](https://x.com/shiryakhat)
 - 📡 [RSS](https://shiryakhat.net/feed.xml)
+- 📱 App for Android & iOS: [shiryakhat.app](https://shiryakhat.app) · [Google Play](https://play.google.com/store/apps/details?id=net.shiryakhat.app) · [TestFlight (iOS beta)](https://testflight.apple.com/join/VtyyXkUt)
 
 ## This repository
 
@@ -23,6 +24,43 @@ The Jekyll source for **shiryakhat.net**. Notable paths:
 - `_includes/`, `_layouts/` — theme templates (episode `PodcastEpisode` JSON-LD lives in `_includes/head.html`)
 - `llms.txt`, `llms-full.txt` — LLM-friendly index and full episode notes for AI crawlers
 - `robots.txt`, `sitemap.xml`, `feed.xml` — crawler, sitemap, and RSS
+
+## App integration
+
+The site links into the Shir Ya Khat mobile app. Everything is driven by the `app:` block
+in `_config.yml`.
+
+- **Store CTAs** — hero call-out (`_includes/header.html`, landing page only) and footer
+  block (`_includes/footer.html`), both using `_includes/app_badges.html` and the art in
+  `img/badges/`. The iOS slot shows TestFlight until `app.app_store_url` is set in
+  `_config.yml`; after that it shows the App Store badge automatically.
+- **Open in app** — every episode links to `https://shiryakhat.app/episode/<id>`, where
+  `<id>` is the post's `episode` front matter lowercased (`S07E07` → `s07e07`).
+- **Chapters** — a post with its own `### زمان‌بندی فصل‌ها` section keeps it. Any other
+  post gets a collapsible chapters list from `_data/app_episodes.json`
+  (`_includes/app_chapters.html`), with each timestamp deep-linking into the app
+  (`?t=<seconds>`). Set `app_chapters: false` in a post's front matter to turn it off.
+
+### Chapter data is static (`_data/app_episodes.json`)
+
+**The build never fetches chapters.** `_data/app_episodes.json` is a committed file that
+Jekyll reads at build time like any other `_data` file — no network access, no app repo,
+and no Python needed to build or deploy the site. What is committed is what gets rendered.
+
+`_scripts/sync_app_episodes.py` is a **manual tool for future episodes**. It only
+regenerates that committed file from the app's `content/episodes.json` (read-only input).
+Run it when an episode is **added** to the app or an episode's **chapters change**, then
+commit the result:
+
+```bash
+python3 _scripts/sync_app_episodes.py /path/to/app/content/episodes.json
+git add _data/app_episodes.json
+git commit -m "Sync app chapters"
+```
+
+If it is never run again, the site still builds and keeps showing the chapters already
+committed; a new episode just has no chapters list until the data file is updated (its
+post also needs `episode: SxxExx` in the front matter, which is the lookup key).
 
 ## Run locally
 

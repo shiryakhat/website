@@ -1,0 +1,19 @@
+{% comment %}
+  Store badges for the Shir Ya Khat app. Usage: {% include app_badges.html placement="hero" %}
+  The iOS slot shows TestFlight until site.app.app_store_url is set in _config.yml,
+  then switches to the official App Store badge.
+{% endcomment %}
+<div class="app-badges">
+    <a href="{{ site.app.play_url }}" target="_blank" rel="noopener" class="app-badge" aria-label="Get it on Google Play" onclick="gtag('event', 'select_content', {'content_type': 'app_cta', 'event_category': 'App', 'event_label': 'GooglePlay', 'placement': '{{ include.placement }}'});">
+        <img src="{{ '/img/badges/google-play.png' | relative_url }}" alt="Get it on Google Play" width="148" height="44">
+    </a>
+    {% if site.app.app_store_url and site.app.app_store_url != "" %}
+    <a href="{{ site.app.app_store_url }}" target="_blank" rel="noopener" class="app-badge" aria-label="Download on the App Store" onclick="gtag('event', 'select_content', {'content_type': 'app_cta', 'event_category': 'App', 'event_label': 'AppStore', 'placement': '{{ include.placement }}'});">
+        <img src="{{ '/img/badges/app-store.svg' | relative_url }}" alt="Download on the App Store" width="132" height="44">
+    </a>
+    {% else %}
+    <a href="{{ site.app.testflight_url }}" target="_blank" rel="noopener" class="app-badge" aria-label="Join the iOS beta on TestFlight" onclick="gtag('event', 'select_content', {'content_type': 'app_cta', 'event_category': 'App', 'event_label': 'TestFlight', 'placement': '{{ include.placement }}'});">
+        <img src="{{ '/img/badges/testflight.svg' | relative_url }}" alt="Join the iOS beta on TestFlight" width="149" height="44">
+    </a>
+    {% endif %}
+</div>
