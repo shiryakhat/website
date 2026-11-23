@@ -44,10 +44,10 @@
                             </div>
                         </div>
                         <div class="app-callout-actions">
-                            {% include app_badges.html placement="hero" %}
                             <a href="{{ site.app.url }}" target="_blank" rel="noopener" class="btn btn-app" onclick="gtag('event', 'select_content', {'content_type': 'app_cta', 'event_category': 'App', 'event_label': 'GetTheApp', 'placement': 'hero'});">
                                 <i class="fa-solid fa-download" aria-hidden="true"></i> Get the app <span class="btn-app-sep" aria-hidden="true">|</span> <span lang="fa" dir="rtl">دریافت اپ</span>
                             </a>
+                            {% include app_badges.html placement="hero" %}
                         </div>
                     </div>
                     {% endif %}
