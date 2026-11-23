@@ -37,6 +37,19 @@ color:
   secondary: efae22 #FD6E8A
   secondary-dark: ff941f #A2122F
 
+# Mobile app (ShiryaKhat for Android & iOS)
+# - url smart-links both stores and is the primary CTA everywhere.
+# - episode_url + lowercased episode code (S07E07 -> s07e07) deep-links an
+#   episode into the app; add ?t=<seconds> to open at a moment.
+# - app_store_url: leave empty until the App Store page is public. While empty
+#   the site shows the TestFlight badge; once set, it shows the App Store badge.
+app:
+  url: https://shiryakhat.app
+  episode_url: https://shiryakhat.app/episode/
+  play_url: https://play.google.com/store/apps/details?id=net.shiryakhat.app
+  testflight_url: https://testflight.apple.com/join/VtyyXkUt
+  app_store_url: ""
+
 # Footer settings
 footer:
   copyright: Shir Ya Khat <br> شیر یا خط

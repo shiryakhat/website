@@ -70,6 +70,9 @@ castbox: [CASTBOX_URL]
 
 ---
 
+<!-- Optional. If you leave this whole section out, the page shows the chapters from the
+     app instead (_data/app_episodes.json), with timestamps that open the app at that moment.
+     Keep the heading text exactly as is when you do write your own list. -->
 ### زمان‌بندی فصل‌ها
 
 - 00:00 [TOPIC_OR_SECTION]

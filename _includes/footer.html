@@ -49,6 +49,13 @@
                         </a>
                         {% endfor %}
                     </div>
+                    <h3 class="footer-title text-center footer-app-title">Get the App | دریافت اپ</h3>
+                    <div class="footer-app">
+                        <a href="{{ site.app.url }}" target="_blank" rel="noopener" class="footer-app-link" title="Get the Shir Ya Khat app for Android and iOS" onclick="gtag('event', 'select_content', {'content_type': 'app_cta', 'event_category': 'App', 'event_label': 'GetTheApp', 'placement': 'footer'});">
+                            <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i> shiryakhat.app
+                        </a>
+                        {% include app_badges.html placement="footer" %}
+                    </div>
                 </div>
                 <div class="col-md-4 footer-section animated fadeInUp" data-wow-delay="0.5s">
                     <h3 class="footer-title">{{ site.footer.credits }}</h3>

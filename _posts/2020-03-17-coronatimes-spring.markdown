@@ -90,11 +90,6 @@ Iran's cryptocurrency podcast «شیر یا خط» (Shir Ya Khat) Season 3 Episo
 
 ---
 
-### زمان‌بندی اپیزود
-<!-- TODO: Add episode timeline -->
-
----
-
 ### قسمت‌های مرتبط
 
 - [کرونا و بازارهای مالی (S03E05)](https://shiryakhat.net/2020/03/coronalysis-capitalism-is-sick.html) — این اپیزود مستقیماً ادامهٔ همان جلسه است؛ در بخش اول به کرونا و بازارهای سهام و کریپتو پرداخته شد.

@@ -14,6 +14,17 @@
                         {% if page.youtube %}<i class="fa-solid fa-film"></i>{% else %}<i class="fa-solid fa-headphones"></i>{% endif %} Available on
                     </h4>
                     <div class="platforms-wrapper">
+                        {% if page.episode %}
+                        <a href="{{ site.app.episode_url }}{{ page.episode | downcase }}" target="_blank" rel="noopener" class="platform-button app" title="Open in the Shir Ya Khat app | در اپ باز کن" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'App', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Open in the Shir Ya Khat app">
+                            <div class="platform-icon">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div class="platform-text">
+                                <span>Open in app <span class="platform-text-fa" lang="fa">در اپ باز کن</span></span>
+                            </div>
+                        </a>
+                        {% endif %}
+
                         {% if page.youtube %}
                         <a href="{{ page.youtube }}" target="_blank" class="platform-button youtube" title="Listen on YouTube" onclick="gtag('event', 'select_content', {'content_type': 'platform_click', 'event_category': 'Platform', 'event_label': 'YouTube', 'item_id': '{{ page.episode }}', 'episode_title': '{{ page.title }}'});" aria-label="Listen on YouTube">
                             <div class="platform-icon">
@@ -117,6 +128,7 @@
                 
                 <div class="post-body animated fadeInUp" data-wow-delay="0.4s">
                     {{ page.content }}
+                    {% include app_chapters.html %}
                 </div>
 
                 <div class="post-footer animated fadeInUp" data-wow-delay="0.5s">

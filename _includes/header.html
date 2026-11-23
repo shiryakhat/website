@@ -30,6 +30,27 @@
                             <i class="fa-brands fa-apple"></i> Apple
                         </a>
                     </div>
+                    {% if include.app_callout %}
+                    <div class="app-callout" role="region" aria-label="Shir Ya Khat app">
+                        <span class="app-callout-tag"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i> New App <span lang="fa" dir="rtl">اپ جدید</span></span>
+                        <div class="app-callout-copy">
+                            <div class="app-callout-lang is-en" lang="en" dir="ltr">
+                                <h2 class="app-callout-title">Now on Android &amp; iOS</h2>
+                                <p class="app-callout-text">Offline listening, captions in Farsi and English, bookmarks, and the full archive.</p>
+                            </div>
+                            <div class="app-callout-lang is-fa" lang="fa" dir="rtl">
+                                <p class="app-callout-title">حالا روی اندروید و <bdi lang="en">iOS</bdi></p>
+                                <p class="app-callout-text">پخش آفلاین، زیرنویس فارسی و انگلیسی، نشان کردن لحظه‌ها و آرشیو کامل قسمت‌ها.</p>
+                            </div>
+                        </div>
+                        <div class="app-callout-actions">
+                            <a href="{{ site.app.url }}" target="_blank" rel="noopener" class="btn btn-app" onclick="gtag('event', 'select_content', {'content_type': 'app_cta', 'event_category': 'App', 'event_label': 'GetTheApp', 'placement': 'hero'});">
+                                <i class="fa-solid fa-download" aria-hidden="true"></i> Get the app <span class="btn-app-sep" aria-hidden="true">|</span> <span lang="fa" dir="rtl">دریافت اپ</span>
+                            </a>
+                            {% include app_badges.html placement="hero" %}
+                        </div>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>

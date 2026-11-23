@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" viewBox="0 0 135 40" role="img" aria-labelledby="tf-title">
+  <!-- Site-made button for the iOS beta. Apple publishes no TestFlight badge, so this
+       deliberately uses plain text and a generic flask glyph (no Apple or TestFlight logo). -->
+  <title id="tf-title">Join the iOS beta on TestFlight</title>
+  <rect x="0.5" y="0.5" width="134" height="39" rx="6.5" fill="#000" stroke="#a6a6a6"/>
+  <g transform="translate(8 8)" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 3h6"/>
+    <path d="M10 3v6.5L5.2 18a2 2 0 0 0 1.75 3h10.1a2 2 0 0 0 1.75-3L14 9.5V3"/>
+    <path d="M7.6 15h8.8"/>
+  </g>
+  <g fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="39" y="15" font-size="8.2">Join the iOS beta on</text>
+    <text x="38.5" y="31" font-size="16.5" font-weight="600">TestFlight</text>
+  </g>
+</svg>
