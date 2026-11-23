@@ -86,9 +86,6 @@ This is episode 6 of the "Heads or Tails" (Shir Ya Khat) podcast, a live open-mi
 
 تفاوت هش ریت و سختی شبکه چیست؟
 
-### زمان‌بندی اپیزود
-<!-- TODO: Add episode timeline -->
-
 این محاسبات ریاضی که استخراج کنندگان آن ها را حل می کنند چه چیزهایی هستند؟
 
 در رابطه با خبری که درباره شرکت Bitmain منتشر شد صحبت می کنیم.

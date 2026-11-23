@@ -76,8 +76,7 @@ Iran's blockchain podcast Shir ya Khat, episode eight, explores what technically
 ## منابع و لینک‌های ذکرشده
 <!-- TODO: Add resources and links mentioned in the episode -->
 
-### زمان‌بندی اپیزود
-<!-- TODO: Add episode timeline -->
+## سوالات مطرح‌شده
 
 بطور کلی چطور می توان فهمید کوینی از بلاکچین استفاده می کند یا خیر؟
 

@@ -41,11 +41,26 @@ in `_config.yml`.
   (`_includes/app_chapters.html`), with each timestamp deep-linking into the app
   (`?t=<seconds>`). Set `app_chapters: false` in a post's front matter to turn it off.
 
-`_data/app_episodes.json` is generated from the app's `content/episodes.json`. To refresh it:
+### Chapter data is static (`_data/app_episodes.json`)
+
+**The build never fetches chapters.** `_data/app_episodes.json` is a committed file that
+Jekyll reads at build time like any other `_data` file — no network access, no app repo,
+and no Python needed to build or deploy the site. What is committed is what gets rendered.
+
+`_scripts/sync_app_episodes.py` is a **manual tool for future episodes**. It only
+regenerates that committed file from the app's `content/episodes.json` (read-only input).
+Run it when an episode is **added** to the app or an episode's **chapters change**, then
+commit the result:
 
 ```bash
 python3 _scripts/sync_app_episodes.py /path/to/app/content/episodes.json
+git add _data/app_episodes.json
+git commit -m "Sync app chapters"
 ```
+
+If it is never run again, the site still builds and keeps showing the chapters already
+committed; a new episode just has no chapters list until the data file is updated (its
+post also needs `episode: SxxExx` in the front matter, which is the lookup key).
 
 ## Run locally
 
